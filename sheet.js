@@ -1,6 +1,6 @@
 // Client ID and API key from the Developer Console
-var CLIENT_ID = '807405985371-pmfbcqkvd4p1fied02e2k0pdlsr6tgms.apps.googleusercontent.com';
-var API_KEY = 'AIzaSyBmiTvmgAPTTZEcSBVVy3xSHXNxCRdRA9I';
+var CLIENT_ID = '1017342283653-no3s37mjf4kasl0c1hf4ch2re365cav1.apps.googleusercontent.com';
+var API_KEY = 'AIzaSyAwKJsagVX-8EzWQlN96wLXrpguEJu7auk';
 
 // Array of API discovery doc URLs for APIs used by the quickstart
 var DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
@@ -51,7 +51,7 @@ function appendPre(message) {
  */
 function listDetails() {
   gapi.client.sheets.spreadsheets.values.get({
-    spreadsheetId: '1rx0h6ejTAwF0acmcd-0FbC0baeuIfdQBLFVdaDJGxTk',
+    spreadsheetId: '1jdryhHIOL_nQ6ozCahHkzYTGqnEknbeiUh9cyu2q4eM',
     range: 'Sheet1',
   }).then(function(response) {
     var range = response.result;

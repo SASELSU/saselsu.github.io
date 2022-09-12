@@ -18,52 +18,42 @@
 
 <body>
 
-  <!--Header-->
-  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#0668b3">
-    <a class="navbar-brand p-2 h1" href="indexJoyce.html">
-      <image class="nav-bar-logo d-inline-block align-top" src="sase logo - green - side.png" style="height: 40px;" />
-    </a>
-    <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-      <ul class="navbar-nav me-2 ms-2">
-        <li class="nav-item active" >
-          <a href="aboutJoyce.html" class="nav-link active">
-            ABOUT US
+        <!--Header-->
+        <nav class="navbar navbar-expand-lg navbar-dark " style="background-color:#0668b3">
+          <a class="navbar-brand p-2 h1" href="index.html">
+            <image class="nav-bar-logo d-inline-block align-top" src="sase logo - green - side.png" style="height: 40px;" />
           </a>
-        </li>
-        <li class="nav-item active">
-          <a href="interest.html"
-            target="blank" class="nav-link active">
-            GET INVOLVED
-          </a>
-        </li>
-        <li class="nav-item active">
-          <a href="events.html"
-            class="nav-link active">
-            EVENTS
-          </a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link active">
-            PHOTOS
-          </a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link active">
-            MERCH
-          </a>
-        </li>
-        <li class="nav-item active">
-          <a href="#contact" class="nav-link active">
-            CONTACT
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+          <button class="navbar-toggler me-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav me-2 ms-2">
+              <li class="nav-item active" >
+                <a href="aboutJoyce.html" class="nav-link active">
+                  ABOUT US
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a href="interest.html"
+                  target="blank" class="nav-link active">
+                  GET INVOLVED
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a href="events.html"
+                  class="nav-link active">
+                  EVENTS
+                </a>
+              </li>
+              <li class="nav-item active">
+                <a href="#contact" class="nav-link active">
+                  CONTACT
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
 
   
 
@@ -150,7 +140,7 @@
         </div>
   </div>
 
-  <div class="container mt-5" style="margin-bottom: 75px;">
+  <!-- <div class="container mt-5" style="margin-bottom: 75px;">
     <div class="container" style=" border: 1px solid; border-radius: 15px; box-shadow: 10px 7px #888888">
         <div class="row text-center mb-3" style="margin-top: 30px;">
           <h2 style="color:#0668b3">GRAB SOME SASE WEAR</h2>
@@ -194,13 +184,8 @@
                                                                       document.getElementById('1').classList.remove('selected')
                                                                       document.getElementById('2').classList.remove('selected')
                                                                       document.getElementById('3').classList.remove('selected')
-                                                                      document.getElementById('4').classList.remove('selected')">XL</div>
+                                                                      document.getElementById('4').classList.remove('selected')">XL</div> 
                   </div>
-                  <!-- <script src="t-shirt.js"></script> -->
-                      <!-- <a href="#spon" class="btn rounded-pill justify-content-center mt-2 text-white"
-                          style="background-color:#8b6bb3; width: 200px; height: 30px; justify-self: center;" >
-                          <h6 style="font-weight: 450" class="mb-3" >PURCHASE</h6>
-                      </a> -->
                   <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                     <input type="hidden" name="cmd" value="_s-xclick">
                     <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
@@ -212,7 +197,7 @@
           </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!--Sponsers-->
   <div class="text-center mt-5 mb-5" id="spon">
@@ -238,7 +223,7 @@
       onreadystatechange="if (this.readyState === 'complete') this.onload()">
     </script>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -248,7 +233,7 @@
 
   <body>
     <div id="paypal-button-container"></div>
-    <!-- Sample PayPal credentials (client-id) are included -->
+    <!-- Sample PayPal credentials (client-id) are included 
     <script src="https://www.paypal.com/sdk/js?client-id=AV-Snu_5ok1XDsXnqAYGHJNNANm6HCN3CsIjXIlVX1CBY-mCiBk-B4iQD6KdGxiVjkWNsgY8fjalEZft&currency=USD&intent=capture&enable-funding=venmo" data_source="integrationbuilder"></script>
     <script>
       const paypalButtonsComponent = paypal.Buttons({
@@ -300,7 +285,7 @@
           });
     </script>
   </body>
-</html>
+</html> -->
 
   <!-- Footer -->
   <div>
