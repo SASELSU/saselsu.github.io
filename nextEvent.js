@@ -1,70 +1,39 @@
-// Client ID and API key from the Developer Console
-var CLIENT_ID = '1017342283653-no3s37mjf4kasl0c1hf4ch2re365cav1.apps.googleusercontent.com';
-var API_KEY = 'AIzaSyAwKJsagVX-8EzWQlN96wLXrpguEJu7auk';
+let SHEET_ID = '1jdryhHIOL_nQ6ozCahHkzYTGqnEknbeiUh9cyu2q4eM';
+let SHEET_TITLE = 'SASE Website Calendar Information';
+let SHEET_RANGE = 'A1:F1';
 
-// Array of API discovery doc URLs for APIs used by the quickstart
-var DISCOVERY_DOCS = ["https://sheets.googleapis.com/$discovery/rest?version=v4"];
+let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE + '&range=' + SHEET_RANGE);
 
-// Authorization scopes required by the API; multiple scopes can be
-// included, separated by spaces.
-var SCOPES = "https://www.googleapis.com/auth/spreadsheets.readonly";
+fetch(FULL_URL)
+    .then(res => res.text())
+        .then(rep => {
+            let data = JSON.parse(rep.substr(47).slice(0,-2));
 
-/**
- *  On load, called to load the auth2 library and API client library.
- */
-function handleClientLoad() {
-  gapi.load('client', initClient);
+            
+
+            document.getElementById('EventDescription').appendChild(document.createTextNode(data.table.rows[0].c[5].v));
+        document.getElementById('EventTitle').appendChild(document.createTextNode(data.table.rows[0].c[0].v));
+        time(data.table.rows[0].c[2].v, data.table.rows[0].c[3].v, data.table.rows[0].c[2].f, data.table.rows[0].c[3].f);
+        document.getElementById('EventDate').appendChild(document.createTextNode(date(JSON.stringify(data.table.rows[0].c[1].v))));
+        document.getElementById('EventLocation').appendChild(document.createTextNode(data.table.rows[0].c[4].v));
+        document.getElementById('mapLocation').src = "https://www.google.com/maps/embed/v1/place?key=AIzaSyBmiTvmgAPTTZEcSBVVy3xSHXNxCRdRA9I&q=" + JSON.stringify(data.table.rows[0].c[4].v);
+        })
+
+function date(date){
+    let parsedDate = date.match(/\((.*)\)/).pop();
+    let dateArr = parsedDate.split(',');
+    return ((parseInt(dateArr[1])+1) + '/' + dateArr[2] + '/' + dateArr[0])
 }
 
-/**
- *  Initializes the API client library and sets up sign-in state
- *  listeners.
- */
-function initClient() {
-  gapi.client.init({
-    apiKey: API_KEY,
-    clientId: CLIENT_ID,
-    discoveryDocs: DISCOVERY_DOCS,
-    scope: SCOPES
-  }).then(function () {
-    listDetails();
-  }, function(error) {
-    appendPre(JSON.stringify(error, null, 2));
-  });
-}
+function time(startDate, endDate, startTime, endTime){
 
-/**
- * Append a pre element to the body containing the given message
- * as its text node. Used to display the results of the API call.
- *
- * @param {string} message Text to be placed in pre element.
- */
-function appendPre(message) {
-  var pre = document.getElementById('content');
-  var textContent = document.createTextNode(message + '\n');
-  pre.appendChild(textContent);
-}
-
-/**
- * Print the names and majors of students in a sample spreadsheet:
- * https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
- */
-function listDetails() {
-  gapi.client.sheets.spreadsheets.values.get({
-    spreadsheetId: '1jdryhHIOL_nQ6ozCahHkzYTGqnEknbeiUh9cyu2q4eM',
-    range: 'Sheet1',
-  }).then(function(response) {
-    var range = response.result;
-    if (range.values.length > 0) {
-      for (i = 0; i < range.values.length; i++) {
-        var row = range.values[i];
-        // Print columns A and E, which correspond to indices 0 and 4.
-        document.getElementById('EventDescription').appendChild(document.createTextNode(row[5]));
-      }
-    } else {
-      appendPre('No data found.');
+    if (date(startDate) === date(endDate)){
+        document.getElementById('EventStart').appendChild(document.createTextNode(startTime));
+        document.getElementById('EventEnd').appendChild(document.createTextNode(" - " + endTime));
     }
-  }, function(response) {
-    appendPre('Error: ' + response.result.error.message);
-  });
+
+    else {
+        document.getElementById('EventStart').appendChild(document.createTextNode(date(startDate)));
+        document.getElementById('EventEnd').appendChild(document.createTextNode(" - " + date(endDate)));
+    }
 }

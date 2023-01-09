@@ -44,6 +44,9 @@ body{
 
 .pic {
   border-radius: 10px;
+  height: 200px;
+  width: 200px;
+  background-size: cover;
 }
 
 .pb{
