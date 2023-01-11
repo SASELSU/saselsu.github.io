@@ -48,7 +48,51 @@ body{
   width: 200px;
   background-size: cover;
   background-repeat: no-repeat;
+  
+}
+
+#president{
+  background-image: url('EBoard/LexusPham.jpg');
+}
+
+#vp{
+  background-image: url('EBoard/VinaPham.jpg');
+}
+
+#secretary{
+  background-image: url('EBoard/JoyceZhen.jpg');
+}
+
+#treasurer{
+  background-image: url('EBoard/RachealYiu.jpg');
+}
+
+#pr{
+  background-image: url('EBoard/TinaBoupapanh.jpg');
+}
+
+#historian{
+  background-image: url('EBoard/RichardJiang.jpg');
+}
+
+#gd{
+  background-image: url('EBoard/MadiYi.jpg');
+}
+
+#wm{
+  background-image: url('EBoard/PeytonDuong.jpg');
+}
+
+#fc{
   background-image: url('EBoard/AerynSindiong.jpg');
+}
+
+#oc{
+  background-image: url('EBoard/EddieAn.jpg');
+}
+
+#pdc{
+  background-image: url("EBoard/HenryNguyen.jpg");
 }
 
 .pb{
