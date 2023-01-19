@@ -1,6 +1,6 @@
 let SHEET_ID = '1jdryhHIOL_nQ6ozCahHkzYTGqnEknbeiUh9cyu2q4eM';
 let SHEET_TITLE = 'SASE Website Calendar Information';
-let SHEET_RANGE = 'A1:F1';
+let SHEET_RANGE = 'A1:G1';
 
 let FULL_URL = ('https://docs.google.com/spreadsheets/d/' + SHEET_ID + '/gviz/tq?sheet=' + SHEET_TITLE + '&range=' + SHEET_RANGE);
 
@@ -8,7 +8,7 @@ fetch(FULL_URL)
     .then(resp => resp.text())
         .then(rep => {
             let data = JSON.parse(rep.substr(47).slice(0,-2));
-
+            console.log(data.table.rows[0].c[6].f);
         fetch('https://api.openweathermap.org/data/2.5/forecast?q=Baton+Rouge&APPID=8c6a6fe0adb497d44d2e1be1c4249979&units=imperial')
             .then(respond => respond.json())
                 .then(weatherData => {

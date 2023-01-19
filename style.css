@@ -199,3 +199,7 @@ body{
 .shop-button-div.selected{
   border-color: #8b6bb3;
 }
+
+iframe {
+  min-width: 300px;
+}
