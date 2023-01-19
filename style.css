@@ -129,6 +129,10 @@ body{
   height: 2.5rem;            /* Footer height */
 }
 
+#mapLocation {
+  min-width: 350px;
+}
+
 @keyframes heart {
     0% {
         transform: translateY(0px);
@@ -198,8 +202,4 @@ body{
 
 .shop-button-div.selected{
   border-color: #8b6bb3;
-}
-
-iframe {
-  min-width: 300px;
 }
