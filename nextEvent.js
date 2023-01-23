@@ -15,8 +15,9 @@ fetch(FULL_URL)
 
                     console.log(weatherData);
                     if (Math.round(Math.abs(new Date() - convertToDate(data.table.rows[0].c[1].v)) / (1000 * 3600 *24)) <= 40) {
-                        var i = Math.round(Math.abs(new Date() - convertToDate(data.table.rows[0].c[1].v)) / (1000 * 3600 *24)) - 1;
+                        var i = Math.ceil(Math.abs(new Date() - convertToDate(data.table.rows[0].c[1].v)) / (1000 * 3600 *24)) - 1;
                         var forecast = capitalize(weatherData.list[i].weather[0].description);
+                        console.log(forecast);
                         document.getElementById('temp').appendChild(document.createTextNode(weatherData.list[i].main.temp + "\xB0"));
                         document.getElementById('weather').appendChild(document.createTextNode(forecast));
                         document.getElementById('weatherPic').src = "https://openweathermap.org/img/wn/"+weatherData.list[i].weather[0].icon+".png";
