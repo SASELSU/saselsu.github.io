@@ -1,5 +1,8 @@
 body{
   overflow-x: hidden;
+  background-image: url('resources/background.png');
+  background-repeat: repeat-y;
+  background-size: 100%;
 }
 
 .carousel-item {
@@ -187,6 +190,10 @@ body{
 
 .shirt:hover {
   background: #8b6bb3;
+}
+
+.shifter {
+  background-color: white;
 }
 
 .shop-button-div {
