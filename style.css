@@ -3,25 +3,137 @@ body{
   /* background-image: url('resources/background.png');
   background-repeat: repeat-y;
   background-size: 100%; */
+  background-color: #C6dABF;
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 .navText .nav-item .nav-link:hover {
-  color: greenyellow; 
+  color: #7DC242; 
+}
+
+.bg-saseblue {
+  background-color: #0668b3;
+}
+
+.bg-sasegreen {
+  background-color: #7DC242;
+}
+
+.text-saseblue {
+  color: #0668b3;
+}
+
+.mission {
+  color: #7DC242;
+  background-color: #06436e;
+}
+
+.title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 2;
+  transition: top .4s;
+}
+
+.title h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  padding-top: 4rem;
+  background: whitesmoke;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.title p {
+  padding-top: 1rem;
+}
+
+@media (max-width: 576px) {
+  .title {
+    top: 40%;
+  }
+
+  .title h1 {
+    font-size: 2.5rem;
+  }
 }
 
 .masthead {
+  .img1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 40rem;
+    padding: 0 0 25rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/resources/PastEvent3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .img2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 40rem;
+    padding: 0 0 25rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 75%, #000 100%), url("/resources/Slideshow3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  .img3 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 40rem;
+    padding: 0 0 25rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.8) 75%, #000 100%), url("/resources/Slideshow5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+}
+
+/* .masthead h1, .masthead .h1 {
+  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 3rem;
+  padding-top: 5rem;
+  line-height: 2.5rem;
+  letter-spacing: 0.8rem;
+  position: absolute;
+  background: whitesmoke;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+.masthead h2, .masthead .h2 {
+  max-width: 40rem;
+  font-size: 1rem;
+} */
+
+.masthead-aboutUs {
   position: relative;
   width: 100%;
   height: auto;
   min-height: 35rem;
   padding: 5rem 0 25rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("/resources/PastEvent3.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("/resources/AboutUs.JPG");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
-.masthead h1, .masthead .h1 {
+.masthead-aboutUs h1, .masthead-aboutUs .h1 {
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 3rem;
   padding-top: 5rem;
@@ -32,7 +144,7 @@ body{
   -webkit-background-clip: text;
           background-clip: text;
 }
-.masthead h2, .masthead .h2 {
+.masthead-aboutUs h2, .masthead-aboutUs .h2 {
   max-width: 40rem;
   font-size: 1rem;
 }
