@@ -5,6 +5,22 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oxygen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Oxygen:wght@400;700&family=Spectral:ital,wght@0,300;0,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -35,7 +51,7 @@
       <a class="navbar-brand p-2 h1" href="index.html">
         <image
           class="nav-bar-logo d-inline-block align-top"
-          src="resources/sase logo - green - side.png"
+          src="resources/white-sase-logo.png"
           style="height: 40px; margin-left: 2rem"
         />
       </a>
@@ -74,63 +90,72 @@
 
     <!-- Carousel and Masthead -->
     <header>
-      <div id="headerTitle" class="title">
-        <h1 class="mx-auto text-uppercase fw-bold">Welcome to SASE LSU</h1>
-        <p class="fs-2 text-light">
-          The Society of Asian Scientists and Engineers
-        </p>
-      </div>
-
-      <div
-        id="carouselIndicators"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselIndicators"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+      <div class="container-fluid">
+        <div class="row m-5 align-items-center heading text-center">
+          <div class="col-xxl-4 col-lg-6 col-md-12">
+            <h1 class="mx-auto text-uppercase fw-bold">Welcome to SASE LSU</h1>
+            <p class="fs-2">The Society of Asian Scientists and Engineers</p>
+          </div>
+          <div class="col-xxl-8 col-lg-6 col-md-12">
+            <div
+              id="carouselIndicators"
+              class="carousel slide carousel-fade"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner masthead">
+                <div class="carousel-item active img1"></div>
+                <div class="carousel-item img2"></div>
+                <div class="carousel-item img3"></div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="carousel-inner masthead">
-          <div class="carousel-item active img1"></div>
-          <div class="carousel-item img2"></div>
-          <div class="carousel-item img3"></div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselIndicators"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
     </header>
 
@@ -219,10 +244,9 @@
       <div class="row d-flex justify-content-center">
         <div class="col-4">
           <a
-            class="btn bg-sasegreen btn-success btn-lg"
+            class="btn bg-sasegreen btn-success btn-lg text-dark"
             href="about.html"
             role="button"
-            target="_blank"
             >Learn More</a
           >
         </div>
@@ -245,78 +269,6 @@
         ></iframe>
       </div>
     </div>
-
-    <!-- <div class="container-fluid bg-sasegreen">
-      <div class="row">
-        <div class="col-6 border">
-          <h2>PLACEHOLDER</h2>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio dolores quos ad quam, quo sapiente dolorem praesentium reprehenderit rem non natus cum dolore facilis similique commodi ducimus maiores maxime dignissimos.</p>
-        </div>
-        <div class="col-6 border">
-          <h2>PLACEHOLDER</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-6 border">
-          <h2>PLACEHOLDER</h2>
-        </div>
-        <div class="col-6 border">
-          <h2>PLACEHOLDER</h2>
-        </div>
-      </div>
-    </div> -->
-
-    <!-- Our History -->
-    <!-- <div class="container pt-4">
-      
-    </div> -->
-
-    <!-- Our Next Event
-    <div class="container mt-5" style="margin-bottom: 75px">
-      <h2
-        class=""
-        style="
-          color: #86bc4a;
-          border-bottom: #86bc4a;
-          border-width: 3px;
-          border-bottom-style: solid;
-          display: inline;
-        "
-      >
-        Our Next Event
-      </h2>
-      <div class="flex row mt-4">
-        <div
-          class="col ms-3 me-4"
-          style="
-            max-width: 250px;
-            height: 250px;
-            min-width: 250px;
-            background-image: url('resources/nextEvent.png');
-            background-position: center;
-            background-size: cover;
-          "
-        ></div>
-
-        <div class="col mt-3">
-          <h5 style="font-weight: 450" id="EventDescription"></h5>
-          <a
-            href="next-event.html"
-            class="btn btn-primary rounded-pill justify-content-center mt-2"
-            style="
-              background-color: #0668b3;
-              width: 250px;
-              height: 50px;
-              justify-self: center;
-            "
-          >
-            <h5 style="font-weight: 450" class="mt-1">Click Here For More!</h5>
-          </a>
-        </div>
-      </div>
-
-      <script src="nextEvent.js"></script>
-    </div> -->
 
     <!--Sponsers-->
     <div class="container text-center mt-5 mb-5" id="spon">
@@ -363,7 +315,7 @@
     <!-- Footer -->
     <div>
       <footer class="text-center text-lg-start bg-dark text-white">
-        <section class="d-flex justify-content-center p-4 border-bottom">
+        <section class="d-flex justify-content-center p-4">
           <!-- Socials -->
           <div class="row mt-2 text-center d-flex justify-content-center">
             <h5 id="contact">CONTACT US!</h5>
@@ -443,9 +395,11 @@
               </a>
             </div>
           </div>
-          <!-- <div class="row text-center d-flex justify-content-center">
-            <p>Hello</p>
-          </div> -->
+        </section>
+        <section class="d-flex justify-content-center border-bottom pb-3">
+          <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
+            >lsu@saseconnect.org</a
+          >
         </section>
         <div
           class="text-center p-4"
