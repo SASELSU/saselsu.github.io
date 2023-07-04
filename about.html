@@ -41,19 +41,21 @@
   </head>
 
   <body>
-    <!-- Navbar -->
+    <!--Navbar -->
     <nav
-      class="navbar sticky-top navbar-expand-lg navbar-dark"
+      id="navbar"
+      class="navbar navbar-expand-lg navbar-dark"
       style="background-color: #06436e"
     >
       <a class="navbar-brand p-2 h1" href="index.html">
         <image
           class="nav-bar-logo d-inline-block align-top"
-          src="resources/sase logo - green - side.png"
+          src="resources/white-sase-logo.png"
           style="height: 40px; margin-left: 2rem"
         />
       </a>
       <button
+        id="navButton"
         class="navbar-toggler me-3"
         type="button"
         data-bs-toggle="collapse"
@@ -72,11 +74,27 @@
           <li class="nav-item active">
             <a href="about.html" class="nav-link active"> About </a>
           </li>
-          <li class="nav-item active">
+          <!-- <li class="nav-item active">
             <a href="interest.html" class="nav-link active"> Get Involved </a>
-          </li>
-          <li class="nav-item active">
-            <a href="events.html" class="nav-link active"> Events </a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white eventNavLink"
+              href="#"
+              id="navbarEventsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Events
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-dark"
+              aria-labelledby="navbarDarkDropdownMenuLink"
+            >
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
+              <li><a class="dropdown-item" href="#">Geaux Hack 2023</a></li>
+            </ul>
           </li>
           <li class="nav-item active">
             <a href="#contact" class="nav-link active"> Contact </a>
@@ -192,37 +210,40 @@
       <div class="row d-flex justify-content-center">
         <div class="col-md-12 lh-lg">
           <h2 class="mb-3" style="color: #06436e">OUR HISTORY</h2>
-          <p>
-            SASE LSU was founded in February 2019 with just 25 active members.
-            Unfortunately, SASE LSU failed to gain members due to COVID-19. It
-            created a gap between the LSU community and its students. The
-            stagnancy, virtual meetings, and developments of AAPI violence
-            around the country caused students in the LSU community to isolate.
-            During this time, SASE LSU focused on bringing in available faculty,
-            designing activities, and showcasing current students and faculty to
-            help bring awareness and discussions that would revolve around
-            empowerment and community.
+          <p class="mx-5">
+            SASE LSU emerged in February 2019, initially comprising a modest
+            group of 25 active members. However, the unforeseen impact of
+            COVID-19 created a disconnect between the LSU community and its
+            students. Alongside the challenges of virtual interactions and the
+            concerning rise in AAPI violence nationwide, students within the LSU
+            community felt increasingly isolated. Nevertheless, SASE LSU
+            preserved, dedicating its efforts into engaging faculty, organizing
+            interactive events, and highlighting accomplishments of current
+            students and faculties. These endeavors aimed to generate awareness
+            and initiate discussions centered around empowerment and community.
           </p>
-          <p>
-            Going into Fall 2021, SASE LSU gained momentum through the executive
-            board’s focus on building community. With this new objective and
-            slow decline of constraints, we were able bring students together
-            after a long period of isolation. We did a boba social, miniature
-            painting and picnic event, giveback nights at local Asian
-            businesses, and consistent volunteering events with Cat Haven and
-            Habitat for Humanity to help foster a safe space and also a visible
-            presence with LSU and Baton Rouge.
+          <p class="mx-5">
+            As Fall 2021 approached, SASE LSU gained momentum by prioritizing
+            the development of a tightly-knit community. With the gradual
+            decline of restrictions, we successfully brought students together
+            after a prolonged period of isolation. We organized events such as
+            boba and paint socials, volunteering events with organizations like
+            Cat Haven and Habitat for Humanity, and giveback nights at local
+            Asian businesses. These initiatives fostered a safe environment and
+            bolstered our presence within the LSU and Baton Rouge community.
           </p>
-          <p class="mb-5">
-            Soon, continuous persistence over the semester spurred the growth
-            from 25 to 133 active members by Spring 2022. We continued to focus
-            on visibility and community by celebrating our diversity such as
-            through a Lunar New Year meeting. With the growth, we began the
-            incorporation of workshops and guest speakers so our members can
-            also have professional advancement. SASE LSU is a space where
-            members can celebrate their diversity despite the odds, foster their
-            own community within LSU, and above all to love purple and live
-            gold.
+          <p class="mb-5 mx-5">
+            Through persistent dedication throughout the semester, our
+            membership skyrocketed from the initial 25 to a remarkable 133
+            active participants by the spring of 2022. We remained steadfast in
+            our commitment to enhancing visibility and nurturing a sense of
+            community. Our Lunar New Year meeting exemplified the celebration of
+            diversity, acting as a testament to our growth. As we expanded, we
+            incorporated workshops and invited guest speakers to enable our
+            members to pursue professional development. SASE LSU serves as a
+            space where individuals can embrace their diversity against all
+            odds, forge their own community within LSU, and, above all, to love
+            purple and live gold.
           </p>
         </div>
       </div>
@@ -758,8 +779,14 @@
           </div>
         </section>
         <section class="d-flex justify-content-center border-bottom pb-3">
-          <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
+          <!-- <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
             >lsu@saseconnect.org</a
+          > -->
+          <a
+            class="btn btn-secondary newsletter-button"
+            href="interest.html"
+            role="button"
+            >Join our newsletter</a
           >
         </section>
         <div

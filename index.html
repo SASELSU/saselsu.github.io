@@ -75,11 +75,27 @@
           <li class="nav-item active">
             <a href="about.html" class="nav-link active"> About </a>
           </li>
-          <li class="nav-item active">
+          <!-- <li class="nav-item active">
             <a href="interest.html" class="nav-link active"> Get Involved </a>
-          </li>
-          <li class="nav-item active">
-            <a href="events.html" class="nav-link active"> Events </a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white eventNavLink"
+              href="#"
+              id="navbarEventsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Events
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-dark"
+              aria-labelledby="navbarDarkDropdownMenuLink"
+            >
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
+              <li><a class="dropdown-item" href="#">Geaux Hack 2023</a></li>
+            </ul>
           </li>
           <li class="nav-item active">
             <a href="#contact" class="nav-link active"> Contact </a>
@@ -256,7 +272,7 @@
     <!-- SASE LSU Calendar -->
     <div class="container py-5">
       <div class="row text-center pb-5">
-        <h2 class="h1 text-uppercase text-saseblue">Upcoming Events</h2>
+        <h2 class="h1 text-uppercase bg-pageThemeBlue">Upcoming Events</h2>
       </div>
       <div class="row text-center">
         <iframe
@@ -272,7 +288,7 @@
 
     <!--Sponsers-->
     <div class="container text-center mt-5 mb-5" id="spon">
-      <h2 class="my-5 h1 text-saseblue">THANK YOU TO OUR SPONSORS!</h2>
+      <h2 class="my-5 h1 bg-pageThemeBlue">THANK YOU TO OUR SPONSORS!</h2>
       <!-- Sponsor logos -->
       <div class="container">
         <div class="row d-flex justify-content-center">
@@ -397,8 +413,14 @@
           </div>
         </section>
         <section class="d-flex justify-content-center border-bottom pb-3">
-          <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
+          <!-- <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
             >lsu@saseconnect.org</a
+          > -->
+          <a
+            class="btn btn-secondary newsletter-button"
+            href="interest.html"
+            role="button"
+            >Join our newsletter</a
           >
         </section>
         <div
@@ -420,7 +442,5 @@
         </div>
       </footer>
     </div>
-
-    <script src="headerClass.js"></script>
   </body>
 </html>

@@ -41,19 +41,21 @@
   </head>
 
   <body>
-    <!-- Navbar -->
+    <!--Navbar -->
     <nav
-      class="navbar sticky-top navbar-expand-lg navbar-dark"
+      id="navbar"
+      class="navbar navbar-expand-lg navbar-dark"
       style="background-color: #06436e"
     >
       <a class="navbar-brand p-2 h1" href="index.html">
         <image
           class="nav-bar-logo d-inline-block align-top"
-          src="resources/sase logo - green - side.png"
+          src="resources/white-sase-logo.png"
           style="height: 40px; margin-left: 2rem"
         />
       </a>
       <button
+        id="navButton"
         class="navbar-toggler me-3"
         type="button"
         data-bs-toggle="collapse"
@@ -72,11 +74,27 @@
           <li class="nav-item active">
             <a href="about.html" class="nav-link active"> About </a>
           </li>
-          <li class="nav-item active">
+          <!-- <li class="nav-item active">
             <a href="interest.html" class="nav-link active"> Get Involved </a>
-          </li>
-          <li class="nav-item active">
-            <a href="events.html" class="nav-link active"> Events </a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white eventNavLink"
+              href="#"
+              id="navbarEventsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Events
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-dark"
+              aria-labelledby="navbarDarkDropdownMenuLink"
+            >
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
+              <li><a class="dropdown-item" href="#">Geaux Hack 2023</a></li>
+            </ul>
           </li>
           <li class="nav-item active">
             <a href="#contact" class="nav-link active"> Contact </a>
@@ -98,7 +116,7 @@
           <style type="text/css">
             #mc_embed_signup {
               clear: left;
-              font: 14px Helvetica, Arial, sans-serif;
+              font: 14px Oxygen, Arial, sans-serif;
               width: 100%;
             }
             /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
@@ -115,11 +133,13 @@
               novalidate
             >
               <div id="mc_embed_signup_scroll">
-                <h2>Subscribe</h2>
+                <h1 class="text-bold heading text-center">
+                  Subscribe To Our Newsletter!
+                </h1>
                 <div class="indicates-required">
                   <span class="asterisk">*</span> indicates required
                 </div>
-                <div class="mc-field-group">
+                <div class="mc-field-group fs-5">
                   <label for="mce-FNAME"
                     >First Name <span class="asterisk">*</span>
                   </label>
@@ -133,7 +153,7 @@
                   />
                   <span id="mce-FNAME-HELPERTEXT" class="helper_text"></span>
                 </div>
-                <div class="mc-field-group">
+                <div class="mc-field-group fs-5">
                   <label for="mce-LNAME"
                     >Last Name <span class="asterisk">*</span>
                   </label>
@@ -147,7 +167,7 @@
                   />
                   <span id="mce-LNAME-HELPERTEXT" class="helper_text"></span>
                 </div>
-                <div class="mc-field-group">
+                <div class="mc-field-group fs-5">
                   <label for="mce-MAJOR"
                     >Major <span class="asterisk">*</span>
                   </label>
@@ -161,7 +181,7 @@
                   />
                   <span id="mce-MAJOR-HELPERTEXT" class="helper_text"></span>
                 </div>
-                <div class="mc-field-group">
+                <div class="mc-field-group fs-5">
                   <label for="mce-GRADYR"
                     >Graduating Year <span class="asterisk">*</span>
                   </label>
@@ -175,7 +195,7 @@
                   />
                   <span id="mce-GRADYR-HELPERTEXT" class="helper_text"></span>
                 </div>
-                <div class="mc-field-group">
+                <div class="mc-field-group fs-5">
                   <label for="mce-EMAIL"
                     >LSU Email Address <span class="asterisk">*</span>
                   </label>
@@ -189,7 +209,7 @@
                   />
                   <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
                 </div>
-                <div class="mc-field-group">
+                <div class="mc-field-group fs-5">
                   <label for="mce-RANDOM"
                     >Favorite asian snack? <span class="asterisk">*</span>
                   </label>
@@ -203,7 +223,7 @@
                   />
                   <span id="mce-RANDOM-HELPERTEXT" class="helper_text"></span>
                 </div>
-                <div class="mc-field-group">
+                <div class="mc-field-group fs-5">
                   <label for="mce-COMMENTS"
                     >Questions, comments, or concerns?
                   </label>
@@ -247,7 +267,7 @@
                       value="Subscribe"
                       name="subscribe"
                       id="mc-embedded-subscribe"
-                      class="button"
+                      class="btn btn-success submit-button"
                     />
                     <p class="brandingLogo">
                       <a
@@ -380,8 +400,14 @@
           </div>
         </section>
         <section class="d-flex justify-content-center border-bottom pb-3">
-          <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
+          <!-- <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
             >lsu@saseconnect.org</a
+          > -->
+          <a
+            class="btn btn-secondary newsletter-button"
+            href="interest.html"
+            role="button"
+            >Join our newsletter</a
           >
         </section>
         <div

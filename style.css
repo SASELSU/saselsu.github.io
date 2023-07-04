@@ -6,12 +6,20 @@ html, body{
   overflow-x: hidden;
 }
 
-.navText .nav-item .nav-link:hover {
+.navText .nav-item .nav-link:hover{
   color: #7DC242; 
+}
+
+.eventNavLink:hover {
+  color: #7DC242 !important;
 }
 
 .bg-saseblue {
   background-color: #0668b3;
+}
+
+.bg-pageThemeBlue {
+  color: #06436e;
 }
 
 .bg-sasegreen {
@@ -32,7 +40,7 @@ html, body{
 }
 
 .heading h1 {
-  font-size: 6rem;
+  font-size: 5rem;
   text-shadow: 3px 0 0 #fff, 0 -3px 0 #fff, 0 3px 0 #fff, -3px 0 0 #fff;
   font-family: "Spectral", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -314,6 +322,86 @@ html, body{
   font-weight: bold;
 }
 
+.eventHeader h1{
+  color: #06436e;
+  font-size: 4rem;
+}
+
+.upcomingEvents{
+  background-color: whitesmoke;
+}
+
+.upcomingEvents h2{
+  color: #06436e;
+}
+
+.pastEvents h2 {
+  color: #06436e;
+  font-size: 2.5rem;
+}
+
+.genMeetings {
+  height: 20rem;
+  background-color: #6c5ce7;
+}
+
+.genMeetings h3 {
+  font-size: 2.5rem;
+  margin-top: 8rem;
+}
+
+.professionalDev {
+  height: 20rem;
+  background-color: #365e7a;
+}
+
+.professionalDev h3 {
+  font-size: 2.5rem;
+  margin-top: 6rem;
+}
+
+.volunteering {
+  height: 20rem;
+  background-color: #3498db;
+}
+
+.volunteering h3 {
+  font-size: 2.5rem;
+  margin-top: 8rem;
+}
+
+.social {
+  height: 20rem;
+  background-color: #BE90D4;
+}
+
+.social h3 {
+  font-size: 2.5rem;
+  margin-top: 8rem;
+}
+
+.eventLinks {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  left: 2%;
+  margin-top: 4rem;
+}
+
+.eventLinks:hover {
+  color: #C6dABF;
+}
+
+.submit-button {
+  width: 10rem !important;
+  text-align: center;
+}
+
+.newsletter-button:hover {
+  background-color: #C6dABF !important;
+  color: black;
+}
+
 .icon {
   margin: 10%;
   width: 28px;
@@ -325,7 +413,7 @@ html, body{
 
 .icon:hover {
   opacity: 100%;
-  fill: white;
+  fill: #C6dABF;
 }
 
 #page-container {

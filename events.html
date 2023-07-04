@@ -41,19 +41,21 @@
   </head>
 
   <body>
-    <!-- Navbar -->
+    <!--Navbar -->
     <nav
-      class="navbar sticky-top navbar-expand-lg navbar-dark"
+      id="navbar"
+      class="navbar navbar-expand-lg navbar-dark"
       style="background-color: #06436e"
     >
       <a class="navbar-brand p-2 h1" href="index.html">
         <image
           class="nav-bar-logo d-inline-block align-top"
-          src="resources/sase logo - green - side.png"
+          src="resources/white-sase-logo.png"
           style="height: 40px; margin-left: 2rem"
         />
       </a>
       <button
+        id="navButton"
         class="navbar-toggler me-3"
         type="button"
         data-bs-toggle="collapse"
@@ -72,11 +74,27 @@
           <li class="nav-item active">
             <a href="about.html" class="nav-link active"> About </a>
           </li>
-          <li class="nav-item active">
+          <!-- <li class="nav-item active">
             <a href="interest.html" class="nav-link active"> Get Involved </a>
-          </li>
-          <li class="nav-item active">
-            <a href="events.html" class="nav-link active"> Events </a>
+          </li> -->
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle text-white eventNavLink"
+              href="#"
+              id="navbarEventsDropdown"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Events
+            </a>
+            <ul
+              class="dropdown-menu dropdown-menu-dark"
+              aria-labelledby="navbarDarkDropdownMenuLink"
+            >
+              <li><a class="dropdown-item" href="events.html">Events</a></li>
+              <li><a class="dropdown-item" href="#">Geaux Hack 2023</a></li>
+            </ul>
           </li>
           <li class="nav-item active">
             <a href="#contact" class="nav-link active"> Contact </a>
@@ -86,7 +104,7 @@
     </nav>
 
     <!--NEXT EVENT Button-->
-    <div class="d-flex justify-content-center">
+    <!-- <div class="d-flex justify-content-center">
       <a
         href="next-event.html"
         class="btn btn-lg btn-primary rounded-pill mt-5"
@@ -94,27 +112,118 @@
       >
         <h4>NEXT EVENT DETAILS!</h4>
       </a>
+    </div> -->
+
+    <div class="container eventHeader my-5">
+      <div class="row">
+        <div class="col text-center text-uppercase">
+          <h1>SASE Events</h1>
+        </div>
+      </div>
     </div>
 
-    <h2 class="text-center mt-4" style="color: #0668b3">UPCOMING EVENTS</h2>
+    <!-- Upcoming Events -->
+    <div class="container my-5">
+      <div class="row text-center d-flex justify-content-center">
+        <div class="col-md-6 py-3 upcomingEvents">
+          <h2 class="fs-5">No upcoming events right now</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- <h2 class="text-center mt-4" style="color: #0668b3">UPCOMING EVENTS</h2> -->
 
     <!--CALENDAR-->
-    <div class="d-flex justify-content-center">
+    <!-- <div class="d-flex justify-content-center">
       <iframe
         src="https://calendar.google.com/calendar/embed?src=lsu%40saseconnect.org&ctz=America%2FChicago"
         style="border: 0; margin: 0 5% 5%; width: 80%; height: 35rem"
         frameborder="0"
         scrolling="no"
       ></iframe>
-    </div>
+    </div> -->
 
     <!--PAST EVENTS-->
-    <div class="container justify-content-center">
-      <h2 class="text-center mt-4" style="color: #0668b3">
-        SEE OUR PAST EVENTS!
-      </h2>
+    <div class="container justify-content-center pastEvents text-center">
+      <h2 class="text-center my-4 text-uppercase">SEE OUR PAST EVENTS!</h2>
+      <div class="row d-flex justify-content-center mt-5">
+        <div class="col-md-4 genMeetings mx-5 mb-5">
+          <h3 class="text-white">General Meetings</h3>
+          <a href="#" class="eventLinks mt-5 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-arrow-right-circle"
+              viewBox="0 0 30 30"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="col-md-4 professionalDev mx-5 mb-5">
+          <h3 class="text-white">Professional Development</h3>
+          <a href="#" class="eventLinks mt-5 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-arrow-right-circle"
+              viewBox="0 0 30 30"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-4 volunteering mx-5 mb-5">
+          <h3 class="text-white">Volunteering</h3>
+          <a href="#" class="eventLinks mt-5 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-arrow-right-circle"
+              viewBox="0 0 30 30"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              />
+            </svg>
+          </a>
+        </div>
+        <div class="col-md-4 social mx-5 mb-5">
+          <h3 class="text-white">Socials</h3>
+          <a href="#" class="eventLinks mt-5 text-center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="50"
+              height="50"
+              fill="currentColor"
+              class="bi bi-arrow-right-circle"
+              viewBox="0 0 30 30"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
 
-      <div class="row justify-content-center ms-2 me-2 mb-4">
+      <!-- <div class="row justify-content-center ms-2 me-2 mb-4">
         <div
           style="
             max-width: 200px;
@@ -167,7 +276,7 @@
           "
           class="border border-2 border-primary col-3 me-3"
         ></div>
-      </div>
+      </div> -->
     </div>
 
     <!-- Footer -->
@@ -255,8 +364,14 @@
           </div>
         </section>
         <section class="d-flex justify-content-center border-bottom pb-3">
-          <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
+          <!-- <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
             >lsu@saseconnect.org</a
+          > -->
+          <a
+            class="btn btn-secondary newsletter-button"
+            href="interest.html"
+            role="button"
+            >Join our newsletter</a
           >
         </section>
         <div
