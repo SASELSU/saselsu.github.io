@@ -32,16 +32,21 @@ html, body{
   color: #0668b3;
 }
 
+.title-heading h1 {
+  color: #06436e;
+  font-size: 4rem;
+}
+
 .mission {
   color: #7DC242;
   background-color: #06436e;
 }
 
-.heading {
+.index-heading {
   color: #06436e;
 }
 
-.heading h1 {
+.index-heading h1 {
   font-size: 5rem;
   text-shadow: 3px 0 0 #fff, 0 -3px 0 #fff, 0 3px 0 #fff, -3px 0 0 #fff;
   font-family: "Oxygen", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -352,6 +357,11 @@ html, body{
   margin-top: 8rem;
 }
 
+.genMeetings-details h2{
+  color: #06436e;
+  font-size: 2.5rem;
+}
+
 .professionalDev {
   height: 20rem;
   background-color: #365e7a;
@@ -430,8 +440,7 @@ html, body{
 #footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  height: 2.5rem;            /* Footer height */
+  width: 100%;           /* Footer height */
 }
 
 .footerEmail {
