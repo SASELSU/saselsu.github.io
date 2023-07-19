@@ -20,8 +20,12 @@ html, body{
   background-color: #0668b3;
 }
 
-.bg-pageThemeBlue {
+.text-themeBlue {
   color: #06436e;
+}
+
+.bg-pageThemeBlue {
+  background-color: #06436e;
 }
 
 .bg-sasegreen {
@@ -220,6 +224,10 @@ html, body{
 
 .welcome {
   background-color: #8b6bb3;
+}
+
+.btn-light-bluehover:hover {
+  background-color: #C6dABF;
 }
 
 .carousel-item {
