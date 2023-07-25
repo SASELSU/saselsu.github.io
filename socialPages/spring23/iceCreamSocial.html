@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="resources/favicon.png" />
+    <link rel="icon" href="../../resources/favicon.png" />
 
     <!-- Bootstrap CSS -->
     <link
@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     />
 
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link href="../../css/style.css" type="text/css" rel="stylesheet" />
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
@@ -28,16 +28,24 @@
   </head>
 
   <body>
+    <div id="fb-root"></div>
+    <script
+      async
+      defer
+      crossorigin="anonymous"
+      src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v17.0"
+      nonce="1dCKtyPq"
+    ></script>
     <!--Navbar -->
     <nav
       id="navbar"
       class="navbar navbar-expand-lg navbar-dark"
       style="background-color: #06436e"
     >
-      <a class="navbar-brand ms-2 p-2 h1" href="index.html">
+      <a class="navbar-brand ms-2 p-2 h1" href="../../index.html">
         <image
           class="nav-bar-logo d-inline-block align-top"
-          src="resources/white-sase-logo.png"
+          src="../../resources/white-sase-logo.png"
           style="height: 40px"
         />
       </a>
@@ -56,10 +64,10 @@
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav me-2 ms-2 fs-5 navText">
           <li class="nav-item active">
-            <a href="index.html" class="nav-link active"> Home </a>
+            <a href="../../index.html" class="nav-link active"> Home </a>
           </li>
           <li class="nav-item active">
-            <a href="about.html" class="nav-link active"> About </a>
+            <a href="../../about.html" class="nav-link active"> About </a>
           </li>
           <!-- <li class="nav-item active">
             <a href="interest.html" class="nav-link active"> Get Involved </a>
@@ -79,9 +87,11 @@
               class="dropdown-menu dropdown-menu-dark"
               aria-labelledby="navbarDarkDropdownMenuLink"
             >
-              <li><a class="dropdown-item" href="events.html">Events</a></li>
               <li>
-                <a class="dropdown-item" href="hackathonIndex.html"
+                <a class="dropdown-item" href="../../events.html">Events</a>
+              </li>
+              <li>
+                <a class="dropdown-item" href="../../hackathonIndex.html"
                   >Geaux Hack 2023</a
                 >
               </li>
@@ -94,140 +104,101 @@
       </div>
     </nav>
 
-    <!-- Header -->
-    <div class="container my-5 title-heading">
-      <div class="row text-center">
-        <h1>Meetings</h1>
+    <!-- Facebook post -->
+    <!-- <div class="container text-center my-5 fb-album-posts">
+      <div
+        class="fb-post"
+        data-href="https://www.facebook.com/media/set/?set=a.566589045496749&amp;type=3"
+        data-width="500"
+        data-show-text="true"
+      >
+        <blockquote
+          cite="https://www.facebook.com/lsu.sase/posts/566589055496748"
+          class="fb-xfbml-parse-ignore"
+        >
+          Posted by
+          <a href="https://www.facebook.com/lsu.sase">SASE - LSU</a> on&nbsp;<a
+            href="https://www.facebook.com/lsu.sase/posts/566589055496748"
+            >Tuesday, January 31, 2023</a
+          >
+        </blockquote>
+      </div>
+    </div> -->
+
+    <!-- Gallery -->
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <img
+            src="../../resources/spring23/iceCreamSocial/iceCreamSocial-pic1.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="GBM Pic 1"
+          />
+
+          <img
+            src="../../resources/spring23/iceCreamSocial/iceCreamSocial-pic2.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="GBM Pic 2"
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="../../resources/spring23/iceCreamSocial/iceCreamSocial-pic3.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="GBM Pic 3"
+          />
+
+          <img
+            src="../../resources/spring23/iceCreamSocial/iceCreamSocial-pic4.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="GBM Pic 4"
+          />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <img
+            src="../../resources/spring23/iceCreamSocial/iceCreamSocial-pic5.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="GBM Pic 5"
+          />
+
+          <img
+            src="../../resources/spring23/iceCreamSocial/iceCreamSocial-pic6.jpg"
+            class="w-100 shadow-1-strong rounded mb-4"
+            alt="GBM Pic 6"
+          />
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center text-center">
+        <div class="col-md-6">
+          <a
+            href="https://www.facebook.com/media/set/?set=a.621203060035347&type=3"
+            style="text-decoration: none"
+            ><h3 class="fw-bold" style="color: #06436e">
+              View more images
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-arrow-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg></h3
+          ></a>
+        </div>
       </div>
     </div>
+    <!-- Gallery -->
 
-    <!-- General Meeting Event Details -->
-    <div class="container-fluid text-center my-5 genMeetings-details">
-      <!-- Fall 2023 Meetings -->
-      <!-- <div class="row">
-        <h2 class="mb-5">Fall 2023</h2>
-        <div class="container mb-5">
-          <div class="row text-center d-flex justify-content-center">
-            <div
-              class="col-lg-4 col-md-12 col-sm-12 text-center d-flex justify-content-center mb-5"
-            >
-              <div class="card border-dark" style="width: 25rem">
-                <img
-                  src="https://unsplash.it/640/425?random"
-                  class="card-img-top"
-                  alt="First GBM Photo"
-                />
-                <div class="card-body bg-pageThemeBlue text-white">
-                  <h5 class="card-title">First General Meeting</h5>
-                  <p class="card-text">Date: TBD</p>
-                  <a href="#" class="btn btn-light btn-light-bluehover"
-                    >Learn more</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-12 col-md-12 col-sm-12 text-center d-flex justify-content-center mb-5"
-            >
-              <div class="card border-dark" style="width: 25rem">
-                <img
-                  src="https://unsplash.it/640/425?random"
-                  class="card-img-top"
-                  alt="Second GBM Photo"
-                />
-                <div class="card-body bg-pageThemeBlue text-white">
-                  <h5 class="card-title">Second General Meeting</h5>
-                  <p class="card-text">Date: TBD</p>
-                  <a href="#" class="btn btn-light btn-light-bluehover"
-                    >Learn more</a
-                  >
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-12 col-sm-12 text-center d-flex justify-content-center mb-5"
-            >
-              <div class="card border-dark" style="width: 25rem">
-                <img
-                  src="https://unsplash.it/640/425?random"
-                  class="card-img-top"
-                  alt="Third GBM Photo"
-                />
-                <div class="card-body bg-pageThemeBlue text-white">
-                  <h5 class="card-title">Third General Meeting</h5>
-                  <p class="card-text">Date: TBD</p>
-                  <a href="#" class="btn btn-light btn-light-bluehover"
-                    >Learn more</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-      <!-- Spring 2023 Meetings -->
-      <div class="row">
-        <h2 class="mb-5">Spring 2023</h2>
-        <div
-          class="col-lg-4 col-md-12 col-sm-12 text-center d-flex justify-content-center mb-5"
-        >
-          <div class="card border-dark" style="width: 25rem">
-            <img
-              src="resources/firstGBM.jpg"
-              class="card-img-top"
-              alt="First GBM Photo"
-            />
-            <div class="card-body bg-pageThemeBlue text-white">
-              <h5 class="card-title">First General Meeting</h5>
-              <p class="card-text">Date: January 24th</p>
-              <a
-                href="generalMeetings/spring23/firstGBM.html"
-                class="btn btn-light btn-light-bluehover"
-                >Learn more</a
-              >
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-lg-4 col-md-12 col-md-12 col-sm-12 text-center d-flex justify-content-center mb-5"
-        >
-          <div class="card border-dark" style="width: 25rem">
-            <img
-              src="resources/secondGBM.jpg"
-              class="card-img-top"
-              alt="Second GBM Photo"
-            />
-            <div class="card-body bg-pageThemeBlue text-white">
-              <h5 class="card-title">Second General Meeting</h5>
-              <p class="card-text">Date: February 23rd</p>
-              <a
-                href="generalMeetings/spring23/secondGBM.html"
-                class="btn btn-light btn-light-bluehover"
-                >Learn more</a
-              >
-            </div>
-          </div>
-        </div>
-        <div
-          class="col-lg-4 col-md-12 col-sm-12 text-center d-flex justify-content-center mb-5"
-        >
-          <div class="card border-dark" style="width: 25rem">
-            <img
-              src="resources/thirdGBM.jpg"
-              class="card-img-top"
-              alt="Third GBM Photo"
-            />
-            <div class="card-body bg-pageThemeBlue text-white">
-              <h5 class="card-title">Third General Meeting</h5>
-              <p class="card-text">Date: March 21st</p>
-              <a
-                href="generalMeetings/spring23/thirdGBM.html"
-                class="btn btn-light btn-light-bluehover"
-                >Learn more</a
-              >
-            </div>
-          </div>
-        </div>
+    <div class="container my-5">
+      <div class="row text-center">
+        <h2 class="text-themeBlue fs-1">Slide Deck</h2>
       </div>
     </div>
 
@@ -317,11 +288,11 @@
         </section>
         <section class="d-flex justify-content-center border-bottom pb-3">
           <!-- <a class="footerEmail fs-6" href="mailto: lsu@saseconnect.org"
-                  >lsu@saseconnect.org</a
-                > -->
+            >lsu@saseconnect.org</a
+          > -->
           <a
             class="btn btn-secondary newsletter-button"
-            href="interest.html"
+            href="../../interest.html"
             role="button"
             >Join our newsletter</a
           >
@@ -336,7 +307,7 @@
               <a href="https://stopaapihate.org/" target="blank">
                 <image
                   style="width: 30px; height: 30px"
-                  src="resources/coracaozinho-para-o-luiz-otavio.svg"
+                  src="../../resources/coracaozinho-para-o-luiz-otavio.svg"
                   class="heart"
                 />
               </a>
