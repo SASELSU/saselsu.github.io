@@ -4333,7 +4333,7 @@ textarea.form-control-lg {
 
 .accordion {
   --bs-accordion-color: #212529;
-  --bs-accordion-bg: #fff;
+  --bs-accordion-bg: var(--bs-primary);
   --bs-accordion-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
   --bs-accordion-border-color: var(--bs-border-color);
   --bs-accordion-border-width: 1px;
@@ -10859,8 +10859,8 @@ p {
 }
 
 .page-section {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
 }
 
 .section-heading {
@@ -10925,8 +10925,14 @@ p {
     position: relative;
     z-index: 0;
   }
-  .about-heading .about-heading-content {
-    margin-top: -5rem;
+  .about-heading .about-heading-content .top {
+    margin-bottom: -5rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .about-heading .about-heading-content .bottom {
+    margin-top: -15rem;
     position: relative;
     z-index: 1;
   }
@@ -11004,6 +11010,12 @@ p {
   }
 }
 
+@media (max-width: 992px) {
+  .product-item .product-item-title .section-heading-lower {
+    font-size: 2rem;
+  }
+}
+
 .list-hours {
   font-size: 0.9rem;
 }
@@ -11026,4 +11038,49 @@ p {
 
 .address strong {
   font-size: 1.2rem;
+}
+
+.icon {
+  margin: 10%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  text-decoration: none;
+  opacity: 90%;
+}
+
+.icon:hover {
+  opacity: 100%;
+  fill: #C6dABF;
+}
+
+@keyframes heart {
+  0% {
+      transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+}
+
+
+.heart:hover {
+animation: 1s heart infinite;
+}
+
+.countdown-timer .time-indicator {
+  display: inline-block;
+  width: 15rem;
+  margin: 1rem;
+}
+
+.countdown-timer .time-indicator h2{
+  font-size: 5rem;
+}
+
+.countdown-timer .time-indicator h3{
+  font-size: 3rem;
 }
