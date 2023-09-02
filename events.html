@@ -21,6 +21,8 @@
       crossorigin="anonymous"
     />
 
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
     <link href="css/style.css" type="text/css" rel="stylesheet" />
 
     <title>SASE LSU</title>
@@ -28,118 +30,13 @@
 
   <body>
     <!--Navbar -->
-    <nav
-      id="navbar"
-      class="navbar navbar-expand-lg navbar-dark"
-      style="background-color: #06436e"
-    >
-      <a class="navbar-brand ms-2 p-2 h1" href="index.html">
-        <image
-          class="nav-bar-logo d-inline-block align-top"
-          src="resources/white-sase-logo.png"
-          style="height: 40px"
-        />
-      </a>
-      <button
-        id="navButton"
-        class="navbar-toggler me-3"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav me-2 ms-2 fs-5 navText">
-          <li class="nav-item active">
-            <a href="index.html" class="nav-link active"> Home </a>
-          </li>
-          <li class="nav-item active">
-            <a href="about.html" class="nav-link active"> About </a>
-          </li>
-          <!-- <li class="nav-item active">
-            <a href="interest.html" class="nav-link active"> Get Involved </a>
-          </li> -->
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle text-white eventNavLink"
-              href="#"
-              id="navbarEventsDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Events
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-dark"
-              aria-labelledby="navbarDarkDropdownMenuLink"
-            >
-              <li>
-                <a class="dropdown-item" href="events.html"
-                  >Upcoming & Past Events</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="hackathonIndex.html"
-                  >Geaux Hack 2023</a
-                >
-                <a
-                  class="dropdown-item"
-                  href="https://forms.gle/nAvpkXGrxJwAp9q86"
-                  >Nationals Interest Form</a
-                >
-                <a
-                  class="dropdown-item"
-                  href="https://forms.gle/LyULjP2xA7y5hNus7"
-                  >BR Food Bank</a
-                >
-                <a
-                  class="dropdown-item"
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdRwm3hxJMEkbnSuutgHTCXEv2ywsnsbG76mG_04gobOQ44Ow/viewform?pli=1"
-                  >Exxon Mock Interview</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle text-white eventNavLink"
-              href="#"
-              id="navbarFormsDropdown"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-expanded="false"
-            >
-              Forms
-            </a>
-            <ul
-              class="dropdown-menu dropdown-menu-dark"
-              aria-labelledby="navbarDarkDropdownMenuLink"
-            >
-              <li>
-                <a
-                  class="dropdown-item"
-                  href="https://forms.gle/MT4b71Pw2AEqegbG6"
-                  >Membership Form</a
-                >
-              </li>
-              <li>
-                <a class="dropdown-item" href="https://lsu.prevent.zone"
-                  >Hazing Form</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li class="nav-item active">
-            <a href="#contact" class="nav-link active"> Contact </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+    <div id="nav-placeholder"></div>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("navbar.html");
+      });
+    </script>
+    <!-- End Navbar -->
 
     <!--NEXT EVENT Button-->
     <!-- <div class="d-flex justify-content-center">
