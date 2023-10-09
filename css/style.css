@@ -284,6 +284,7 @@ html, body{
   width: 200px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   
 }
 
@@ -298,47 +299,48 @@ html, body{
 }
 
 #president{
-  background-image: url('../EBoard/2022-23/AerynSindiong.jpg');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/aeryn_sindiong.jpg');
+  
 }
 
 #vp{
-  background-image: url('../EBoard/2023-24/AndrewCao.PNG');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/andrew_cao.jpg');
 }
 
 #secretary{
-  background-image: url('../EBoard/2023-24/FaithLoh.jpg');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/faith_loh.jpg');
 }
 
 #treasurer{
-  background-image: url('../EBoard/2023-24/MichelleVo.jpg');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/michelle_vo_2.jpg');
 }
 
 #pr{
-  background-image: url('../EBoard/2023-24/JacobNguyen.jpeg');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/jacob_nguyen.jpg');
 }
 
 #historian{
-  background-image: url('../EBoard/2023-24/Camila.jpg');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/camila_cuadra.jpg');
 }
 
 #gd{
-  background-image: url('../EBoard/2023-24/MilanNguyen.jpg');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/milan_nguyen.jpg');
 }
 
 #wm{
-  background-image: url('../EBoard/2023-24/FarisKhattak.JPG');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/faris_khattak.jpg');
 }
 
 #fc{
-  background-image: url('../EBoard/2023-24/EmilyLin.jpeg');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/emily_lin.jpg');
 }
 
 #oc{
-  background-image: url('../EBoard/2023-24/RichardJiang.JPG');
+  background-image: url('../EBoard/2023-24/official_eboard_headshots/richard_jiang.jpg');
 }
 
 #pdc{
-  background-image: url("../EBoard/2023-24/GrishmaShrestha.JPG");
+  background-image: url("../EBoard/2023-24/official_eboard_headshots/grishma_shrestha_2.jpg");
 }
 
 .pb{
