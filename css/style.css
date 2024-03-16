@@ -149,7 +149,7 @@ html, body{
     height: auto;
     min-height: 40rem;
     padding: 0 0 25rem 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("/resources/PastEvent3.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("/resources/Main-Index-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -161,7 +161,7 @@ html, body{
     height: auto;
     min-height: 40rem;
     padding: 0 0 25rem 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("/resources/Slideshow3.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("/resources/Main-Index-2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -173,7 +173,7 @@ html, body{
     height: auto;
     min-height: 40rem;
     padding: 0 0 25rem 0;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("/resources/Slideshow5.jpg");
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url("/resources/Main-Index-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -204,7 +204,7 @@ html, body{
   height: auto;
   min-height: 35rem;
   padding: 0 0 25rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("/resources/AboutUs.JPG");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.3) 75%, #000 100%), url("/resources/AboutUs-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
