@@ -12,10 +12,13 @@ const Icon = (props) => {
         image,
         link,
     } = props;
+
     return (
-    <Link to {...link}>
-        <img src={image} />
-    </Link>  
+        <div className="icon">
+            <a href={link} target="_blank">                
+                <img src={image}/>
+            </a>
+        </div>
     )
 }
 
@@ -23,7 +26,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="socialMedia">
-                {/* <Icon 
+                <Icon 
                     image={discord}
                     link="https://discord.com/invite/eAW5RZsKyk"
                 />
@@ -34,7 +37,7 @@ const Footer = () => {
                 <Icon 
                     image={instagram}
                     link="https://www.instagram.com/saselsu/"
-                /> */}
+                />
             </div>
             <p>test</p>
         </div>
