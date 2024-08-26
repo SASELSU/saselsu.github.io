@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-import Logo from "../../assets/white-sase-logo.png";
+import Logo from "../../assets/icons/white-sase-logo.png";
 
 const Navbar = () => {
     const [click, setClick] = useState(false);

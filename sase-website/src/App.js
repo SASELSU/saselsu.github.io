@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
-import Home from "./pages/pages";
+import Home from "./pages/home";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Events from "./pages/events";
@@ -45,6 +46,7 @@ function App() {
           element = {<Contact />}
         />
       </Routes>
+      <Footer/>
     </Router>
   );
 }
