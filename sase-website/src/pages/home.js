@@ -11,7 +11,7 @@ import PDBackground1 from "../assets/home_backgrounds/pd-background-1.jpg"
 
 const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
-const delay = 2000;
+const delay = 8000;
 
 const Home = () => {
     const [index, setIndex] = useState(0);
@@ -44,7 +44,7 @@ const Home = () => {
             }}>{[
                 <div 
                     className="pillar"
-                    key={"1"}
+                    key={"0"}
                     style={{backgroundImage: `url(${backgrounds[1]})`}}
                 >
                     <div className="headerContainer" > 
