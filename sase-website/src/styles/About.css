@@ -1,0 +1,18 @@
+.titleCard {
+    width: 100%;
+    height: 80vh;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.titleCard h1 {
+    font-size: 80px;
+}

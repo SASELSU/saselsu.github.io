@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./Footer.css"
 import discord from "../../assets/icons/social_media/discord.png"
 import facebook from "../../assets/icons/social_media/facebook.png"
