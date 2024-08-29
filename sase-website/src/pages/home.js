@@ -4,7 +4,7 @@ import {
     useEffect,
     useRef,
 } from "react";
-import "../styles/home.css";
+import "../styles/Home.css";
 import CommunityBackground1 from "../assets/home_backgrounds/community-background-1.jpg"
 import DiversityBackground1 from "../assets/home_backgrounds/diversity-background-1.png"
 import PDBackground1 from "../assets/home_backgrounds/pd-background-1.jpg"
@@ -47,6 +47,8 @@ const Home = () => {
                     key={"0"}
                     style={{backgroundImage: `url(${backgrounds[1]})`}}
                 >
+                    <div className="colorOverlay"/>
+
                     <div className="headerContainer" > 
                         <h1>Diversity</h1>
                         <p>text, text and yeah more text</p>
@@ -57,6 +59,8 @@ const Home = () => {
                     key={"0"}
                     style={{backgroundImage: `url(${backgrounds[2]})`}}
                 >
+                    <div className="colorOverlay"/>
+
                     <div className="headerContainer" > 
                         <h1>Professional Development</h1>
                         <p>text, text and yeah more text</p>
@@ -68,6 +72,8 @@ const Home = () => {
                     key={"2"}
                     style={{backgroundImage: `url(${backgrounds[0]})`}}
                 >
+                    <div className="colorOverlay"/>
+
                     <div className="headerContainer" > 
                         <h1>Community</h1>
                         <p>text, text and yeah more text</p>
