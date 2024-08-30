@@ -50,8 +50,8 @@ const Home = () => {
                     <div className="colorOverlay"/>
 
                     <div className="headerContainer" > 
-                        <h1>Diversity</h1>
-                        <p>text, text and yeah more text</p>
+                        <h1>RICH DIFFERENCES, <br/>COMMON GOALS</h1>
+                        <p>diversity</p>
                     </div>
                 </div>,
                 <div 
@@ -62,8 +62,8 @@ const Home = () => {
                     <div className="colorOverlay"/>
 
                     <div className="headerContainer" > 
-                        <h1>Professional Development</h1>
-                        <p>text, text and yeah more text</p>
+                        <h1>SHAPING FUTURES <br/>TOGETHER</h1>
+                        <p>professional development</p>
                     </div>
                 </div>,
 
@@ -75,8 +75,8 @@ const Home = () => {
                     <div className="colorOverlay"/>
 
                     <div className="headerContainer" > 
-                        <h1>Community</h1>
-                        <p>text, text and yeah more text</p>
+                        <h1>just plain <br/>fun.</h1>
+                        <p>community</p>
                     </div>
                 </div>
             ]}
@@ -85,6 +85,12 @@ const Home = () => {
         <div className ="missionStatement">
             <p>Our Mission</p>
             <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
+        </div>
+        <div className="calendar">
+            calendar here
+        </div>
+        <div className="sponsors">
+            sponsors here
         </div>
         </>
     )

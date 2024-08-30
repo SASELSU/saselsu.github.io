@@ -1,8 +1,7 @@
-.titleCard {
+.aboutTitleCard {
     width: 100%;
-    height: 80vh;
+    height: 90vh;
 
-    background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5));
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +12,27 @@
     color:white;
 }
 
-.titleCard h1 {
+.aboutTitleCard h1 {
+    position: relative;
     font-size: 80px;
+}
+
+.aboutColorOverlay {
+    height: 90vh; /* make sure this is the same height as titlecard */
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+}
+
+.aboutMission {
+
+}
+
+.aboutHistory {
+
 }

@@ -6,6 +6,11 @@ import Logo from "../../assets/icons/white-sase-logo.png";
 
 const Navbar = () => {
     const [click, setClick] = useState(false);
+    const [bottom, setButton] = useState(true);
+
+    const handleClick = () => setClick(!click);
+    const closeMenu =() => setClick(false);
+
     
     return (
         <>

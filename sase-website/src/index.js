@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import "@fontsource/bebas-neue"; // Defaults to weight 400
+import "@fontsource/bebas-neue/400.css"; // Specify weight
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
