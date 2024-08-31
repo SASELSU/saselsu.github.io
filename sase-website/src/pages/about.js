@@ -1,13 +1,13 @@
 import React from "react";
-import "../styles/About.css"
+import "../styles/about.css"
 
-import TitleCardBackground from "../assets/about_us/title_card.jpg"
-// import PresidentPic from "../assets/about_us/eboard"
-// import VicePresidentPic from "../assets/about_us/eboard"
-// import SecretaryPic from "../assets/about_us/eboard"
-// import TreasurerPic from "../assets/about_us/eboard"
-// import PresidentPic from "../assets/about_us/eboard"
-import OurMission from "../assets/about_us/our-mission-temp.jpeg"
+import TitleCardBackground from "../assets/about/title_card.jpg"
+// import PresidentPic from "../assets/about/eboard"
+// import VicePresidentPic from "../assets/about/eboard"
+// import SecretaryPic from "../assets/about/eboard"
+// import TreasurerPic from "../assets/about/eboard"
+// import PresidentPic from "../assets/about/eboard"
+import OurMission from "../assets/about/our-mission-temp.jpeg"
 
 const About = () => {
     return (

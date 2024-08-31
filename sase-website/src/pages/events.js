@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Events.css"
+import "../styles/events.css"
 
 import TitleCardBackground from "../assets/events/eventVolleyball.png"
 import BobaSocial from "../assets/events/fall-2024/GBM1-Fall-2024.png"

@@ -6,12 +6,12 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
-import Events from "./pages/Events";
-import Forms from "./pages/Forms";
-import Hackathon from "./pages/Hackathon";
+import Home from "./pages/home";
+import About from "./pages/about";
+import Contact from "./pages/contact";
+import Events from "./pages/events";
+import Forms from "./pages/forms";
+import Hackathon from "./pages/hackathon";
 import './App.css';
 
 function App() {

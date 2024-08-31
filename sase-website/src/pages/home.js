@@ -4,10 +4,16 @@ import {
     useEffect,
     useRef,
 } from "react";
-import "../styles/Home.css";
-import CommunityBackground1 from "../assets/home_backgrounds/community-background-1.jpg"
-import DiversityBackground1 from "../assets/home_backgrounds/diversity-background-1.png"
-import PDBackground1 from "../assets/home_backgrounds/pd-background-1.jpg"
+import "../styles/home.css";
+import CommunityBackground1 from "../assets/home/home_backgrounds/community-background-1.jpg"
+import DiversityBackground1 from "../assets/home/home_backgrounds/diversity-background-1.png"
+import PDBackground1 from "../assets/home/home_backgrounds/pd-background-1.jpg"
+
+//sponsors
+import Exxon from "../assets/home/sponsors/Exxon-Logo.png"
+import Dow from "../assets/home/sponsors/Dow_Chemical_Company_logo.svg.png"
+import Marathon from "../assets/home/sponsors/marathon.png"
+import Shell from "../assets/home/sponsors/Shell_logo.svg.png"
 
 const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
@@ -36,14 +42,14 @@ const Home = () => {
     }, [index]);
 
     return (
-        <>
-        <div className="home">
+        <> 
+        <div className="home" //note: pillar container is the only thing in home and thats scuffed. change this later
+        >
             <div className="pillarContainer" //homepage carousel
                 style={{transform: `translate3d(${-index * 100}%, 0, 0)`
             }}>{[
-                <div 
+                <div //DIVERSITY
                     className="pillar"
-                    key={"0"}
                     style={{backgroundImage: `url(${backgrounds[1]})`}}
                 >
                     <div className="colorOverlay"/>
@@ -53,9 +59,9 @@ const Home = () => {
                         <p>diversity</p>
                     </div>
                 </div>,
-                <div 
+
+                <div //PROFESSIONAL DEVELOPMENT
                     className="pillar"
-                    key={"0"}
                     style={{backgroundImage: `url(${backgrounds[2]})`}}
                 >
                     <div className="colorOverlay"/>
@@ -66,9 +72,8 @@ const Home = () => {
                     </div>
                 </div>,
 
-                <div 
+                <div //COMMUNITY
                     className="pillar"
-                    key={"2"}
                     style={{backgroundImage: `url(${backgrounds[0]})`}}
                 >
                     <div className="colorOverlay"/>
@@ -90,6 +95,10 @@ const Home = () => {
         </div>
         <div className="sponsors">
             <h1>THANK YOU TO OUR SPONSORS!</h1>
+            <img src={Exxon}></img>
+            <img src={Dow}></img>
+            <img src={Shell}></img>
+            <img src={Marathon}></img>
         </div>
         </>
     )

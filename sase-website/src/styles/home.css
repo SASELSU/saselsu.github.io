@@ -6,15 +6,6 @@
     overflow: hidden;
     /* overflow: hidden; */
   position: relative;
-    /* display: flex; */
-    /* justify-content: center;
-    align-items: left;
-    flex-direction: column;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; */
- 
 }
 .pillarContainer {
   white-space: nowrap;
@@ -65,7 +56,7 @@
     font-family: "Bebas Neue";
     color: white;
     line-height: 0.9;
-  }
+}
 
 .headerContainer p {
 
@@ -73,44 +64,32 @@
 }
 
 
+.missionStatement {
+  height: 400px;
+  overflow: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(107, 144, 128);
+  color: rgb(234, 244, 244);
+}
 
-.headerContainer button {
-    color: black;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    justify-content: center;
-    background-color: #121619;
-    height: 50px;
-    width: 180px;
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-  }
-  
-  .headerContainer button:hover {
-    background-color: #07090a;
-    cursor: pointer;
-    transition: 0.3s ease-in;
-  }
+.missionStatement h1 {
+  margin: 1rem;
+  height: 200px;
+  justify-content: center;
+  text-align: center;
+}
 
-  .missionStatement {
-    height: 400px;
-    overflow: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: rgb(107, 144, 128);
-    color: rgb(234, 244, 244);
-  }
-  
-  .missionStatement h1 {
-    margin: 1rem;
-    height: 200px;
-    justify-content: center;
-    text-align: center;
-  }
+.sponsors {
+
+}
+.sponsors img {
+  width: 200px;
+  height: 200px;
+  object-fit:fill;
+}
 /*   
   @media only screen and (max-width: 650px) {
     .home {
