@@ -7,6 +7,7 @@ import TitleCardBackground from "../assets/about_us/title_card.jpg"
 // import SecretaryPic from "../assets/about_us/eboard"
 // import TreasurerPic from "../assets/about_us/eboard"
 // import PresidentPic from "../assets/about_us/eboard"
+import OurMission from "../assets/about_us/our-mission-temp.jpeg"
 
 const About = () => {
     return (
@@ -19,9 +20,13 @@ const About = () => {
             <h1>about us</h1>
         </div>
         <div className="aboutMission">
-            <h1>OUR MISSION</h1>
-            <p>SASE is dedicated to the advancement of Asian heritage scientists and engineers in education and employment so that they can achieve their full career potential. In addition to professional development, SASE also encourages members to contribute to the enhancement of the communities in which they live.</p>
-            <p>SASE membership is open to people of all ethnic backgrounds.</p>
+            <div className="aboutMissionText">
+                <h1>OUR MISSION</h1>
+                <p>SASE is dedicated to the advancement of Asian heritage scientists and engineers in education and employment so that they can achieve their full career potential. In addition to professional development, SASE also encourages members to contribute to the enhancement of the communities in which they live.</p>
+                <p>SASE membership is open to people of all ethnic backgrounds.</p>
+            </div>
+
+            <img src={OurMission}/>
         </div>
         <div className="aboutHistory">
             <h1>OUR HISTORY</h1>
@@ -30,6 +35,9 @@ const About = () => {
 As Fall 2021 approached, SASE LSU gained momentum by prioritizing the development of a tightly-knit community. With the gradual decline of restrictions, we successfully brought students together after a prolonged period of isolation. We organized events such as boba and paint socials, volunteering events with organizations like Cat Haven and Habitat for Humanity, and giveback nights at local Asian businesses. These initiatives fostered a safe environment and bolstered our presence within the LSU and Baton Rouge community.
 
 Through persistent dedication throughout the semester, our membership skyrocketed from the initial 25 to a remarkable 133 active participants by the spring of 2022. We remained steadfast in our commitment to enhancing visibility and nurturing a sense of community. Our Lunar New Year meeting exemplified the celebration of diversity, acting as a testament to our growth. As we expanded, we incorporated workshops and invited guest speakers to enable our members to pursue professional development. SASE LSU serves as a space where individuals can embrace their diversity against all odds, forge their own community within LSU, and, above all, to love purple and live gold.</p>
+        </div>
+        <div className="aboutEBoard">
+
         </div>
         </>
     )
