@@ -60,12 +60,8 @@
   }
 
 .headerContainer h1 {
-    /* justify-content: center;
-    align-items: center; */
     font-size: 120px;
-    /* height: 60px; */
     font-weight: 500;
-    width: 30vw;
     font-family: "Bebas Neue";
     color: white;
     line-height: 0.9;
@@ -76,20 +72,7 @@
   color:white;
 }
 
-.missionStatement {
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background-color: black;
-}
 
-.missionStatement h1 {
-  height: 200px;
-  justify-content: center;
-  text-align: center;
-}
 
 .headerContainer button {
     color: black;
@@ -111,9 +94,22 @@
     transition: 0.3s ease-in;
   }
 
-.headerSlider {
-
-}
+  .missionStatement {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(107, 144, 128);
+    color: rgb(234, 244, 244);
+  }
+  
+  .missionStatement h1 {
+    margin: 1rem;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+  }
 /*   
   @media only screen and (max-width: 650px) {
     .home {
