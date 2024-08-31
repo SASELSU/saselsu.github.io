@@ -95,7 +95,8 @@
   }
 
   .missionStatement {
-    height: 300px;
+    height: 400px;
+    overflow: auto;
     display: flex;
     justify-content: center;
     align-items: center;

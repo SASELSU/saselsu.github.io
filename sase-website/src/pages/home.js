@@ -11,20 +11,20 @@ import PDBackground1 from "../assets/home_backgrounds/pd-background-1.jpg"
 
 const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
-const delay = 8000;
+const delay = 8000; //carousel delay time
 
 const Home = () => {
     const [index, setIndex] = useState(0);
     const timeoutRef = useRef(null);
-    const length = 3;
+    const length = 3; //how many carousel slides there are
 
-    const resetTimeout = () => {
+    const resetTimeout = () => { //carousel stuff dont worry about this
         if (timeoutRef.current) {
             clearTimeout(timeoutRef.current);
         }
     }
 
-    useEffect(() => {
+    useEffect(() => { // more carousel stuff dont worry about this
         resetTimeout();
         timeoutRef.current = setTimeout(() => 
             setIndex((prevIndex) => prevIndex === length - 1 ? 0 : prevIndex + 1),
@@ -38,8 +38,7 @@ const Home = () => {
     return (
         <>
         <div className="home">
-            <div 
-                className="pillarContainer"
+            <div className="pillarContainer" //homepage carousel
                 style={{transform: `translate3d(${-index * 100}%, 0, 0)`
             }}>{[
                 <div 
@@ -87,10 +86,10 @@ const Home = () => {
             <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
         </div>
         <div className="calendar">
-            calendar here
+            <h1>EVENTS THIS MONTH</h1>
         </div>
         <div className="sponsors">
-            sponsors here
+            <h1>THANK YOU TO OUR SPONSORS!</h1>
         </div>
         </>
     )
