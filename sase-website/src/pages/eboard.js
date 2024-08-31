@@ -1,11 +1,11 @@
 import React from "react";
 
-const Forms = () => {
+const EBoard = () => {
     return (
         <div>
-            <h1>the forms</h1>
+            <h1>eboard</h1>
         </div>
     )
 }
 
-export default Forms;
+export default EBoard;
