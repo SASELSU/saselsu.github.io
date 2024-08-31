@@ -52,6 +52,13 @@ const Events = () => {
             postDesc="🩵IT’S THAT TIME OF THE SEMESTER!!🩵Get ready for our first GBM of the fall semester: BOBA SOCIAL!🧋🧋🧋
             Bring your friends and come and see what we have ready for y’all this semester! There will be fun activities and drinks to go along 😉"
             />
+                                    <Post
+            image={BobaSocial}
+            eventDate="September 5th"
+            postTitle="Boba Social"
+            postDesc="🩵IT’S THAT TIME OF THE SEMESTER!!🩵Get ready for our first GBM of the fall semester: BOBA SOCIAL!🧋🧋🧋
+            Bring your friends and come and see what we have ready for y’all this semester! There will be fun activities and drinks to go along 😉"
+            />
             
             </div>
 

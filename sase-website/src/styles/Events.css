@@ -32,10 +32,7 @@
 }
 /* #endregion */
 
-.postContainer {
-    display: flex;
-    flex-direction: row;
-}
+
 
 /* #region eventPostList */
 .eventPostList {
@@ -55,12 +52,22 @@
 }
 /* #endregion */
 
+.postContainer {
+    width:90vw;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin: 1rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
 /* #region eventPost */
 .eventPost {
     position: relative;
     width: 400px;
     height: 600px;
-    margin: 10px 10px 10px 10px ;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -75,12 +82,17 @@
     border-radius: 7px;
     object-fit: scale-down;
 }
+
+.eventPostInfo {
+    margin: 1rem;
+    white-space: normal;
+}
+
 .eventPostHeader {
     display: flex;
     flex-direction: row;
     margin-top: -30px;
     margin-bottom: -30px;
-
 }
 
 .eventPostHeader h1 {
@@ -90,9 +102,7 @@
     color: black;
 }
 
-.eventPostInfo {
-    margin: 1rem;
-}
+
 /* #endregion */
 
 /* #region eventUpcomingPost */
