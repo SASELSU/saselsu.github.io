@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
+import EBoard from "./pages/eboard";
 import Events from "./pages/events";
 import Hackathon from "./pages/hackathon";
 import './App.css';
@@ -28,9 +29,14 @@ function App() {
           element = {<About />}
         />
         <Route
+          path="/eboard"
+          element = {<EBoard />}
+        />
+        <Route
           path="/events"
           element = {<Events />}
         />
+        
         <Route
           path="/hackathon"
           element = {<Hackathon />}

@@ -1,10 +1,5 @@
 .home {
-    /* width: 100%; */
-    /* height: 90vh; */
-    /* max-width: 100%; */
-    margin: 0 auto;
     overflow: hidden;
-    /* overflow: hidden; */
   position: relative;
 }
 .pillarContainer {
@@ -15,7 +10,7 @@
 
 .pillar {
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   position: relative;
 
   display: inline-block;
@@ -39,18 +34,19 @@
 }
 
 .headerContainer {
-    width: 300px;
-    margin-top: auto;
-    margin-left: 30px;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    position: absolute;
-    bottom: 0;
+  width: 300px;
+  margin-top: auto;
+  margin-bottom: 5vh;
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  position: absolute;
+  bottom: 0;
 
-  }
+}
 
-.headerContainer h1 {
+.pillarTitle {
     font-size: 120px;
     font-weight: 500;
     font-family: "Bebas Neue";
@@ -58,37 +54,92 @@
     line-height: 0.9;
 }
 
-.headerContainer p {
-
+.pillarDesc {
+  width: 20vw;
   color:white;
 }
 
 
 .missionStatement {
-  height: 400px;
-  overflow: auto;
+  margin-top: -3px; /*for some reason theres a white line between this and the title card*/
+  height: auto;
+  overflow: visible;
   display: flex;
+  flex-direction: column;
+
   justify-content: center;
   align-items: center;
-  flex-direction: column;
   background-color: rgb(107, 144, 128);
   color: rgb(234, 244, 244);
 }
 
 .missionStatement h1 {
+  /* margin-top: 100px;
+  height: 200px; */
   margin: 1rem;
-  height: 200px;
+
   justify-content: center;
   text-align: center;
 }
 
-.sponsors {
+.missionPillarContainer {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10vh;
+  gap: 5vw;
+}
 
+.missionPillar {
+  background-color: grey;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.missionPillar img {
+  height: 250px;
+  object-fit: cover;
+}
+
+.missionPillar h1 {
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+.missionPillar p {
+  margin: 1rem;
+}
+
+
+.calendar {
+  background-color: rgb(0, 78, 100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar img {
+  height: 80vh;
+  object-fit: contain;
+  margin: 1rem;
+  margin-bottom: 80px;
+}
+
+
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .sponsors img {
   width: 200px;
-  height: 200px;
-  object-fit:fill;
+}
+
+.sponsorsList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*   
   @media only screen and (max-width: 650px) {
