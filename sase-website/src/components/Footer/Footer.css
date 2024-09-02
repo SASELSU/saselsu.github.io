@@ -19,13 +19,6 @@
     flex-direction: row;
 }
 
-.icon img {
-    width: 30px;
-}
-
-.icon + .icon { /*padding between icons*/
-    margin-left: 10px;
-}
 
 .footer p {
     color: white;

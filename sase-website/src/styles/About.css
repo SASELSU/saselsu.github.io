@@ -19,7 +19,6 @@
 
 .aboutColorOverlay {
     height: 90vh; /* make sure this is the same height as titlecard */
-
     position: absolute;
     top: 0;
     left: 0;

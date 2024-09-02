@@ -5,6 +5,7 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
+  ScrollRestoration,
 } from "react-router-dom";
 import Home from "./pages/home";
 import About from "./pages/about";
@@ -14,7 +15,8 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <>
+        <Router>
       <Navbar />
       <Routes>
         <Route
@@ -36,6 +38,8 @@ function App() {
       </Routes>
       <Footer/>
     </Router>
+    </>
+
   );
 }
 

@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ScrollRestoration } from 'react-router-dom';
 
 import "@fontsource/bebas-neue"; // Defaults to weight 400
 import "@fontsource/bebas-neue/400.css"; // Specify weight

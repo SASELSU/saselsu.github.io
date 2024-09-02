@@ -1,25 +1,14 @@
 import React from "react";
 import "./Footer.css"
+import Icon from "../Common/Icon.js";
+
 import discord from "../../assets/icons/social_media/discord.png"
 import facebook from "../../assets/icons/social_media/facebook.png"
 import instagram from "../../assets/icons/social_media/instagram.png"
 import facebookHover from "../../assets/icons/social_media/facebook-hover.png"
 import instagramHover from "../../assets/icons/social_media/instagram-hover.png"
 
-const Icon = (props) => {
-    const {
-        image,
-        link,
-    } = props;
 
-    return (
-        <div className="icon">
-            <a href={link} target="_blank">                
-                <img src={image}/>
-            </a>
-        </div>
-    )
-}
 
 const Footer = () => {
     return (

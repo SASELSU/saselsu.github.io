@@ -1,6 +1,8 @@
 import React from "react";
 import "../../styles/events.css"
 
+//contains the actual post objects
+
 export const Post = (props) => {
     const {
         image,
