@@ -23,6 +23,11 @@ const About = () => {
             <div className="aboutMissionText">
                 <h1>OUR MISSION</h1>
                 <p>SASE is dedicated to the advancement of Asian heritage scientists and engineers in education and employment so that they can achieve their full career potential. In addition to professional development, SASE also encourages members to contribute to the enhancement of the communities in which they live.</p>
+                <p>SASE’s mission is to:
+
+Prepare Asian heritage scientists and engineers for success in the global business world.
+Celebrate diversity on campuses and in the workplace.
+Provide opportunities for members to make contributions to their local communities.</p>
                 <p>SASE membership is open to people of all ethnic backgrounds.</p>
             </div>
 
