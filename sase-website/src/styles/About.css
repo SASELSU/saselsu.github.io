@@ -41,6 +41,7 @@
 .aboutMissionText {
     display: flex;
     flex-direction: column;
+    font-size: 20px;   
 }
 
 .aboutMission img {
@@ -49,9 +50,12 @@
     width: 300px;
     object-fit: contain;
 }
+
 .aboutHistory {
     height: 80vh;
     overflow: auto;
     background-color: rgb(76, 147, 76);
     color:white;
+    font-size: 20px;   
+
 }
