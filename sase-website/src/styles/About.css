@@ -43,9 +43,9 @@
 
 .aboutMission img {
     width: 80vw;
-
+    height: 85vh;
     margin: 1rem;
-    object-fit: contain;
+    object-fit: cover;
 
     border-radius: 16px;
 }
@@ -76,7 +76,7 @@
 }
 
 .historyCardContainer {
-    height: 110vh;
+    height: 95vh;
     width: auto;
 
     display: flex;
@@ -91,26 +91,30 @@
 
 .historyCard {
     position: relative;
-    width: 90vw;
-    height: 100vh;
+    width: 80vw;
+
     display: flex;
     flex-direction: column;
     background-color: white;
     color: black;
     white-space: normal;
-  text-align: center;
+    text-align: center;
 
 }
 
 .historyCard img {
     height: 70vh;
+    width: 60vw;
     object-fit: cover;
 }
 
 .historyCardBlurb {
+    height: auto;
     margin: 1rem;
     overflow: hidden;
     word-wrap: break-word;
+    vertical-align: middle;
+
 }
 
 .aboutEBoard {
@@ -129,7 +133,7 @@
 .aboutEBoard h1 {
     margin: auto;
     margin-top: 5vh;
-    margin-bottom: 5vh;
+    margin-bottom: -1vh;
 
     font-size: 50px;
     color: white;
@@ -162,6 +166,7 @@
 
 .aboutEBoardCard h1 {
     margin: 1rem;
+    margin-top: -1vh;
     font-size: 30px;
   text-align: center;
 

@@ -13,6 +13,7 @@ import FirstMeeting from "../assets/about/history/firstSASE.jpeg"
 import ZoomCall from "../assets/about/history/zoomSASE.jpeg"
 import ReturnSASE from "../assets/about/history/returnSASE.jpeg"
 import FirstPaint from "../assets/about/history/firstPaint.png"
+import LunarMeeting from "../assets/about/history/historyLunarEvent.jpeg"
 import ReallyBigGathering from "../assets/about/history/bobaSocial23.jpg"
 
 //eboard pics
@@ -52,7 +53,7 @@ const About = () => {
 Prepare Asian heritage scientists and engineers for success in the global business world.
 Celebrate diversity on campuses and in the workplace.
 Provide opportunities for members to make contributions to their local communities.</p>
-                <p>SASE membership is open to people of all ethnic backgrounds.</p>
+                <p><b></b></p>
         </div>
         <div className="aboutHistory">
             <h1>OUR HISTORY</h1>
@@ -71,8 +72,12 @@ Provide opportunities for members to make contributions to their local communiti
                 image={FirstPaint}
                 cardBlurb="As Fall 2021 approached, SASE LSU gained momentum by prioritizing the development of a tightly-knit community. With the gradual decline of restrictions, we successfully brought students together after a prolonged period of isolation. We organized events such as boba and paint socials, volunteering events with organizations like Cat Haven and Habitat for Humanity, and giveback nights at local Asian businesses. These initiatives fostered a safe environment and bolstered our presence within the LSU and Baton Rouge community."/>
                 <HistoryCard
+                image={LunarMeeting}
+                cardBlurb="Through persistent dedication throughout the semester, our membership skyrocketed from the initial 25 to a remarkable 133 active participants by the spring of 2022. We remained steadfast in our commitment to enhancing visibility and nurturing a sense of community. Our Lunar New Year meeting exemplified the celebration of diversity, acting as a testament to our growth. "/>
+                
+                <HistoryCard
                 image={ReallyBigGathering}
-                cardBlurb="Through persistent dedication throughout the semester, our membership skyrocketed from the initial 25 to a remarkable 133 active participants by the spring of 2022. We remained steadfast in our commitment to enhancing visibility and nurturing a sense of community. Our Lunar New Year meeting exemplified the celebration of diversity, acting as a testament to our growth. As we expanded, we incorporated workshops and invited guest speakers to enable our members to pursue professional development. SASE LSU serves as a space where individuals can embrace their diversity against all odds, forge their own community within LSU, and, above all, to love purple and live gold."/>
+                cardBlurb="As we expanded, we incorporated workshops and invited guest speakers to enable our members to pursue professional development. SASE LSU serves as a space where individuals can embrace their diversity against all odds, forge their own community within LSU, and, above all, to love purple and live gold."/>
             </div>            
         </div>
 
@@ -139,7 +144,7 @@ Provide opportunities for members to make contributions to their local communiti
                 <EBoardCard
                     image={ProDevPic}
                     name="Thanh Kirsch"
-                    title="Professional Dev Chair"
+                    title="Professional Development Chair"
                 />
             </div>
         </div>

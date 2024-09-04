@@ -21,6 +21,7 @@ import Exxon from "../assets/home/sponsors/Exxon-Logo.png"
 import Dow from "../assets/home/sponsors/Dow_Chemical_Company_logo.svg.png"
 import Marathon from "../assets/home/sponsors/marathon.png"
 import Shell from "../assets/home/sponsors/Shell_logo.svg.png"
+import Chevron from "../assets/home/sponsors/Chevron.webp"
 
 const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
@@ -106,10 +107,10 @@ const Home = () => {
             </div>
         </div>
         <div className ="missionStatement">
-            <p>Our Mission</p>
+            <h2>Our Mission</h2>
             <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
+            <br/>
             <h1>The Three Pillars of SASE</h1>
-            
             <div className="missionPillarContainer">
                 <div className="missionPillar">
                     <img src={MiniDiversity}/>
@@ -133,14 +134,21 @@ const Home = () => {
             <h1>EVENTS THIS MONTH</h1>
             <img src={Calendar}/>
         </div>
-        <div className="sponsors">
+        <div className="homeSponsors">
             <h1>THANK YOU TO OUR SPONSORS!</h1>
-            <div className="sponsorList">
+            <div className="homeSponsorList">
                 <img src={Exxon}></img>
                 <img src={Dow}></img>
+                <img src={Chevron}></img>
                 <img src={Shell}></img>
                 <img src={Marathon}></img>
             </div>
+            <p>
+            Interested in becoming a partner with the LSU Society of Asian Scientists and Engineers (SASE)? <br/>Click the button below to download our sponsorship packet!
+            </p>
+            <a href="https://www.saselsu.org/resources/sponsors/2023-2024%20Sponsorship%20Packet.pdf" target="_blank">
+                Sponsorship Package
+            </a>
         </div>
         </>
     )

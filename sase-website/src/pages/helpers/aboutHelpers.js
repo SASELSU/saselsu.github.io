@@ -12,7 +12,7 @@ export const HistoryCard = (props) => {
         <div className="historyCard">
             <img src={image}/>
             <div className="historyCardBlurb">
-                {cardBlurb}
+                <p>{cardBlurb}</p>
             </div>
         </div>
     );
