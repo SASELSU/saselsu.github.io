@@ -13,21 +13,26 @@ import instagramHover from "../../assets/icons/social_media/instagram-hover.png"
 const Footer = () => {
     return (
         <div className="footer">
-            <div className="socialMedia">
-                <Icon 
-                    image={discord}
-                    link="https://discord.com/invite/eAW5RZsKyk"
-                />
-                <Icon 
-                    image={facebook}
-                    link="https://www.facebook.com/lsu.sase/"
-                />
-                <Icon 
-                    image={instagram}
-                    link="https://www.instagram.com/saselsu/"
-                />
+            <p>Contact Us!</p>
+            <div>
+                <p>lsu@saseconnect.org</p>
+
+                <div className="socialMedia">
+                    <Icon 
+                        image={discord}
+                        link="https://discord.com/invite/eAW5RZsKyk"
+                    />
+                    <Icon 
+                        image={facebook}
+                        link="https://www.facebook.com/lsu.sase/"
+                    />
+                    <Icon 
+                        image={instagram}
+                        link="https://www.instagram.com/saselsu/"
+                    />
+                </div>
             </div>
-            <p>test</p>
+
         </div>
     )
 }

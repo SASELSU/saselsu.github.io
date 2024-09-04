@@ -30,32 +30,139 @@
 
 .aboutMission {
     width: 100%;
-    height: 80vh;
+    height: auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     overflow: auto;
     background-color: rgb(0, 78, 100);
     color: white;
-}
-
-.aboutMissionText {
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;   
+    align-items: center;
 }
 
 .aboutMission img {
     margin: 1rem;
-    height: 400px;
-    width: 300px;
+    width: 80vw;
     object-fit: contain;
 }
 
-.aboutHistory {
-    height: 80vh;
-    overflow: auto;
-    background-color: rgb(76, 147, 76);
-    color:white;
-    font-size: 20px;   
+.aboutMission h1 {
+    font-size: 50px;
+}
 
+.aboutMission p {
+    font-size: 30px;
+    margin:1em;
+}
+
+.aboutHistory {
+    height: auto;
+    overflow: auto;
+    background-color: white;
+    color:black;
+    font-size: 20px;  
+    display: flex; 
+    flex-direction: column;
+}
+
+.aboutHistory h1 {
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.historyCardContainer {
+    height: 110vh;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+.historyCardEmpty {
+    height: 100vh;
+}
+
+.historyCard {
+    position: relative;
+    width: 90vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: black;
+    white-space: normal;
+}
+
+.historyCard img {
+    height: 70vh;
+    object-fit: cover;
+}
+
+.historyCardBlurb {
+    margin: 1rem;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
+.eBoard {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    
+    background-color: rgb(76, 147, 76);
+
+}
+
+.eBoard h1 {
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+
+    font-size: 50px;
+    color: white;
+
+}
+
+.eBoardCardContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    margin-bottom: 2vh;
+}
+
+.eBoardCard {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(76, 147, 76);
+}
+
+.eBoardCard img {
+    width: 25vw;
+    height: 30vh;
+    object-fit: cover;
+    margin: 2.5vw;
+}
+
+.eBoardCard h1 {
+    margin: 1rem;
+    font-size: 30px;
+}
+
+.eBoardCard p {
+    margin: a;
+
+    font-size: 20px;
 }

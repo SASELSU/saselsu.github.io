@@ -71,6 +71,9 @@
   align-items: center;
   background-color: rgb(107, 144, 128);
   color: rgb(234, 244, 244);
+
+  font-family: "Poppins";
+
 }
 
 .missionStatement h1 {
