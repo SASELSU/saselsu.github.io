@@ -12,6 +12,7 @@ import About from "./pages/about";
 import EBoard from "./pages/eboard";
 import Events from "./pages/events";
 import Hackathon from "./pages/hackathon";
+import Sponsors from "./pages/sponsors";
 import './App.css';
 
 function App() {
@@ -35,8 +36,11 @@ function App() {
         <Route
           path="/events"
           element = {<Events />}
+        />  
+        <Route
+          path="/sponsors"
+          element = {<Sponsors />}
         />
-        
         <Route
           path="/hackathon"
           element = {<Hackathon />}
