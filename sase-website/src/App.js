@@ -7,6 +7,7 @@ import {
   Route,
   ScrollRestoration,
 } from "react-router-dom";
+import ScrollToTop from "./hooks/ScrollToTop";
 import Home from "./pages/home";
 import About from "./pages/about";
 import EBoard from "./pages/eboard";
@@ -20,6 +21,8 @@ function App() {
     <>
         <Router>
       <Navbar />
+      <ScrollToTop/>
+
       <Routes>
         <Route
           exact path="/"

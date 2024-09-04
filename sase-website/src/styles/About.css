@@ -75,6 +75,11 @@
     margin-bottom: 3vh;
 }
 
+.historyCardSlider {
+    overflow: hidden;
+    position: relative;
+}
+
 .historyCardContainer {
     height: 95vh;
     width: auto;
@@ -87,6 +92,8 @@
     overflow-y: hidden;
     white-space: nowrap;
 
+    position: relative;
+    transition: ease 1000ms;
 }
 
 .historyCard {

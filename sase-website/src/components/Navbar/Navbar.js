@@ -1,9 +1,11 @@
 import {
     React, 
-    useState
+    useState,
+    useEffect
 } from "react";
 import Collapse from "@mui/material/Collapse";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import Icon from "../Common/Icon"
 import { BigCard, SmallCard } from "./NavbarHelpers";
 import "./Navbar.css";
@@ -85,12 +87,17 @@ const NavMenu = () => {
 }
 
 const Navbar = () => {
+    const location = useLocation();
     const [menuShow, setMenuShow] = useState(false);
 
     const handleToggleMenu = () => {
         setMenuShow(!menuShow);
     }
     
+    useEffect(() => {
+        setMenuShow(false);
+    }, [location])
+
     return (
         <>
             <nav className="navbar">
@@ -108,7 +115,9 @@ const Navbar = () => {
             </nav>
             <div className="navMenuContainer"> 
                 <Collapse in={menuShow} easing={{enter: "ease-in", exit: "ease-out"}}> 
-                    <NavMenu/>
+                    <NavMenu
+                    onClick={() => handleToggleMenu()}
+                    />
                 </Collapse>
             </div>
 
