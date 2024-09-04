@@ -25,7 +25,7 @@ export const EBoardCard = (props) => {
         title
     } = props;
     return (
-        <div className="eBoardCard">
+        <div className="aboutEBoardCard">
             <img src={image}/>
             <h1>{title}</h1>
             <p>{name}</p>

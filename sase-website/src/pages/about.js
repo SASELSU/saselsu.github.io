@@ -76,9 +76,9 @@ Provide opportunities for members to make contributions to their local communiti
             </div>            
         </div>
 
-        <div className="eBoard">
+        <div className="aboutEBoard">
             <h1>Meet Our EBoard!</h1>
-            <div className="eBoardCardContainer">
+            <div className="aboutEBoardCardContainer">
                 <EBoardCard
                     image={PresidentPic}
                     name="Faris Khattak"
@@ -95,7 +95,7 @@ Provide opportunities for members to make contributions to their local communiti
                     title="Secretary"
                 />
             </div>
-            <div className="eBoardCardContainer">
+            <div className="aboutEBoardCardContainer">
                 <EBoardCard
                     image={TreasurerPic}
                     name="Galvin Wong"
@@ -112,7 +112,7 @@ Provide opportunities for members to make contributions to their local communiti
                     title="Historian"
                 />
             </div>
-            <div className="eBoardCardContainer">
+            <div className="aboutEBoardCardContainer">
                 <EBoardCard
                     image={GraphicDesignPic}
                     name="Kristina Lam"
@@ -129,7 +129,7 @@ Provide opportunities for members to make contributions to their local communiti
                     title="Fundraising Chair"
                 />
             </div>
-            <div className="eBoardCardContainer">
+            <div className="aboutEBoardCardContainer">
 
                 <EBoardCard
                     image={OutreachPic}

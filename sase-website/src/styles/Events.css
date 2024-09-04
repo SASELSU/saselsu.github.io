@@ -85,6 +85,8 @@
 .eventPostInfo {
     margin: 1rem;
     white-space: normal;
+  text-align: center;
+
 }
 
 .eventPostHeader {
