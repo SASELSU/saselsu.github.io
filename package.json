@@ -1,7 +1,7 @@
 {
   "name": "sase-website",
   "version": "0.1.0",
-  "homepage": "https://github.com/SASELSU/saselsu.github.io.git",
+  "homepage": "https://www.saselsu.org",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
@@ -26,7 +26,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-page -d build",
+    "deploy": "gh-pages -b main -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
