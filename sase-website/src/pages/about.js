@@ -45,7 +45,7 @@ const About = () => {
             style={{backgroundImage: `url(${TitleCardBackground})`}}
         >
             <div className="aboutColorOverlay"/>
-            <h1>about us</h1>
+            <h1>ABOUT US</h1>
         </div>
         <div className="aboutMission">
                 <h1>Our Mission</h1>

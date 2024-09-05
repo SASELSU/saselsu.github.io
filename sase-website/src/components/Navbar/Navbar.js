@@ -6,7 +6,11 @@ import {
 import Collapse from "@mui/material/Collapse";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import Icon from "../Common/Icon"
+import {
+    WhiteDiscordIcon,
+    WhiteFacebookIcon,
+    WhiteInstagramIcon
+} from "../Common/Icon.js"
 import { BigCard, SmallCard } from "./NavbarHelpers";
 import "./Navbar.css";
 
@@ -17,11 +21,6 @@ import MenuButton from "../../assets/icons/menuButton.png";
 import AboutCard from "../../assets/navbar/navMenuAbout.png"
 import EventsCard from "../../assets/navbar/navMenuEvents.jpeg"
 import HackathonCard from "../../assets/navbar/navMenuHackathon.jpeg"
-
-//icon images
-import discord from "../../assets/icons/social_media/discord.png"
-import facebook from "../../assets/icons/social_media/facebook.png"
-import instagram from "../../assets/icons/social_media/instagram.png"
 
 const NavMenu = () => {
     return (
@@ -68,18 +67,9 @@ const NavMenu = () => {
                 </div>
 
                 <div className="navMenuIconContainer">
-                    <Icon 
-                        image={discord}
-                        link="https://discord.com/invite/eAW5RZsKyk"
-                    />
-                    <Icon 
-                        image={facebook}
-                        link="https://www.facebook.com/lsu.sase/"
-                    />
-                    <Icon 
-                        image={instagram}
-                        link="https://www.instagram.com/saselsu/"
-                    />
+                    <WhiteDiscordIcon/>
+                    <WhiteFacebookIcon/>
+                    <WhiteInstagramIcon/>
                 </div>
             </div>
         </div>
@@ -120,9 +110,6 @@ const Navbar = () => {
                     />
                 </Collapse>
             </div>
-
-
-
         </>
     );
 };

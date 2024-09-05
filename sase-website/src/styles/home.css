@@ -152,7 +152,7 @@
 }
 
 .homeSponsors {
-  height: 45vh;
+  height: 48vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -198,8 +198,9 @@
   font-weight: 600;
 
   padding: 2vh;
-  margin-bottom: 5vh;
+  margin-bottom: 6vh;
 }
+
 /*   
   @media only screen and (max-width: 650px) {
     .home {
