@@ -1,7 +1,7 @@
 {
   "name": "sase-website",
   "version": "0.1.0",
-  "homepage": "www.saselsu.org/",
+  "homepage": "https://github.com/SASELSU/saselsu.github.io.git",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.13.3",
