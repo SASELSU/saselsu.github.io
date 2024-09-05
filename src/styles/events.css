@@ -59,6 +59,7 @@
 
 .postContainer {
     width:9 0vw;
+    height: auto;
     display: flex;
     flex-direction: row;
     gap: 20px;
