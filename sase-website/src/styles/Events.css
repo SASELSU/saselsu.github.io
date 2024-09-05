@@ -44,9 +44,15 @@
 
 .eventPostList h1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     color: white;
+}
+
+.eventPostList h3 {
+    color: white;
+    margin-top: 0px;
+    font-weight: 400;
 }
 /* #endregion */
 
@@ -59,50 +65,52 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
-    background-color: grey;
+    /* background-color: grey; */
 }
 
 /* #region eventPost */
 .eventPost {
     position: relative;
-    width: 400px;
-    height: 600px;
+    width: 100%;
+    height: 30vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: white;
 }
 
 .eventPost img {
-    /* width: 200px;
-    height: 200px; */
+    margin: 1em;
+    object-fit: scale-down;
+}
+
+.eventPostDateTimeLocation {
     margin: 1em;
     margin-top: 0px;
-    
-    object-fit: scale-down;
+}
+
+.eventPostDateTimeLocation h2 { /*controls how big the day number is*/
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.eventPostDateTimeLocation p {
+    font-size: 18px;
+    text-overflow: clip;
 }
 
 .eventPostInfo {
     margin: 1rem;
     white-space: normal;
-    text-align: center;
 }
 
-.eventPostInfo {
+.eventPostInfo h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: black
+}
+
+.eventPostInfo p {
     font-size: 18px;
-}
-
-.eventPostHeader {
-    display: flex;
-    flex-direction: row;
-    margin-top: -30px;
-    margin-bottom: -30px;
-}
-
-.eventPostHeader h1 {
-    margin-top: 0px;
-    font-size: 45px;
-    font-weight: 900;
-    color: black;
 }
 
 /* #endregion */

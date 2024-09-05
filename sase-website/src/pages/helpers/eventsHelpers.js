@@ -6,24 +6,27 @@ import "../../styles/events.css"
 export const Post = (props) => {
     const {
         image,
-        eventDate,
+        eventMonth,
+        eventDay,
+        eventTime,
         eventLocation,
         postTitle,
         postDesc,
     } = props;
     return (
         <div className="eventPost">
-            <img src={image}/>
+            <div className="eventPostDateTimeLocation">
+                <p>{eventMonth}</p>
+                <h2>{eventDay}</h2>
+                <p>{eventLocation}</p>
+                <p>{eventTime}</p>
+            </div>
             <div className="eventPostInfo">
-                <div className="eventPostHeader">
-                    <h1>{postTitle}</h1>
-                    <div>
-                        <p>{eventDate}</p>
-                        <p>{eventLocation}</p>
-                    </div>
-                </div>
+                <h1>{postTitle}</h1>
                 <p>{postDesc}</p>
             </div>
+            <img src={image}/>
+
         </div>
     );
 }
