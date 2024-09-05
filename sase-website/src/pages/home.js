@@ -25,7 +25,7 @@ import Chevron from "../assets/home/sponsors/Chevron.webp"
 
 const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
-const delay = 8000; //carousel delay time
+const delay = 5000; //carousel delay time
 
 const Home = () => {
     const [index, setIndex] = useState(0);

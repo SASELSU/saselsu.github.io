@@ -26,20 +26,21 @@ const Events = () => {
         </div>
         <div className="eventPostList">
             <h1>What's Next?</h1> 
-            <UpcomingPost //note that you, future webmaster, will have the manually do this for now
-                image={BobaSocial}
-                eventDate="September 5th"
-                eventLocation="PFT 1100"
-                postTitle="Boba Social"
-                postDesc="IT’S THAT TIME OF THE SEMESTER! Get ready for our first GBM of the fall semester: BOBA SOCIAL!🧋
-            Bring your friends and come and see what we have ready for y’all this semester! There will be fun activities and drinks to go along! 😉"
-            />
+            <p>Read about our future events!</p>
+
             <div className="postContainer"> {/*something something more manual input*/}
+                <Post
+                    image={BobaSocial}
+                    eventDate="September 5th"
+                    eventLocation="PFT 1100"
+                    postTitle="Boba Social"
+                    postDesc="IT’S THAT TIME OF THE SEMESTER! Get ready for our first GBM of the fall semester: BOBA SOCIAL!🧋
+                Bring your friends and come and see what we have ready for y’all this semester! There will be fun activities and drinks to go along! 😉"
+                />
                 <Post
                     image={BloodDrive}
                     eventDate="September 26th"
                     eventLocation="LSU Union 310"
-
                     postTitle="Blood Drive"
                     postDesc="Come to the Student Union to donate your blood! Donors will be given a free FIGHT CANCER shirt! Sign up with the QR code."
                 />

@@ -4,7 +4,7 @@ import "../styles/sponsors.css"
 const Sponsors = () => {
     return (
         <div className="sponsors">
-            <h1>This Page is Under Construction! Check back soon!</h1>
+            <h1>This Page is Under Construction! Check back soon! <br/> (The Webmaster is currently overhauling the website)</h1>
         </div>
     )
 }
