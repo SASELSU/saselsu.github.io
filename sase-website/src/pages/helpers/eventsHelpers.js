@@ -7,6 +7,7 @@ export const Post = (props) => {
     const {
         image,
         eventDate,
+        eventLocation,
         postTitle,
         postDesc,
     } = props;
@@ -16,7 +17,10 @@ export const Post = (props) => {
             <div className="eventPostInfo">
                 <div className="eventPostHeader">
                     <h1>{postTitle}</h1>
-                    <p>{eventDate}</p>
+                    <div>
+                        <p>{eventDate}</p>
+                        <p>{eventLocation}</p>
+                    </div>
                 </div>
                 <p>{postDesc}</p>
             </div>
@@ -28,6 +32,7 @@ export const UpcomingPost = (props) => {
     const {
         image,
         eventDate,
+        eventLocation,
         postTitle,
         postDesc,
     } = props;
@@ -37,9 +42,15 @@ export const UpcomingPost = (props) => {
             <div className="eventUpPostInfo">
                 <div className="eventUpPostHeader">
                     <h1>{postTitle}</h1>
-                    <p>{eventDate}</p>
+                    {/* <div className="eventUpPostHeaderSubtext">
+                        <p>{eventDate}</p>
+                        <p>{eventLocation}</p>
+                    </div> */}
+                    <div>
+                        <p>{eventDate}</p>
+                        <p>{eventLocation}</p>
+                    </div>
                 </div>
-
                 <p>{postDesc}</p>
             </div>
         </div>

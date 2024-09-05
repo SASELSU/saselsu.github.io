@@ -25,30 +25,28 @@ const Events = () => {
             <h1>events</h1>
         </div>
         <div className="eventPostList">
-            <h1>Upcoming Events</h1> 
+            <h1>What's Next?</h1> 
             <UpcomingPost //note that you, future webmaster, will have the manually do this for now
-                image={MockInterview}
-                eventDate="September 4th"
-                postTitle="Mock Interview"
-                postDesc="ejifajoiejfoiasejfoisejfodsjfoijsdafi yuh yuh yuh"
-            />
-            <div className="postContainer">
-            <Post //something something more manual input
                 image={BobaSocial}
                 eventDate="September 5th"
+                eventLocation="PFT 1100"
                 postTitle="Boba Social"
-                postDesc="🩵IT’S THAT TIME OF THE SEMESTER!!🩵Get ready for our first GBM of the fall semester: BOBA SOCIAL!🧋🧋🧋
-            Bring your friends and come and see what we have ready for y’all this semester! There will be fun activities and drinks to go along 😉"
+                postDesc="IT’S THAT TIME OF THE SEMESTER! Get ready for our first GBM of the fall semester: BOBA SOCIAL!🧋
+            Bring your friends and come and see what we have ready for y’all this semester! There will be fun activities and drinks to go along! 😉"
             />
+            <div className="postContainer"> {/*something something more manual input*/}
                 <Post
                     image={BloodDrive}
                     eventDate="September 26th"
+                    eventLocation="LSU Union 310"
+
                     postTitle="Blood Drive"
                     postDesc="Come to the Student Union to donate your blood! Donors will be given a free FIGHT CANCER shirt! Sign up with the QR code."
                 />
                 <Post //never remove (this is the future event)
                 image={FutureEvent}
                 eventDate="Some Day"
+                eventLocation="Somewhere"
                 postTitle="Future Event"
                 postDesc="Our officers are currently formulating a new event! Either that or it's the summer right now. Check back soon! "
                 />

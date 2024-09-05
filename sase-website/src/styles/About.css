@@ -14,7 +14,8 @@
 
 .aboutTitleCard h1 {
     position: relative;
-    font-size: 80px;
+    font-size: 90px;
+    /* font-family: "Bebas Neue"; */
 }
 
 .aboutColorOverlay {
@@ -76,8 +77,8 @@
 }
 
 .historyCardSlider {
-    overflow: hidden;
-    position: relative;
+        overflow: hidden;
+  position: relative;
 }
 
 .historyCardContainer {
@@ -86,20 +87,19 @@
 
     display: flex;
     flex-direction: row;
-    gap: 10vw;
+    /* gap: 10vw; */
 
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
 
-    position: relative;
-    transition: ease 1000ms;
 }
 
 .historyCard {
     position: relative;
     width: 80vw;
 
+    margin-left: 20vw;
     display: flex;
     flex-direction: column;
     background-color: white;

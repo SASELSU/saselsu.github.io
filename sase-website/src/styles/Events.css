@@ -32,8 +32,6 @@
 }
 /* #endregion */
 
-
-
 /* #region eventPostList */
 .eventPostList {
     background-color: rgb(107, 144, 128);
@@ -48,7 +46,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(246, 255, 248)
+    color: white;
 }
 /* #endregion */
 
@@ -85,8 +83,11 @@
 .eventPostInfo {
     margin: 1rem;
     white-space: normal;
-  text-align: center;
+    text-align: center;
+}
 
+.eventPostInfo {
+    font-size: 18px;
 }
 
 .eventPostHeader {
@@ -109,7 +110,7 @@
 .eventUpPost {
     position: relative;
     width: 90vw;
-    height: 400px;
+    height: 60vh;
     margin: 10px 10px 10px 10px ;
     display: flex;
     flex-direction: row;
@@ -117,27 +118,34 @@
 }
 
 .eventUpPost img {
-    /* width: 200px;
-    height: 200px; */
     margin: 1em;
-    border-radius: 7px;
-    object-fit: scale-down;
+    border-radius: 10px;
 }
 
-.eventUpPost h1 {
-    font-size: 24px;
-    font-weight: 900;
-    margin-top: 15px;
-    color: black;
+.eventUpPostInfo {
+    margin: 1rem;
+    margin-right: 5vw;
+}
+.eventUpPostInfo p {
+    font-size: 18px;
 }
 
 .eventUpPostHeader {
-    display: flex;
-    flex-direction: row;
+    /* display: flex; */
+    /* flex-direction: row; */
+    gap: 10px;
 }
 
 .eventUpPostHeader h1 {
-    font-size: 90px;
+    font-weight: 900;
+    font-size: 100px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    color: black;
 }
 
+.eventUpPostHeader p {
+    font-size: 20px;
+    text-align: center;
+}
 /* #endregion */
