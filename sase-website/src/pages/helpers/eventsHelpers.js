@@ -15,18 +15,19 @@ export const Post = (props) => {
     } = props;
     return (
         <div className="eventPost">
-            <div className="eventPostDateTimeLocation">
-                <p>{eventMonth}</p>
-                <h2>{eventDay}</h2>
-                <p>{eventLocation}</p>
-                <p>{eventTime}</p>
-            </div>
-            <div className="eventPostInfo">
-                <h1>{postTitle}</h1>
-                <p>{postDesc}</p>
-            </div>
             <img src={image}/>
-
+            <div className="eventPostText">
+                <div className="eventPostDateTimeLocation"> 
+                    <p>{eventMonth}</p>
+                    <h2>{eventDay}</h2>
+                    <p>{eventLocation}</p>
+                    <p>{eventTime}</p>
+                </div>
+                <div className="eventPostInfo">
+                    <h1>{postTitle}</h1>
+                    <p>{postDesc}</p>
+                </div>
+            </div>
         </div>
     );
 }

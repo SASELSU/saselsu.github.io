@@ -46,7 +46,7 @@ const Events = () => {
                     eventDay="19"
                     eventTime="6:15pm-8:15pm"
                     eventLocation="10000 Celtic Dr"
-                    postTitle="Pickleball Social x DOW"
+                    postTitle="Pickleball x DOW"
                     postDesc="We are partnered with DOW to provide y'all a free night of Pickleball! Come to Stacks Pickleball (10000 Celtic Dr Stage 4) and join us for food, fun, and networking!"
                 />
                 <Post
