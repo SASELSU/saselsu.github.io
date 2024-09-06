@@ -1,0 +1,186 @@
+.aboutTitleCard {
+    width: 100%;
+    height: 90vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.aboutTitleCard h1 {
+    position: relative;
+    font-size: 90px;
+    /* font-family: "Bebas Neue"; */
+}
+
+.aboutColorOverlay {
+    height: 90vh; /* make sure this is the same height as titlecard */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+}
+
+.aboutMission {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    background-color: rgb(0, 78, 100);
+    color: white;
+    align-items: center;
+  text-align: center;
+
+}
+
+.aboutMission img {
+    width: 80vw;
+    height: 85vh;
+    margin: 1rem;
+    object-fit: cover;
+
+    border-radius: 16px;
+}
+
+.aboutMission h1 {
+    font-size: 50px;
+}
+
+.aboutMission p {
+    font-size: 30px;
+    margin:1em;
+}
+
+.aboutHistory {
+    height: auto;
+    overflow: auto;
+    background-color: rgb(247, 255, 247);
+    color:black;
+    font-size: 20px;  
+    display: flex; 
+    flex-direction: column;
+}
+
+.aboutHistory h1 {
+    margin: auto;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+.historyCardSlider {
+        overflow: hidden;
+  position: relative;
+}
+
+.historyCardContainer {
+    height: 95vh;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    /* gap: 10vw; */
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+.historyCard {
+    position: relative;
+    width: 80vw;
+
+    margin-left: 20vw;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    white-space: normal;
+    text-align: center;
+
+}
+
+.historyCard img {
+    height: 70vh;
+    width: 60vw;
+    object-fit: cover;
+}
+
+.historyCardBlurb {
+    height: auto;
+    margin: 1rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    vertical-align: middle;
+
+}
+
+.aboutEBoard {
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3vh;
+    
+    background-color: rgb(107, 144, 128);
+
+}
+
+.aboutEBoard h1 {
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: -1vh;
+
+    font-size: 50px;
+    color: white;
+
+}
+
+.aboutEBoardCardContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    margin-bottom: 2vh;
+}
+
+.aboutEBoardCard {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: rgb(107, 144, 128);
+    color: white;
+}
+
+.aboutEBoardCard img {
+    width: 25vw;
+    height: 25vw;
+    object-fit: cover;
+    margin: 2.5vw;
+}
+
+.aboutEBoardCard h1 {
+    margin: 1rem;
+    margin-top: -1vh;
+    font-size: 30px;
+  text-align: center;
+
+}
+
+.aboutEBoardCard p {
+    margin-top: 0px;
+    font-size: 20px;
+  text-align: center;
+
+}

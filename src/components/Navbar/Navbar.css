@@ -1,0 +1,231 @@
+.navbar {
+    width: 100%;
+    height: 100px;
+    /* background-color: #121619; */
+    position:fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+    font-weight: 600;
+}
+
+.navbar a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar-logo {
+    flex: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.navbar-logo img {
+    height: 50px;
+}
+
+.navbar-elements {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.navbar-elements img {
+    width:40px;
+    height: 40px;
+    cursor: pointer;
+    object-fit: scale-down;
+    margin-left: 20px;
+}
+
+.navMenuContainer {
+    z-index: 9;
+    position: fixed;
+    margin-top: -21px;
+    overflow: hidden;
+}
+
+.navMenu {
+    height: 105vh; /*bigger than 100 just in case*/
+    width: 100vw;
+    z-index: 9;
+
+    background-color: rgb(0, 78, 100);
+    display: flex;
+    flex: 0.6 1 auto;
+}
+
+.navMenuCardContainer {
+    display: flex;
+    margin: 2.3rem;
+    margin-top: 16.5vh;
+    color: white;
+    font-family: "Bebas Neue";
+}
+
+/* #region big card */
+
+.navMenuBigCardWrapper {
+    height: 81vh;
+    width: 30vw;
+    border-radius: 20px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.navMenuBigCardWrapper h1 {
+    font-size: 90px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 1vw;
+    color: white;
+}
+
+.navMenuBigCard::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navMenuBigCard {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.navMenuBigCard:hover {
+    transform: scale(1.1);
+}
+
+
+/* #endregion */
+
+/* #region small card */
+
+.navMenuSmallCardContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.navMenuSmallCardWrapper {
+    height: 40vh;
+    width: 30vw;
+    border-radius: 20px;
+
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1vh;
+}
+
+.navMenuSmallCard::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navMenuSmallCard {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.navMenuSmallCard:hover{
+    /* width: 125%; */
+    transform: scale(1.1);
+}
+
+.navMenuSmallCardWrapper h1 {
+    font-size: 60px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 1vw;
+}
+.navMenuSmallCardWrapper p {
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 1vw;
+}
+
+
+/* #endregion */
+
+.navMenuTextContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    color: white;
+    width: 25vw;
+    margin-top: 56vh;
+    font-family: "Bebas Neue";
+
+}
+
+.navMenuPageContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.navMenuPageContainer a {
+    color: white;
+    text-decoration: none;
+    flex: 1;
+    font-size: 60px;
+}
+
+.navMenuLinkContainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+.navMenuLinkContainer a {
+    color: white;
+    text-decoration: none;
+    flex: 1;
+
+}
+
+.navMenuIconContainer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 7vh;
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width: 576px) {
+    
+}
