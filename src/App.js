@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   ScrollRestoration,
@@ -19,7 +19,7 @@ import './App.css';
 function App() {
   return (
     <>
-        <Router>
+      <Router>
       <Navbar />
       <ScrollToTop/>
 
