@@ -39,6 +39,11 @@
     margin-right: 10px;
 }
 
+.navbarElementsLink {
+    display: flex;
+    flex-direction: row;
+}
+
 .navbar-elements img {
     width:40px;
     height: 40px;
@@ -196,6 +201,7 @@
 .navMenuPageContainer {
     display: flex;
     flex-direction: row;
+    gap: 3vw;
 }
 
 .navMenuPageContainer a {
@@ -226,6 +232,112 @@
     flex-direction: row;
 }
 
-@media only screen and (max-width: 576px) {
-    
+@media (max-width: 1024px) {
+
 }
+
+@media (max-width: 768px) { /*tablets*/
+
+}
+
+@media (max-width: 432px) { /*phones*/
+    .navbar-logo img{
+        width: 30vw;
+        height: auto;
+        padding-left: 0px;
+    }
+    .navbarElementsLink {
+        display: none;
+    }
+
+    .navMenu {
+        /* justify-content: center; */
+    }
+
+    .navMenuCardContainer {
+        flex-direction: column;
+        gap: 2vh;
+    }
+
+    /* #region big card */
+
+    .navMenuBigCardWrapper {
+        margin-left: -5vw;
+        height: 20vh;
+        width: 90vw;
+    }
+
+    .navMenuBigCardWrapper h1 {
+        font-size: 43px;
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 2vw;
+        margin-left: 3vw;
+        color: white;
+    }
+
+    /* #endregion */
+
+    /* #region small card */
+
+    .navMenuSmallCardContainer {
+        flex-direction: row;
+        gap: 3vw;
+        margin-left: -5vw;
+    }
+
+    .navMenuSmallCardWrapper {
+        height: 20vh;
+        width: 44vw;
+    }
+
+    .navMenuSmallCard {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+    }
+
+    .navMenuSmallCardWrapper h1 {
+        font-size: 40px;
+        bottom: 0;
+        margin-top: 12vh;
+    }
+    .navMenuSmallCardWrapper p {
+        font-size: 20px;
+        top: 0;
+        right: 0;
+        /* margin-left: 1vw; */
+    }
+    /* #endregion */
+    
+    .navMenuTextContainer {
+        margin-left: -98vw;
+        color: white;
+        width: 25vw;
+        margin-top: 60vh;
+    }
+
+    .navMenuPageContainer {
+        gap: 50px;
+    }
+    
+    .navMenuPageContainer a {
+        color: white;
+        text-decoration: none;
+        flex: 1;
+        font-size: 50px;
+    }
+
+    .navMenuLinkContainer {
+        width: 80vw;
+    }
+    
+    .navMenuLinkContainer a {
+        font-size: 30px;
+    }
+
+    .navMenuIconContainer {
+        margin-left: 2vw;
+    }
+}
+
