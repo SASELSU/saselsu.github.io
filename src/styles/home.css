@@ -145,7 +145,7 @@
 }
 
 .calendar img {
-  height: 80vh;
+  width: 80vw;
   object-fit: contain;
   margin: 1rem;
   margin-bottom: 80px;
@@ -157,12 +157,12 @@
   flex-direction: column;
   align-items: center;
   background-color: rgb(107, 144, 128);
-
 }
 
 .homeSponsors h1 {
   margin-top: 6vh;
   color: white;
+  text-align: center;
 }
 
 .homeSponsors p {
@@ -201,48 +201,123 @@
   margin-bottom: 6vh;
 }
 
-/*   
-  @media only screen and (max-width: 650px) {
-    .home {
-      justify-content: center;
-      align-items: center;
-    }
-    .headerContainer h1,
-    .headerContainer p {
-    }
-  
-    .headerContainer {
-      margin-left: 0px;
-      border-radius: 10px;
-      padding: 10px;
-      width: 80%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      flex-direction: column;
-      background-color: #121619;
-      color: white;
-    }
-  
-    .headerContainer h1 {
-      font-size: 40px;
-      height: 30px;
-      color: white;
-    }
-  
-    .headerContainer p {
-      font-size: 30px;
-      color: white;
-    }
-  
-    .headerContainer button {
-      background-color: white;
-      color: #121619;
-      margin-bottom: 30px;
-    }
-  
-    .headerContainer button:hover {
-      background-color: rgb(225, 225, 225);
-      color: #121619;
-    }
+@media (max-width: 1366x) { /*desktop*/
+/*dont need anything in here but just leaving it here for standard formatting*/
+} 
+
+@media (max-width: 1024px) {
+  .missionPillarContainer {
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+  }
+  /* .calendar img {
+    height: 65vh;
+    object-fit: contain;
+    margin: 1rem;
+    margin-bottom: 80px;
   } */
+}
+
+@media (max-width: 768px) { /*tablets*/
+  .pillarTitle {
+    font-size: 90px;
+    font-weight: 500;
+    font-family: "Bebas Neue";
+    color: white;
+    line-height: 0.9;
+}
+
+  .calendar img {
+    width: 90vw;
+    object-fit: contain;
+    margin: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .missionPillar h1 {
+    height: 35px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .homeSponsors {
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(107, 144, 128);
+  }
+  
+}
+
+@media (max-width: 428px) { /*phones*/ 
+  .pillarTitle {
+    font-size: 70px;
+    font-weight: 500;
+    font-family: "Bebas Neue";
+    color: white;
+    line-height: 0.9;
+  }
+
+  .missionPillarContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    gap: 5vw;
+  }
+
+  .missionPillar {
+    background-color: rgb(0, 78, 100);
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+  .missionPillar h1 {
+    height: 4vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .missionPillar p {
+    margin: 1rem;
+  }
+
+  .calendar h1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+  }
+
+  .homeSponsors {
+    height: 80vh;
+  }
+
+  .homeSponsors h1 {
+    font-size: 23px;
+    margin-top: 6vh;
+    color: white;
+  }
+
+  .homeSponsors p {
+    color: white;
+    text-align: center;
+    margin-bottom: 3vh;
+    font-size: px;
+  }
+
+  .homeSponsorsList {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* flex: 1; */
+  }
+
+  .homeSponsors a {
+    width: 50vw;
+    font-size: 25px;
+  }
+}
