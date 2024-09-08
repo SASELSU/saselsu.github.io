@@ -61,7 +61,7 @@ const NavMenu = () => {
 
                 </div>
                 <div className="navMenuLinkContainer">
-                <a href="https://forms.gle/P8ZKSaZb7uubsy856" target="_blank">                
+                    <a href="https://forms.gle/P8ZKSaZb7uubsy856" target="_blank">                
                         SASE Nationals Interest
                     </a>
                 </div>
@@ -97,8 +97,11 @@ const Navbar = () => {
                     </Link>    
                 </div>
                 <div className="navbar-elements">
+                    <div className="navbarElementsLink">
                     <Link to="/about"> About </Link>
                     <Link to="/events"> Events </Link>
+                    </div>
+
                     <img src={MenuButton}
                     onClick={() => handleToggleMenu()}/>
                 </div>
