@@ -110,7 +110,7 @@ const Home = () => {
             <h2>Our Mission</h2>
             <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
             <br/>
-            <h1>The Three Pillars of SASE</h1>
+            <h2>The Three Pillars of SASE</h2>
             <div className="missionPillarContainer">
                 <div className="missionPillar">
                     <img src={MiniDiversity}/>

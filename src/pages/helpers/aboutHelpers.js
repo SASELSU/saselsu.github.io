@@ -27,8 +27,11 @@ export const EBoardCard = (props) => {
     return (
         <div className="aboutEBoardCard">
             <img src={image}/>
-            <h1>{title}</h1>
-            <p>{name}</p>
+            <div className="aboutEboardCardText">
+                <h1>{title}</h1>
+                <p>{name}</p>
+            </div>
+
         </div>
     );
 }
