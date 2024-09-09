@@ -260,6 +260,11 @@
     line-height: 0.9;
   }
 
+  .missionStatement h1 {
+    font-size: 6.2vw;
+    margin-bottom: -2.8vh;
+  }
+
   .missionPillarContainer {
     display: flex;
     flex-direction: column;
@@ -283,7 +288,8 @@
   }
 
   .missionPillar p {
-    margin: 1rem;
+    font-size: 5vw;
+    margin: 2rem;
   }
 
   .calendar h1 {
