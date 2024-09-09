@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.73cfc7d8.css",
-    "main.js": "/static/js/main.6b2d2ad3.js",
+    "main.css": "/static/css/main.51f94971.css",
+    "main.js": "/static/js/main.1e25f887.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/galvin_wong.png": "/static/media/galvin_wong.906d9c1d7d892a7a7e8a.png",
     "static/media/diversity-background-1.png": "/static/media/diversity-background-1.68c0f703c47aab940b44.png",
@@ -69,12 +69,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/static/media/inter-greek-ext-400-normal.f2fa0d9ef98f59d4a75b.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/index.html",
-    "main.73cfc7d8.css.map": "/static/css/main.73cfc7d8.css.map",
-    "main.6b2d2ad3.js.map": "/static/js/main.6b2d2ad3.js.map",
+    "main.51f94971.css.map": "/static/css/main.51f94971.css.map",
+    "main.1e25f887.js.map": "/static/js/main.1e25f887.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.73cfc7d8.css",
-    "static/js/main.6b2d2ad3.js"
+    "static/css/main.51f94971.css",
+    "static/js/main.1e25f887.js"
   ]
 }
