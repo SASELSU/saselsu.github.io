@@ -128,3 +128,29 @@
 }
 
 /* #endregion */
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) { /*tablets*/
+
+} 
+
+@media (max-width: 428px) { /*phones*/
+    .eventTitleCard h1 {
+        font-size: 60px;
+    }
+    .postContainer {
+        flex-direction: column;
+    }
+    .eventPost {
+        width: 85vw;
+    }
+    .eventPostInfo h1 {
+        font-size: 6vw;
+    }
+    .eventPostInfo p {
+        font-size: 4vw;
+    }
+}
