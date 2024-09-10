@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.51f94971.css",
-    "main.js": "/static/js/main.1e25f887.js",
+    "main.js": "/static/js/main.2eefb50d.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
+    "static/media/exxonPlant.png": "/static/media/exxonPlant.f654892db4eaf0b79922.png",
     "static/media/galvin_wong.png": "/static/media/galvin_wong.906d9c1d7d892a7a7e8a.png",
     "static/media/diversity-background-1.png": "/static/media/diversity-background-1.68c0f703c47aab940b44.png",
     "static/media/firstPaint.png": "/static/media/firstPaint.80478e051c9578fc6d91.png",
@@ -37,6 +38,7 @@
     "static/media/kris_lam.png": "/static/media/kris_lam.b6268d31799371a32283.png",
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
+    "static/media/exxonMock.jpg": "/static/media/exxonMock.96b4e83a99355eb0fbef.jpg",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.1a0c1d825e2e5fd218ac.png",
     "static/media/futureEvent.png": "/static/media/futureEvent.3eb7c3c3e3fea514373b.png",
@@ -70,11 +72,11 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/index.html",
     "main.51f94971.css.map": "/static/css/main.51f94971.css.map",
-    "main.1e25f887.js.map": "/static/js/main.1e25f887.js.map",
+    "main.2eefb50d.js.map": "/static/js/main.2eefb50d.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51f94971.css",
-    "static/js/main.1e25f887.js"
+    "static/js/main.2eefb50d.js"
   ]
 }
