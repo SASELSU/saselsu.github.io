@@ -186,7 +186,29 @@
 }
 
 @media (max-width: 1024px) {
+    .aboutTitleCard h1 {    
+        font-size: 80px;
+        /* font-family: "Bebas Neue"; */
+    }
+    .aboutMission h1 {
+        font-size: 50px;
+        margin: 4vw;
+        margin-bottom: -1vw;
+    }
+    .aboutMission p {
+        font-size: 25px;
+    }
+    
+    .aboutMission img {
+        height: 58vh;
+    }
 
+    .historyCard {
+        margin-left: 10vw;
+    }
+    .historyCard img {
+        width: 80vw;
+    }
 }
 
 @media (max-width: 768px) { /*tablets*/
