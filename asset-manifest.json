@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.51f94971.css",
-    "main.js": "/static/js/main.2eefb50d.js",
+    "main.js": "/static/js/main.fd128632.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/exxonPlant.png": "/static/media/exxonPlant.f654892db4eaf0b79922.png",
     "static/media/galvin_wong.png": "/static/media/galvin_wong.906d9c1d7d892a7a7e8a.png",
@@ -72,11 +72,11 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/index.html",
     "main.51f94971.css.map": "/static/css/main.51f94971.css.map",
-    "main.2eefb50d.js.map": "/static/js/main.2eefb50d.js.map",
+    "main.fd128632.js.map": "/static/js/main.fd128632.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.51f94971.css",
-    "static/js/main.2eefb50d.js"
+    "static/js/main.fd128632.js"
   ]
 }
