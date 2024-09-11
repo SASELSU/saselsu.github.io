@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.3cfb9f23.css",
-    "main.js": "/static/js/main.fd128632.js",
+    "main.css": "/static/css/main.3ccc0e77.css",
+    "main.js": "/static/js/main.c38447fe.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
+    "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/exxonPlant.png": "/static/media/exxonPlant.f654892db4eaf0b79922.png",
+    "static/media/galleryBackdrop.png": "/static/media/galleryBackdrop.bd9b760ae37b5789859c.png",
     "static/media/galvin_wong.png": "/static/media/galvin_wong.906d9c1d7d892a7a7e8a.png",
     "static/media/diversity-background-1.png": "/static/media/diversity-background-1.68c0f703c47aab940b44.png",
     "static/media/firstPaint.png": "/static/media/firstPaint.80478e051c9578fc6d91.png",
@@ -17,11 +19,13 @@
     "static/media/thanh_kirsch.png": "/static/media/thanh_kirsch.305181da793093df1238.png",
     "static/media/title_card.jpg": "/static/media/title_card.7ef6b1358f4592078e48.jpg",
     "static/media/bobaSocial23.jpg": "/static/media/bobaSocial23.75488a3e562bd73f3f45.jpg",
+    "static/media/TigerConnections.jpeg": "/static/media/TigerConnections.d6688e42a9554a74cde1.jpeg",
     "static/media/himangini_chauhan.png": "/static/media/himangini_chauhan.08d24eb17a39846e3549.png",
     "static/media/historyLunarEvent.jpeg": "/static/media/historyLunarEvent.efdc3c44b3be05d9f47c.jpeg",
     "static/media/our-mission-temp.jpeg": "/static/media/our-mission-temp.381c9c2ded9df01d6e67.jpeg",
     "static/media/HackathonFlyer.png": "/static/media/HackathonFlyer.d9aeb5deca64c718e9ab.png",
     "static/media/GBM1-Fall-2024.png": "/static/media/GBM1-Fall-2024.339d9bdb6b8eeca1654d.png",
+    "static/media/DOWWorkshop24.jpeg": "/static/media/DOWWorkshop24.8870741aa5a1a0ea607e.jpeg",
     "static/media/pd-background-1.jpg": "/static/media/pd-background-1.a462050c3e9c1c89226a.jpg",
     "static/media/community-background-1.jpg": "/static/media/community-background-1.9e3efae0cdc722513034.jpg",
     "static/media/miniProDev.jpeg": "/static/media/miniProDev.0f5a628d4f234b1424a3.jpeg",
@@ -71,12 +75,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/static/media/inter-greek-ext-400-normal.f2fa0d9ef98f59d4a75b.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/index.html",
-    "main.3cfb9f23.css.map": "/static/css/main.3cfb9f23.css.map",
-    "main.fd128632.js.map": "/static/js/main.fd128632.js.map",
+    "main.3ccc0e77.css.map": "/static/css/main.3ccc0e77.css.map",
+    "main.c38447fe.js.map": "/static/js/main.c38447fe.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cfb9f23.css",
-    "static/js/main.fd128632.js"
+    "static/css/main.3ccc0e77.css",
+    "static/js/main.c38447fe.js"
   ]
 }
