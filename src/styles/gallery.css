@@ -31,7 +31,7 @@
 }
 
 .galleryCardContainer {
-    width: 150vw;
+    width: fit-content;
 
     display: flex;
     flex-direction: row;
@@ -111,4 +111,75 @@
     flex-direction: column;
 
     overflow-x: scroll;
+}
+
+@media (max-width: 1024px) {
+    .galleryTitleCard h1 {    
+        font-size: 80px;
+        /* font-family: "Bebas Neue"; */
+    }
+    .galleryCardText h1 {
+        font-size: 38px;
+    }
+    
+    .galleryCardText h2 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width: 768px) { /*tablets*/
+    .galleryCardContainer {
+        flex-direction: column;
+        gap:2.5vw;
+    
+        margin: 2.5vw;
+
+        align-items: center;
+    }
+
+    .galleryCardWrapper {
+        height: 45vh;
+        width: 95vw;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .galleryCardText h1 {
+        font-size: 9.2vw;
+    }
+    
+    .galleryCardText h2 {
+        font-size: 3.4vw;
+    }
+    .gallery {
+    align-items: center;
+    }
+} 
+
+@media (max-width: 428px) { /*phones*/
+    .galleryTitleCard h1 {
+        font-size: 60px;
+    }
+
+    .galleryCardContainer {
+        margin: 4vw;
+        gap: 4vw;
+    }
+
+    .galleryCardWrapper {
+        height: 38vh;
+        width: 92vw;
+    }
+
+    .galleryCardText {
+        margin: 2.5vw;
+    }
+
+    .galleryCardText h1 {
+        font-size: 12vw;
+    }
+    
+    .galleryCardText h2 {
+        font-size: 5.75vw;
+    }
 }
