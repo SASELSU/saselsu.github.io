@@ -40,7 +40,6 @@ const Gallery = () => {
                 link="https://www.facebook.com/media/set/?set=a.933565605465756&type=3"
             />
             </div>
-
         </div>
         </>
 
