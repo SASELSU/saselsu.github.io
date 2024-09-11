@@ -5,7 +5,8 @@ import Backdrop from "../assets/gallery/galleryBackdrop.png"
 import { GalleryCard } from "./helpers/galleryHelpers";
 
 /* fall 24 */
-import BobaSocial24 from "../assets/gallery/fall24/bobaSocial24.jpeg"
+import TigerConnections from "../assets/gallery/fall24/TigerConnections.jpeg"
+import BobaSocial24 from "../assets/gallery/fall24/bobaSocial24.png"
 import DowWorkshop24 from "../assets/gallery/fall24/DOWWorkshop24.jpeg"
 const Gallery = () => {
     return (
@@ -31,8 +32,8 @@ const Gallery = () => {
                 link="https://www.facebook.com/media/set/?set=a.935833585238958&type=3"
             />
             <GalleryCard 
-                image={Backdrop}
-                title="Test"
+                image={TigerConnections}
+                title="Tiger Connections"
                 link="https://www.facebook.com/media/set/?set=a.933565605465756&type=3"
             />
             </div>

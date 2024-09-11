@@ -9,14 +9,13 @@ export const GalleryCard = (props) => {
     } = props;
     return (
         <>
-        <div>
+        <div className="galleryCardWrapper">
+
         <a href={link} target="_blank"> 
             <div className="galleryCard"
-            style={{backgroundImage: `url(${image})`}}>
-            <h1>{title}</h1>
-
-            </div>  
+            style={{backgroundImage: `url(${image})`}}/>
         </a>
+        <h1>{title}</h1>
 
         </div>
         </>
