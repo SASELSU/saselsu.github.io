@@ -31,7 +31,7 @@
 }
 
 .galleryCardContainer {
-    width: 100%;
+    width: 150vw;
 
     display: flex;
     flex-direction: row;
@@ -40,10 +40,11 @@
     margin: 1vw;
 
     overflow-x: scroll;
+    overflow-y: hidden;
 }
 
 .galleryCardWrapper {
-    height: 400px;
+    height: 50vh;
     width: 35vw;
     position: relative;
     overflow: hidden;
@@ -89,7 +90,6 @@
     transform: scale(1.1);
 }
 
-
 .galleryCard::before {
     content: "";
     display: block;
@@ -104,10 +104,11 @@
 .gallery {
     width: 100%;
     height: auto;
-    overflow: hidden;
     background-color: rgb(0, 78, 100);
     text-align: center;
 
     display: flex;
     flex-direction: column;
+
+    overflow-x: scroll;
 }
