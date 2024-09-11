@@ -22,18 +22,21 @@ const Gallery = () => {
         <div className="gallery">
             <div className="galleryCardContainer">
             <GalleryCard 
-                image={DowWorkshop24}
-                title="Dow PD Workshop"
-                link="https://www.facebook.com/media/set/?set=a.935800311908952&type=3"
-            />
-            <GalleryCard 
                 image={BobaSocial24}
                 title="Boba Social"
+                date="SEPT 5 2024"
                 link="https://www.facebook.com/media/set/?set=a.935833585238958&type=3"
+            />
+            <GalleryCard 
+                image={DowWorkshop24}
+                title="Dow PD Workshop"
+                date="SEPT 4 2024"
+                link="https://www.facebook.com/media/set/?set=a.935800311908952&type=3"
             />
             <GalleryCard 
                 image={TigerConnections}
                 title="Tiger Connections"
+                date="AUG 29 2024"
                 link="https://www.facebook.com/media/set/?set=a.933565605465756&type=3"
             />
             </div>

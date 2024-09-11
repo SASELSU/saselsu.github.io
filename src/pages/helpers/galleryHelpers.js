@@ -5,7 +5,8 @@ export const GalleryCard = (props) => {
     const {
         image,
         link,
-        title
+        title,
+        date
     } = props;
     return (
         <>
@@ -15,7 +16,11 @@ export const GalleryCard = (props) => {
             <div className="galleryCard"
             style={{backgroundImage: `url(${image})`}}/>
         </a>
-        <h1>{title}</h1>
+        <div className="galleryCardText">
+            <h2>{date}</h2>
+            <h1>{title}</h1>
+        </div>
+
 
         </div>
         </>
