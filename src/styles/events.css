@@ -131,7 +131,7 @@
 
 @media (max-width: 1024px) {
     .eventTitleCard h1 {
-        font-size: 60px;
+        font-size: 80px;
     }
     .postContainer {
         flex-direction: column;
