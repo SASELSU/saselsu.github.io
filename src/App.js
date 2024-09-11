@@ -14,6 +14,7 @@ import EBoard from "./pages/eboard";
 import Events from "./pages/events";
 import Hackathon from "./pages/hackathon";
 import Sponsors from "./pages/sponsors";
+import Gallery from "./pages/gallery";
 import './App.css';
 
 function App() {
@@ -47,6 +48,10 @@ function App() {
         <Route
           path="/hackathon"
           element = {<Hackathon />}
+        />
+        <Route
+          path="/gallery"
+          element = {<Gallery />}
         />
       </Routes>
       <Footer/>
