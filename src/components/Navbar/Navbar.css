@@ -428,23 +428,20 @@
         /* margin-left: 1vw; */
     }
     /* #endregion */
-    
-    .navMenuTextContainer {
-        margin-left: -98vw;
-        color: white;
-        width: 25vw;
-        margin-top: 60vh;
-    }
 
     .navMenuPageContainer {
-        gap: 50px;
+        gap: 18vw;
     }
     
     .navMenuPageContainer a {
         color: white;
         text-decoration: none;
         flex: 1;
-        font-size: 50px;
+        font-size: 12vw;
+    }
+
+    .navMenuTextContainer p {
+        margin-top: 7vh;
     }
 
     .navMenuLinkContainer {
