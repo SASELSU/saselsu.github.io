@@ -31,15 +31,7 @@ const Events = () => {
             <h3>Read about our future events!</h3>
 
             <div className="postContainer"> {/*something something more manual input*/}
-                <Post
-                    image={ExxonMock}
-                    eventMonth="SEPT 2024"
-                    eventDay="10"
-                    eventTime="6:00pm-7:30pm"
-                    eventLocation="PFT 1200"
-                    postTitle="Exxon Mock Interviews"
-                    postDesc="🗣️ Get some final practice with your professional skills before the Career Fair! Feel free to also bring your resumes for a fresh set of eyes 👀 📎 "
-                />
+
                 <Post
                     image={Pickleball}
                     eventMonth="SEPT 2024"
@@ -58,6 +50,15 @@ const Events = () => {
                     postTitle="Exxon Plant Tour"
                     postDesc="ENGINEERS ONLY. Come visit Exxon's plant! It is on a first come, first serve basis so sign up fast!"
                 />
+                <Post
+                    image={BloodDrive}
+                    eventMonth="SEPT 2024"
+                    eventDay="26"
+                    eventTime="9:00am-4:00pm"
+                    eventLocation="LSU Union 310"
+                    postTitle="Blood Drive"
+                    postDesc="Come to the Student Union to donate your blood! Donors will be given a free FIGHT CANCER shirt! Sign up with the QR code."
+                />
                 {/* <Post //never remove (this is the future event)
                 image={FutureEvent}
                 eventMonth="Some Month!"
@@ -69,18 +70,17 @@ const Events = () => {
                 /> */}
                 {/* uncomment above if theres no events */}
             </div>
-            <div className="postContainer">
-            <Post
-                    image={BloodDrive}
+            {/* <Post
+                    image={ExxonMock}
                     eventMonth="SEPT 2024"
-                    eventDay="26"
-                    eventTime="9:00am-4:00pm"
-                    eventLocation="LSU Union 310"
-                    postTitle="Blood Drive"
-                    postDesc="Come to the Student Union to donate your blood! Donors will be given a free FIGHT CANCER shirt! Sign up with the QR code."
-                />
-            </div>
-
+                    eventDay="10"
+                    eventTime="6:00pm-7:30pm"
+                    eventLocation="PFT 1200"
+                    postTitle="Exxon Mock Interviews"
+                    postDesc="🗣️ Get some final practice with your professional skills before the Career Fair! Feel free to also bring your resumes for a fresh set of eyes 👀 📎 "
+                /> */}
+            {/* <div className="postContainer">
+            </div> */}
         </div>
         </>
     )

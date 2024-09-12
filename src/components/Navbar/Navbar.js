@@ -50,6 +50,10 @@ const NavMenu = () => {
                     <Link to="/eboard"> EBoard </Link>
                     <Link to="/sponsors"> Sponsors </Link>
                 </div>
+                <div className="navMenuPageContainer">
+
+                    <Link to="/gallery"> Gallery </Link>
+                </div>
                 <p>Links</p>
                 <div className="navMenuLinkContainer">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_kO3N-GTOMnouhRn2KbhGrWQXLfV3ZSCyDVIBEeLVhVzgw/viewform?usp=sf_link" target="_blank">                

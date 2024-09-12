@@ -83,14 +83,14 @@
 }
 
 .eventPost img {
-    margin: 1em;
+    margin: 2.3vh;
     margin-top: -0.2vh;
     object-fit: scale-down;
     /* border-radius: 10px; */
 }
 
 .eventPostText {
-    margin-top: -3.6vh;
+    margin-top: -3.8vh;
     display: flex;
     flex-direction: row;
 }
@@ -118,26 +118,64 @@
 }
 
 .eventPostInfo h1 {
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: 400;
     color: black
 }
 
 .eventPostInfo p {
-    font-size: 18px;
+    font-size: 1.25vw;
 }
 
 /* #endregion */
 
 @media (max-width: 1024px) {
+    .eventTitleCard h1 {
+        font-size: 80px;
+    }
+    .postContainer {
+        flex-direction: column;
+    }
+    .eventPost {
+        width: 85vw;
+        height: 40vh;
+        flex-direction: row;
+    }
 
+    .eventPost img {
+        height: auto;
+        margin: 1rem;
+    }
+
+    .eventPostText {
+        margin: 0.3vw;
+        margin-left: -10px;
+    }
+
+    .eventPostInfo h1 {
+        font-size: 3vw;
+    }
+    .eventPostInfo p {
+        font-size: 2vw;
+    }
 }
 
 @media (max-width: 768px) { /*tablets*/
+    .eventPost {
+        height: 40vw;
+    }
+
+    .eventPostDateTimeLocation p {
+        font-size: 3vw;
+    }
+
+    .eventPostDateTimeLocation h2 {
+        font-size: 6vw;
+    }
 
 } 
 
-@media (max-width: 428px) { /*phones*/
+@media (max-width: 432px) { /*phones*/
     .eventTitleCard h1 {
         font-size: 60px;
     }
