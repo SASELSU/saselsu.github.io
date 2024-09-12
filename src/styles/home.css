@@ -149,7 +149,7 @@
   width: 80vw;
   object-fit: contain;
   margin: 1rem;
-  margin-bottom: 80px;
+  margin-bottom: 10vh;
 }
 
 .homeSponsors {
@@ -187,7 +187,7 @@
 }
 
 .homeSponsors a {
-  height: 10vh;
+  height: auto;
   width: 15vw;
   background-color: rgb(0, 78, 100);
   border-radius: 5px;
@@ -228,31 +228,60 @@
     line-height: 0.9;
 }
 
-  .calendar img {
-    width: 90vw;
-    object-fit: contain;
-    margin: 1rem;
-    margin-bottom: 40px;
+
+  .missionPillarContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10vh;
+    gap: 5vw;
+  }
+
+  .missionPillar {
+    background-color: rgb(0, 78, 100);
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
   }
 
   .missionPillar h1 {
-    height: 35px;
-    font-size: 25px;
+    height: 4vh;
     justify-content: center;
     align-items: center;
   }
 
+  .missionPillar p {
+    font-size: 5vw;
+    margin: 2rem;
+  }
+
+  .calendar img {
+    width: 90vw;
+    object-fit: contain;
+    margin: 1rem;
+    margin-bottom: px;
+  }
+
   .homeSponsors {
-    height: 56vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(107, 144, 128);
+    height: 50vh;
+  }
+
+  .homeSponsors img{
+    height: 10vw;
+  }
+
+  .homeSponsors p {
+    font-size: 2.35vw;
+  }
+
+  .homeSponsors a {
+    font-size: 2.5vw;
   }
   
 }
 
-@media (max-width: 432px) { /*phones*/ 
+@media (max-width: 428px) { /*phones*/ 
   .pillarTitle {
     font-size: 70px;
     font-weight: 500;
@@ -312,7 +341,6 @@
     color: white;
     text-align: center;
     margin-bottom: 3vh;
-    font-size: px;
   }
 
   .homeSponsorsList {
