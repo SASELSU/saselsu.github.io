@@ -252,7 +252,7 @@
   
 }
 
-@media (max-width: 428px) { /*phones*/ 
+@media (max-width: 432px) { /*phones*/ 
   .pillarTitle {
     font-size: 70px;
     font-weight: 500;
