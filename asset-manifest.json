@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.65c5af2d.css",
-    "main.js": "/static/js/main.13b58cda.js",
+    "main.js": "/static/js/main.d0d0cc70.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/exxonPlant.png": "/static/media/exxonPlant.f654892db4eaf0b79922.png",
@@ -21,21 +21,21 @@
     "static/media/bobaSocial23.jpg": "/static/media/bobaSocial23.75488a3e562bd73f3f45.jpg",
     "static/media/TigerConnections.jpeg": "/static/media/TigerConnections.d6688e42a9554a74cde1.jpeg",
     "static/media/himangini_chauhan.png": "/static/media/himangini_chauhan.08d24eb17a39846e3549.png",
+    "static/media/miniDiversity.jpeg": "/static/media/miniDiversity.c28c543a509fb722c9c8.jpeg",
     "static/media/historyLunarEvent.jpeg": "/static/media/historyLunarEvent.efdc3c44b3be05d9f47c.jpeg",
     "static/media/our-mission-temp.jpeg": "/static/media/our-mission-temp.381c9c2ded9df01d6e67.jpeg",
     "static/media/HackathonFlyer.png": "/static/media/HackathonFlyer.d9aeb5deca64c718e9ab.png",
     "static/media/GBM1-Fall-2024.png": "/static/media/GBM1-Fall-2024.339d9bdb6b8eeca1654d.png",
+    "static/media/navMenuEventsAlt.jpeg": "/static/media/navMenuEventsAlt.bd30aa66d5c09b9a902b.jpeg",
     "static/media/DOWWorkshop24.jpeg": "/static/media/DOWWorkshop24.8870741aa5a1a0ea607e.jpeg",
     "static/media/pd-background-1.jpg": "/static/media/pd-background-1.a462050c3e9c1c89226a.jpg",
     "static/media/community-background-1.jpg": "/static/media/community-background-1.9e3efae0cdc722513034.jpg",
+    "static/media/navMenuHackathon.jpeg": "/static/media/navMenuHackathon.1c26f3f9638d13a6666f.jpeg",
     "static/media/miniProDev.jpeg": "/static/media/miniProDev.0f5a628d4f234b1424a3.jpeg",
     "static/media/historyReturn.jpeg": "/static/media/historyReturn.2baa98381702f1572e1b.jpeg",
     "static/media/SASE-Calendar.png": "/static/media/SASE-Calendar.92ccece1747646ebf417.png",
-    "static/media/navMenuHackathon.jpeg": "/static/media/navMenuHackathon.7baefcb652488a83399c.jpeg",
     "static/media/ricky_liang.jpeg": "/static/media/ricky_liang.120f1452db343932c183.jpeg",
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
-    "static/media/navMenuEvents.jpeg": "/static/media/navMenuEvents.6117b2933e5765c2c493.jpeg",
-    "static/media/miniDiversity.jpeg": "/static/media/miniDiversity.8693fc586dd8da354823.jpeg",
     "static/media/24BloodDrive.png": "/static/media/24BloodDrive.24fca18e1022c44eb508.png",
     "static/media/24Pickleball.png": "/static/media/24Pickleball.5b38090682c01ace5851.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
@@ -76,11 +76,11 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/index.html",
     "main.65c5af2d.css.map": "/static/css/main.65c5af2d.css.map",
-    "main.13b58cda.js.map": "/static/js/main.13b58cda.js.map",
+    "main.d0d0cc70.js.map": "/static/js/main.d0d0cc70.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.65c5af2d.css",
-    "static/js/main.13b58cda.js"
+    "static/js/main.d0d0cc70.js"
   ]
 }
