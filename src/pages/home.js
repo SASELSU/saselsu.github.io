@@ -117,12 +117,12 @@ const Home = () => {
                 <div className="missionPillar">
                     <img src={MiniDiversity}/>
                     <h1>Diversity</h1>
-                    <p>Prepare Asian heritage scientists and engineers for success in the global business world.</p>
+                    <p>Celebrate diversity on campuses and in the workplace.</p>
                 </div>
                 <div className="missionPillar">
                     <img src={MiniProdev}/>
                     <h1>Professional Development</h1>
-                    <p>Celebrate diversity on campuses and in the workplace.</p>
+                    <p>Prepare Asian heritage scientists and engineers for success in the global business world.</p>
                 </div>
                 <div className="missionPillar">
                     <img src={MiniCommunity}/>
