@@ -19,7 +19,7 @@ import MenuButton from "../../assets/icons/menuButton.png";
 
 //card images
 import AboutCard from "../../assets/navbar/navMenuAbout.png"
-import EventsCard from "../../assets/navbar/navMenuEvents.jpeg"
+import EventsCard from "../../assets/navbar/navMenuEventsAlt.jpeg"
 import HackathonCard from "../../assets/navbar/navMenuHackathon.jpeg"
 
 const NavMenu = () => {
