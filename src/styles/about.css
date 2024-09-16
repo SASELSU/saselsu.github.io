@@ -14,7 +14,7 @@
 
 .aboutTitleCard h1 {
     position: relative;
-    font-size: 90px;
+    font-size: 8vw;
     text-align: center;
     /* font-family: "Bebas Neue"; */
 }
@@ -46,19 +46,19 @@
 .aboutMission img {
     width: 80vw;
     height: 85vh;
-    margin: 1rem;
+    margin: 2vw;
     object-fit: cover;
 
     border-radius: 16px;
 }
 
 .aboutMission h1 {
-    font-size: 50px;
+    font-size: 3vw;
 }
 
 .aboutMission p {
-    font-size: 30px;
-    margin:1em;
+    font-size: 1.75vw;
+    margin: 1vw;
 }
 
 .aboutHistory {
@@ -66,7 +66,7 @@
     overflow: auto;
     background-color: rgb(247, 255, 247);
     color:black;
-    font-size: 20px;  
+    font-size: 1.5vw;  
     display: flex; 
     flex-direction: column;
 }
@@ -142,7 +142,7 @@
     margin-top: 5vh;
     margin-bottom: -1vh;
 
-    font-size: 50px;
+    font-size: 3vw;
     color: white;
 
 }
@@ -174,14 +174,14 @@
 .aboutEBoardCard h1 {
     margin: 1rem;
     margin-top: -1vh;
-    font-size: 30px;
+    font-size: 2vw;
   text-align: center;
 
 }
 
 .aboutEBoardCard p {
     margin-top: 0px;
-    font-size: 20px;
+    font-size: 1.75vw;
   text-align: center;
 }
 
