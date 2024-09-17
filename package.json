@@ -6,6 +6,7 @@
   "dependencies": {
     "@emotion/react": "^11.13.3",
     "@emotion/styled": "^11.13.0",
+    "@fontsource/adlam-display": "^5.1.0",
     "@fontsource/bebas-neue": "^5.0.21",
     "@fontsource/inter": "^5.0.20",
     "@fontsource/open-sans": "^5.0.29",
