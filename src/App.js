@@ -5,6 +5,7 @@ import {
   HashRouter as Router,
   Routes,
   Route,
+  withRouter,
   ScrollRestoration,
 } from "react-router-dom";
 import ScrollToTop from "./hooks/ScrollToTop";
@@ -12,7 +13,7 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import EBoard from "./pages/eboard";
 import Events from "./pages/events";
-import Hackathon from "./pages/hackathon";
+import Hackathon from "./hackathon/hackathon";
 import Sponsors from "./pages/sponsors";
 import Gallery from "./pages/gallery";
 import './App.css';
@@ -23,7 +24,6 @@ function App() {
       <Router>
       <Navbar />
       <ScrollToTop/>
-
       <Routes>
         <Route
           exact path="/"
