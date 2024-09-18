@@ -92,7 +92,6 @@ const Navbar = () => {
         setMenuShow(false);
     }, [location])
 
-    console.log(location)
     return (
         <>
             <nav className="navbar">

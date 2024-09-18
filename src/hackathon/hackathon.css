@@ -6,12 +6,16 @@
 }
 
 .hackathonTitleCard {
-    height: 90vh;
-    width: 95vw;
-    background-color: rgb(202, 233, 255);
-    margin: 2.5vw;
-    border-radius: 2vw;
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(202, 233, 255); */
+    /* margin: 2.5vw;
+    border-radius: 2vw; */
     z-index: 3;
+
+    background-size: cover;
+    background-position-x: center;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -21,8 +25,19 @@
 
 .hackathonTitleCard h1 {
     color: white;
-    font-size: 5vw;
+    font-size: 5.8vw;
     font-family: "ADLaM Display";
+}
+
+.midSection {
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.midSection h1 {
+    transform: translateY(1.5vw);
 }
 
 .globe {
@@ -82,8 +97,33 @@
 .clouds > img:nth-child(1) {animation-delay: calc(0*var(--d)/-2)}
 .clouds > img:nth-child(2) {animation-delay: calc(1*var(--d)/-2)}
 
-
 @keyframes rotate {
     50%    {transform: translate(-100%)}
     50.01% {transform: translate( 100%)}
+}
+
+.hackathonAbout {
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+    display: flex;
+    background-color: brown;
+}
+
+.hackathonAbout button {
+    position: absolute;
+}
+
+.cardSlider {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    white-space: nowrap;
+    transition: ease 1s;
+}
+
+.card {
+    display: inline-block;
+    /* position: relative; */
 }
