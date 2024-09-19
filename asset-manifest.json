@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.01be82c2.css",
-    "main.js": "/static/js/main.d62bc653.js",
+    "main.css": "/static/css/main.60ec9114.css",
+    "main.js": "/static/js/main.94145fbe.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/exxonPlant.png": "/static/media/exxonPlant.f654892db4eaf0b79922.png",
@@ -76,12 +76,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/static/media/inter-greek-ext-400-normal.f2fa0d9ef98f59d4a75b.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/index.html",
-    "main.01be82c2.css.map": "/static/css/main.01be82c2.css.map",
-    "main.d62bc653.js.map": "/static/js/main.d62bc653.js.map",
+    "main.60ec9114.css.map": "/static/css/main.60ec9114.css.map",
+    "main.94145fbe.js.map": "/static/js/main.94145fbe.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.01be82c2.css",
-    "static/js/main.d62bc653.js"
+    "static/css/main.60ec9114.css",
+    "static/js/main.94145fbe.js"
   ]
 }
