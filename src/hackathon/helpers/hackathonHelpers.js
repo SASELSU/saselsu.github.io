@@ -6,8 +6,7 @@ import "./hackathonHelpers.css"
 import BackBackdrop from "../assets/postcardBack.jpeg"
 export const Postcard = (props) => {
     const {
-        key,
-        current,
+        title,
         cardImage,
         text
     } = props;
@@ -22,7 +21,11 @@ export const Postcard = (props) => {
                 <div className="cardBack"
                     style={{backgroundImage: `url(${BackBackdrop})`}}
                 >
-                <p>{text}</p>
+                <div className="cardBackText">
+                    <p>{text}</p>
+                    <h1>{title}</h1>
+                </div>
+
                 </div>
             </div>
 

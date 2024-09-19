@@ -13,6 +13,11 @@ import Clouds from "./assets/blockCloud.png"
 import { Postcard } from "./helpers/hackathonHelpers";
 import Card1 from "./assets/louisianaPostcard.png"
 import Card2 from "./assets/newyork.png"
+import Card3 from "./assets/alaska.png"
+
+import MikeTicket from "./assets/signup.png"
+
+import MikePack from "./assets/mikePack.png"
 
 const Hackathon = () => {
     const [index, setIndex] = useState(0);
@@ -39,25 +44,52 @@ const Hackathon = () => {
                 <h1>GEAUX HACK</h1>
 
             </div>
-            <div className="hackathonAbout">
-                <button onClick={() => {index == 0 ? setIndex(1) : setIndex(index - 1)}}>left</button>
+            <h1>Welcome back to our Third Annual GeauxHack! <br/>This year, Mike is looking for places to travel...</h1>
 
+            <div className="hackathonAbout">
                 <div className="cardSlider"
-                    style={{transform: `translate3d(${-index * 50}%, 0, 0)`}}>
+                    style={{transform: `translate3d(${-index * 33.33}%, 0, 0)`}}>
                     {[
-                        <Postcard
-                            cardImage={Card1}
-                            text="about"
-                        />,
-                        <Postcard
-                        cardImage={Card2}
-                        text="activity"
-                        />
+                        <div className="card">                       
+                            <Postcard
+                                title="About"
+                                cardImage={Card1}
+                                text="test"
+                            />
+                        </div>,
+                        <div className="card">                       
+                            <Postcard
+                                title="Activites"
+                                cardImage={Card2}
+                                text="test"
+                            />
+                        </div>,
+                        <div className="card">                       
+                            <Postcard
+                                title="Workshops"
+                                cardImage={Card3}
+                                text="test"
+                            />
+                        </div>,
                     ]}
                 </div>
-                <button onClick={() => {index == 1 ? setIndex(0) : setIndex(index + 1)}}>right</button>
+                <button className="buttonLeft" onClick={() => {index == 0 ? setIndex(2) : setIndex(index - 1)}}>left</button>
+
+                <button className="buttonRight" onClick={() => {index == 2 ? setIndex(0) : setIndex(index + 1)}}>right</button>
 
             </div>
+
+            <div className="hackathonSignUp"
+                style={{backgroundImage: `url(${MikeTicket})`}}>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVafj0EEkJrmPX6ay9xYdFrBybel6yfHDmviUKrA_SsA16WQ/viewform?usp=sf_link" target="_blank">
+                    SIGN UP
+                </a>
+            </div>
+
+            <div className="hackathonFAQ">
+
+            </div>
+
         </div>
     )
 }
