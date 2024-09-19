@@ -109,6 +109,10 @@ const Home = () => {
             </div>
         </div>
         <div className ="missionStatement">
+            <h1>IMPORTANT LINK! DUE TOMORROW!</h1>
+            <a href="https://forms.gle/278M7vs8iyMgYn5f7" target="_blank">
+                REGISTER FOR SASE NATIONALS
+            </a>
             <h2>Our Mission</h2>
             <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
             <br/>

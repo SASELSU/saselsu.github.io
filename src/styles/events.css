@@ -84,7 +84,7 @@
 
 .eventPost img {
     margin: 2.3vh;
-    /* margin-top: -0.2vh;  */
+    margin-top: 1vh; 
     object-fit: scale-down;
     /* border-radius: 10px; */
 }
