@@ -138,6 +138,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+    /* pointer-events: none; */
 }
 
 .navMenuSmallCardWrapper {
@@ -148,7 +149,16 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 1vh;
+
+    /* cursor: pointer; */
 }
+
+.navMenuSmallCardWrapper Link{
+    color: white;
+    text-decoration: none;
+
+}
+
 
 .navMenuSmallCard::before {
     content: "";
@@ -178,6 +188,8 @@
 }
 
 .navMenuSmallCardWrapper h1 {
+    color: white;
+    text-decoration: none;
     font-size: 5vw;
     position: absolute;
     top: 0;
@@ -192,6 +204,7 @@
 }
 
 .navMenuSmallCardWrapper p {
+    color: white;
     font-size: 30px;
     position: absolute;
     bottom: 0;
