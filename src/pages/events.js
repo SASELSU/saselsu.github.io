@@ -7,10 +7,8 @@ import FutureEvent from "../assets/events/futureEvent.png"
 //event images
 import BobaSocial from "../assets/events/fall-2024/GBM1-Fall-2024.png"
 // import MockInterview from "../assets/events/fall-2024/mock-interviews.png"
-import Pickleball from "../assets/events/fall-2024/24Pickleball.png"
 import BloodDrive from "../assets/events/fall-2024/24BloodDrive.png"
-import ExxonMock from "../assets/events/fall-2024/exxonMock.jpg"
-import ExxonPlant from "../assets/events/fall-2024/exxonPlant.png"
+import ResumeBooklet from "../assets/events/fall-2024/ResumeBooklet.jpg"
 //helpers
 import {
     Post,
@@ -33,24 +31,6 @@ const Events = () => {
             <div className="postContainer"> {/*something something more manual input*/}
 
                 <Post
-                    image={Pickleball}
-                    eventMonth="SEPT 2024"
-                    eventDay="19"
-                    eventTime="6:15pm-8:15pm"
-                    eventLocation="Stacks Pickleball"
-                    postTitle="Pickleball x DOW"
-                    postDesc="We are partnered with DOW to provide y'all a free night of Pickleball! Come to Stacks Pickleball (Stage 4) and join us for food, fun, and networking!"
-                />
-                <Post
-                    image={ExxonPlant}
-                    eventMonth="SEPT 2024"
-                    eventDay="20"
-                    eventTime="9:30am-12:00pm"
-                    eventLocation="4045 Scenic Hwy"
-                    postTitle="Exxon Plant Tour"
-                    postDesc="ENGINEERS ONLY. Come visit Exxon's plant! It is on a first come, first serve basis so sign up fast!"
-                />
-                <Post
                     image={BloodDrive}
                     eventMonth="SEPT 2024"
                     eventDay="26"
@@ -58,6 +38,15 @@ const Events = () => {
                     eventLocation="LSU Union 310"
                     postTitle="Blood Drive"
                     postDesc="Come to the Student Union to donate your blood! Donors will be given a free FIGHT CANCER shirt! Sign up with the QR code."
+                />
+                <Post
+                    image={ResumeBooklet}
+                    eventMonth="SEPT 2024"
+                    eventDay="30"
+                    eventTime="Due 11:59 PM"
+                    eventLocation="SASE Discord"
+                    postTitle="Resume Booklet"
+                    postDesc="For SASE Nationals Attendees Only. Submit your resume to be judged by companies at SASE National Convention!"
                 />
                 {/* <Post //never remove (this is the future event)
                 image={FutureEvent}
