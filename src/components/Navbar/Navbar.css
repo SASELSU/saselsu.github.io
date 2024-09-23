@@ -15,7 +15,7 @@
     font-size: 20px;
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 2vw;
 }
 
 .navbar-logo {
@@ -23,7 +23,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 1vw;
 }
 
 .navbar-logo img {
@@ -31,12 +31,12 @@
 }
 
 .navbar-elements {
-    flex: 1;
+    /* flex: 1; */
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 2vw;
 }
 
 .navbarElementsLink {
@@ -50,6 +50,7 @@
     cursor: pointer;
     object-fit: scale-down;
     margin-left: 20px;
+    margin-right: 1vw;
 }
 
 .navMenuContainer {
@@ -274,6 +275,10 @@
     .navMenu {
         flex-direction: column;
         gap: 0px;
+    }
+
+    .navbar-elements {
+        margin-right: 4vw;
     }
 
     .navbarElementsLink {
