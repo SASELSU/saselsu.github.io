@@ -32,7 +32,7 @@ const Gallery = () => {
             />
                 <GalleryCard 
                 image={Pickleball24}
-                title="Boba Social"
+                title="Pickleball x DOW Social"
                 date="SEPT 19 2024"
                 link="https://www.facebook.com/media/set/?set=a.946620777493572&type=3"
             />
