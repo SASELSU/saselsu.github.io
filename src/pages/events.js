@@ -9,6 +9,8 @@ import BobaSocial from "../assets/events/fall-2024/GBM1-Fall-2024.png"
 // import MockInterview from "../assets/events/fall-2024/mock-interviews.png"
 import BloodDrive from "../assets/events/fall-2024/24BloodDrive.png"
 import ResumeBooklet from "../assets/events/fall-2024/ResumeBooklet.jpg"
+import GeauxGirls from "../assets/events/fall-2024/Geaux Girls STEM.png"
+import CatHaven from "../assets/events/fall-2024/Cat Haven.png"
 //helpers
 import {
     Post,
@@ -40,6 +42,16 @@ const Events = () => {
                     postDesc="Come to the Student Union to donate your blood! Donors will be given a free FIGHT CANCER shirt! Sign up with the QR code."
                 />
                 <Post
+                    image={CatHaven}
+                    eventMonth="SEPT 2024"
+                    eventDay="29"
+                    eventTime="10:00am-12:00pm"
+                    eventLocation="Cat Haven"
+                    postTitle="Cat Haven"
+                    postDesc="ALL SPOTS FILLED!! Come and volunteer at Cat Haven! You'll be caring after and playing with cats waiting to be adopted!"
+                />
+
+                <Post
                     image={ResumeBooklet}
                     eventMonth="SEPT 2024"
                     eventDay="30"
@@ -68,8 +80,17 @@ const Events = () => {
                     postTitle="Exxon Mock Interviews"
                     postDesc="🗣️ Get some final practice with your professional skills before the Career Fair! Feel free to also bring your resumes for a fresh set of eyes 👀 📎 "
                 /> */}
-            {/* <div className="postContainer">
-            </div> */}
+            <div className="postContainer">
+            <Post
+                    image={GeauxGirls}
+                    eventMonth="OCT 2024"
+                    eventDay="5"
+                    eventTime="10:00am-12:00pm"
+                    eventLocation="720 Terrace Ave"
+                    postTitle="Geaux Girls"
+                    postDesc="Come and help Geaux Girls STEM set up and run their development workshop! Sign ups are on Discord."
+                />
+            </div>
         </div>
         </>
     )
