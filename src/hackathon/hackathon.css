@@ -107,12 +107,29 @@
     50.01% {transform: translate( 100%)}
 }
 
+.hackathonTitleTransition {
+    height: 95vh;
+    width: 90vw;
+
+    margin: 5vw;
+    border-radius: 2vw;
+
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.hackathonTitleTransition h1 {
+    font-size: 2vw;
+    font-weight: 300;
+    padding-top: 1.5vw;
+}
+
 .hackathonAbout {
     width: 100%;
-    height: auto;
+    height: 95vh;
     overflow: hidden;
     display: flex;
-    background-color: brown;
+    background-color: rgb(117, 68, 0);
 }
 
 .hackathonAbout button {

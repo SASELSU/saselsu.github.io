@@ -10,6 +10,8 @@ import Backdrop from "./assets/titleBackdrop.png"
 import Map from "./assets/blockMap.png"
 import Clouds from "./assets/blockCloud.png"
 
+import MikeSearch from "./assets/MikeShop.png"
+
 import { Postcard } from "./helpers/hackathonHelpers";
 import Card1 from "./assets/louisianaPostcard.png"
 import Card2 from "./assets/newyork.png"
@@ -44,7 +46,12 @@ const Hackathon = () => {
                 <h1>GEAUX HACK</h1>
 
             </div>
-            <h1>Welcome back to our Third Annual GeauxHack! <br/>This year, Mike is looking for places to travel...</h1>
+
+            <div className="hackathonTitleTransition"
+            style={{backgroundImage: `url(${MikeSearch})`}}>
+                <h1>Welcome back to our Third Annual GeauxHack! <br/>This year, Mike is looking for places to travel...</h1>
+            </div>
+
 
             <div className="hackathonAbout">
                 <div className="cardSlider"
