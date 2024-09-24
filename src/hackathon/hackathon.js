@@ -19,7 +19,9 @@ import Card3 from "./assets/alaska.png"
 
 import MikeTicket from "./assets/signup.png"
 
-import MikePack from "./assets/mikePack.png"
+import { ChecklistCard } from "./helpers/hackathonHelpers";
+import MikePack from "./assets/MikePack.png"
+import { Check } from "@mui/icons-material";
 
 const Hackathon = () => {
     const [index, setIndex] = useState(0);
@@ -93,8 +95,9 @@ const Hackathon = () => {
                 </a>
             </div>
 
-            <div className="hackathonFAQ">
-
+            <div className="hackathonFAQ"
+            style={{backgroundImage: `url(${MikePack})`}}>
+                <ChecklistCard/>
             </div>
 
         </div>

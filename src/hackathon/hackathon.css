@@ -126,7 +126,7 @@
 
 .hackathonAbout {
     width: 100%;
-    height: 95vh;
+    height: 56vw;
     overflow: hidden;
     display: flex;
     background-color: rgb(117, 68, 0);
@@ -138,12 +138,12 @@
 }
 
 .buttonLeft {
-    margin-top: 40vh;
+    /* margin-top: 40vh; */
     left: 0;
 }
 
 .buttonRight {
-    margin-top: 40vh;
+    /* margin-top: 40vh; */
     right: 0;
 }
 
@@ -151,20 +151,14 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1vw;
+    justify-content: center;
     /* white-space: nowrap; */
     transition: ease 1s;
 }
 
 .card {
     width: 100vw;
-    height: 100vh;
-
-    display: inline-block;
-    
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+    height: 100%;
 }
 
 .hackathonSignUp {
@@ -197,5 +191,12 @@
 }
 
 .hackathonFAQ {
-    
+    height: 55vw;
+    width: 96vw;
+
+    margin: 2vw;
+    border-radius: 2vw;
+
+    background-size: cover;
+    background-position: 50% 50%;
 }

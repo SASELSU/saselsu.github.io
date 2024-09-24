@@ -2,7 +2,7 @@ import {
     React,
     // useState
 } from "react";
-import "./hackathonHelpers.css"
+import "./hackathonPostcard.css"
 import BackBackdrop from "../assets/postcardBack.jpeg"
 export const Postcard = (props) => {
     const {
@@ -31,4 +31,14 @@ export const Postcard = (props) => {
 
         </div>
     );
-} 
+}
+
+export const ChecklistCard = (props) => {
+    return (
+        <>
+        <div className="checklistCard">
+hello
+        </div>
+        </>
+    );
+}
