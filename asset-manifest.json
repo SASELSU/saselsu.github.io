@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bcd42420.css",
-    "main.js": "/static/js/main.069e5c36.js",
+    "main.css": "/static/css/main.2e71de39.css",
+    "main.js": "/static/js/main.33d26095.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/galleryBackdrop.png": "/static/media/galleryBackdrop.bd9b760ae37b5789859c.png",
@@ -78,12 +78,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/static/media/inter-greek-ext-400-normal.f2fa0d9ef98f59d4a75b.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/index.html",
-    "main.bcd42420.css.map": "/static/css/main.bcd42420.css.map",
-    "main.069e5c36.js.map": "/static/js/main.069e5c36.js.map",
+    "main.2e71de39.css.map": "/static/css/main.2e71de39.css.map",
+    "main.33d26095.js.map": "/static/js/main.33d26095.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcd42420.css",
-    "static/js/main.069e5c36.js"
+    "static/css/main.2e71de39.css",
+    "static/js/main.33d26095.js"
   ]
 }
