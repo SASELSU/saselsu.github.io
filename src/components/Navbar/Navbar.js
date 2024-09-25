@@ -64,11 +64,11 @@ const NavMenu = () => {
                     </a>
 
                 </div>
-                <div className="navMenuLinkContainer">
+                {/* <div className="navMenuLinkContainer">
                     <a href="https://forms.gle/P8ZKSaZb7uubsy856" target="_blank">                
                         SASE Nationals Interest
                     </a>
-                </div>
+                </div> */}
 
                 <div className="navMenuIconContainer">
                     <WhiteDiscordIcon/>

@@ -301,16 +301,17 @@
     .navMenuBigCard {
         /* background-image: url("../../assets/navbar/navMenuHackathon.jpeg"); */
         background-size: cover;
+        background-position: 50% 30%;
     }
-/* 
+
     .navMenuBigCardWrapper h1 {
-        font-size: 43px;
+        font-weight: 300;
+
         position: absolute;
-        bottom: 0;
-        margin-bottom: 2vw;
-        margin-left: 3vw;
-        color: white;
-    } */
+        left: 0;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 
     /* #endregion*/
     
@@ -335,6 +336,7 @@
 
     .navMenuSmallCardWrapper h1 {
         font-size: 40px;
+        font-weight: 350;
         bottom: 0;
         margin-top: 15vh;
     }
@@ -367,6 +369,7 @@
 
     .navMenuLinkContainer {
         width: 80vw;
+        margin-bottom: 10p;
     }
     
     .navMenuLinkContainer a {
@@ -436,6 +439,8 @@
 
     .navMenuSmallCardWrapper h1 {
         font-size: 40px;
+        font-weight: 350;
+
         bottom: 0;
         margin-top: 12vh;
     }
