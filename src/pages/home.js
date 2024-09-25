@@ -23,6 +23,8 @@ import Marathon from "../assets/home/sponsors/marathon.png"
 import Shell from "../assets/home/sponsors/Shell_logo.svg.png"
 import Chevron from "../assets/home/sponsors/Chevron.webp"
 
+import SponsorshipPacket from "../assets/2024-2025 Sponsorship Packet.pdf"
+
 const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
 const delay = 5000; //carousel delay time
@@ -107,6 +109,10 @@ const Home = () => {
             </div>
         </div>
         <div className ="missionStatement">
+            {/* <h1>IMPORTANT LINK! DUE TOMORROW!</h1>
+            <a href="https://forms.gle/278M7vs8iyMgYn5f7" target="_blank">
+                REGISTER FOR SASE NATIONALS
+            </a> */}
             <h2>Our Mission</h2>
             <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
             <br/>
@@ -148,7 +154,7 @@ const Home = () => {
             <p>
             Interested in becoming a partner with the LSU Society of Asian Scientists and Engineers (SASE)? <br/>Click the button below to download our sponsorship packet!
             </p>
-            <a href="https://www.saselsu.org/resources/sponsors/2023-2024%20Sponsorship%20Packet.pdf" target="_blank">
+            <a href={SponsorshipPacket} target="_blank">
                 Sponsorship Package
             </a>
         </div>

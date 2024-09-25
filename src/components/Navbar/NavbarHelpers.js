@@ -10,20 +10,19 @@ export const BigCard = (props) => {
     } = props;
     return (
         <>
+        <Link to={link}>
         <div className="navMenuBigCardWrapper">
 
-            <Link to={link}>
-                
             <div className="navMenuBigCard"
                 style={{backgroundImage: `url(${image})`}}
             >
 
             </div>
 
-            </Link>
             <h1>{title}</h1>
 
         </div>
+        </Link>
         </>
     )
 }
@@ -39,14 +38,14 @@ export const SmallCard = (props) => {
         <>
         <div className="navMenuSmallCardWrapper">
             <Link to={link}>
-                <div className="navMenuSmallCard"
+            <div className="navMenuSmallCard"
                     style={{backgroundImage: `url(${image})`}}
                 />
+                <h1>{title}</h1>
+                <p>{subtitle}</p>
             </Link>
-            <h1>{title}</h1>
-            <p>{subtitle}</p>
-        </div>
 
+        </div>
         </>
     )
 }
