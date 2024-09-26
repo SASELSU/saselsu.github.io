@@ -157,9 +157,7 @@
 .navMenuSmallCardWrapper Link{
     color: white;
     text-decoration: none;
-
 }
-
 
 .navMenuSmallCard::before {
     content: "";
