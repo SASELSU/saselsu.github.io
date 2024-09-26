@@ -341,19 +341,19 @@
   }
 
   .homeSponsors {
-    height: 80vh;
+    height: auto;
   }
 
   .homeSponsors h1 {
-    font-size: 23px;
-    margin-top: 6vh;
+    font-size: 5.75vw;
+    margin-top: 4vh;
     color: white;
   }
 
   .homeSponsors p {
+    font-size: 3.5vw;
     color: white;
     text-align: center;
-    margin-bottom: 3vh;
   }
 
   .homeSponsorsList {
@@ -365,7 +365,7 @@
   }
 
   .homeSponsors a {
-    width: 50vw;
-    font-size: 25px;
+    width: 55vw;
+    font-size: 5vw;
   }
 }
