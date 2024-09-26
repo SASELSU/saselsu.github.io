@@ -12,15 +12,20 @@ import Clouds from "./assets/blockCloud.png"
 
 import MikeSearch from "./assets/MikeShop.png"
 
+import aboutBackground from "./assets/hackathonAboutBackground.png"
 import { Postcard } from "./helpers/hackathonHelpers";
-import Card1 from "./assets/louisianaPostcard.png"
-import Card2 from "./assets/newyork.png"
-import Card3 from "./assets/alaska.png"
+import AboutCard from "./assets/hackathonPostcards/about.png"
+import ActivitesCard from "./assets/hackathonPostcards/activities.png"
+import WorkshopsCard from "./assets/hackathonPostcards/workshops.png"
+
+import AboutBack from "./assets/hackathonPostcards/aboutBack.png"
+import ActivitiesBack from "./assets/hackathonPostcards/activitiesBack.png"
+import WorkshopsBack from "./assets/hackathonPostcards/workshopsBack.png"
 
 import MikeTicket from "./assets/signup.png"
 
 import { ChecklistCard } from "./helpers/hackathonHelpers";
-import MikePack from "./assets/MikePack.png"
+import MikePack from "./assets/mikePack.png"
 import { Check } from "@mui/icons-material";
 
 const Hackathon = () => {
@@ -55,29 +60,30 @@ const Hackathon = () => {
             </div>
 
 
-            <div className="hackathonAbout">
+            <div className="hackathonAbout"
+            style={{backgroundImage: `url(${aboutBackground})`}}>
                 <div className="cardSlider"
                     style={{transform: `translate3d(${-index * 33.33}%, 0, 0)`}}>
                     {[
                         <div className="card">                       
                             <Postcard
                                 title="About"
-                                cardImage={Card1}
-                                text="test"
+                                cardImage={AboutCard}
+                                cardBackImage={AboutBack}
                             />
                         </div>,
                         <div className="card">                       
                             <Postcard
                                 title="Activites"
-                                cardImage={Card2}
-                                text="test"
+                                cardImage={ActivitesCard}
+                                cardBackImage={ActivitiesBack}
                             />
                         </div>,
                         <div className="card">                       
                             <Postcard
                                 title="Workshops"
-                                cardImage={Card3}
-                                text="test"
+                                cardImage={WorkshopsCard}
+                                cardBackImage={WorkshopsBack}
                             />
                         </div>,
                     ]}
@@ -85,7 +91,6 @@ const Hackathon = () => {
                 <button className="buttonLeft" onClick={() => {index == 0 ? setIndex(2) : setIndex(index - 1)}}>left</button>
 
                 <button className="buttonRight" onClick={() => {index == 2 ? setIndex(0) : setIndex(index + 1)}}>right</button>
-
             </div>
 
             <div className="hackathonSignUp"

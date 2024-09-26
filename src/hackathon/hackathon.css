@@ -125,11 +125,22 @@
 }
 
 .hackathonAbout {
-    width: 100%;
-    height: 56vw;
+    width: 90vw;
+    height: 50vw;
+    margin: auto;
     overflow: hidden;
     display: flex;
-    background-color: rgb(117, 68, 0);
+
+    border-radius: 30px;
+    background-size: cover;
+}
+
+.hackathonAboutLongBrownThing {
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+
+    background-color: green;
 }
 
 .hackathonAbout button {
@@ -138,13 +149,13 @@
 }
 
 .buttonLeft {
-    /* margin-top: 40vh; */
-    left: 0;
+    margin-top: 40vh;
+    left: 10vw;
 }
 
 .buttonRight {
-    /* margin-top: 40vh; */
-    right: 0;
+    margin-top: 40vh;
+    right: 10vw;
 }
 
 .cardSlider {
@@ -154,6 +165,8 @@
     justify-content: center;
     /* white-space: nowrap; */
     transition: ease 1s;
+
+    /* background-color: grey; */
 }
 
 .card {

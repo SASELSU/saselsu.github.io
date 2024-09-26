@@ -1,11 +1,11 @@
 .flipCard {
-    width: 60vw;
-    height: 40vw;
+    width: 66vw;
+    height: 44vw;
     background-color: transparent;
     perspective: 1000px;
 
-    margin: auto;
-    margin-top: 10vh;
+    margin-left: 12vw;
+    margin-top: 3vw;
 
     font-family: "ADLaM Display";
 }
@@ -45,13 +45,13 @@
     transform: rotateY(180deg);
 }
 
-.cardBackText {
+/* .cardBackText {
     width: 90%;
     height: 90%;
     margin: 2vw;
 
-    /* background-color: grey; */
+    background-color: grey;
     display: flex;
     flex-direction: row;
     flex: 1;
-}
+} */

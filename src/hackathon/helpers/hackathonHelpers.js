@@ -8,7 +8,7 @@ export const Postcard = (props) => {
     const {
         title,
         cardImage,
-        text
+        cardBackImage
     } = props;
 
     return (
@@ -19,13 +19,8 @@ export const Postcard = (props) => {
                 >
                 </div>
                 <div className="cardBack"
-                    style={{backgroundImage: `url(${BackBackdrop})`}}
+                    style={{backgroundImage: `url(${cardBackImage})`}}
                 >
-                <div className="cardBackText">
-                    <p>{text}</p>
-                    <h1>{title}</h1>
-                </div>
-
                 </div>
             </div>
 
