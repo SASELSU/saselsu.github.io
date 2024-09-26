@@ -217,19 +217,26 @@
 
 @media (max-width: 432px) { /*phones*/
     .aboutTitleCard h1 {    
-        font-size: 60px;
+        font-size: 16vw;
         /* font-family: "Bebas Neue"; */
     }
 
+    .aboutMission h1 {
+        font-size: 8vw;
+    }
+
     .aboutMission p {
-        font-size: 20px;
+        font-size: 4vw;
         margin: 1rem;
-        margin-top:-10px;
     }
     
     .aboutMission img {
         height: 35vh;
-        margin-bottom: 5vh;
+        margin-bottom: 1vh;
+    }
+
+    .aboutHistory h1 {
+        font-size: 8vw;
     }
 
     .historyCardContainer {
@@ -242,6 +249,7 @@
     }
 
     .historyCardBlurb {
+        font-size: 4vw;
         margin-top: 0.5vh;
     }
     
@@ -266,10 +274,11 @@
     }
 
     .aboutEBoardCard h1 {
-        margin: 1rem;
+        margin: 0rem;
         margin-top: -1vh;
-        font-size: 35px;
-      text-align: center;
-    
+        font-size: 9.5vw;
+    }
+    .aboutEBoardCard p {
+        font-size: 4.5vw;
     }
 }
