@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.899706f1.css",
-    "main.js": "/static/js/main.33d26095.js",
+    "main.css": "/static/css/main.b740259b.css",
+    "main.js": "/static/js/main.baf90d0e.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/galleryBackdrop.png": "/static/media/galleryBackdrop.bd9b760ae37b5789859c.png",
@@ -25,7 +25,6 @@
     "static/media/2024-2025 Sponsorship Packet.pdf": "/static/media/2024-2025 Sponsorship Packet.4e3c286de804cf40eac1.pdf",
     "static/media/our-mission-temp.jpeg": "/static/media/our-mission-temp.381c9c2ded9df01d6e67.jpeg",
     "static/media/HackathonFlyer.png": "/static/media/HackathonFlyer.d9aeb5deca64c718e9ab.png",
-    "static/media/GBM1-Fall-2024.png": "/static/media/GBM1-Fall-2024.339d9bdb6b8eeca1654d.png",
     "static/media/navMenuEventsAlt.jpeg": "/static/media/navMenuEventsAlt.bd30aa66d5c09b9a902b.jpeg",
     "static/media/galleryFallFest.jpeg": "/static/media/galleryFallFest.9c4f37b340c288c397ec.jpeg",
     "static/media/DOWWorkshop24.jpeg": "/static/media/DOWWorkshop24.8870741aa5a1a0ea607e.jpeg",
@@ -38,14 +37,14 @@
     "static/media/thanh_kirsch.png": "/static/media/thanh_kirsch.6350731e8bab2b1c522e.png",
     "static/media/ricky_liang.jpeg": "/static/media/ricky_liang.120f1452db343932c183.jpeg",
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
-    "static/media/24BloodDrive.png": "/static/media/24BloodDrive.24fca18e1022c44eb508.png",
+    "static/media/Giveback Night.png": "/static/media/Giveback Night.258c3f6382623d0afeef.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
     "static/media/kris_lam.png": "/static/media/kris_lam.b6268d31799371a32283.png",
-    "static/media/Cat Haven.png": "/static/media/Cat Haven.66a016383cbfc9df1059.png",
     "static/media/Geaux Girls STEM.png": "/static/media/Geaux Girls STEM.f8b5a2d0a4c8519b265d.png",
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
     "static/media/ResumeBooklet.jpg": "/static/media/ResumeBooklet.067823874075b5324295.jpg",
+    "static/media/MOCK INTERVIEWS": "/static/media/MOCK INTERVIEWS.d5f720a813bae0b1960d",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.1a0c1d825e2e5fd218ac.png",
     "static/media/futureEvent.png": "/static/media/futureEvent.3eb7c3c3e3fea514373b.png",
@@ -78,12 +77,12 @@
     "static/media/inter-greek-ext-400-normal.woff2": "/static/media/inter-greek-ext-400-normal.f2fa0d9ef98f59d4a75b.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/index.html",
-    "main.899706f1.css.map": "/static/css/main.899706f1.css.map",
-    "main.33d26095.js.map": "/static/js/main.33d26095.js.map",
+    "main.b740259b.css.map": "/static/css/main.b740259b.css.map",
+    "main.baf90d0e.js.map": "/static/js/main.baf90d0e.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.899706f1.css",
-    "static/js/main.33d26095.js"
+    "static/css/main.b740259b.css",
+    "static/js/main.baf90d0e.js"
   ]
 }
