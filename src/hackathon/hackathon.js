@@ -4,15 +4,13 @@ import {
 } from "react";
 import "./hackathon.css"
 
-import ReactCurvedText from "react-curved-text";
-
-import Backdrop from "./assets/titleBackdrop.png"
-import Map from "./assets/blockMap.png"
-import Clouds from "./assets/blockCloud.png"
+import Backdrop from "./assets/titleCard/titleBackdrop.png"
+import Map from "./assets/titleCard/blockMap.png"
+import Clouds from "./assets/titleCard/blockCloud.png"
 
 import MikeSearch from "./assets/MikeShop.png"
 
-import aboutBackground from "./assets/hackathonAboutBackground.png"
+import aboutBackground from "./assets/about/hackathonAboutBackground.png"
 import { Postcard } from "./helpers/hackathonHelpers";
 import AboutCard from "./assets/hackathonPostcards/about.png"
 import ActivitesCard from "./assets/hackathonPostcards/activities.png"
@@ -26,8 +24,8 @@ import MikeTicket from "./assets/signup.png"
 
 import { ChecklistCard } from "./helpers/hackathonHelpers";
 import MikePack from "./assets/mikePack.png"
-import { Check } from "@mui/icons-material";
 
+import MikeTakeoff from "./assets/MikeTakeoff.png"
 const Hackathon = () => {
     const [index, setIndex] = useState(0);
     
@@ -104,7 +102,11 @@ const Hackathon = () => {
             style={{backgroundImage: `url(${MikePack})`}}>
                 <ChecklistCard/>
             </div>
+            
+            <div className="hackathonSponsors"
+            style={{backgroundImage: `url(${MikeTakeoff})`}}>
 
+            </div>
         </div>
     )
 }

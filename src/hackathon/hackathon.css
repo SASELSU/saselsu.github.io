@@ -144,18 +144,20 @@
 }
 
 .hackathonAbout button {
-    height: 20vh;
+    height: 10vw;
+    width: 10vw;
+    
+    margin-top: 20%;
     position: absolute;
+
 }
 
 .buttonLeft {
-    margin-top: 40vh;
-    left: 10vw;
+    left: 5vw;
 }
 
 .buttonRight {
-    margin-top: 40vh;
-    right: 10vw;
+    right: 5vw;
 }
 
 .cardSlider {
@@ -175,10 +177,10 @@
 }
 
 .hackathonSignUp {
-    width: 96vw;
-    height: 55vw;
-    
-    margin: 2vw;
+    height: 50vw;
+    width: 90vw;
+
+    margin: 5vw;
     border-radius: 2vw;
 
     background-size: cover;
@@ -204,12 +206,23 @@
 }
 
 .hackathonFAQ {
-    height: 55vw;
-    width: 96vw;
+    height: 50vw;
+    width: 90vw;
 
-    margin: 2vw;
+    margin: 5vw;
     border-radius: 2vw;
 
     background-size: cover;
     background-position: 50% 50%;
+}
+
+.hackathonSponsors {
+    height: 120vw;
+    width: 95vw;
+
+    margin: 2.5vw;
+    border-radius: 3vw;
+
+    background-size: cover;
+    background-repeat: no-repeat;
 }
