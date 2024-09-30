@@ -143,17 +143,17 @@
     background-color: green;
 }
 
-.hackathonAbout button {
+.hackathonAbout img {
     height: 10vw;
     width: 10vw;
     
     margin-top: 20%;
     position: absolute;
-
+    background-color: transparent;
 }
 
 .buttonLeft {
-    left: 5vw;
+    left: 7.5vw;
 }
 
 .buttonRight {

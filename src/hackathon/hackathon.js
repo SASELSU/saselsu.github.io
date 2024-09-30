@@ -10,6 +10,8 @@ import Clouds from "./assets/titleCard/blockCloud.png"
 
 import MikeSearch from "./assets/MikeShop.png"
 
+import backArrow from "./assets/about/backArrow.png"
+import frontArrow from "./assets/about/frontArrow.png"
 import aboutBackground from "./assets/about/hackathonAboutBackground.png"
 import { Postcard } from "./helpers/hackathonHelpers";
 import AboutCard from "./assets/hackathonPostcards/about.png"
@@ -86,9 +88,9 @@ const Hackathon = () => {
                         </div>,
                     ]}
                 </div>
-                <button className="buttonLeft" onClick={() => {index == 0 ? setIndex(2) : setIndex(index - 1)}}>left</button>
+                <img className="buttonLeft" src={backArrow} onClick={() => {index == 0 ? setIndex(2) : setIndex(index - 1)}}/>
 
-                <button className="buttonRight" onClick={() => {index == 2 ? setIndex(0) : setIndex(index + 1)}}>right</button>
+                <img className="buttonRight" src={frontArrow} onClick={() => {index == 2 ? setIndex(0) : setIndex(index + 1)}}/>
             </div>
 
             <div className="hackathonSignUp"
