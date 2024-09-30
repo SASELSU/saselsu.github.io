@@ -216,6 +216,23 @@
     background-position: 50% 50%;
 }
 
+.FAQContainer {
+    width: 31.25vw;
+    height: 38vw;
+
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 1px; */
+
+    position: relative;
+    margin-left: 54.5vw;
+    top: 7.5vw;
+
+    overflow-y: scroll;
+
+    background-color: aqua;
+}
+
 .hackathonSponsors {
     height: 120vw;
     width: 95vw;

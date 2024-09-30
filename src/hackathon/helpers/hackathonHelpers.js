@@ -1,8 +1,9 @@
 import {
     React,
-    // useState
+    useState
 } from "react";
 import "./hackathonPostcard.css"
+import "./hackathonChecklist.css"
 import BackBackdrop from "../assets/about/postcardBack.jpeg"
 export const Postcard = (props) => {
     const {
@@ -29,10 +30,25 @@ export const Postcard = (props) => {
 }
 
 export const ChecklistCard = (props) => {
+    const [open, setOpen] = useState(false);
+
+    const handleOpen = () => {
+        setOpen(!open);
+    };
+
+    const {
+        title,
+        paragraph
+    } = props;
     return (
         <>
-        <div className="checklistCard">
-hello
+        <div className={"checklistCard"}>
+            <button onClick={handleOpen}>{title}</button>
+            {open ? (
+                <div className="checklistCardOpen">
+                    <p>{paragraph}</p>
+                </div>
+            ): null}
         </div>
         </>
     );

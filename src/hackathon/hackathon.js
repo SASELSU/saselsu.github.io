@@ -102,7 +102,32 @@ const Hackathon = () => {
 
             <div className="hackathonFAQ"
             style={{backgroundImage: `url(${MikePack})`}}>
-                <ChecklistCard/>
+                <div className="FAQContainer">
+                    <ChecklistCard
+                        title="What is GeauxHack?"
+                        paragraph="something something test paragraph"
+                    />
+                    <ChecklistCard
+                        title="Do I need to bring anything?"
+                        paragraph="something something test paragraph"
+                    />
+                    <ChecklistCard
+                        title="FREE STUFF??"
+                        paragraph="something something test paragraph"
+                    />
+                    <ChecklistCard
+                        title="What are the prizes?"
+                        paragraph="something something test paragraph"
+                    />
+                    <ChecklistCard
+                        title="Do we get swag?"
+                        paragraph="something something test paragraph"
+                    />
+                    <ChecklistCard
+                        title="Do we get swag?"
+                        paragraph="something something test paragraph"
+                    />
+                </div>
             </div>
             
             <div className="hackathonSponsors"
