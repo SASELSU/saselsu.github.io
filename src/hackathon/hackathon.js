@@ -22,10 +22,10 @@ import AboutBack from "./assets/hackathonPostcards/aboutBack.png"
 import ActivitiesBack from "./assets/hackathonPostcards/activitiesBack.png"
 import WorkshopsBack from "./assets/hackathonPostcards/workshopsBack.png"
 
-import MikeTicket from "./assets/signup.png"
+import MikeTicket from "./assets/signup/MikeSignup.png"
 
 import { ChecklistCard } from "./helpers/hackathonHelpers";
-import MikePack from "./assets/mikePack.png"
+import MikePack from "./assets/faq/MikePack.png"
 
 import MikeTakeoff from "./assets/MikeTakeoff.png"
 const Hackathon = () => {
@@ -102,6 +102,7 @@ const Hackathon = () => {
 
             <div className="hackathonFAQ"
             style={{backgroundImage: `url(${MikePack})`}}>
+                <h1 className="FAQText">Don't forget to pack the essentials!</h1>
                 <div className="FAQContainer">
                     <ChecklistCard
                         title="What is GeauxHack?"

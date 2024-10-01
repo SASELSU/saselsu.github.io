@@ -184,7 +184,6 @@
     border-radius: 2vw;
 
     background-size: cover;
-
     display: flex;
 }
 
@@ -197,12 +196,12 @@
     color: white;
     text-decoration: none;
     text-align: center;
-    font-size: 5vw;
+    font-size: 4vw;
     font-weight: 600;
   
     padding: 2vw;
-    margin-top: 30vw;
-    margin-left: 49.5vw;
+    margin-top: 20vw;
+    margin-left: 47vw;
 }
 
 .hackathonFAQ {
@@ -216,6 +215,20 @@
     background-position: 50% 50%;
 }
 
+.FAQText{
+    width: 30vw;
+    
+    position: relative;
+    margin-left: 10vw;
+    top: 1.2vw;
+    text-align: center;
+
+}
+.hackathonFAQ h1{
+    color: rgb(19, 27, 35);
+    font-size: 2.75vw;
+    font-weight: 300;
+}
 .FAQContainer {
     width: 31.25vw;
     height: 38vw;
@@ -226,7 +239,7 @@
 
     position: relative;
     margin-left: 54.5vw;
-    top: 7.5vw;
+    top: -1.5vw;
 
     overflow-y: scroll;
 
