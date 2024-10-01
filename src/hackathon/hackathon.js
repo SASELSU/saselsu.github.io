@@ -113,27 +113,35 @@ const Hackathon = () => {
                 <div className="FAQContainer">
                     <ChecklistCard
                         title="What is GeauxHack?"
-                        paragraph="something something test paragraph"
+                        paragraph="GeauxHack is a Forty Hour, Three Day long Hackathon where groups of two to five members address some themed prompt. This year's theme will be focused on World Tourism."
+                    />
+                    <ChecklistCard
+                        title="I'm new. Should I participate?"
+                        paragraph="GeauxHack is the first Hackathon for many hackers! We will have two difficulty levels for beginners and more experienced Hackers to accomodate for skill levels."
+                    />
+                    <ChecklistCard
+                        title="Who's allowed?"
+                        paragraph="GeauxHack is allowed to ALL college and highschool students."
                     />
                     <ChecklistCard
                         title="Do I need to bring anything?"
-                        paragraph="something something test paragraph"
+                        paragraph="The only thing required is something to program with!"
+                    />
+                    <ChecklistCard
+                        title="Do we get swag?"
+                        paragraph="All participants will receive a free GeauxHack shirt on the last day! We will release the design on the first day."
                     />
                     <ChecklistCard
                         title="FREE STUFF??"
-                        paragraph="something something test paragraph"
+                        paragraph="On top of the shirt, we will be providing free breakfasts, lunches, and dinners at usual mealtimes, as well as providing snacks and refreshment throughout the day."
                     />
                     <ChecklistCard
-                        title="What are the prizes?"
-                        paragraph="something something test paragraph"
+                        title="What am I allowed to make?"
+                        paragraph="You can make anything you want! We have no banned languages, meaning you can use anything from C to Scratch!"
                     />
                     <ChecklistCard
-                        title="Do we get swag?"
-                        paragraph="something something test paragraph"
-                    />
-                    <ChecklistCard
-                        title="Do we get swag?"
-                        paragraph="something something test paragraph"
+                        title="I have more questions!"
+                        paragraph="Email us at lsu@saseconnect.org! We'll follow up as soon as we can."
                     />
                 </div>
             </div>

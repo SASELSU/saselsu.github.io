@@ -119,7 +119,7 @@
 }
 
 .hackathonTitleTransition h1 {
-    font-size: 2vw;
+    font-size: 2.9vw;
     font-weight: 300;
     padding-top: 1.5vw;
 }
@@ -263,19 +263,21 @@
 }
 .FAQContainer {
     width: 31.25vw;
-    height: 38vw;
+    height: 37vw;
 
     /* display: flex;
     flex-direction: column; */
     /* gap: 1px; */
 
-    position: relative;
-    margin-left: 54.5vw;
-    top: -1.5vw;
+    display: inline;
+    position: absolute;
+    right: 9vw;
+    /* margin-left: 54.5vw;
+    top: -1.5vw; */
 
     overflow-y: scroll;
 
-    background-color: aqua;
+    background-color: white;
 }
 
 .hackathonSponsors {

@@ -43,12 +43,14 @@ export const ChecklistCard = (props) => {
     return (
         <>
         <div className={"checklistCard"}>
+
             <button onClick={handleOpen}>{title}</button>
-            {open ? (
-                <div className="checklistCardOpen">
-                    <p>{paragraph}</p>
-                </div>
-            ): null}
+            {/* <div className={`checklistCardOpen`}>
+                <p>{paragraph}</p>
+            </div> */}
+            <div className={`checklistCardOpen ${open? 'active' : 'inactive'}`}>
+                <p>{paragraph}</p>
+            </div>
         </div>
         </>
     );
