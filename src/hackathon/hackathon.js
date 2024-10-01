@@ -95,9 +95,16 @@ const Hackathon = () => {
 
             <div className="hackathonSignUp"
                 style={{backgroundImage: `url(${MikeTicket})`}}>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVafj0EEkJrmPX6ay9xYdFrBybel6yfHDmviUKrA_SsA16WQ/viewform?usp=sf_link" target="_blank">
-                    SIGN UP
-                </a>
+                <h2>Looks like Mike wants to go to GeauxHackia!</h2>
+                <div className="signUpMonitor">
+                    <h1>BTR → HCK</h1>
+                    <p> Sign up for GeauxHack by clicking on the button below!</p>
+                    <p> (Click the Sign Up Button)</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVafj0EEkJrmPX6ay9xYdFrBybel6yfHDmviUKrA_SsA16WQ/viewform?usp=sf_link" target="_blank">
+                        SIGN UP
+                    </a>
+                </div>
+
             </div>
 
             <div className="hackathonFAQ"
