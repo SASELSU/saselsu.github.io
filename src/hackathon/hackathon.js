@@ -27,7 +27,9 @@ import MikeTicket from "./assets/signup/MikeSignup.png"
 import { ChecklistCard } from "./helpers/hackathonHelpers";
 import MikePack from "./assets/faq/MikePack.png"
 
-import MikeTakeoff from "./assets/MikeTakeoff.png"
+import MikeTakeoff from "./assets/sponsors/SponsorBackground.png"
+import LSUCOE from "./assets/sponsors/LSU_CoE_White.jpg.png"
+import SponsorshipPacket from "./assets/sponsors/Hackathon Sponsorship Packet 2024-25.pdf"
 const Hackathon = () => {
     const [index, setIndex] = useState(0);
     
@@ -148,7 +150,14 @@ const Hackathon = () => {
             
             <div className="hackathonSponsors"
             style={{backgroundImage: `url(${MikeTakeoff})`}}>
-
+                <h2>And we're off!</h2>
+                <h1>Thank you to our Sponsors!</h1>
+                <img src={LSUCOE}/>
+                <h1>Want to become a sponsor?</h1>
+                <p>Click the button below!</p>
+                <a href={SponsorshipPacket} target="_blank">
+                        Join Us!
+                </a>
             </div>
         </div>
     )
