@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.76123c55.css",
-    "main.js": "/static/js/main.5f3f64fe.js",
+    "main.js": "/static/js/main.f76bd390.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/galleryBackdrop.png": "/static/media/galleryBackdrop.bd9b760ae37b5789859c.png",
     "static/media/galvin_wong.png": "/static/media/galvin_wong.906d9c1d7d892a7a7e8a.png",
     "static/media/Hackathon Sponsorship Packet 2024-25.pdf": "/static/media/Hackathon Sponsorship Packet 2024-25.02bed03fdceb0394769e.pdf",
+    "static/media/miniDiversity.png": "/static/media/miniDiversity.e19ff4f7b200b2f063f2.png",
     "static/media/diversity-background-1.png": "/static/media/diversity-background-1.68c0f703c47aab940b44.png",
     "static/media/firstPaint.png": "/static/media/firstPaint.80478e051c9578fc6d91.png",
     "static/media/grishma_shrestha_2.jpg": "/static/media/grishma_shrestha_2.fb01cce5089644b0c06d.jpg",
+    "static/media/exxonmockinterview24.png": "/static/media/exxonmockinterview24.8e15d7fc3ec6f24005f9.png",
     "static/media/navMenuAbout.png": "/static/media/navMenuAbout.c8ff4062849de003e0f4.png",
     "static/media/faris_khattak.jpg": "/static/media/faris_khattak.3d5fb45d9b1a45a66a98.jpg",
     "static/media/about.png": "/static/media/about.a69aa9373803477ff77c.png",
@@ -23,7 +25,6 @@
     "static/media/bobaSocial23.jpg": "/static/media/bobaSocial23.75488a3e562bd73f3f45.jpg",
     "static/media/TigerConnections.jpeg": "/static/media/TigerConnections.d6688e42a9554a74cde1.jpeg",
     "static/media/himangini_chauhan.png": "/static/media/himangini_chauhan.08d24eb17a39846e3549.png",
-    "static/media/miniDiversity.jpeg": "/static/media/miniDiversity.c28c543a509fb722c9c8.jpeg",
     "static/media/galleryPickleballSocial.jpeg": "/static/media/galleryPickleballSocial.672c446ef213707adfa3.jpeg",
     "static/media/historyLunarEvent.jpeg": "/static/media/historyLunarEvent.efdc3c44b3be05d9f47c.jpeg",
     "static/media/2024-2025 Sponsorship Packet.pdf": "/static/media/2024-2025 Sponsorship Packet.4e3c286de804cf40eac1.pdf",
@@ -97,11 +98,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.76123c55.css.map": "/static/css/main.76123c55.css.map",
-    "main.5f3f64fe.js.map": "/static/js/main.5f3f64fe.js.map",
+    "main.f76bd390.js.map": "/static/js/main.f76bd390.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.76123c55.css",
-    "static/js/main.5f3f64fe.js"
+    "static/js/main.f76bd390.js"
   ]
 }
