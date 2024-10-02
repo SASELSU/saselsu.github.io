@@ -170,8 +170,8 @@ const Gallery = () => {
             <GalleryCard 
                 image={TigerConnections}
                 title="Tiger Connections"
-                date="AUG 29 2024"
-                link="https://www.facebook.com/media/set/?set=a.933565605465756&type=3"
+                date="AUG 27 2023"
+                link="https://www.facebook.com/media/set/?set=a.697377255751260&type=3"
             />
             </div>
         </div>
