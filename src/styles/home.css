@@ -125,27 +125,43 @@
 .missionPillar {
   background-color: rgb(0, 78, 100);
   width: 25vw;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   text-align: center;
-  border-radius: 20px;
+  border-radius: 2vw;
 }
 
 .missionPillar img {
-  border-radius: 20px;
+  width: 100%;
+  height: 16vw;
+  border-radius: 2vw;
 
-  height: 250px;
   object-fit: cover;
 }
 
-.missionPillar h1 {
-  height: 50px;
+.missionPillar h1 { /* pro dev because it takes up 2 lines*/
+  height: 7vw;
+
+  margin-bottom: -3.3vw;
+
+  font-size: 2.5vw;
+
+
+  justify-content: center;
+  align-items: center;
+}
+
+.missionPillar h2 { /* the other two because they take up 1 line*/
+  height: 3vw;
+  font-size: 3.5vw;
   justify-content: center;
   align-items: center;
 }
 
 .missionPillar p {
-  margin: 1rem;
+  height: 2vw;
+
+  font-size: 1.2vw;
 }
 
 

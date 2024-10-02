@@ -122,7 +122,7 @@ const Home = () => {
             <div className="missionPillarContainer">
                 <div className="missionPillar">
                     <img src={MiniDiversity}/>
-                    <h1>Diversity</h1>
+                    <h2>Diversity</h2>
                     <p>Celebrate diversity on campuses and in the workplace.</p>
                 </div>
                 <div className="missionPillar">
@@ -132,7 +132,7 @@ const Home = () => {
                 </div>
                 <div className="missionPillar">
                     <img src={MiniCommunity}/>
-                    <h1>Community</h1>
+                    <h2>Community</h2>
                     <p>Provide opportunites for members to make contributions to their local communities.</p>
                 </div>
             </div>
