@@ -37,12 +37,6 @@ const Gallery = () => {
                 link="https://www.facebook.com/media/set/?set=a.946623720826611&type=3"
             />
             <GalleryCard 
-                image={FallFest24}
-                title="Fall Fest"
-                date="SEPT 20 2024"
-                link="https://www.facebook.com/media/set/?set=a.946623720826611&type=3"
-            />
-                <GalleryCard 
                 image={Pickleball24}
                 title="Pickleball x DOW Social"
                 date="SEPT 19 2024"
