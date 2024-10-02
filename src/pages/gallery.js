@@ -5,14 +5,14 @@ import Backdrop from "../assets/gallery/galleryBackdrop.png"
 import { GalleryCard } from "./helpers/galleryHelpers";
 
 /* fall 24 */
-import TigerConnections from "../assets/gallery/fall24/TigerConnections.jpeg"
-import BobaSocial24 from "../assets/gallery/fall24/bobaSocial24.png"
-import DowWorkshop24 from "../assets/gallery/fall24/DOWWorkshop24.jpeg"
-import Pickleball24 from "../assets/gallery/fall24/galleryPickleballSocial.jpeg"
-import FallFest24 from "../assets/gallery/fall24/galleryFallFest.jpeg"
-import ExxonMock from "../assets/gallery/fall24/exxonmockinterview24.png"
+import F24_TigerConnections from "../assets/gallery/fall24/TigerConnections.jpeg"
+import F24_BobaSocial from "../assets/gallery/fall24/bobaSocial24.png"
+import F24_DowWorkshop from "../assets/gallery/fall24/DOWWorkshop24.jpeg"
+import F24_Pickleball from "../assets/gallery/fall24/galleryPickleballSocial.jpeg"
+import F24_FallFest from "../assets/gallery/fall24/galleryFallFest.jpeg"
+import F24_ExxonMock from "../assets/gallery/fall24/exxonmockinterview24.png"
 
-/* spring 24 */
+// spring24
 import S24_GBM1 from "../assets/gallery/spring24/gbm1spring24.jpg"
 import S24_ShellMock from "../assets/gallery/spring24/shellmockspring24.jpg"
 import S24_DOWPD from "../assets/gallery/spring24/dowpdspring24.jpg"
@@ -23,6 +23,15 @@ import S24_AEDWork from "../assets/gallery/spring24/aedworkshopspring24.jpg"
 import S24_CatHav from "../assets/gallery/spring24/cathavenspring24.jpg"
 import S24_BANQ from "../assets/gallery/spring24/banqspring24.jpg"
 
+// fall 23
+import F23_TigerConnections from "../assets/gallery/fall23/tigerconnectfall23.jpg"
+import F23_Boba from "../assets/gallery/fall23/bobasocialspring23.jpg"
+import F23_GBM1 from "../assets/gallery/fall23/gbm1fall23.jpg"
+import F23_GBM2 from "../assets/gallery/fall23/gbm2fall23.jpg"
+import F23_BeachVB from "../assets/gallery/fall23/beachvbfall23.jpg"
+import F23_AED from "../assets/gallery/fall23/aedfall23.jpg"
+import F23_GBM3 from "../assets/gallery/fall23/gbm3fall23.jpg"
+import F23_Karaoke from "../assets/gallery/fall23/karpotfall23.jpg"
 const Gallery = () => {
     return (
         <>
@@ -38,37 +47,37 @@ const Gallery = () => {
             <h3>Fall 2024</h3>
             <div className="galleryCardContainer">
             <GalleryCard 
-                image={ExxonMock}
+                image={F24_ExxonMock}
                 title="Exxon Mock Interview"
                 date="SEPT 30 2024"
                 link="https://www.facebook.com/media/set/?set=a.955275746628075&type=3"
             />
             <GalleryCard 
-                image={FallFest24}
+                image={F24_FallFest}
                 title="Fall Fest"
                 date="SEPT 20 2024"
                 link="https://www.facebook.com/media/set/?set=a.946623720826611&type=3"
             />
             <GalleryCard 
-                image={Pickleball24}
+                image={F24_Pickleball}
                 title="Pickleball x DOW Social"
                 date="SEPT 19 2024"
                 link="https://www.facebook.com/media/set/?set=a.946620777493572&type=3"
             />
             <GalleryCard 
-                image={BobaSocial24}
+                image={F24_BobaSocial}
                 title="GBM 1: Boba Social"
                 date="SEPT 5 2024"
                 link="https://www.facebook.com/media/set/?set=a.935833585238958&type=3"
             />
             <GalleryCard 
-                image={DowWorkshop24}
+                image={F24_DowWorkshop}
                 title="Dow PD Workshop"
                 date="SEPT 4 2024"
                 link="https://www.facebook.com/media/set/?set=a.935800311908952&type=3"
             />
             <GalleryCard 
-                image={TigerConnections}
+                image={F24_TigerConnections}
                 title="Tiger Connections"
                 date="AUG 29 2024"
                 link="https://www.facebook.com/media/set/?set=a.933565605465756&type=3"
@@ -138,37 +147,49 @@ const Gallery = () => {
             <h3>Fall 2023</h3>
             <div className="galleryCardContainer">
             <GalleryCard 
-                image={ExxonMock}
-                title="Exxon Mock Interview"
-                date="SEPT 30 2024"
-                link="https://www.facebook.com/media/set/?set=a.955275746628075&type=3"
+                image={F23_Karaoke}
+                title="Karaoke Potluck"
+                date="NOV 17 2023"
+                link="https://www.facebook.com/media/set/?set=a.749839857171666&type=3"
             />
             <GalleryCard 
-                image={FallFest24}
-                title="Fall Fest"
-                date="SEPT 20 2024"
-                link="https://www.facebook.com/media/set/?set=a.946623720826611&type=3"
+                image={F23_AED}
+                title="AED SCIENCE PANEL"
+                date="NOV 2 2023"
+                link="https://www.facebook.com/media/set/?set=a.739053768250275&type=3"
             />
             <GalleryCard 
-                image={Pickleball24}
-                title="Pickleball x DOW Social"
-                date="SEPT 19 2024"
-                link="https://www.facebook.com/media/set/?set=a.946620777493572&type=3"
+                image={F23_GBM3}
+                title="3RD GEN BODY MEETING"
+                date="NOV 16 2023"
+                link="https://www.facebook.com/media/set/?set=a.749834007172251&type=3"
             />
             <GalleryCard 
-                image={BobaSocial24}
+                image={F23_BeachVB}
+                title="DOW Beach Volleyball"
+                date="OCT 27 2023"
+                link="https://www.facebook.com/media/set/?set=a.739030288252623&type=3"
+            />
+            <GalleryCard 
+                image={F23_GBM2}
+                title="2ND GEN BODY MEETING"
+                date="OCT 19 2023"
+                link="https://www.facebook.com/media/set/?set=a.730506515771667&type=3"
+            />
+            <GalleryCard 
+                image={F23_GBM1}
+                title="1ST GEN BODY MEETING"
+                date="SEPT 21 2023"
+                link="https://www.facebook.com/media/set/?set=a.718195513669434&type=3"
+            />
+            <GalleryCard 
+                image={F23_Boba}
                 title="Boba Social"
-                date="SEPT 5 2024"
-                link="https://www.facebook.com/media/set/?set=a.935833585238958&type=3"
+                date="AUG 31 2023"
+                link="https://www.facebook.com/media/set/?set=a.700774295411556&type=3"
             />
             <GalleryCard 
-                image={DowWorkshop24}
-                title="Dow PD Workshop"
-                date="SEPT 4 2024"
-                link="https://www.facebook.com/media/set/?set=a.935800311908952&type=3"
-            />
-            <GalleryCard 
-                image={TigerConnections}
+                image={F23_TigerConnections}
                 title="Tiger Connections"
                 date="AUG 27 2023"
                 link="https://www.facebook.com/media/set/?set=a.697377255751260&type=3"
