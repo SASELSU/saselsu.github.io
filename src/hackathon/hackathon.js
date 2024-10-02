@@ -4,6 +4,8 @@ import {
 } from "react";
 import "./hackathon.css"
 
+import { HackathonNav } from "./helpers/hackathonNav";
+
 import Backdrop from "./assets/titleCard/titleBackdrop.png"
 import Map from "./assets/titleCard/blockMap.png"
 import Clouds from "./assets/titleCard/blockCloud.png"
@@ -30,10 +32,13 @@ import MikePack from "./assets/faq/MikePack.png"
 import MikeTakeoff from "./assets/sponsors/SponsorBackground.png"
 import LSUCOE from "./assets/sponsors/LSU_CoE_White.jpg.png"
 import SponsorshipPacket from "./assets/sponsors/Hackathon Sponsorship Packet 2024-25.pdf"
+
 const Hackathon = () => {
     const [index, setIndex] = useState(0);
     
     return (
+        <>
+        <HackathonNav/>
         <div className="hackathon">
             <div className="hackathonTitleCard"
             style={{backgroundImage: `url(${Backdrop})`}}>
@@ -160,6 +165,7 @@ const Hackathon = () => {
                 </a>
             </div>
         </div>
+        </>
     )
 }
 
