@@ -10,7 +10,26 @@
 }
 
 .hackathonNav img{
+    height: 5.8vw;
+    margin: auto;
+}
 
+.hackathonHomeButton{
+    height: 6.2vw;
+    overflow: hidden;
+    position: fixed;
+    bottom: 5vh;
+    right: 0;
+}
+
+.hackathonHomeButton img {
+    height: 6.2vw;
+    
+    object-fit: cover;
+    border-top-left-radius: 1vw;
+    border-bottom-left-radius: 1vw;
+
+    background-color: gray;
 }
 
 .hackathonNavBar {
