@@ -35,7 +35,6 @@ const NavMenu = () => {
                     <SmallCard
                         image={HackathonCard}
                         title="Hackathon"
-                        subtitle="(coming soon)"
                         link="/hackathon"
                     />
                     <SmallCard
