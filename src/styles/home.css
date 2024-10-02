@@ -91,17 +91,16 @@
 .missionStatement h1 {
   /* margin-top: 100px;
   height: 200px; */
-  margin: 1rem;
-
+  margin: 1vw 5vw -1vw 5vw;
   justify-content: center;
   text-align: center;
-  /* font-weight: 100; */
+  font-weight: 700;
 }
 
 .missionStatement h2 {
   /* margin-top: 100px;
   height: 200px; */
-  margin: 2.3rem;
+  margin: 2.3vw;
   margin-bottom: -1vh;
   
 
@@ -233,14 +232,18 @@
 }
 
 @media (max-width: 768px) { /*tablets*/
+
+  .missionStatement h1 {
+    margin-top: 3vw;
+    font-size: 4.7vw;
+  }
   .pillarTitle {
     font-size: 90px;
     font-weight: 500;
     font-family: "Bebas Neue";
     color: white;
     line-height: 0.9;
-}
-
+  }
 
   .missionPillarContainer {
     display: flex;
