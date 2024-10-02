@@ -22,8 +22,9 @@ function App() {
   return (
     <>
       <Router>
-      <Navbar />
       <ScrollToTop/>
+      <Navbar />
+
       <Routes>
         <Route
           exact path="/"

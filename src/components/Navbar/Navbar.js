@@ -81,16 +81,24 @@ const NavMenu = () => {
 }
 
 const Navbar = () => {
+
+    const [menuShow, setMenuShow] = useState(false);     
+
+
     const location = useLocation();
-    const [menuShow, setMenuShow] = useState(false);
+    useEffect(() => {
+        setMenuShow(false);
+    }, [location])
+    console.log(location);
+    if (location.pathname.localeCompare("/hackathon") === 0) {
+      return (<div></div>);  
+    }
+
 
     const handleToggleMenu = () => {
         setMenuShow(!menuShow);
     }
-    
-    useEffect(() => {
-        setMenuShow(false);
-    }, [location])
+
 
     return (
         <>
