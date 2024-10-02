@@ -10,7 +10,7 @@ import BobaSocial24 from "../assets/gallery/fall24/bobaSocial24.png"
 import DowWorkshop24 from "../assets/gallery/fall24/DOWWorkshop24.jpeg"
 import Pickleball24 from "../assets/gallery/fall24/galleryPickleballSocial.jpeg"
 import FallFest24 from "../assets/gallery/fall24/galleryFallFest.jpeg"
-
+import ExxonMock from "../assets/gallery/fall24/exxonmockinterview24.png"
 const Gallery = () => {
     return (
         <>
@@ -24,6 +24,18 @@ const Gallery = () => {
 
         <div className="gallery">
             <div className="galleryCardContainer">
+            <GalleryCard 
+                image={ExxonMock}
+                title="Exxon Mock Interview"
+                date="SEPT 30 2024"
+                link="https://www.facebook.com/media/set/?set=a.955275746628075&type=3"
+            />
+            <GalleryCard 
+                image={FallFest24}
+                title="Fall Fest"
+                date="SEPT 20 2024"
+                link="https://www.facebook.com/media/set/?set=a.946623720826611&type=3"
+            />
             <GalleryCard 
                 image={FallFest24}
                 title="Fall Fest"

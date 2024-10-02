@@ -31,24 +31,6 @@ const Events = () => {
             <div className="postContainer"> {/*something something more manual input*/}
 
                 <Post
-                    image={Exxon}
-                    eventMonth="SEPT 2024"
-                    eventDay="30"
-                    eventTime="6:00pm-7:30pm"
-                    eventLocation="PFT 1245"
-                    postTitle="Exxon Mock Interviews"
-                    postDesc="ENGINEERS ONLY. Come practice your interviewing skills with employees from Exxon! Sign up on Discord!"
-                />
-                <Post
-                    image={ResumeBooklet}
-                    eventMonth="SEPT 2024"
-                    eventDay="30"
-                    eventTime="Due 11:59 PM"
-                    eventLocation="SASE Discord"
-                    postTitle="Resume Booklet"
-                    postDesc="For SASE Nationals Attendees Only. Submit your resume to be judged by companies at SASE National Convention!"
-                />
-                <Post
                     image={Giveback}
                     eventMonth="OCT 2024"
                     eventDay="4"
@@ -56,6 +38,15 @@ const Events = () => {
                     eventLocation="7584 Bluebonnet Blvd"
                     postTitle="Kung Fu Tea Giveback"
                     postDesc="It's time for our KFT Giveback Night! Order some Boba and mention us!"
+                />
+                <Post
+                    image={GeauxGirls}
+                    eventMonth="OCT 2024"
+                    eventDay="5"
+                    eventTime="10:00am-12:00pm"
+                    eventLocation="720 Terrace Ave"
+                    postTitle="Geaux Girls"
+                    postDesc="Come and help Geaux Girls STEM set up and run their development workshop! Sign ups are on Discord."
                 />
                 {/* <Post //never remove (this is the future event)
                 image={FutureEvent}
@@ -78,15 +69,7 @@ const Events = () => {
                     postDesc="🗣️ Get some final practice with your professional skills before the Career Fair! Feel free to also bring your resumes for a fresh set of eyes 👀 📎 "
                 /> */}
             <div className="postContainer">
-            <Post
-                    image={GeauxGirls}
-                    eventMonth="OCT 2024"
-                    eventDay="5"
-                    eventTime="10:00am-12:00pm"
-                    eventLocation="720 Terrace Ave"
-                    postTitle="Geaux Girls"
-                    postDesc="Come and help Geaux Girls STEM set up and run their development workshop! Sign ups are on Discord."
-                />
+
             </div>
         </div>
         </>

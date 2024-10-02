@@ -88,16 +88,14 @@ const Navbar = () => {
     useEffect(() => {
         setMenuShow(false);
     }, [location])
-    console.log(location);
+
     if (location.pathname.localeCompare("/hackathon") === 0) {
       return (<div></div>);  
     }
 
-
     const handleToggleMenu = () => {
         setMenuShow(!menuShow);
     }
-
 
     return (
         <>

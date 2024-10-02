@@ -10,7 +10,7 @@ import DiversityBackground1 from "../assets/home/home_backgrounds/diversity-back
 import PDBackground1 from "../assets/home/home_backgrounds/pd-background-1.jpg"
 
 import MiniCommunity from "../assets/home/miniCommunity.jpg"
-import MiniDiversity from "../assets/home/miniDiversity.jpeg"
+import MiniDiversity from "../assets/home/miniDiversity.png"
 import MiniProdev from "../assets/home/miniProDev.jpeg"
 
 
