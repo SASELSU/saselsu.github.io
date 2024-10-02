@@ -103,7 +103,7 @@
 
 .gallery {
     width: 100%;
-    height: auto;
+    height: fit-content;
     background-color: rgb(0, 78, 100);
     text-align: center;
 
@@ -111,6 +111,14 @@
     flex-direction: column;
 
     overflow-x: scroll;
+}
+
+.gallery h3 {
+    font-size: 3vw;
+    font-weight: 600;
+    color: white;
+
+    margin: 2vw;
 }
 
 @media (max-width: 1024px) {
