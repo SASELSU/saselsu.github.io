@@ -288,6 +288,7 @@
 
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .hackathonSponsors h2 {
@@ -345,6 +346,21 @@
 
 .hackathonSponsors img {
     width: 50vw;
+}
+
+.hackathonSponsorsText {
+    width: fit-content;
+    height: fit-content;
+
+    padding: 3vw;
+    padding-top: 0vw;
+    padding-bottom: 4vw;
+    border-radius: 2vw;
+
+    margin-left: 11.5vw;
+    margin-top: 12.5vw;
+
+    background-color: rgb(22, 105, 122);
 }
 
 @media (max-width: 432px) {

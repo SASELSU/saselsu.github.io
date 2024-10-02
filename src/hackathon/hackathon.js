@@ -158,11 +158,15 @@ const Hackathon = () => {
                 <h2>And we're off!</h2>
                 <h1>Thank you to our Sponsors!</h1>
                 <img src={LSUCOE}/>
-                <h1>Want to become a sponsor?</h1>
-                <p>Click the button below!</p>
-                <a href={SponsorshipPacket} target="_blank">
-                        Join Us!
-                </a>
+                <div className="hackathonSponsorsText">   
+    `               <h1>Want to become a sponsor?</h1>
+                    <p>Click the button below!</p>
+                    <a href={SponsorshipPacket} target="_blank">
+                            Join Us!
+                    </a>`
+                </div>
+
+
             </div>
         </div>
         </>
