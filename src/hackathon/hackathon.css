@@ -59,7 +59,6 @@
     width: 20vw; */
     border-radius:50%;
 
-
     display: grid;
     overflow: hidden;
 
@@ -346,4 +345,43 @@
 
 .hackathonSponsors img {
     width: 50vw;
+}
+
+@media (max-width: 432px) {
+
+    .hackathonTitleCard h1 {
+        font-size: 12.5vw;
+    }
+
+    .midSection {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .midSection h1{   
+        font-size: 16vw;
+    }
+    
+    .globe {
+        height: 30vw;
+        width: 30vw;
+    }
+    .map > img {
+        height: 30vw;
+    }
+    .clouds {
+    transform: translateY(-30vw);
+    }
+    .clouds > img {
+        height: 30vw;
+        transform: translateZ(-10vw);
+    }
+    
+    .hackathonTitleTransition h1 {
+        font-size: 5vw;
+
+        padding-top: 5vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
 }
