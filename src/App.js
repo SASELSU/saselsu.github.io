@@ -24,6 +24,9 @@ function App() {
     ReactGA.initialize("G-TXL5S1SFTF");
     // Send pageview with a custom path
     ReactGA.send({ hitType: "pageview", page: "/", title: "Landing Page" });
+    ReactGA.send({ hitType: "pageview", page: "/about", title: "About Page" });
+    ReactGA.send({ hitType: "pageview", page: "/events", title: "Events Page" });
+    ReactGA.send({ hitType: "pageview", page: "/gallery", title: "Gallery Page" });
     ReactGA.send({ hitType: "pageview", page: "/hackathon", title: "Hackathon Page" });
   }, [])
 
