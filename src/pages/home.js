@@ -5,7 +5,7 @@ import {
     useRef,
 } from "react";
 import "../styles/home.css";
-import CommunityBackground1 from "../assets/home/home_backgrounds/community-background-1.jpg"
+import CommunityBackground1 from "../assets/home/home_backgrounds/community-background-1.png"
 import DiversityBackground1 from "../assets/home/home_backgrounds/diversity-background-1.png"
 import PDBackground1 from "../assets/home/home_backgrounds/pd-background-1.jpg"
 
