@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.78c36e7d.css",
-    "main.js": "/static/js/main.5f0ab411.js",
+    "main.css": "/static/css/main.3c5dab9b.css",
+    "main.js": "/static/js/main.2e6309d3.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/community-background-1.png": "/static/media/community-background-1.e7a91e5aeffc7fe57333.png",
@@ -97,12 +97,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
-    "main.78c36e7d.css.map": "/static/css/main.78c36e7d.css.map",
-    "main.5f0ab411.js.map": "/static/js/main.5f0ab411.js.map",
+    "main.3c5dab9b.css.map": "/static/css/main.3c5dab9b.css.map",
+    "main.2e6309d3.js.map": "/static/js/main.2e6309d3.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c36e7d.css",
-    "static/js/main.5f0ab411.js"
+    "static/css/main.3c5dab9b.css",
+    "static/js/main.2e6309d3.js"
   ]
 }
