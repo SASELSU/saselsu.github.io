@@ -184,11 +184,29 @@
     }
     .eventPost {
         width: 85vw;
+        height: 45vw
     }
-    .eventPostInfo h1 {
-        font-size: 6vw;
+
+    .eventPost img {
+        width: 40vw;
+        margin: 1vh;
+        margin-top: 1vh; 
+        object-fit: scale-down;
+        /* border-radius: 10px; */
     }
-    .eventPostInfo p {
-        font-size: 4vw;
+
+    .eventPostDateTimeLocation p {
+        font-size: 3.8vw;
     }
+
+    .eventPostDateTimeLocation h2 {
+        font-size: 8vw;
+    }
+
+    .eventPostInfo {
+        display: none;
+        width: 0px;
+        height: 0px;
+    }
+    
 }
