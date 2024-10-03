@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bbdeb2d7.css",
-    "main.js": "/static/js/main.532541fa.js",
+    "main.css": "/static/css/main.699fe633.css",
+    "main.js": "/static/js/main.d50e79ea.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/community-background-1.png": "/static/media/community-background-1.e7a91e5aeffc7fe57333.png",
@@ -97,12 +97,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
-    "main.bbdeb2d7.css.map": "/static/css/main.bbdeb2d7.css.map",
-    "main.532541fa.js.map": "/static/js/main.532541fa.js.map",
+    "main.699fe633.css.map": "/static/css/main.699fe633.css.map",
+    "main.d50e79ea.js.map": "/static/js/main.d50e79ea.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bbdeb2d7.css",
-    "static/js/main.532541fa.js"
+    "static/css/main.699fe633.css",
+    "static/js/main.d50e79ea.js"
   ]
 }
