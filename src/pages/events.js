@@ -5,12 +5,10 @@ import TitleCardBackground from "../assets/events/eventVolleyball.png"
 import FutureEvent from "../assets/events/futureEvent.png"
 
 //event images
-import BobaSocial from "../assets/events/fall-2024/GBM1-Fall-2024.png"
-// import MockInterview from "../assets/events/fall-2024/mock-interviews.png"
-import Pickleball from "../assets/events/fall-2024/24Pickleball.png"
-import BloodDrive from "../assets/events/fall-2024/24BloodDrive.png"
-import ExxonMock from "../assets/events/fall-2024/exxonMock.jpg"
-import ExxonPlant from "../assets/events/fall-2024/exxonPlant.png"
+import Exxon from "../assets/events/fall-2024/MOCK INTERVIEWS"
+import ResumeBooklet from "../assets/events/fall-2024/ResumeBooklet.jpg"
+import Giveback from "../assets/events/fall-2024/Giveback Night.png"
+import GeauxGirls from "../assets/events/fall-2024/Geaux Girls STEM.png"
 //helpers
 import {
     Post,
@@ -33,31 +31,22 @@ const Events = () => {
             <div className="postContainer"> {/*something something more manual input*/}
 
                 <Post
-                    image={Pickleball}
-                    eventMonth="SEPT 2024"
-                    eventDay="19"
-                    eventTime="6:15pm-8:15pm"
-                    eventLocation="Stacks Pickleball"
-                    postTitle="Pickleball x DOW"
-                    postDesc="We are partnered with DOW to provide y'all a free night of Pickleball! Come to Stacks Pickleball (Stage 4) and join us for food, fun, and networking!"
+                    image={Giveback}
+                    eventMonth="OCT 2024"
+                    eventDay="4"
+                    eventTime="11:00am-8:00pm"
+                    eventLocation="7584 Bluebonnet Blvd"
+                    postTitle="Kung Fu Tea Giveback"
+                    postDesc="It's time for our KFT Giveback Night! Order some Boba and mention us!"
                 />
                 <Post
-                    image={ExxonPlant}
-                    eventMonth="SEPT 2024"
-                    eventDay="20"
-                    eventTime="9:30am-12:00pm"
-                    eventLocation="4045 Scenic Hwy"
-                    postTitle="Exxon Plant Tour"
-                    postDesc="ENGINEERS ONLY. Come visit Exxon's plant! It is on a first come, first serve basis so sign up fast!"
-                />
-                <Post
-                    image={BloodDrive}
-                    eventMonth="SEPT 2024"
-                    eventDay="26"
-                    eventTime="9:00am-4:00pm"
-                    eventLocation="LSU Union 310"
-                    postTitle="Blood Drive"
-                    postDesc="Come to the Student Union to donate your blood! Donors will be given a free FIGHT CANCER shirt! Sign up with the QR code."
+                    image={GeauxGirls}
+                    eventMonth="OCT 2024"
+                    eventDay="5"
+                    eventTime="10:00am-12:00pm"
+                    eventLocation="720 Terrace Ave"
+                    postTitle="Geaux Girls"
+                    postDesc="Come and help Geaux Girls STEM set up and run their development workshop! Sign ups are on Discord."
                 />
                 {/* <Post //never remove (this is the future event)
                 image={FutureEvent}
@@ -79,8 +68,9 @@ const Events = () => {
                     postTitle="Exxon Mock Interviews"
                     postDesc="🗣️ Get some final practice with your professional skills before the Career Fair! Feel free to also bring your resumes for a fresh set of eyes 👀 📎 "
                 /> */}
-            {/* <div className="postContainer">
-            </div> */}
+            <div className="postContainer">
+
+            </div>
         </div>
         </>
     )

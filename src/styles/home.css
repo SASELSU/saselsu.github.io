@@ -1,5 +1,5 @@
 .home {
-    overflow: hidden;
+  overflow: hidden;
   position: relative;
 }
 .pillarContainer {
@@ -73,22 +73,34 @@
   /* font-family: "Open Sans"; */
 }
 
+.missionStatement a {
+  height: auto;
+  width: 15vw;
+  background-color: rgb(0, 78, 100);
+  border-radius: 5px;
 
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.7vw;
+  font-weight: 600;
+
+  padding: 2.2vh;
+}
 
 .missionStatement h1 {
   /* margin-top: 100px;
   height: 200px; */
-  margin: 1rem;
-
+  margin: 1vw 5vw -1vw 5vw;
   justify-content: center;
   text-align: center;
-  /* font-weight: 100; */
+  font-weight: 700;
 }
 
 .missionStatement h2 {
   /* margin-top: 100px;
   height: 200px; */
-  margin: 2.3rem;
+  margin: 2.3vw;
   margin-bottom: -1vh;
   
 
@@ -113,27 +125,43 @@
 .missionPillar {
   background-color: rgb(0, 78, 100);
   width: 25vw;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   text-align: center;
-  border-radius: 20px;
+  border-radius: 2vw;
 }
 
 .missionPillar img {
-  border-radius: 20px;
+  width: 100%;
+  height: 16vw;
+  border-radius: 2vw;
 
-  height: 250px;
   object-fit: cover;
 }
 
-.missionPillar h1 {
-  height: 50px;
+.missionPillar h1 { /* pro dev because it takes up 2 lines*/
+  height: 7vw;
+
+  margin-bottom: -3.3vw;
+
+  font-size: 2.5vw;
+
+
+  justify-content: center;
+  align-items: center;
+}
+
+.missionPillar h2 { /* the other two because they take up 1 line*/
+  height: 3vw;
+  font-size: 3.5vw;
   justify-content: center;
   align-items: center;
 }
 
 .missionPillar p {
-  margin: 1rem;
+  height: 2vw;
+
+  font-size: 1.2vw;
 }
 
 
@@ -220,14 +248,18 @@
 }
 
 @media (max-width: 768px) { /*tablets*/
+
+  .missionStatement h1 {
+    margin-top: 3vw;
+    font-size: 4.7vw;
+  }
   .pillarTitle {
     font-size: 90px;
     font-weight: 500;
     font-family: "Bebas Neue";
     color: white;
     line-height: 0.9;
-}
-
+  }
 
   .missionPillarContainer {
     display: flex;
@@ -237,22 +269,34 @@
   }
 
   .missionPillar {
-    background-color: rgb(0, 78, 100);
     width: 85vw;
+    height: 80vw;
+    background-color: rgb(0, 78, 100);
     display: flex;
     flex-direction: column;
     text-align: center;
     border-radius: 20px;
   }
 
+  .missionPillar img {
+    height: 53vw;
+  }
+
   .missionPillar h1 {
-    height: 4vh;
+    height: 7.5vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .missionPillar h2 {
+    height: 7.5vw;
+    font-size: 7vw;
     justify-content: center;
     align-items: center;
   }
 
   .missionPillar p {
-    font-size: 5vw;
+    font-size: 4vw;
     margin: 2rem;
   }
 
@@ -281,7 +325,7 @@
   
 }
 
-@media (max-width: 428px) { /*phones*/ 
+@media (max-width: 432npx) { /*phones*/ 
   .pillarTitle {
     font-size: 70px;
     font-weight: 500;
@@ -291,8 +335,14 @@
   }
 
   .missionStatement h1 {
-    font-size: 6.2vw;
-    margin-bottom: -2.8vh;
+    font-size: 5.2vw;
+    margin-top: 10vw;
+    margin-bottom: 2.8vw;
+  }
+
+  .missionStatement h2 {
+    font-size: 8vw;
+    margin-bottom: -9vw;
   }
 
   .missionPillarContainer {
@@ -303,23 +353,40 @@
   }
 
   .missionPillar {
-    background-color: rgb(0, 78, 100);
     width: 85vw;
+    height: 100vw;
+    background-color: rgb(0, 78, 100);
     display: flex;
     flex-direction: column;
     text-align: center;
     border-radius: 20px;
   }
 
+  .missionPillar img {
+    height: 60vw;
+  }
+
   .missionPillar h1 {
-    height: 4vh;
+    height: 12vw;
+    font-size: 8vw;
+    margin-top: 2vw;
+    margin-bottom: -1vw;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .missionPillar h2 {
+    font-size: 9vw;
+    height: 10vw;
+    margin-bottom: -4vw;
+
     justify-content: center;
     align-items: center;
   }
 
   .missionPillar p {
     font-size: 5vw;
-    margin: 2rem;
+    margin-bottom: 1vw;
   }
 
   .calendar h1 {
@@ -328,7 +395,7 @@
   }
 
   .homeSponsors {
-    height: 80vh;
+    height: fit-content;
   }
 
   .homeSponsors h1 {
@@ -338,8 +405,11 @@
   }
 
   .homeSponsors p {
+    font-size: 4vw;
     color: white;
     text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
     margin-bottom: 3vh;
   }
 
@@ -353,6 +423,6 @@
 
   .homeSponsors a {
     width: 50vw;
-    font-size: 25px;
+    font-size: 6.5vw;
   }
 }

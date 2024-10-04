@@ -5,16 +5,16 @@ import {
     useRef,
 } from "react";
 import "../styles/home.css";
-import CommunityBackground1 from "../assets/home/home_backgrounds/community-background-1.jpg"
+import CommunityBackground1 from "../assets/home/home_backgrounds/community-background-1.png"
 import DiversityBackground1 from "../assets/home/home_backgrounds/diversity-background-1.png"
 import PDBackground1 from "../assets/home/home_backgrounds/pd-background-1.jpg"
 
 import MiniCommunity from "../assets/home/miniCommunity.jpg"
-import MiniDiversity from "../assets/home/miniDiversity.jpeg"
+import MiniDiversity from "../assets/home/miniDiversity.png"
 import MiniProdev from "../assets/home/miniProDev.jpeg"
 
 
-import Calendar from "../assets/home/SASE-Calendar.png"
+import Calendar from "../assets/home/calendars/October.png"
 
 //sponsors
 import Exxon from "../assets/home/sponsors/Exxon-Logo.png"
@@ -22,6 +22,8 @@ import Dow from "../assets/home/sponsors/Dow_Chemical_Company_logo.svg.png"
 import Marathon from "../assets/home/sponsors/marathon.png"
 import Shell from "../assets/home/sponsors/Shell_logo.svg.png"
 import Chevron from "../assets/home/sponsors/Chevron.webp"
+
+import SponsorshipPacket from "../assets/2024-2025 Sponsorship Packet.pdf"
 
 const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
@@ -107,6 +109,10 @@ const Home = () => {
             </div>
         </div>
         <div className ="missionStatement">
+            {/* <h1>IMPORTANT LINK! DUE TOMORROW!</h1>
+            <a href="https://forms.gle/278M7vs8iyMgYn5f7" target="_blank">
+                REGISTER FOR SASE NATIONALS
+            </a> */}
             <h2>Our Mission</h2>
             <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
             <br/>
@@ -116,17 +122,17 @@ const Home = () => {
             <div className="missionPillarContainer">
                 <div className="missionPillar">
                     <img src={MiniDiversity}/>
-                    <h1>Diversity</h1>
-                    <p>Prepare Asian heritage scientists and engineers for success in the global business world.</p>
+                    <h2>Diversity</h2>
+                    <p>Celebrate diversity on campuses and in the workplace.</p>
                 </div>
                 <div className="missionPillar">
                     <img src={MiniProdev}/>
                     <h1>Professional Development</h1>
-                    <p>Celebrate diversity on campuses and in the workplace.</p>
+                    <p>Prepare Asian heritage scientists and engineers for success in the global business world.</p>
                 </div>
                 <div className="missionPillar">
                     <img src={MiniCommunity}/>
-                    <h1>Community</h1>
+                    <h2>Community</h2>
                     <p>Provide opportunites for members to make contributions to their local communities.</p>
                 </div>
             </div>
@@ -148,7 +154,7 @@ const Home = () => {
             <p>
             Interested in becoming a partner with the LSU Society of Asian Scientists and Engineers (SASE)? <br/>Click the button below to download our sponsorship packet!
             </p>
-            <a href="https://www.saselsu.org/resources/sponsors/2023-2024%20Sponsorship%20Packet.pdf" target="_blank">
+            <a href={SponsorshipPacket} target="_blank">
                 Sponsorship Package
             </a>
         </div>

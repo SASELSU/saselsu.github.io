@@ -19,7 +19,7 @@ import MenuButton from "../../assets/icons/menuButton.png";
 
 //card images
 import AboutCard from "../../assets/navbar/navMenuAbout.png"
-import EventsCard from "../../assets/navbar/navMenuEvents.jpeg"
+import EventsCard from "../../assets/navbar/navMenuEventsAlt.jpeg"
 import HackathonCard from "../../assets/navbar/navMenuHackathon.jpeg"
 
 const NavMenu = () => {
@@ -35,7 +35,6 @@ const NavMenu = () => {
                     <SmallCard
                         image={HackathonCard}
                         title="Hackathon"
-                        subtitle="(coming soon)"
                         link="/hackathon"
                     />
                     <SmallCard
@@ -64,11 +63,11 @@ const NavMenu = () => {
                     </a>
 
                 </div>
-                <div className="navMenuLinkContainer">
+                {/* <div className="navMenuLinkContainer">
                     <a href="https://forms.gle/P8ZKSaZb7uubsy856" target="_blank">                
                         SASE Nationals Interest
                     </a>
-                </div>
+                </div> */}
 
                 <div className="navMenuIconContainer">
                     <WhiteDiscordIcon/>
@@ -81,16 +80,22 @@ const NavMenu = () => {
 }
 
 const Navbar = () => {
+
+    const [menuShow, setMenuShow] = useState(false);     
+
+
     const location = useLocation();
-    const [menuShow, setMenuShow] = useState(false);
+    useEffect(() => {
+        setMenuShow(false);
+    }, [location])
+
+    if (location.pathname.localeCompare("/hackathon") === 0) {
+      return (<div></div>);  
+    }
 
     const handleToggleMenu = () => {
         setMenuShow(!menuShow);
     }
-    
-    useEffect(() => {
-        setMenuShow(false);
-    }, [location])
 
     return (
         <>
