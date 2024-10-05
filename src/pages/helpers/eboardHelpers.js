@@ -9,21 +9,25 @@ export const DescriptionCard = (props) => {
     };
 
     const {
+        title,
         name,
         major,
         image,
         blurb
     } = props;
     return (
-        <>
+        <div className="eboardCardWrapper">
             <div className="eboardCard" onClick={handleOpen}>
+                <h2>{title}</h2>
                 <img src={image} alt="officer pic"/>
                 <h1>{name}</h1>
-                <h2>{major}</h2>
+
+                
+                <p>{major}</p>
                 <div className={`eboardCardMore ${open? 'active' : 'inactive'}`}>
                     <p>{blurb}</p>
                 </div>
             </div>
-        </>
+        </div>
     );
 }

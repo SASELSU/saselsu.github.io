@@ -1,4 +1,4 @@
-.eBoardTitleCard {
+.eboardTitleCard {
     width: 100%;
     height: 90vh;
 
@@ -12,14 +12,14 @@
     color:white;
 }
 
-.eBoardTitleCard h1 {
+.eboardTitleCard h1 {
     position: relative;
     font-size: 90px;
     text-align: center;
     /* font-family: "Bebas Neue"; */
 }
 
-.eBoardColorOverlay {
+.eboardColorOverlay {
     height: 90vh; /* make sure this is the same height as titlecard */
     position: absolute;
     top: 0;
@@ -29,39 +29,70 @@
     background-color: rgba(0, 0, 0, 0.3);
     pointer-events: none;
 }
-.eBoard {
+.eboard {
     width: 100%;
-    height: 100vh;
+    height: fit-content;
+
     overflow: hidden;
+
+    align-items: center;
+
+
     background-color: rgb(107, 144, 128);
 }
-/* 
-.eBoard img {
-    margin-top: 10vh;
-    height: 80vh;
-    width: auto;
-    object-fit: contain;
-} */
 
-.eBoard h1 {
+.eboard h1 {
     text-align: center;
     color: white;
 }
 
+.eboardCardHolder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33%;
+
+    /* background-color: gray; */
+}
+
+.eboardCardWrapper {
+    width: 31.734%;
+    height: 45vw;
+
+    vertical-align: center;
+}
+
 .eboardCard {
-    width: 30vw;
-    height: 50vw;
+    width: 90%;
 
     position: relative;
-
+    padding: 0.8vw;
+    
+    margin-left: 10%;
+    margin-right: 5%;
+    
+    text-align: center;
+    color: white;
     background-color: green;
 }
 
 .eboardCard img {
     width: 25vw;
-    height: 30vw;
+    height: 25vw;
 
     object-fit: cover;
+
+}
+
+.eboardCard h1 {
+    font-size: 2.6vw;
+    font-weight: 300;
+}
+.eboardCard h2 {
+    font-size: 2vw;
+    font-weight: 300;
+}
+.eboardCard p {
+    font-size: 1.6vw;
 }
 
 .eboardCardMore.active {
