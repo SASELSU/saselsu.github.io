@@ -97,7 +97,7 @@ Provide opportunities for members to make contributions to their local communiti
         
         </div>
 
-        <div className="aboutEBoard">
+        {/* <div className="aboutEBoard">
             <h1>Meet Our EBoard!</h1>
             <div className="aboutEBoardCardContainer">
                 <EBoardCard
@@ -163,7 +163,7 @@ Provide opportunities for members to make contributions to their local communiti
                     title="Professional Development Chair"
                 />
             </div>
-        </div>
+        </div> */}
         </>
     )
 }

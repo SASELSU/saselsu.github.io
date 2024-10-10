@@ -2,7 +2,9 @@ import React from "react";
 import "../styles/eboard.css"
 
 import Backdrop from "../assets/eboard/eboardBackdrop.png"
-import { DescriptionCard } from "./helpers/eboardHelpers";
+import { 
+    DescriptionCard,
+ } from "./helpers/eboardHelpers";
 
 //eboard pics
 import PresidentPic from "../assets/eboard/eboard/faris_khattak.jpg"

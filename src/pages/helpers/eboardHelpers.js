@@ -15,9 +15,11 @@ export const DescriptionCard = (props) => {
         image,
         blurb
     } = props;
+
+    //onClick={handleOpen}
     return (
         <div className="eboardCardWrapper">
-            <div className="eboardCard" onClick={handleOpen}>
+            <div className="eboardCard" > 
                 <h2>{title}</h2>
                 <img src={image} alt="officer pic"/>
                 <h1>{name}</h1>
