@@ -140,7 +140,7 @@
 }
 
 .missionPillar h1 { /* pro dev because it takes up 2 lines*/
-  height: 7vw;
+  height: 5.5vw;
 
   margin-bottom: -3.3vw;
 
@@ -152,18 +152,20 @@
 }
 
 .missionPillar h2 { /* the other two because they take up 1 line*/
-  height: 3vw;
+  height: 2vw;
   font-size: 3.5vw;
   justify-content: center;
   align-items: center;
 }
 
 .missionPillar p {
+  width: 90%;
   height: 2vw;
 
-  font-size: 1.2vw;
-}
+  margin-left: 5%;
 
+  font-size: 1.5vw;
+}
 
 .calendar {
   background-color: rgb(0, 78, 100);
@@ -181,10 +183,11 @@
 }
 
 .homeSponsors {
-  height: 48vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   background-color: rgb(107, 144, 128);
 }
 
@@ -215,7 +218,7 @@
 }
 
 .homeSponsors a {
-  height: auto;
+  height: fit-content;
   width: 15vw;
   background-color: rgb(0, 78, 100);
   border-radius: 5px;
@@ -238,6 +241,21 @@
   .missionPillarContainer {
     margin-top: 2vh;
     margin-bottom: 6vh;
+  }
+
+  .missionPillar h1 {
+    height: 5vw;
+  }
+
+  .missionPillar h2 {
+    height: 1vw;    
+  }
+
+  .missionPillar p {
+    width: 90%;
+    margin-left: 5%;
+    margin-bottom: 8vw;
+    font-size: 1.6vw;
   }
   /* .calendar img {
     height: 65vh;
@@ -270,7 +288,7 @@
 
   .missionPillar {
     width: 85vw;
-    height: 80vw;
+    height: 90vw;
     background-color: rgb(0, 78, 100);
     display: flex;
     flex-direction: column;
@@ -283,21 +301,25 @@
   }
 
   .missionPillar h1 {
-    height: 7.5vw;
+    height: 12vw;
+    font-size: 6.5vw;
+
     justify-content: center;
     align-items: center;
   }
 
   .missionPillar h2 {
     height: 7.5vw;
-    font-size: 7vw;
+    font-size: 9vw;
     justify-content: center;
     align-items: center;
   }
 
   .missionPillar p {
     font-size: 4vw;
-    margin: 2rem;
+    /* margin: 2rem; */
+    margin-left: 5%;
+
   }
 
   .calendar img {
@@ -308,7 +330,7 @@
   }
 
   .homeSponsors {
-    height: 50vh;
+    height: fit-content;
   }
 
   .homeSponsors img{
@@ -316,11 +338,15 @@
   }
 
   .homeSponsors p {
-    font-size: 2.35vw;
+    width: 90%;
+    font-size: 3vw;
   }
 
   .homeSponsors a {
-    font-size: 2.5vw;
+    width: 35%;
+    font-size: 3.5vw;
+
+    padding: 3vw;
   }
   
 }
@@ -388,6 +414,7 @@
   .missionPillar p {
     height: fit-content;
     font-size: 5vw;
+    margin-left: 5%;
     margin-bottom: 5vw;
   }
 
