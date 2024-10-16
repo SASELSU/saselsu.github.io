@@ -25,7 +25,7 @@ import Chevron from "../assets/home/sponsors/Chevron.webp"
 
 import SponsorshipPacket from "../assets/2024-2025 Sponsorship Packet.pdf"
 
-const communityBackgrounds = CommunityBackground1;
+// const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
 const delay = 5000; //carousel delay time
 
@@ -121,17 +121,17 @@ const Home = () => {
             <br/>
             <div className="missionPillarContainer">
                 <div className="missionPillar">
-                    <img src={MiniDiversity}/>
+                    <img src={MiniDiversity} alt="DiversityPillar"/>
                     <h2>Diversity</h2>
                     <p>Celebrate diversity on campuses and in the workplace.</p>
                 </div>
                 <div className="missionPillar">
-                    <img src={MiniProdev}/>
+                    <img src={MiniProdev} alt="ProfessionalDevPillar"/>
                     <h1>Professional Development</h1>
                     <p>Prepare Asian heritage scientists and engineers for success in the global business world.</p>
                 </div>
                 <div className="missionPillar">
-                    <img src={MiniCommunity}/>
+                    <img src={MiniCommunity} alt="CommunityPillar"/>
                     <h2>Community</h2>
                     <p>Provide opportunites for members to make contributions to their local communities.</p>
                 </div>
@@ -140,21 +140,21 @@ const Home = () => {
         </div>
         <div className="calendar">
             <h1>EVENTS THIS MONTH</h1>
-            <img src={Calendar}/>
+            <img src={Calendar} alt="calendar"/>
         </div>
         <div className="homeSponsors">
             <h1>THANK YOU TO OUR SPONSORS!</h1>
             <div className="homeSponsorList">
-                <img src={Exxon}></img>
-                <img src={Dow}></img>
-                <img src={Chevron}></img>
-                <img src={Shell}></img>
-                <img src={Marathon}></img>
+                <img src={Exxon} alt="Exxon"></img>
+                <img src={Dow} alt="Dow"></img>
+                <img src={Chevron} alt="Chevron"></img>
+                <img src={Shell} alt="Shell"></img>
+                <img src={Marathon} alt="Marathon"></img>
             </div>
             <p>
             Interested in becoming a partner with the LSU Society of Asian Scientists and Engineers (SASE)? <br/>Click the button below to download our sponsorship packet!
             </p>
-            <a href={SponsorshipPacket} target="_blank">
+            <a href={SponsorshipPacket} target="_blank" rel="noreferrer">
                 Sponsorship Package
             </a>
         </div>

@@ -2,17 +2,15 @@ import React from "react";
 import "../styles/events.css"
 
 import TitleCardBackground from "../assets/events/eventVolleyball.png"
-import FutureEvent from "../assets/events/futureEvent.png"
+// import FutureEvent from "../assets/events/futureEvent.png"
 
 //event images
-import Exxon from "../assets/events/fall-2024/MOCK INTERVIEWS"
-import ResumeBooklet from "../assets/events/fall-2024/ResumeBooklet.jpg"
 import Giveback from "../assets/events/fall-2024/Giveback Night.png"
 import GeauxGirls from "../assets/events/fall-2024/Geaux Girls STEM.png"
 //helpers
 import {
     Post,
-    UpcomingPost,
+    // UpcomingPost,
 } from "./helpers/eventsHelpers"
 
 const Events = () => {

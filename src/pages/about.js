@@ -1,11 +1,10 @@
 import {
     React,
-    useState
+    // useState
 } from "react";
 import "../styles/about.css"
 
 import { HistoryCard,EBoardCard } from "./helpers/aboutHelpers";
-import { useHorizontalScroll } from "./helpers/generalHelpers";
 
 import TitleCardBackground from "../assets/about/title_card.jpg"
 
@@ -50,7 +49,7 @@ const About = () => {
         <div className="aboutMission">
                 <h1>Our Mission</h1>
                 <p>SASE is dedicated to the advancement of Asian heritage scientists and engineers in education and employment so that they can achieve their full career potential. In addition to professional development, SASE also encourages members to contribute to the enhancement of the communities in which they live.</p>
-                <img src={OurMission}/>
+                <img src={OurMission} alt="missionImage"/>
                 
                 <p>SASE’s mission is to:
 

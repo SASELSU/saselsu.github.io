@@ -10,7 +10,7 @@ export const HistoryCard = (props) => {
     } = props;
     return (
         <div className="historyCard">
-            <img src={image}/>
+            <img src={image} alt="historyImage"/>
             <div className="historyCardBlurb">
                 <p>{cardBlurb}</p>
             </div>
@@ -26,7 +26,7 @@ export const EBoardCard = (props) => {
     } = props;
     return (
         <div className="aboutEBoardCard">
-            <img src={image}/>
+            <img src={image} alt="EBoardImage"/>
             <div className="aboutEboardCardText">
                 <h1>{title}</h1>
                 <p>{name}</p>

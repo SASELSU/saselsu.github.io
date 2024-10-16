@@ -12,7 +12,7 @@ export const GalleryCard = (props) => {
         <>
         <div className="galleryCardWrapper">
 
-        <a href={link} target="_blank"> 
+        <a href={link} target="_blank" rel="noreferrer"> 
             <div className="galleryCard"
             style={{backgroundImage: `url(${image})`}}/>
         </a>

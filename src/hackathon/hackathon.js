@@ -47,12 +47,12 @@ const Hackathon = () => {
                     <h1>20</h1>
                     <div className="globe">
                         <div className="map">
-                            <img src={Map}/>
-                            <img src={Map}/>
+                            <img src={Map} alt="map"/>
+                            <img src={Map} alt="map"/>
                         </div>
                         <div className="clouds">
-                            <img src={Clouds}/>
-                            <img src={Clouds}/>
+                            <img src={Clouds} alt="clouds"/>
+                            <img src={Clouds} alt="clouds"/>
                         </div>
                     </div>
                     <h1>24</h1>
@@ -95,9 +95,9 @@ const Hackathon = () => {
                         </div>,
                     ]}
                 </div>
-                <img className="buttonLeft" src={backArrow} onClick={() => {index == 0 ? setIndex(2) : setIndex(index - 1)}}/>
+                <img className="buttonLeft" src={backArrow} alt="leftButton" onClick={() => {index === 0 ? setIndex(2) : setIndex(index - 1)}}/>
 
-                <img className="buttonRight" src={frontArrow} onClick={() => {index == 2 ? setIndex(0) : setIndex(index + 1)}}/>
+                <img className="buttonRight" src={frontArrow} alt="rightButton" onClick={() => {index === 2 ? setIndex(0) : setIndex(index + 1)}}/>
             </div>
 
             <div className="hackathonSignUp"
@@ -107,7 +107,7 @@ const Hackathon = () => {
                     <h1>BTR → HCK</h1>
                     <p> Sign up for GeauxHack by clicking on the button below!</p>
                     <p> (Click the Sign Up Button)</p>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVafj0EEkJrmPX6ay9xYdFrBybel6yfHDmviUKrA_SsA16WQ/viewform?usp=sf_link" target="_blank">
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdVafj0EEkJrmPX6ay9xYdFrBybel6yfHDmviUKrA_SsA16WQ/viewform?usp=sf_link" target="_blank" rel="noreferr noreferrer">
                         SIGN UP
                     </a>
                 </div>
@@ -157,11 +157,11 @@ const Hackathon = () => {
             style={{backgroundImage: `url(${MikeTakeoff})`}}>
                 <h2>And we're off!</h2>
                 <h1>Thank you to our Sponsors!</h1>
-                <img src={LSUCOE}/>
+                <img src={LSUCOE} alt="lsuCoE"/>
                 <div className="hackathonSponsorsText">   
     `               <h1>Want to become a sponsor?</h1>
                     <p>Click the button below!</p>
-                    <a href={SponsorshipPacket} target="_blank">
+                    <a href={SponsorshipPacket} target="_blank" rel="noreferrer">
                             Join Us!
                     </a>`
                 </div>
