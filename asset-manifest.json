@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e07543c5.css",
-    "main.js": "/static/js/main.ebcdff0a.js",
+    "main.js": "/static/js/main.493ec232.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/community-background-1.png": "/static/media/community-background-1.e7a91e5aeffc7fe57333.png",
@@ -54,12 +54,9 @@
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
     "static/media/SponsorBackground.png": "/static/media/SponsorBackground.51b78de1e668156026ab.png",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
-    "static/media/ResumeBooklet.jpg": "/static/media/ResumeBooklet.067823874075b5324295.jpg",
-    "static/media/MOCK INTERVIEWS": "/static/media/MOCK INTERVIEWS.d5f720a813bae0b1960d",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.1a0c1d825e2e5fd218ac.png",
     "static/media/titleBackdrop.png": "/static/media/titleBackdrop.12a20738d76dab99ef3d.png",
-    "static/media/futureEvent.png": "/static/media/futureEvent.3eb7c3c3e3fea514373b.png",
     "static/media/firstSASE.jpeg": "/static/media/firstSASE.5a4dcf9c86e5e210d0b6.jpeg",
     "static/media/white-sase-logo.png": "/static/media/white-sase-logo.3d084078f444ae2a762d.png",
     "static/media/inter-latin-ext-400-normal.woff": "/static/media/inter-latin-ext-400-normal.1c20f7dc20d731a18fcd.woff",
@@ -81,7 +78,6 @@
     "static/media/poppins-latin-400-normal.woff": "/static/media/poppins-latin-400-normal.1458587c0aa7cd06b82b.woff",
     "static/media/inter-cyrillic-ext-400-normal.woff2": "/static/media/inter-cyrillic-ext-400-normal.fd1478dcc74de00ee4c0.woff2",
     "static/media/inter-cyrillic-400-normal.woff": "/static/media/inter-cyrillic-400-normal.e2841352dd9512ff455b.woff",
-    "static/media/postcardBack.jpeg": "/static/media/postcardBack.100d15501f6b255c3c8a.jpeg",
     "static/media/inter-greek-400-normal.woff": "/static/media/inter-greek-400-normal.a42da273bb968bf2058d.woff",
     "static/media/bebas-neue-latin-ext-400-normal.woff2": "/static/media/bebas-neue-latin-ext-400-normal.99be330d826b8dba922c.woff2",
     "static/media/poppins-latin-400-normal.woff2": "/static/media/poppins-latin-400-normal.405055dd680fa1dcdfa2.woff2",
@@ -98,11 +94,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.e07543c5.css.map": "/static/css/main.e07543c5.css.map",
-    "main.ebcdff0a.js.map": "/static/js/main.ebcdff0a.js.map",
+    "main.493ec232.js.map": "/static/js/main.493ec232.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e07543c5.css",
-    "static/js/main.ebcdff0a.js"
+    "static/js/main.493ec232.js"
   ]
 }
