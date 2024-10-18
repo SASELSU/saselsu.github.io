@@ -24,6 +24,7 @@ import Shell from "../assets/home/sponsors/Shell_logo.svg.png"
 import Chevron from "../assets/home/sponsors/Chevron.webp"
 
 import SponsorshipPacket from "../assets/2024-2025 Sponsorship Packet.pdf"
+import usePageTracking from "../components/Common/TrafficTracker";
 
 // const communityBackgrounds = CommunityBackground1;
 const backgrounds = [CommunityBackground1, DiversityBackground1, PDBackground1]
@@ -50,6 +51,7 @@ const Home = () => {
             resetTimeout();
         };
     }, [index]);
+    usePageTracking();
 
     return (
         <> 

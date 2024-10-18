@@ -12,8 +12,11 @@ import {
     Post,
     // UpcomingPost,
 } from "./helpers/eventsHelpers"
+import usePageTracking from "../components/Common/TrafficTracker";
 
 const Events = () => {
+    usePageTracking();
+
     return (
         <>
         <div className="eventTitleCard"

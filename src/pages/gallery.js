@@ -11,7 +11,9 @@ import DowWorkshop24 from "../assets/gallery/fall24/DOWWorkshop24.jpeg"
 import Pickleball24 from "../assets/gallery/fall24/galleryPickleballSocial.jpeg"
 import FallFest24 from "../assets/gallery/fall24/galleryFallFest.jpeg"
 import ExxonMock from "../assets/gallery/fall24/exxonmockinterview24.png"
+import usePageTracking from "../components/Common/TrafficTracker";
 const Gallery = () => {
+    usePageTracking();
     return (
         <>
         <div 

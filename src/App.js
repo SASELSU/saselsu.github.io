@@ -19,7 +19,6 @@ import usePageTracking from "./components/Common/TrafficTracker";
 
 
 function App() {
-  usePageTracking();
 
   return (
     <>

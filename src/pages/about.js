@@ -31,10 +31,12 @@ import WebmasterPic from "../assets/about/eboard/ricky_liang.jpeg"
 import FundraisingPic from "../assets/about/eboard/winson_liu.png"
 import OutreachPic from "../assets/about/eboard/himangini_chauhan.png"
 import ProDevPic from "../assets/about/eboard/thanh_kirsch.png"
+import usePageTracking from "../components/Common/TrafficTracker";
 
 
 
 const About = () => {
+    usePageTracking();    
     // const scrollRef = useHorizontalScroll();
     // const [index, setIndex] = React.useState;
     return (

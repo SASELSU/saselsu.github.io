@@ -32,10 +32,12 @@ import MikePack from "./assets/faq/MikePack.png"
 import MikeTakeoff from "./assets/sponsors/SponsorBackground.png"
 import LSUCOE from "./assets/sponsors/LSU_CoE_White.jpg.png"
 import SponsorshipPacket from "./assets/sponsors/Hackathon Sponsorship Packet 2024-25.pdf"
+import usePageTracking from "../components/Common/TrafficTracker";
 
 const Hackathon = () => {
     const [index, setIndex] = useState(0);
     
+    usePageTracking();
     return (
         <>
         <HackathonNav/>
