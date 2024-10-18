@@ -1,14 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import {
   HashRouter as Router,
   Routes,
   Route,
-  withRouter,
-  ScrollRestoration,
 } from "react-router-dom";
-import ReactGA from "react-ga4" //for google analytics
 import ScrollToTop from "./hooks/ScrollToTop";
 import Home from "./pages/home";
 import About from "./pages/about";
@@ -18,17 +15,11 @@ import Hackathon from "./hackathon/hackathon";
 import Sponsors from "./pages/sponsors";
 import Gallery from "./pages/gallery";
 import './App.css';
+import usePageTracking from "./components/Common/TrafficTracker";
+
 
 function App() {
-  useEffect(() => {
-    ReactGA.initialize("G-TXL5S1SFTF");
-    // Send pageview with a custom path
-    ReactGA.send({ hitType: "pageview", page: "/", title: "Landing Page" });
-    ReactGA.send({ hitType: "pageview", page: "/about", title: "About Page" });
-    ReactGA.send({ hitType: "pageview", page: "/events", title: "Events Page" });
-    ReactGA.send({ hitType: "pageview", page: "/gallery", title: "Gallery Page" });
-    ReactGA.send({ hitType: "pageview", page: "/hackathon", title: "Hackathon Page" });
-  }, [])
+  usePageTracking();
 
   return (
     <>
