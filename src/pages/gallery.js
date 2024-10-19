@@ -11,6 +11,8 @@ import DowWorkshop24 from "../assets/gallery/fall24/DOWWorkshop24.jpeg"
 import Pickleball24 from "../assets/gallery/fall24/galleryPickleballSocial.jpeg"
 import FallFest24 from "../assets/gallery/fall24/galleryFallFest.jpeg"
 import ExxonMock from "../assets/gallery/fall24/exxonmockinterview24.png"
+import PaintF24 from "../assets/gallery/fall24/paintsocialfall24.jpg"
+
 import usePageTracking from "../components/Common/TrafficTracker";
 const Gallery = () => {
     usePageTracking();
@@ -26,6 +28,12 @@ const Gallery = () => {
 
         <div className="gallery">
             <div className="galleryCardContainer">
+            <GalleryCard 
+                image={PaintF24}
+                title="Painting Social"
+                date="OCT 15 2024"
+                link="https://www.facebook.com/media/set/?set=a.967746402047676&type=3"
+            />
             <GalleryCard 
                 image={ExxonMock}
                 title="Exxon Mock Interview"
