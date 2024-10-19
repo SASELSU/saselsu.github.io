@@ -51,6 +51,7 @@ const Home = () => {
             resetTimeout();
         };
     }, [index]);
+    
     usePageTracking();
 
     return (

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Footer from "./components/Footer/Footer";
 import {
@@ -6,6 +6,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import ReactGA from "react-ga4" //for google analytics
 import ScrollToTop from "./hooks/ScrollToTop";
 import Home from "./pages/home";
 import About from "./pages/about";
@@ -19,6 +20,11 @@ import usePageTracking from "./components/Common/TrafficTracker";
 
 
 function App() {
+  useEffect(() => {
+    ReactGA.initialize(process.env.REACT_APP_GA_ID);
+    // Send pageview with a custom path
+    ReactGA.send({ hitType: "pageview", page: "/", title: "Landing Page" });
+  }, [])
 
   return (
     <>
