@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e07543c5.css",
-    "main.js": "/static/js/main.3655461e.js",
+    "main.js": "/static/js/main.148ab380.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/community-background-1.png": "/static/media/community-background-1.e7a91e5aeffc7fe57333.png",
@@ -19,6 +19,7 @@
     "static/media/activities.png": "/static/media/activities.f78ea31dac81397029ac.png",
     "static/media/eventVolleyball.png": "/static/media/eventVolleyball.43d7dcbb22bd579bd03e.png",
     "static/media/kim_nguyen.png": "/static/media/kim_nguyen.2cd76a972a97987eee8a.png",
+    "static/media/gbm2-fall-2024.png": "/static/media/gbm2-fall-2024.189f480384a6f2ea4d65.png",
     "static/media/camila_cuadra.jpg": "/static/media/camila_cuadra.eac7c5108a8a21da260a.jpg",
     "static/media/workshops.png": "/static/media/workshops.6d8b3a91f1a8164325fd.png",
     "static/media/winson_liu.png": "/static/media/winson_liu.57cbacbdd86fc0bdecbc.png",
@@ -45,15 +46,16 @@
     "static/media/MikePack.png": "/static/media/MikePack.f689916aa7ebda5190f5.png",
     "static/media/ricky_liang.jpeg": "/static/media/ricky_liang.120f1452db343932c183.jpeg",
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
-    "static/media/Giveback Night.png": "/static/media/Giveback Night.258c3f6382623d0afeef.png",
+    "static/media/Companion Animal Alliance.png": "/static/media/Companion Animal Alliance.d645878c62e3f9feeeb4.png",
+    "static/media/geauxhackWork1.png": "/static/media/geauxhackWork1.fd98275c0efaf17fa946.png",
     "static/media/October.png": "/static/media/October.1fb5bddecf7a448e8489.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
     "static/media/kris_lam.png": "/static/media/kris_lam.b6268d31799371a32283.png",
     "static/media/MikeSignup.png": "/static/media/MikeSignup.d07d3fee81461a1e1e72.png",
-    "static/media/Geaux Girls STEM.png": "/static/media/Geaux Girls STEM.f8b5a2d0a4c8519b265d.png",
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
     "static/media/SponsorBackground.png": "/static/media/SponsorBackground.51b78de1e668156026ab.png",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
+    "static/media/geauxhack.png": "/static/media/geauxhack.91b511ac30abdfaf77fe.png",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.1a0c1d825e2e5fd218ac.png",
     "static/media/titleBackdrop.png": "/static/media/titleBackdrop.12a20738d76dab99ef3d.png",
@@ -94,11 +96,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.e07543c5.css.map": "/static/css/main.e07543c5.css.map",
-    "main.3655461e.js.map": "/static/js/main.3655461e.js.map",
+    "main.148ab380.js.map": "/static/js/main.148ab380.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e07543c5.css",
-    "static/js/main.3655461e.js"
+    "static/js/main.148ab380.js"
   ]
 }
