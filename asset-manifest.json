@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.e07543c5.css",
-    "main.js": "/static/js/main.148ab380.js",
+    "main.css": "/static/css/main.d1bca2d9.css",
+    "main.js": "/static/js/main.9409c144.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/community-background-1.png": "/static/media/community-background-1.e7a91e5aeffc7fe57333.png",
@@ -56,6 +56,7 @@
     "static/media/SponsorBackground.png": "/static/media/SponsorBackground.51b78de1e668156026ab.png",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
     "static/media/geauxhack.png": "/static/media/geauxhack.91b511ac30abdfaf77fe.png",
+    "static/media/paintsocialfall24.jpg": "/static/media/paintsocialfall24.f54b6c8d98c9f58824e4.jpg",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.1a0c1d825e2e5fd218ac.png",
     "static/media/titleBackdrop.png": "/static/media/titleBackdrop.12a20738d76dab99ef3d.png",
@@ -95,12 +96,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
-    "main.e07543c5.css.map": "/static/css/main.e07543c5.css.map",
-    "main.148ab380.js.map": "/static/js/main.148ab380.js.map",
+    "main.d1bca2d9.css.map": "/static/css/main.d1bca2d9.css.map",
+    "main.9409c144.js.map": "/static/js/main.9409c144.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e07543c5.css",
-    "static/js/main.148ab380.js"
+    "static/css/main.d1bca2d9.css",
+    "static/js/main.9409c144.js"
   ]
 }
