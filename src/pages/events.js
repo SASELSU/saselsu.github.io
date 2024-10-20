@@ -18,7 +18,7 @@ import {
 import usePageTracking from "../components/Common/TrafficTracker";
 
 const Events = () => {
-    usePageTracking();
+    usePageTracking("Events Page");
 
     return (
         <>

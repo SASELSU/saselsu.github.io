@@ -3,7 +3,7 @@ import "../styles/sponsors.css"
 import usePageTracking from "../components/Common/TrafficTracker";
 
 const Sponsors = () => {
-    usePageTracking();
+    usePageTracking("Sponsors Page");
 
     return (
         <div className="sponsors">

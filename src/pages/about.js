@@ -36,7 +36,7 @@ import usePageTracking from "../components/Common/TrafficTracker";
 
 
 const About = () => {
-    usePageTracking();    
+    usePageTracking("About Page");    
     // const scrollRef = useHorizontalScroll();
     // const [index, setIndex] = React.useState;
     return (

@@ -15,7 +15,7 @@ import PaintF24 from "../assets/gallery/fall24/paintsocialfall24.jpg"
 
 import usePageTracking from "../components/Common/TrafficTracker";
 const Gallery = () => {
-    usePageTracking();
+    usePageTracking("Gallery Page");
     return (
         <>
         <div 

@@ -37,7 +37,7 @@ import usePageTracking from "../components/Common/TrafficTracker";
 const Hackathon = () => {
     const [index, setIndex] = useState(0);
     
-    usePageTracking();
+    usePageTracking("Hackathon Page");
     return (
         <>
         <HackathonNav/>

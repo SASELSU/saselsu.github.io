@@ -52,7 +52,7 @@ const Home = () => {
         };
     }, [index]);
     
-    usePageTracking();
+    usePageTracking("Home Page");
 
     return (
         <> 
