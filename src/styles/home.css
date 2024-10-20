@@ -140,9 +140,9 @@
 }
 
 .missionPillar h1 { /* pro dev because it takes up 2 lines*/
-  height: 5.5vw;
+  height: 4.5vw;
 
-  margin-bottom: -3.3vw;
+  /* margin-bottom: -3.3vw; */
 
   font-size: 2.5vw;
 
@@ -152,19 +152,20 @@
 }
 
 .missionPillar h2 { /* the other two because they take up 1 line*/
-  height: 2vw;
-  font-size: 3.5vw;
+  height: 4.5vw;
+  font-size: 4vw;
+  margin-top: 1.4vw;
   justify-content: center;
   align-items: center;
 }
 
 .missionPillar p {
   width: 90%;
-  height: 2vw;
+  height: 3vw;
 
   margin-left: 5%;
 
-  font-size: 1.5vw;
+  font-size: 1.4vw;
 }
 
 .calendar {
