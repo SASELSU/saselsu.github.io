@@ -16,7 +16,7 @@ import Hackathon from "./hackathon/hackathon";
 import Sponsors from "./pages/sponsors";
 import Gallery from "./pages/gallery";
 import './App.css';
-import usePageTracking from "./components/Common/TrafficTracker";
+import { createBrowserHistory } from "history";
 
 
 function App() {
@@ -26,9 +26,11 @@ function App() {
     ReactGA.send({ hitType: "pageview", page: "/", title: "Landing Page" });
   }, [])
 
+  var history = createBrowserHistory();
+
   return (
     <>
-      <Router>
+      <Router history={history}>
       <ScrollToTop/>
       <Navbar />
 
