@@ -1,0 +1,50 @@
+.nationalsTitleCard {
+    width: 100%;
+    height: 90vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.nationalsTitleCard h1 {
+    position: relative;
+    font-size: 8vw;
+    text-align: center;
+    /* font-family: "Bebas Neue"; */
+}
+
+.nationalsColorOverlay {
+    height: 90vh; /* make sure this is the same height as titlecard */
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+}
+.nationals {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgb(0, 78, 100);
+}
+/* 
+.eBoard img {
+    margin-top: 10vh;
+    height: 80vh;
+    width: auto;
+    object-fit: contain;
+} */
+
+.nationals h1 {
+    margin-top: 50vh;
+    text-align: center;
+    color: white;
+}

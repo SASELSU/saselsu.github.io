@@ -50,8 +50,8 @@ const NavMenu = () => {
                     <Link to="/sponsors"> Sponsors </Link>
                 </div>
                 <div className="navMenuPageContainer">
-
                     <Link to="/gallery"> Gallery </Link>
+                    <Link to="/nationals">Nationals </Link>
                 </div>
                 <p>Links</p>
                 <div className="navMenuLinkContainer">
