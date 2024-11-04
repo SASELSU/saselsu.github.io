@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.f3b697d4.css",
-    "main.js": "/static/js/main.87d54d9d.js",
+    "main.js": "/static/js/main.2fdc0043.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/community-background-1.png": "/static/media/community-background-1.e7a91e5aeffc7fe57333.png",
@@ -9,6 +9,7 @@
     "static/media/galvin_wong.png": "/static/media/galvin_wong.906d9c1d7d892a7a7e8a.png",
     "static/media/Hackathon Sponsorship Packet 2024-25.pdf": "/static/media/Hackathon Sponsorship Packet 2024-25.02bed03fdceb0394769e.pdf",
     "static/media/miniDiversity.png": "/static/media/miniDiversity.e19ff4f7b200b2f063f2.png",
+    "static/media/SASE@LSU Sponsorship.pdf": "/static/media/SASE@LSU Sponsorship.0d141c030e2b5cb06fc3.pdf",
     "static/media/diversity-background-1.png": "/static/media/diversity-background-1.68c0f703c47aab940b44.png",
     "static/media/firstPaint.png": "/static/media/firstPaint.80478e051c9578fc6d91.png",
     "static/media/grishma_shrestha_2.jpg": "/static/media/grishma_shrestha_2.fb01cce5089644b0c06d.jpg",
@@ -29,7 +30,6 @@
     "static/media/himangini_chauhan.png": "/static/media/himangini_chauhan.08d24eb17a39846e3549.png",
     "static/media/galleryPickleballSocial.jpeg": "/static/media/galleryPickleballSocial.672c446ef213707adfa3.jpeg",
     "static/media/historyLunarEvent.jpeg": "/static/media/historyLunarEvent.efdc3c44b3be05d9f47c.jpeg",
-    "static/media/2024-2025 Sponsorship Packet.pdf": "/static/media/2024-2025 Sponsorship Packet.4e3c286de804cf40eac1.pdf",
     "static/media/our-mission-temp.jpeg": "/static/media/our-mission-temp.381c9c2ded9df01d6e67.jpeg",
     "static/media/navMenuEventsAlt.jpeg": "/static/media/navMenuEventsAlt.bd30aa66d5c09b9a902b.jpeg",
     "static/media/galleryFallFest.jpeg": "/static/media/galleryFallFest.9c4f37b340c288c397ec.jpeg",
@@ -97,11 +97,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.f3b697d4.css.map": "/static/css/main.f3b697d4.css.map",
-    "main.87d54d9d.js.map": "/static/js/main.87d54d9d.js.map",
+    "main.2fdc0043.js.map": "/static/js/main.2fdc0043.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f3b697d4.css",
-    "static/js/main.87d54d9d.js"
+    "static/js/main.2fdc0043.js"
   ]
 }
