@@ -34,7 +34,7 @@ const NavMenu = () => {
                 <div className="navMenuSmallCardContainer">
                     <SmallCard
                         image={HackathonCard}
-                        title="Hackathon"
+                        title="GeauxHack"
                         link="/hackathon"
                     />
                     <SmallCard
