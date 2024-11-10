@@ -6,7 +6,7 @@ import TitleCardBackground from "../assets/events/eventVolleyball.png"
 
 //event images
 import CAA from "../assets/events/fall-2024/Companion Animal Alliance.png"
-import GBM2 from "../assets/events/fall-2024/gbm2-fall-2024.png"
+import GBM3 from "../assets/events/fall-2024/3rd_GBM_1.png"
 import GeauxHack from "../assets/events/fall-2024/geauxhack.png"
 import GeauxHackWork1 from "../assets/events/fall-2024/geauxhackWork1.png"
 
@@ -34,31 +34,13 @@ const Events = () => {
 
             <div className="postContainer"> {/*something something more manual input*/}
                 <Post
-                    image={GBM2}
-                    eventMonth="OCT 2024"
-                    eventDay="24"
-                    eventTime="6:00pm-7:30pm"
-                    eventLocation="PFT 1200"
-                    postTitle="Second General Body Meeting"
-                    postDesc="THE ONE PIECE IS REAL!!! Come to our second general body meeting where we'll have an Asian trick or treat as well as a costume contest! (Winner gets a prize)"
-                />
-                <Post
-                    image={GeauxHackWork1}
-                    eventMonth="OCT 2024"
-                    eventDay="23"
-                    eventTime="6pm-7:30pm"
-                    eventLocation="PFT 1202"
-                    postTitle="GeauxHack Workshop 1: Intro to Hackathon"
-                    postDesc="Are you a first time Hackathoner? Or perhaps you want to brush up on the basics. REGARDLESS! In this workshop, we'll be going over what to expect and how to approach your first Hackathon! (also a QnA session)"
-                />
-                <Post
-                    image={GeauxHack}
+                    image={GBM3}
                     eventMonth="NOV 2024"
-                    eventDay="1 - 3"
-                    // eventTime="11:00am-8:00pm"
-                    eventLocation="Patrick F Taylor"
-                    postTitle="GeauxHack"
-                    postDesc="OUR THIRD ANNUAL HACKATHON! This year's theme will be World Tourism, so come along as we Geaux arund the globe! More details on the website page."
+                    eventDay="14"
+                    eventTime="6:00pm-7:30pm"
+                    eventLocation="PFT 1202"
+                    postTitle="Third General Body Meeting"
+                    postDesc="Join us at our Despicable Me themed Third General Body Meeting as we aim to steal the moon ‼️ ‼️ Come dressed as a minion and serve the most evil man on Earth, Faris Gruttak‼"
                 />
 
                 {/* <Post //never remove (this is the future event)
@@ -81,17 +63,9 @@ const Events = () => {
                     postTitle="Exxon Mock Interviews"
                     postDesc="🗣️ Get some final practice with your professional skills before the Career Fair! Feel free to also bring your resumes for a fresh set of eyes 👀 📎 "
                 /> */}
-            <div className="postContainer">
-            <Post
-                    image={CAA}
-                    eventMonth="Nov 2024"
-                    eventDay="5"
-                    eventTime="3:00pm-6:00pm"
-                    eventLocation="2550 Gourrier Ave"
-                    postTitle="Companion Animal Alliance"
-                    postDesc="mmm animal volunteering animal volunteering"
-                />
-            </div>
+            {/* <div className="postContainer">
+
+            </div> */}
         </div>
         </>
     )

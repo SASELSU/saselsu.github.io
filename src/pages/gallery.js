@@ -12,6 +12,13 @@ import Pickleball24 from "../assets/gallery/fall24/galleryPickleballSocial.jpeg"
 import FallFest24 from "../assets/gallery/fall24/galleryFallFest.jpeg"
 import ExxonMock from "../assets/gallery/fall24/exxonmockinterview24.png"
 import PaintF24 from "../assets/gallery/fall24/paintsocialfall24.jpg"
+import GBM2F24 from "../assets/gallery/fall24/gbm2.jpg"
+import GeauxHackWorkshopsF24 from "../assets/gallery/fall24/hackathonWorkshops.jpg"
+import GeauxHackF24 from "../assets/gallery/fall24/GeauxHack.jpg"
+import FiveKRun from "../assets/gallery/fall24/5k.jpg"
+import BooAtZoo from "../assets/gallery/fall24/booAtTheZoo.jpg"
+import SASExAEDMCAT from "../assets/gallery/fall24/SASEAEDMCAT.jpg"
+import CAA from "../assets/gallery/fall24/animalAlliance.png"
 
 import usePageTracking from "../components/Common/TrafficTracker";
 const Gallery = () => {
@@ -28,6 +35,49 @@ const Gallery = () => {
 
         <div className="gallery">
             <div className="galleryCardContainer">
+            <GalleryCard 
+                image={SASExAEDMCAT}
+                title="SASExAED MCAT Prep"
+                date="NOV 7 2024"
+                link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
+            />
+            <GalleryCard 
+                image={CAA}
+                title="CAA Volunteering"
+                date="NOV 5 2024"
+                link="https://www.facebook.com/media/set/?set=a.984949486994034&type=3"
+            />
+
+            <GalleryCard 
+                image={FiveKRun}
+                title="5K Run Volunteering"
+                date="NOV 1 2024"
+                link="https://www.facebook.com/media/set/?set=a.980571587431824&type=3"
+            />
+            <GalleryCard 
+                image={GeauxHackF24}
+                title="GeauxHack '24"
+                date="NOV 1-3 2024"
+                link="https://www.facebook.com/media/set/?set=a.980556994099950&type=3"
+            />
+            <GalleryCard 
+                image={GeauxHackWorkshopsF24}
+                title="GeauxHack Workshops"
+                date="OCT 23, 28, 30 2024"
+                link="https://www.facebook.com/media/set/?set=a.974575718031411&type=3"
+            />
+            <GalleryCard 
+                image={BooAtZoo}
+                title="Boo At The Zoo"
+                date="OCT 26, 27 2024"
+                link="https://www.facebook.com/media/set/?set=a.980880604067589&type=3"
+            />
+            <GalleryCard 
+                image={GBM2F24}
+                title="GBM 2: One Piece"
+                date="OCT 24 2024"
+                link="https://www.facebook.com/media/set/?set=a.974585968030386&type=3"
+            />
             <GalleryCard 
                 image={PaintF24}
                 title="Painting Social"
@@ -54,7 +104,7 @@ const Gallery = () => {
             />
             <GalleryCard 
                 image={BobaSocial24}
-                title="Boba Social"
+                title="GBM 1: Boba Social"
                 date="SEPT 5 2024"
                 link="https://www.facebook.com/media/set/?set=a.935833585238958&type=3"
             />
