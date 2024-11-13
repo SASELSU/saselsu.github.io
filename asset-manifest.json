@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4d2a0a2c.css",
-    "main.js": "/static/js/main.9dc7a21c.js",
+    "main.js": "/static/js/main.277f111b.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/community-background-1.png": "/static/media/community-background-1.e7a91e5aeffc7fe57333.png",
@@ -51,11 +51,11 @@
     "static/media/thanh_kirsch.png": "/static/media/thanh_kirsch.6350731e8bab2b1c522e.png",
     "static/media/MikePack.png": "/static/media/MikePack.f689916aa7ebda5190f5.png",
     "static/media/ricky_liang.jpeg": "/static/media/ricky_liang.120f1452db343932c183.jpeg",
+    "static/media/November.png": "/static/media/November.050994697a422d0a1af5.png",
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
     "static/media/hackathonWorkshops.jpg": "/static/media/hackathonWorkshops.790d14967c681c6ce5a9.jpg",
     "static/media/Companion Animal Alliance.png": "/static/media/Companion Animal Alliance.d645878c62e3f9feeeb4.png",
     "static/media/geauxhackWork1.png": "/static/media/geauxhackWork1.fd98275c0efaf17fa946.png",
-    "static/media/October.png": "/static/media/October.1fb5bddecf7a448e8489.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
     "static/media/kris_lam.png": "/static/media/kris_lam.b6268d31799371a32283.png",
     "static/media/MikeSignup.png": "/static/media/MikeSignup.d07d3fee81461a1e1e72.png",
@@ -90,11 +90,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.4d2a0a2c.css.map": "/static/css/main.4d2a0a2c.css.map",
-    "main.9dc7a21c.js.map": "/static/js/main.9dc7a21c.js.map",
+    "main.277f111b.js.map": "/static/js/main.277f111b.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4d2a0a2c.css",
-    "static/js/main.9dc7a21c.js"
+    "static/js/main.277f111b.js"
   ]
 }
