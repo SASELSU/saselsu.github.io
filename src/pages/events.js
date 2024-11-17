@@ -5,10 +5,7 @@ import TitleCardBackground from "../assets/events/eventVolleyball.png"
 // import FutureEvent from "../assets/events/futureEvent.png"
 
 //event images
-import CAA from "../assets/events/fall-2024/Companion Animal Alliance.png"
-import GBM3 from "../assets/events/fall-2024/3rd_GBM_1.png"
-import GeauxHack from "../assets/events/fall-2024/geauxhack.png"
-import GeauxHackWork1 from "../assets/events/fall-2024/geauxhackWork1.png"
+import DrQuinlan from "../assets/events/fall-2024/DrQuinlan.png"
 
 //helpers
 import {
@@ -34,13 +31,13 @@ const Events = () => {
 
             <div className="postContainer"> {/*something something more manual input*/}
                 <Post
-                    image={GBM3}
+                    image={DrQuinlan}
                     eventMonth="NOV 2024"
-                    eventDay="14"
-                    eventTime="6:00pm-7:30pm"
-                    eventLocation="PFT 1202"
-                    postTitle="Third General Body Meeting"
-                    postDesc="Join us at our Despicable Me themed Third General Body Meeting as we aim to steal the moon ‼️ ‼️ Come dressed as a minion and serve the most evil man on Earth, Faris Gruttak‼"
+                    eventDay="21"
+                    eventTime="6:30pm-8:00pm"
+                    eventLocation="PFT 1100"
+                    postTitle="SASExAED Guest Speaker"
+                    postDesc="Come to PFT 1100 to see Former Oschner CEO, Dr. Quinlan give a talk about working in healthcare!"
                 />
 
                 {/* <Post //never remove (this is the future event)

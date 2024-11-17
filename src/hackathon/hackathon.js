@@ -31,6 +31,12 @@ import MikePack from "./assets/faq/MikePack.png"
 
 import MikeTakeoff from "./assets/sponsors/SponsorBackground.png"
 import LSUCOE from "./assets/sponsors/LSU_CoE_White.jpg.png"
+import LSUStuGov from "./assets/sponsors/LSU_StuGov.png"
+import Chevron from "./assets/sponsors/chevron-white1.png"
+import DOW from "./assets/sponsors/dow.png"
+import ChickenWag from "./assets/sponsors/ChickenWag.png"
+import SSL from "./assets/sponsors/SSL.png"
+import GDSC from "./assets/sponsors/GDSC.png"
 import SponsorshipPacket from "./assets/sponsors/Hackathon Sponsorship Packet 2024-25.pdf"
 import usePageTracking from "../components/Common/TrafficTracker";
 
@@ -159,7 +165,13 @@ const Hackathon = () => {
             style={{backgroundImage: `url(${MikeTakeoff})`}}>
                 <h2>And we're off!</h2>
                 <h1>Thank you to our Sponsors!</h1>
-                <img src={LSUCOE} alt="lsuCoE"/>
+                <img src={LSUCOE} alt="LSU College of Engineering" style={{height: "12vw"}}/>
+                <img src={LSUStuGov} alt="LSU Student Governemnt"/>
+                <img src={ChickenWag} alt="Chicken Wagon"/>
+                <img src={DOW} alt="DOW"/>
+                <img src={Chevron} alt="Chevron"/>
+                <img src={SSL} alt="SSL"/>
+                <img src={GDSC} alt="GDSC"style={{height: "15vw"}}/>
                 <div className="hackathonSponsorsText">   
     `               <h1>Want to become a sponsor?</h1>
                     <p>Click the button below!</p>
