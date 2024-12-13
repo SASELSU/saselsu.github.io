@@ -42,11 +42,11 @@ export const HackathonNav = () => {
                     smooth={true}><h1>SPONSORS</h1></Link>
                 </div>
             </Collapse>
-            <img src={Pullout}
+            <img src={Pullout} alt="expand"
             onClick={() => handleToggleMenu()}/>
             </div>
             <RouterLink className="hackathonHomeButton" to='/'>
-                <img src={Home} />
+                <img src={Home} alt="home"/>
             </RouterLink>  
         </>
 

@@ -1,11 +1,10 @@
 import {
     React,
-    useState
+    // useState
 } from "react";
 import "../styles/about.css"
 
 import { HistoryCard,EBoardCard } from "./helpers/aboutHelpers";
-import { useHorizontalScroll } from "./helpers/generalHelpers";
 
 import TitleCardBackground from "../assets/about/title_card.jpg"
 
@@ -21,21 +20,23 @@ import LunarMeeting from "../assets/about/history/historyLunarEvent.jpeg"
 import ReallyBigGathering from "../assets/about/history/bobaSocial23.jpg"
 
 //eboard pics
-import PresidentPic from "../assets/about/eboard/faris_khattak.jpg"
-import VicePresidentPic from "../assets/about/eboard/grishma_shrestha_2.jpg"
+import PresidentPic from "../assets/about/eboard/faris_khattak.png"
+import VicePresidentPic from "../assets/about/eboard/grishma_shrestha.png"
 import SecretaryPic from "../assets/about/eboard/jennie_tran.png"
 import TreasurerPic from "../assets/about/eboard/galvin_wong.png"
-import PublicRelationsPic from "../assets/about/eboard/camila_cuadra.jpg"
+import PublicRelationsPic from "../assets/about/eboard/camila_cuadra.png"
 import HistorianPic from "../assets/about/eboard/kim_nguyen.png"
 import GraphicDesignPic from "../assets/about/eboard/kris_lam.png"
-import WebmasterPic from "../assets/about/eboard/ricky_liang.jpeg"
+import WebmasterPic from "../assets/about/eboard/ricky_liang.png"
 import FundraisingPic from "../assets/about/eboard/winson_liu.png"
 import OutreachPic from "../assets/about/eboard/himangini_chauhan.png"
 import ProDevPic from "../assets/about/eboard/thanh_kirsch.png"
+import usePageTracking from "../components/Common/TrafficTracker";
 
 
 
 const About = () => {
+    usePageTracking("About Page");    
     // const scrollRef = useHorizontalScroll();
     // const [index, setIndex] = React.useState;
     return (
@@ -50,7 +51,7 @@ const About = () => {
         <div className="aboutMission">
                 <h1>Our Mission</h1>
                 <p>SASE is dedicated to the advancement of Asian heritage scientists and engineers in education and employment so that they can achieve their full career potential. In addition to professional development, SASE also encourages members to contribute to the enhancement of the communities in which they live.</p>
-                <img src={OurMission}/>
+                <img src={OurMission} alt="missionImage"/>
                 
                 <p>SASE’s mission is to:
 

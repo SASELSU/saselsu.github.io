@@ -34,7 +34,7 @@ const NavMenu = () => {
                 <div className="navMenuSmallCardContainer">
                     <SmallCard
                         image={HackathonCard}
-                        title="Hackathon"
+                        title="GeauxHack"
                         link="/hackathon"
                     />
                     <SmallCard
@@ -55,10 +55,10 @@ const NavMenu = () => {
                 </div>
                 <p>Links</p>
                 <div className="navMenuLinkContainer">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_kO3N-GTOMnouhRn2KbhGrWQXLfV3ZSCyDVIBEeLVhVzgw/viewform?usp=sf_link" target="_blank">                
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_kO3N-GTOMnouhRn2KbhGrWQXLfV3ZSCyDVIBEeLVhVzgw/viewform?usp=sf_link" target="_blank" rel="noreferrer">                
                         Membership
                     </a>
-                    <a href="https://lsu.prevent.zone" target="_blank">                
+                    <a href="https://lsu.prevent.zone" target="_blank" rel="noreferrer">                
                         Hazing
                     </a>
 
@@ -102,7 +102,7 @@ const Navbar = () => {
             <nav className="navbar">
                 <div className="navbar-logo">
                     <Link to='/'>
-                        <img src={Logo} />
+                        <img src={Logo} alt="SASELogo"/>
                     </Link>    
                 </div>
                 <div className="navbar-elements">
@@ -111,7 +111,7 @@ const Navbar = () => {
                     <Link to="/events"> Events </Link>
                     </div>
 
-                    <img src={MenuButton}
+                    <img src={MenuButton} alt="MenuButton"
                     onClick={() => handleToggleMenu()}/>
                 </div>
             </nav>

@@ -2,20 +2,21 @@ import React from "react";
 import "../styles/events.css"
 
 import TitleCardBackground from "../assets/events/eventVolleyball.png"
-import FutureEvent from "../assets/events/futureEvent.png"
+// import FutureEvent from "../assets/events/futureEvent.png"
 
 //event images
-import Exxon from "../assets/events/fall-2024/MOCK INTERVIEWS"
-import ResumeBooklet from "../assets/events/fall-2024/ResumeBooklet.jpg"
-import Giveback from "../assets/events/fall-2024/Giveback Night.png"
-import GeauxGirls from "../assets/events/fall-2024/Geaux Girls STEM.png"
+import DrQuinlan from "../assets/events/fall-2024/DrQuinlan.png"
+
 //helpers
 import {
     Post,
-    UpcomingPost,
+    // UpcomingPost,
 } from "./helpers/eventsHelpers"
+import usePageTracking from "../components/Common/TrafficTracker";
 
 const Events = () => {
+    usePageTracking("Events Page");
+
     return (
         <>
         <div className="eventTitleCard"
@@ -29,25 +30,16 @@ const Events = () => {
             <h3>Read about our future events!</h3>
 
             <div className="postContainer"> {/*something something more manual input*/}
+                <Post
+                    image={DrQuinlan}
+                    eventMonth="NOV 2024"
+                    eventDay="21"
+                    eventTime="6:30pm-8:00pm"
+                    eventLocation="PFT 1100"
+                    postTitle="SASExAED Guest Speaker"
+                    postDesc="Come to PFT 1100 to see Former Oschner CEO, Dr. Quinlan give a talk about working in healthcare!"
+                />
 
-                <Post
-                    image={Giveback}
-                    eventMonth="OCT 2024"
-                    eventDay="4"
-                    eventTime="11:00am-8:00pm"
-                    eventLocation="7584 Bluebonnet Blvd"
-                    postTitle="Kung Fu Tea Giveback"
-                    postDesc="It's time for our KFT Giveback Night! Order some Boba and mention us!"
-                />
-                <Post
-                    image={GeauxGirls}
-                    eventMonth="OCT 2024"
-                    eventDay="5"
-                    eventTime="10:00am-12:00pm"
-                    eventLocation="720 Terrace Ave"
-                    postTitle="Geaux Girls"
-                    postDesc="Come and help Geaux Girls STEM set up and run their development workshop! Sign ups are on Discord."
-                />
                 {/* <Post //never remove (this is the future event)
                 image={FutureEvent}
                 eventMonth="Some Month!"
@@ -68,9 +60,9 @@ const Events = () => {
                     postTitle="Exxon Mock Interviews"
                     postDesc="🗣️ Get some final practice with your professional skills before the Career Fair! Feel free to also bring your resumes for a fresh set of eyes 👀 📎 "
                 /> */}
-            <div className="postContainer">
+            {/* <div className="postContainer">
 
-            </div>
+            </div> */}
         </div>
         </>
     )

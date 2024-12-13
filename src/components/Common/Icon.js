@@ -12,8 +12,8 @@ import whiteInstagram from "../../assets/icons/social_media_white/instagram_whit
 export const BlackDiscordIcon = () => {
     return (
         <div className="icon">
-            <a href="https://discord.com/invite/eAW5RZsKyk" target="_blank">                
-                <img src={blackDiscord}/>
+            <a href="https://discord.com/invite/eAW5RZsKyk" target="_blank" rel="noreferrer">                
+                <img src={blackDiscord} alt="discord"/>
             </a>
         </div>
     );
@@ -22,8 +22,8 @@ export const BlackDiscordIcon = () => {
 export const BlackFacebookIcon = () => {
     return (
         <div className="icon">
-            <a href="https://www.facebook.com/lsu.sase/" target="_blank">                
-                <img src={blackFacebook}/>
+            <a href="https://www.facebook.com/lsu.sase/" target="_blank" rel="noreferrer">                
+                <img src={blackFacebook} alt="facebook"/>
             </a>
         </div>
     );
@@ -31,8 +31,8 @@ export const BlackFacebookIcon = () => {
 export const BlackInstagramIcon = () => {
     return (
         <div className="icon">
-            <a href="https://www.instagram.com/saselsu/" target="_blank">                
-                <img src={blackInstagram}/>
+            <a href="https://www.instagram.com/saselsu/" target="_blank" rel="noreferrer">                
+                <img src={blackInstagram} alt="instagram"/>
             </a>
         </div>
     )
@@ -41,8 +41,8 @@ export const BlackInstagramIcon = () => {
 export const WhiteDiscordIcon = () => {
     return (
         <div className="icon">
-            <a href="https://discord.com/invite/eAW5RZsKyk" target="_blank">                
-                <img src={whiteDiscord}/>
+            <a href="https://discord.com/invite/eAW5RZsKyk" target="_blank" rel="noreferrer">                
+                <img src={whiteDiscord} alt="discord"/>
             </a>
         </div>
     );
@@ -51,8 +51,8 @@ export const WhiteDiscordIcon = () => {
 export const WhiteFacebookIcon = () => {
     return (
         <div className="icon">
-            <a href="https://www.facebook.com/lsu.sase/" target="_blank">                
-                <img src={whiteFacebook}/>
+            <a href="https://www.facebook.com/lsu.sase/" target="_blank" rel="noreferrer">                
+                <img src={whiteFacebook} alt="facebook"/>
             </a>
         </div>
     );
@@ -60,8 +60,8 @@ export const WhiteFacebookIcon = () => {
 export const WhiteInstagramIcon = () => {
     return (
         <div className="icon">
-            <a href="https://www.instagram.com/saselsu/" target="_blank">                
-                <img src={whiteInstagram}/>
+            <a href="https://www.instagram.com/saselsu/" target="_blank" rel="noreferrer">                
+                <img src={whiteInstagram} alt="instagram"/>
             </a>
         </div>
     )

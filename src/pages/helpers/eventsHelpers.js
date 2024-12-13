@@ -15,7 +15,7 @@ export const Post = (props) => {
     } = props;
     return (
         <div className="eventPost">
-            <img src={image}/>
+            <img src={image} alt="postImage"/>
             <div className="eventPostText">
                 <div className="eventPostDateTimeLocation"> 
                     <p>{eventMonth}</p>
@@ -42,7 +42,7 @@ export const UpcomingPost = (props) => {
     } = props;
     return (
         <div className="eventUpPost">
-            <img src={image}/>
+            <img src={image} alt="eventImage"/>
             <div className="eventUpPostInfo">
                 <div className="eventUpPostHeader">
                     <h1>{postTitle}</h1>

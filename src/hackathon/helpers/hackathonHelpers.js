@@ -4,10 +4,8 @@ import {
 } from "react";
 import "./hackathonPostcard.css"
 import "./hackathonChecklist.css"
-import BackBackdrop from "../assets/about/postcardBack.jpeg"
 export const Postcard = (props) => {
     const {
-        title,
         cardImage,
         cardBackImage
     } = props;
