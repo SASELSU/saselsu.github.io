@@ -7,17 +7,17 @@ import {
  } from "./helpers/eboardHelpers";
 
 //eboard pics
-import PresidentPic from "../assets/eboard/eboard/faris_khattak.jpg"
-import VicePresidentPic from "../assets/eboard/eboard/grishma_shrestha_2.jpg"
-import SecretaryPic from "../assets/eboard/eboard/jennie_tran.png"
-import TreasurerPic from "../assets/eboard/eboard/galvin_wong.png"
-import PublicRelationsPic from "../assets/eboard/eboard/camila_cuadra.jpg"
-import HistorianPic from "../assets/eboard/eboard/kim_nguyen.png"
-import GraphicDesignPic from "../assets/eboard/eboard/kris_lam.png"
-import WebmasterPic from "../assets/about/eboard/ricky_liang.jpeg"
-import FundraisingPic from "../assets/eboard/eboard/winson_liu.png"
-import OutreachPic from "../assets/eboard/eboard/himangini_chauhan.png"
-import ProDevPic from "../assets/eboard/eboard/thanh_kirsch.png"
+import PresidentPic from "../assets/about/eboard/faris_khattak.png"
+import VicePresidentPic from "../assets/about/eboard/grishma_shrestha.png"
+import SecretaryPic from "../assets/about/eboard/jennie_tran.png"
+import TreasurerPic from "../assets/about/eboard/galvin_wong.png"
+import PublicRelationsPic from "../assets/about/eboard/camila_cuadra.png"
+import HistorianPic from "../assets/about/eboard/kim_nguyen.png"
+import GraphicDesignPic from "../assets/about/eboard/kris_lam.png"
+import WebmasterPic from "../assets/about/eboard/ricky_liang.png"
+import FundraisingPic from "../assets/about/eboard/winson_liu.png"
+import OutreachPic from "../assets/about/eboard/himangini_chauhan.png"
+import ProDevPic from "../assets/about/eboard/thanh_kirsch.png"
 
 
 const EBoard = () => {
