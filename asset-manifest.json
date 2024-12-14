@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.74fcea17.css",
-    "main.js": "/static/js/main.35058673.js",
+    "main.js": "/static/js/main.120ab9c8.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -66,6 +66,7 @@
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/LSU_StuGov.png": "/static/media/LSU_StuGov.6ba8898ec162c31bae6b.png",
     "static/media/titleBackdrop.png": "/static/media/titleBackdrop.12a20738d76dab99ef3d.png",
+    "static/media/futureEvent.png": "/static/media/futureEvent.3eb7c3c3e3fea514373b.png",
     "static/media/firstSASE.jpeg": "/static/media/firstSASE.5a4dcf9c86e5e210d0b6.jpeg",
     "static/media/white-sase-logo.png": "/static/media/white-sase-logo.3d084078f444ae2a762d.png",
     "static/media/Dow_Chemical_Company_logo.svg.png": "/static/media/Dow_Chemical_Company_logo.svg.2d87d60a02e00dfb8b5e.png",
@@ -97,11 +98,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.74fcea17.css.map": "/static/css/main.74fcea17.css.map",
-    "main.35058673.js.map": "/static/js/main.35058673.js.map",
+    "main.120ab9c8.js.map": "/static/js/main.120ab9c8.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.74fcea17.css",
-    "static/js/main.35058673.js"
+    "static/js/main.120ab9c8.js"
   ]
 }
