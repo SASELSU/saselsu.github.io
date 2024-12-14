@@ -24,13 +24,15 @@
 }
 
 .colorOverlay {
+  width: 100%;
+  height: 100%;
+
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   background-color: rgba(0, 0, 0, 0.3);
+  border-radius: inherit;
   pointer-events: none;
+
+  z-index: 0;
 }
 
 .headerContainer {
@@ -102,7 +104,7 @@
   height: 200px; */
   margin: 2.3vw;
   margin-bottom: -1vh;
-  
+
 
   justify-content: center;
   text-align: center;
@@ -116,56 +118,92 @@
 }
 
 .missionPillarContainer {
+  width: 95vw;
   display: flex;
   flex-direction: row;
   margin-bottom: 10vh;
-  gap: 5vw;
+  gap: 2vw;
 }
 
 .missionPillar {
-  background-color: rgb(0, 78, 100);
-  width: 25vw;
-  /* display: flex;
-  flex-direction: column; */
-  text-align: center;
+  width: 30vw;
+  height: 20vw;
+
+  flex: 1;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
   border-radius: 2vw;
+
+  transition: all 0.3s ease;
+
 }
 
-.missionPillar img {
-  width: 100%;
-  height: 16vw;
-  border-radius: 2vw;
+.missionPillar:hover {
+  width: 50vw;
+  height: 30vw;
+  flex: 2;
 
-  object-fit: cover;
+  position: relative;
+
+  transition: all 0.3s ease;
 }
 
-.missionPillar h1 { /* pro dev because it takes up 2 lines*/
-  height: 4.5vw;
+.missionPillarContainer:hover .missionPillar:not(:hover) {
+  height: 30vw;
+  transition: all 0.3s ease;
+}
 
-  /* margin-bottom: -3.3vw; */
+.missionPillar h1 {
+  width: 50%;
 
-  font-size: 2.5vw;
+  font-size: 3.5vw;
+  font-weight: 200;
+  font-family: "Bebas Neue";
+  line-height: 0.9;
+  text-align: left;
 
+  margin: auto;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  bottom: 0;
+  position: absolute;
 
   justify-content: center;
   align-items: center;
+
+  transition: all 0.2s ease;
 }
 
-.missionPillar h2 { /* the other two because they take up 1 line*/
-  height: 4.5vw;
-  font-size: 4vw;
-  margin-top: 1.4vw;
-  justify-content: center;
-  align-items: center;
+.missionPillar:hover h1 {
+  font-size: 5vw;
+
+  transition: all 0.2s ease;
 }
 
 .missionPillar p {
-  width: 90%;
-  height: 3vw;
+  width: 40%;
+  font-size: 0vw;
 
-  margin-left: 5%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
 
-  font-size: 1.4vw;
+  text-align: right;
+  font-family: 'Public Sans';
+  transition: all 0.2s ease;
+}
+
+.missionPillar:hover p {
+  width: 40%;
+
+  font-size: 1.25vw;
+  font-weight: 200;
+
+  transition: all 0.2s ease;
 }
 
 .calendar {
@@ -236,7 +274,7 @@
 
 @media (max-width: 1366x) { /*desktop*/
 /*dont need anything in here but just leaving it here for standard formatting*/
-} 
+}
 
 @media (max-width: 1024px) {
   .missionPillarContainer {
@@ -249,7 +287,7 @@
   }
 
   .missionPillar h2 {
-    height: 1vw;    
+    height: 1vw;
   }
 
   .missionPillar p {
@@ -349,10 +387,10 @@
 
     padding: 3vw;
   }
-  
+
 }
 
-@media (max-width: 432px) { /*phones*/ 
+@media (max-width: 432px) { /*phones*/
   .pillarTitle {
     font-size: 70px;
     font-weight: 300;
