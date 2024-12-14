@@ -7,7 +7,7 @@ import { ScrollRestoration } from 'react-router-dom';
 
 import "@fontsource/bebas-neue"; // Defaults to weight 400
 import "@fontsource/red-hat-display"; // Defaults to weight 400
-import "@fontsource/public-sans"; // Defaults to weight 400
+import "@fontsource/montserrat"; // Defaults to weight 400
 import "@fontsource/adlam-display"; // Defaults to weight 400
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

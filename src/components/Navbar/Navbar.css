@@ -12,7 +12,8 @@
 }
 
 .navbar a {
-    font-size: 20px;
+    font-size: 1.5vw;
+    font-weight: 300;
     color: white;
     text-decoration: none;
     margin-left: 2vw;
