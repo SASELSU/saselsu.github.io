@@ -190,7 +190,7 @@
 
   position: absolute;
   right: 0;
-  bottom: 0;
+  top: 0;
 
   text-align: right;
   font-family: 'Public Sans';
@@ -201,7 +201,7 @@
   width: 40%;
 
   font-size: 1.25vw;
-  font-weight: 200;
+  font-weight: 100;
 
   transition: all 0.2s ease;
 }
@@ -293,9 +293,12 @@
 
     position: absolute;
     right: 0;
-    bottom: 0;
-    margin-bottom: 5%;
+    top: 0;
+    margin-top: 5%;
   
+  }
+  .missionPillar:hover p {
+    font-size: 1.65vw;
   }
   /* .calendar img {
     height: 65vh;
