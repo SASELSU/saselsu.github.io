@@ -282,19 +282,20 @@
     margin-bottom: 6vh;
   }
 
-  .missionPillar h1 {
-    height: 5vw;
-  }
-
-  .missionPillar h2 {
-    height: 1vw;
+  .missionPillar:hover h1 {
+    font-size: 4vw;
+  
+    transition: all 0.2s ease;
   }
 
   .missionPillar p {
-    width: 90%;
-    margin-left: 5%;
-    margin-bottom: 8vw;
-    font-size: 1.6vw;
+    font-size: 0vw;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 5%;
+  
   }
   /* .calendar img {
     height: 65vh;
@@ -310,6 +311,7 @@
     margin-top: 3vw;
     font-size: 4.7vw;
   }
+
   .pillarTitle {
     font-size: 90px;
     font-weight: 500;
