@@ -1,14 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.c29efd21.css",
-    "main.js": "/static/js/main.ea12cc6d.js",
+    "main.css": "/static/css/main.4f9872a7.css",
+    "main.js": "/static/js/main.06100aea.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
+    "static/media/big_camila.png": "/static/media/big_camila.a4af89dbc110fcf36fb7.png",
+    "static/media/big_jennie.png": "/static/media/big_jennie.52cc6a8bb68d6dc0efdb.png",
+    "static/media/big_thanh.png": "/static/media/big_thanh.2e247b878961a7bbf7ea.png",
+    "static/media/big_kim.png": "/static/media/big_kim.e4dfcd194ac45c6afe9b.png",
+    "static/media/big_galvin.png": "/static/media/big_galvin.604d4fb7a1c55920f409.png",
+    "static/media/big_winson.png": "/static/media/big_winson.380ca06e15d990fde53e.png",
+    "static/media/big_kris.png": "/static/media/big_kris.7a6a558ac1a8fa6b3532.png",
+    "static/media/big_himangini.png": "/static/media/big_himangini.10fbaf93c4aa4fd6f273.png",
+    "static/media/big_grishma.png": "/static/media/big_grishma.f34c98c1e294564c8b6f.png",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
     "static/media/kim_nguyen.png": "/static/media/kim_nguyen.d6b3b5e3ffe914daf032.png",
+    "static/media/big_faris.png": "/static/media/big_faris.d6d601b2adfce75ec6ad.png",
     "static/media/eboardBackdrop.png": "/static/media/eboardBackdrop.f382dc63b69b4be7d166.png",
     "static/media/winson_liu.png": "/static/media/winson_liu.571816840eb19b70538e.png",
     "static/media/thanh_kirsch.png": "/static/media/thanh_kirsch.8a0c0e066b69ff2be2e8.png",
+    "static/media/big_ricky.png": "/static/media/big_ricky.3dbedb67300e973ccb95.png",
     "static/media/galvin_wong.png": "/static/media/galvin_wong.3a7a7dd1d0ae570929af.png",
     "static/media/kris_lam.png": "/static/media/kris_lam.7726530eb5a58ee1b795.png",
     "static/media/himangini_chauhan.png": "/static/media/himangini_chauhan.c9563d581a20e0a2d97e.png",
@@ -102,12 +113,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
-    "main.c29efd21.css.map": "/static/css/main.c29efd21.css.map",
-    "main.ea12cc6d.js.map": "/static/js/main.ea12cc6d.js.map",
+    "main.4f9872a7.css.map": "/static/css/main.4f9872a7.css.map",
+    "main.06100aea.js.map": "/static/js/main.06100aea.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c29efd21.css",
-    "static/js/main.ea12cc6d.js"
+    "static/css/main.4f9872a7.css",
+    "static/js/main.06100aea.js"
   ]
 }
