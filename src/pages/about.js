@@ -62,10 +62,6 @@ Provide opportunities for members to make contributions to their local communiti
         </div>
         <div className="aboutHistory">
             <h1>OUR HISTORY</h1>
-            <div className="historyCardSlider">
-                <div className="historyCardContainer"
-                // style={{transform: `translate3d(${-index * 100}%, 0, 0)`}}
-                > {/*ref={scrollRef} */}
                     <HistoryCard 
                     image={FirstMeeting}
                     cardBlurb="SASE LSU emerged in February 2019, initially comprising a modest group of 25 active members."/>
@@ -93,9 +89,6 @@ Provide opportunities for members to make contributions to their local communiti
                     <HistoryCard
                     image={ReallyBigGathering}
                     cardBlurb="As we expanded, we incorporated workshops and invited guest speakers to enable our members to pursue professional development. SASE LSU serves as a space where individuals can embrace their diversity against all odds, forge their own community within LSU, and, above all, to love purple and live gold."/>
-                </div>    
-            </div>
-        
         </div>
         </>
     )

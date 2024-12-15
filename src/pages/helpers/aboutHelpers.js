@@ -17,21 +17,3 @@ export const HistoryCard = (props) => {
         </div>
     );
 }
-
-export const EBoardCard = (props) => {
-    const {
-        image,
-        name,
-        title
-    } = props;
-    return (
-        <div className="aboutEBoardCard">
-            <img src={image} alt="EBoardImage"/>
-            <div className="aboutEboardCardText">
-                <h1>{title}</h1>
-                <p>{name}</p>
-            </div>
-
-        </div>
-    );
-}
