@@ -12,7 +12,8 @@
 }
 
 .navbar a {
-    font-size: 20px;
+    font-size: 1.5vw;
+    font-weight: 300;
     color: white;
     text-decoration: none;
     margin-left: 2vw;
@@ -33,7 +34,9 @@
 .navbar-elements {
     /* flex: 1; */
     height: 100%;
+
     display: flex;
+
     align-items: center;
     justify-content: center;
     margin-right: 2vw;
@@ -42,11 +45,13 @@
 .navbarElementsLink {
     display: flex;
     flex-direction: row;
+
+    font-weight: 300;
 }
 
 .navbar-elements img {
-    width:40px;
-    height: 40px;
+    width: 3vw;
+    height: 3vw;
     cursor: pointer;
     object-fit: scale-down;
     margin-left: 20px;
@@ -93,9 +98,12 @@
 
 .navMenuBigCardWrapper h1 {
     font-size: 5.8vw;
+    font-weight: 300;
+
     position: absolute;
     bottom: 0;
-    margin-left: 1vw;
+    margin-left: 5%;
+
     color: white;
 }
 
@@ -188,9 +196,11 @@
 }
 
 .navMenuSmallCardWrapper h1 {
+    font-size: 5vw;
+    font-weight: 300;
     color: white;
     text-decoration: none;
-    font-size: 5vw;
+
     position: absolute;
     top: 0;
     right: 0;
@@ -384,11 +394,17 @@
 
 @media (max-width: 432px) { /*phones*/
     .navbar-logo img{
-        width: 30vw;
+        width: 33vw;
         height: auto;
+        margin-top: -2vw;
         padding-left: 0px;
     }
     
+    .navbar-elements img {
+        width: 7vw;
+        height: 7vw;
+        object-fit: scale-down;
+    }
     .navbarElementsLink {
         display: none;
     }

@@ -120,22 +120,23 @@ const Home = () => {
             <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
             <br/>
             <h2>The Three Pillars of SASE</h2>
-            <br/>
-            <br/>
             <div className="missionPillarContainer">
-                <div className="missionPillar">
-                    <img src={MiniDiversity} alt="DiversityPillar"/>
-                    <h2>Diversity</h2>
+                <div className="missionPillar"
+                    style={{backgroundImage: `url(${MiniDiversity})`}}>  
+                    <div className="colorOverlay"/>
                     <p>Celebrate diversity on campuses and in the workplace.</p>
+                    <h1>Diversity</h1> 
                 </div>
-                <div className="missionPillar">
-                    <img src={MiniProdev} alt="ProfessionalDevPillar"/>
+                <div className="missionPillar"
+                     style={{backgroundImage: `url(${MiniProdev})`}}>
+                    <div className="colorOverlay"/>
                     <h1>Professional Development</h1>
                     <p>Prepare Asian heritage scientists and engineers for success in the global business world.</p>
                 </div>
-                <div className="missionPillar">
-                    <img src={MiniCommunity} alt="CommunityPillar"/>
-                    <h2>Community</h2>
+                <div className="missionPillar"
+                     style={{backgroundImage: `url(${MiniCommunity})`}}>
+                    <div className="colorOverlay"/>
+                    <h1>Community</h1>
                     <p>Provide opportunites for members to make contributions to their local communities.</p>
                 </div>
             </div>
