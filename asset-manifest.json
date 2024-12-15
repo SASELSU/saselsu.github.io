@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4442cb30.css",
-    "main.js": "/static/js/main.bc199066.js",
+    "main.js": "/static/js/main.adf97bb4.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -14,10 +14,10 @@
     "static/media/bobaSocial24.png": "/static/media/bobaSocial24.587ce96085575207591b.png",
     "static/media/grishma_shrestha.png": "/static/media/grishma_shrestha.2db7d8d885725c6e62ac.png",
     "static/media/community-background-1.png": "/static/media/community-background-1.e7a91e5aeffc7fe57333.png",
+    "static/media/miniDiversity.png": "/static/media/miniDiversity.1acb899a592a7e28b5a5.png",
     "static/media/galleryBackdrop.png": "/static/media/galleryBackdrop.bd9b760ae37b5789859c.png",
     "static/media/animalAlliance.png": "/static/media/animalAlliance.ab48840e1c57f3a565d1.png",
     "static/media/Hackathon Sponsorship Packet 2024-25.pdf": "/static/media/Hackathon Sponsorship Packet 2024-25.02bed03fdceb0394769e.pdf",
-    "static/media/miniDiversity.png": "/static/media/miniDiversity.e19ff4f7b200b2f063f2.png",
     "static/media/SASE@LSU Sponsorship.pdf": "/static/media/SASE@LSU Sponsorship.0d141c030e2b5cb06fc3.pdf",
     "static/media/diversity-background-1.png": "/static/media/diversity-background-1.68c0f703c47aab940b44.png",
     "static/media/firstPaint.png": "/static/media/firstPaint.80478e051c9578fc6d91.png",
@@ -102,11 +102,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.4442cb30.css.map": "/static/css/main.4442cb30.css.map",
-    "main.bc199066.js.map": "/static/js/main.bc199066.js.map",
+    "main.adf97bb4.js.map": "/static/js/main.adf97bb4.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4442cb30.css",
-    "static/js/main.bc199066.js"
+    "static/js/main.adf97bb4.js"
   ]
 }
