@@ -18,17 +18,15 @@ export const DescriptionCard = (props) => {
 
     //onClick={handleOpen}
     return (
-        <div className="eboardCardWrapper">
-            <div className="eboardCard" > 
-                <h2>{title}</h2>
-                <img src={image} alt="officer pic"/>
-                <h1>{name}</h1>
+        <div className="eboardCard" > 
+            <h2>{title}</h2>
+            <img src={image} alt="officer pic"/>
+            <h1>{name}</h1>
 
-                
-                <p>{major}</p>
-                <div className={`eboardCardMore ${open? 'active' : 'inactive'}`}>
-                    <p>{blurb}</p>
-                </div>
+            
+            <p>{major}</p>
+            <div className={`eboardCardMore ${open? 'active' : 'inactive'}`}>
+                <p>{blurb}</p>
             </div>
         </div>
     );

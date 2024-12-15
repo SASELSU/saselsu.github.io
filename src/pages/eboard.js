@@ -50,21 +50,21 @@ const EBoard = () => {
             <DescriptionCard
                 title="Secretary"
                 name="Jennie Tran"
-                major="Computer Science, Junior, Class of 26"
+                major="Mechanical Engineering, Junior, Class of 26"
                 image={SecretaryPic}
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />            
             <DescriptionCard
                 title="Treasurer"
                 name="Galvin Wong"
-                major="Computer Science, Junior, Class of 26"
+                major="Mechanical Engineering, Junior, Class of 26"
                 image={TreasurerPic}
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />            
             <DescriptionCard
                 title="Public Relations Chair"
                 name="Camila Cuadra"
-                major="Computer Science, Junior, Class of 26"
+                major="Piano, Junior, Class of 26"
                 image={PublicRelationsPic}
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />
@@ -78,35 +78,35 @@ const EBoard = () => {
             <DescriptionCard
                 title="Graphic Design"
                 name="Kristina Lam"
-                major="Computer Science, Junior, Class of 26"
+                major="Biology, Sophomore, Class of 27"
                 image={GraphicDesignPic}
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />
             <DescriptionCard
                 title="Webmaster"
                 name="Ricky Liang"
-                major="Computer Science, Junior, Class of 26"
+                major="Computer Science, Sophomore, Class of 27"
                 image={WebmasterPic}
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />
             <DescriptionCard
                 title="Fundraising Chair"
                 name="Winson Liu"
-                major="Computer Science, Junior, Class of 26"
+                major="Computer Science, Senior, Class of 25"
                 image={FundraisingPic}
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />
             <DescriptionCard
                 title="Outreach Chair"
                 name="Himangini Chauhan"
-                major="Computer Science, Junior, Class of 26"
+                major="Mechanical Engineering, Sophomore, Class of 27"
                 image={OutreachPic}
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />
             <DescriptionCard
                 title="Professional Development Chair"
                 name="Thanh Kirsch"
-                major="Computer Science, Junior, Class of 26"
+                major="premed idk, Sophomore, Class of 27"
                 image={ProDevPic}
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />
