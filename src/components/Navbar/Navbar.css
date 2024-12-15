@@ -50,8 +50,8 @@
 }
 
 .navbar-elements img {
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
     cursor: pointer;
     object-fit: scale-down;
     margin-left: 20px;
