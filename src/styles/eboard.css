@@ -67,17 +67,26 @@
 
 .eboardCard {
     width: 100%;
-    height: 50vw;
+    height: 40vw;
 
     position: relative;
     padding: 0.8vw;
 /*     
     margin-left: 10%;
     margin-right: 5%; */
-    
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
     color: white;
-    border: 1px solid white;
+
+    border: 2px solid white;
     border-color: white;
 }
 
@@ -87,12 +96,9 @@
 
     object-fit: cover;
     border-radius: 1vw;
+
 }
 
-.eboardCard h1 {
-    font-size: 2.6vw;
-    font-weight: 300;
-}
 .eboardCard h2 {
     font-family: 'Bebas Neue';
     font-weight: 300;
@@ -100,10 +106,58 @@
 
     text-align: center;
 }
-.eboardCard p {
+
+
+.eboardCardBorder {
+    width: 93%;
+    height: 93%;
+
+    display: grid;
+    grid-template-rows: auto auto;
+    align-content: end;
+
+    border: 2px solid white;
+    border-color: white;
+}
+
+.eboardCardText {
+    width: 100%;
+
+    /* display: flex;
+    flex-direction: column;
+    gap: 0; */
+}
+
+.eboardCardText h1 {
+    width: 80%;
+
+    position: relative;
+    margin-left: 2%;
+    margin-bottom: 0%;
+    /* position: absolute;
+    bottom: 0;
+    margin-left: 2%;
+    margin-bottom: 7%; */
+
+    font-size: 3vw;
+    font-weight: 300;
+    text-align: left;
+    box-shadow: black;
+}
+
+.eboardCardText p {
+    /* position: absolute;
+    bottom: 100%; */
+    position: relative;
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    align-self: end;
+
     font-size: 1.6vw;
-    margin-left: 5%;
-    margin-right: 5%;
+    font-weight: 500;    
+    text-align: left;
+    text-shadow: 30px 30px 60px rgba(0, 0, 0, 0.5);
 }
 
 .eboardCardMore.active {
