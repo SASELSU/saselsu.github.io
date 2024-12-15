@@ -336,46 +336,52 @@
   }
 
   .missionPillarContainer {
+    width: 85vw;
+    height: 175vw;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10vh;
     gap: 5vw;
+
+    margin-bottom: 10vh;
   }
 
   .missionPillar {
-    width: 85vw;
-    height: 90vw;
-    background-color: rgb(0, 78, 100);
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 20px;
+    width: 100%;
+  
+    flex: 1;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    position: relative;
+    border-radius: 2vw;
+  
+    transition: all 0.3s ease;
   }
 
-  .missionPillar img {
-    height: 53vw;
+  .missionPillar:hover {
+    width: 100%;
+    flex: 2;
+  
+    position: relative;
+  
+    transition: all 0.3s ease;
   }
 
   .missionPillar h1 {
-    height: 12vw;
-    font-size: 6.5vw;
-
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    font-size: 8vw;
   }
 
-  .missionPillar h2 {
-    height: 7.5vw;
-    font-size: 9vw;
-    justify-content: center;
-    align-items: center;
+  .missionPillar:hover h1 {
+    font-size: 10vw;
+
   }
 
-  .missionPillar p {
+  .missionPillar:hover p {
+    width: 60%;
     font-size: 4vw;
-    /* margin: 2rem; */
-    margin-left: 5%;
-
   }
 
   .calendar img {
@@ -418,13 +424,12 @@
 
   .missionStatement h1 {
     font-size: 5.2vw;
-    margin-top: 10vw;
-    margin-bottom: 1vw;
   }
 
   .missionStatement h2 {
     font-size: 8vw;
-    margin-bottom: -9vw;
+    
+    margin-top: 4vh;
   }
 
   .missionPillarContainer {
@@ -444,31 +449,12 @@
     border-radius: 20px;
   }
 
-  .missionPillar img {
-    height: 60vw;
-  }
-
   .missionPillar h1 {
-    height: fit-content;
     font-size: 8vw;
-    margin-top: 3vw;
-    margin-bottom: -4.5vw;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 5%;
   }
 
-  .missionPillar h2 {
-    font-size: 10vw;
-    height: fit-content;
-    margin-top: 5vw;
-    margin-bottom: -4vw;
-
-    justify-content: center;
-    align-items: center;
-  }
-
-  .missionPillar p {
-    height: fit-content;
+  .missionPillar:hover p {
     font-size: 5vw;
     margin-left: 5%;
     margin-bottom: 5vw;
