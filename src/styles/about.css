@@ -135,68 +135,6 @@
 
 }
 
-.aboutEBoard {
-    width: 100%;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3vh;
-    
-    background-color: rgb(107, 144, 128);
-
-}
-
-.aboutEBoard h1 {
-    margin: auto;
-    margin-top: 5vh;
-    margin-bottom: -1vh;
-
-    font-family: 'Bebas Neue';
-    font-weight: 300;
-    font-size: 5vw;
-    color: white;
-
-}
-
-.aboutEBoardCardContainer {
-    display: flex;
-    flex-direction: row;
-    gap: 3vw;
-    margin-bottom: 2vh;
-}
-
-.aboutEBoardCard {
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: rgb(107, 144, 128);
-    color: white;
-}
-
-.aboutEBoardCard img {
-    width: 25vw;
-    height: 25vw;
-    object-fit: cover;
-    margin: 2.5vw;
-}
-
-.aboutEBoardCard h1 {
-    margin: 1rem;
-    margin-top: -1vh;
-    font-size: 3.5vw;
-    font-weight: 300;
-    text-align: center;
-}
-
-.aboutEBoardCard p {
-    margin-top: 0px;
-    font-size: 1.75vw;
-  text-align: center;
-}
 
 @media (max-width: 1024px) {
     .aboutTitleCard h1 {    
@@ -264,34 +202,5 @@
     .historyCardBlurb {
         font-size: 4vw;
         margin-top: 0.5vh;
-    }
-    
-    .aboutEBoard h1 {
-        font-size: 10vw;
-    }
-
-    .aboutEBoardCardContainer {
-        /* margin-left: -55vw; */
-        flex-direction: column;
-    }
-
-    .aboutEBoardCard {
-        width: 90vw;
-        flex-direction: row;
-    }
-
-    .aboutEBoardCard img {
-        width: 30vw;
-        height: 30vh;
-        object-fit:cover;
-    }
-
-    .aboutEBoardCard h1 {
-        margin: 0rem;
-        margin-top: -1vh;
-        font-size: 9.5vw;
-    }
-    .aboutEBoardCard p {
-        font-size: 4.5vw;
     }
 }
