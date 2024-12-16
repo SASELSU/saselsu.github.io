@@ -69,11 +69,15 @@
 }
 
 .aboutHistory {
+    width: 100%;
     height: auto;
     overflow: auto;
+
     background-color: rgb(247, 255, 247);
+    
     color:black;
     font-size: 1.5vw;  
+    
     display: flex; 
     flex-direction: column;
 }
@@ -88,30 +92,29 @@
     font-size: 5vw
 }
 
-.historyCardSlider {
-        overflow: hidden;
-  position: relative;
-}
+.aboutHistoryImageContainer {
+    height: 30vw;
+    width: 30vw;
 
-.historyCardContainer {
-    height: 95vh;
-    width: auto;
+    overflow: hidden;
+    overflow-y: scroll;
 
-    display: flex;
-    flex-direction: row;
-    /* gap: 10vw; */
+    position:static;
 
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
 
 }
 
+.aboutHistoryImageContainer img {
+    height: 30vw;
+    width: 30vw;
+
+    object-fit: cover;
+}
 .historyCard {
     position: relative;
     width: 80vw;
 
-    margin-left: 20vw;
+    /* margin-left: 20vw; */
     display: flex;
     flex-direction: column;
     color: black;
@@ -121,8 +124,9 @@
 }
 
 .historyCard img {
-    height: 70vh;
-    width: 60vw;
+    height: 40vh;
+    width: 30vw;
+
     object-fit: cover;
 }
 

@@ -11,9 +11,9 @@ export const HistoryCard = (props) => {
     return (
         <div className="historyCard">
             <img src={image} alt="historyImage"/>
-            <div className="historyCardBlurb">
+            {/* <div className="historyCardBlurb">
                 <p>{cardBlurb}</p>
-            </div>
+            </div> */}
         </div>
     );
 }

@@ -1,6 +1,8 @@
 import {
     React,
-    // useState
+    useState,
+    useRef,
+    useEffect
 } from "react";
 import "../styles/about.css"
 
@@ -33,7 +35,13 @@ import OutreachPic from "../assets/about/eboard/himangini_chauhan.png"
 import ProDevPic from "../assets/about/eboard/thanh_kirsch.png"
 import usePageTracking from "../components/Common/TrafficTracker";
 
+const History = () => {
+    const containerRef = useRef(null);
+    const stickyElementRef = useRef(null);
+    const [isSticky, setIsSticky] = useState(false);
+    const [elementPosition, setElementPosition] = useState({ top: 0, left: 0 });
 
+}
 
 const About = () => {
     usePageTracking("About Page");    
@@ -62,6 +70,15 @@ Provide opportunities for members to make contributions to their local communiti
         </div>
         <div className="aboutHistory">
             <h1>OUR HISTORY</h1>
+                <div className="aboutHistoryImageContainer">
+                    <img src={FirstMeeting}/>
+                    <img src={ZoomCall}/>
+                    <img src={ReturnSASE}/>
+                    <img src={uhhhName}/>
+                    <img src={FirstPaint}/>
+                    <img src={LunarMeeting}/>
+                    <img src={ReallyBigGathering}/>
+                </div>
                     <HistoryCard 
                     image={FirstMeeting}
                     cardBlurb="SASE LSU emerged in February 2019, initially comprising a modest group of 25 active members."/>
