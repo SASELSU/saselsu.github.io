@@ -73,7 +73,7 @@ const EBoard = () => {
                 blurb="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone. SASE offers a place not just to provide better opportunities for people like me, but also to give them a place where they feel comfortable and have fun while getting those really sick jobs."
             />            
             <DescriptionCard
-                title="Public     Relations Chair"
+                title="Public Relations Chair"
                 name="Camila Cuadra"
                 major="Piano, Junior, Class of 26"
                 image={PublicRelationsPic}

@@ -28,12 +28,7 @@ export const DescriptionCard = (props) => {
                 </div>
             </div>
         </div>
-    );
-//                 {/* <h2>{title}</h2>
-//             {/* <img src={image} alt="Officer pic"/> */}
-//             <h1>{name}</h1>
-
-            
+    );      
 // <p>{major}</p>
 // <div className={`eboardCardMore ${open? 'active' : 'inactive'}`}>
 //     <p>{blurb}</p>
