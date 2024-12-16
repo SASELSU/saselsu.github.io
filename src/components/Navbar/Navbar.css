@@ -12,10 +12,11 @@
 }
 
 .navbar a {
-    font-size: 20px;
+    font-size: 1.5vw;
+    font-weight: 300;
     color: white;
     text-decoration: none;
-    margin-left: 20px;
+    margin-left: 2vw;
 }
 
 .navbar-logo {
@@ -23,7 +24,7 @@
     height: 100%;
     display: flex;
     align-items: center;
-    padding-left: 20px;
+    padding-left: 1vw;
 }
 
 .navbar-logo img {
@@ -31,25 +32,30 @@
 }
 
 .navbar-elements {
-    flex: 1;
+    /* flex: 1; */
     height: 100%;
+
     display: flex;
+
     align-items: center;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 2vw;
 }
 
 .navbarElementsLink {
     display: flex;
     flex-direction: row;
+
+    font-weight: 300;
 }
 
 .navbar-elements img {
-    width:40px;
-    height: 40px;
+    width: 3vw;
+    height: 3vw;
     cursor: pointer;
     object-fit: scale-down;
     margin-left: 20px;
+    margin-right: 1vw;
 }
 
 .navMenuContainer {
@@ -64,7 +70,8 @@
     width: 100vw;
     z-index: 9;
 
-    background-color: rgb(0, 78, 100);
+    background: rgb(0,78,100);
+    background: linear-gradient(180deg, rgba(0,78,100,1) 0%, rgba(107,144,128,1) 100%);
     display: flex;
     flex: 0.6 1 auto;
 }
@@ -91,9 +98,12 @@
 
 .navMenuBigCardWrapper h1 {
     font-size: 5.8vw;
+    font-weight: 300;
+
     position: absolute;
     bottom: 0;
-    margin-left: 1vw;
+    margin-left: 5%;
+
     color: white;
 }
 
@@ -138,6 +148,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10px;
+    /* pointer-events: none; */
 }
 
 .navMenuSmallCardWrapper {
@@ -148,6 +159,13 @@
     position: relative;
     overflow: hidden;
     margin-bottom: 1vh;
+
+    /* cursor: pointer; */
+}
+
+.navMenuSmallCardWrapper Link{
+    color: white;
+    text-decoration: none;
 }
 
 .navMenuSmallCard::before {
@@ -179,6 +197,10 @@
 
 .navMenuSmallCardWrapper h1 {
     font-size: 5vw;
+    font-weight: 300;
+    color: white;
+    text-decoration: none;
+
     position: absolute;
     top: 0;
     right: 0;
@@ -192,6 +214,7 @@
 }
 
 .navMenuSmallCardWrapper p {
+    color: white;
     font-size: 30px;
     position: absolute;
     bottom: 0;
@@ -263,6 +286,10 @@
         gap: 0px;
     }
 
+    .navbar-elements {
+        margin-right: 4vw;
+    }
+
     .navbarElementsLink {
         display: none;
     }
@@ -283,16 +310,17 @@
     .navMenuBigCard {
         /* background-image: url("../../assets/navbar/navMenuHackathon.jpeg"); */
         background-size: cover;
+        background-position: 50% 30%;
     }
-/* 
+
     .navMenuBigCardWrapper h1 {
-        font-size: 43px;
+        font-weight: 300;
+
         position: absolute;
-        bottom: 0;
-        margin-bottom: 2vw;
-        margin-left: 3vw;
-        color: white;
-    } */
+        left: 0;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
 
     /* #endregion*/
     
@@ -317,6 +345,7 @@
 
     .navMenuSmallCardWrapper h1 {
         font-size: 40px;
+        font-weight: 350;
         bottom: 0;
         margin-top: 15vh;
     }
@@ -349,6 +378,7 @@
 
     .navMenuLinkContainer {
         width: 80vw;
+        margin-bottom: 10p;
     }
     
     .navMenuLinkContainer a {
@@ -364,11 +394,17 @@
 
 @media (max-width: 432px) { /*phones*/
     .navbar-logo img{
-        width: 30vw;
+        width: 33vw;
         height: auto;
+        margin-top: -2vw;
         padding-left: 0px;
     }
     
+    .navbar-elements img {
+        width: 7vw;
+        height: 7vw;
+        object-fit: scale-down;
+    }
     .navbarElementsLink {
         display: none;
     }
@@ -418,6 +454,8 @@
 
     .navMenuSmallCardWrapper h1 {
         font-size: 40px;
+        font-weight: 350;
+
         bottom: 0;
         margin-top: 12vh;
     }

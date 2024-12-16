@@ -1,5 +1,5 @@
 .home {
-    overflow: hidden;
+  overflow: hidden;
   position: relative;
 }
 .pillarContainer {
@@ -24,13 +24,15 @@
 }
 
 .colorOverlay {
+  width: 100%;
+  height: 100%;
+
   position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
   background-color: rgba(0, 0, 0, 0.3);
+  border-radius: inherit;
   pointer-events: none;
+
+  z-index: 0;
 }
 
 .headerContainer {
@@ -55,11 +57,11 @@
 
 .pillarDesc {
   width: 20vw;
-  color:white;
+  color: white;
 }
 
 .missionStatement {
-  margin-top: -3px; /*for some reason theres a white line between this and the title card*/
+  margin-top: -1vh; /*for some reason theres a white line between this and the title card*/
   height: auto;
   overflow: visible;
   display: flex;
@@ -73,24 +75,41 @@
   /* font-family: "Open Sans"; */
 }
 
+.missionStatement a {
+  height: auto;
+  width: 15vw;
+  background-color: rgb(0, 78, 100);
+  border-radius: 5px;
 
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.7vw;
+  font-weight: 600;
+
+  padding: 2.2vh;
+}
 
 .missionStatement h1 {
   /* margin-top: 100px;
   height: 200px; */
-  margin: 1rem;
-
+  margin: 1vw 5vw -1vw 5vw;
   justify-content: center;
   text-align: center;
-  /* font-weight: 100; */
+  font-weight: 300;
+  font-size: 2vw;
+
 }
 
 .missionStatement h2 {
   /* margin-top: 100px;
   height: 200px; */
-  margin: 2.3rem;
+  margin: 2.3vw;
   margin-bottom: -1vh;
-  
+
+  font-family: "Bebas Neue";
+  font-weight: 300;
+  font-size: 4vw;
 
   justify-content: center;
   text-align: center;
@@ -98,44 +117,95 @@
 }
 
 .missionStatement p {
-  font-size: 16px;
   font-weight: 200;
   margin: 3rem;
 }
 
 .missionPillarContainer {
+  width: 95vw;
+
+  margin-bottom: 10vh;
+  margin-top: 3vh;
+
   display: flex;
   flex-direction: row;
-  margin-bottom: 10vh;
-  gap: 5vw;
+  gap: 2vw;
 }
 
 .missionPillar {
-  background-color: rgb(0, 78, 100);
-  width: 25vw;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  border-radius: 20px;
+  width: 30vw;
+  height: 30vw;
+
+  flex: 1;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  position: relative;
+  border-radius: 2vw;
+
+  transition: all 0.3s ease;
 }
 
-.missionPillar img {
-  border-radius: 20px;
+.missionPillar:hover {
+  width: 50vw;
+  height: 30vw;
+  flex: 2;
 
-  height: 250px;
-  object-fit: cover;
+  position: relative;
+
+  transition: all 0.3s ease;
 }
 
 .missionPillar h1 {
-  height: 50px;
+  width: 50%;
+
+  font-size: 3.5vw;
+  font-weight: 200;
+  font-family: "Bebas Neue";
+  line-height: 0.9;
+  text-align: left;
+
+  margin: auto;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  bottom: 0;
+  position: absolute;
+
   justify-content: center;
   align-items: center;
+
+  transition: all 0.2s ease;
+}
+
+.missionPillar:hover h1 {
+  font-size: 5vw;
+
+  transition: all 0.2s ease;
 }
 
 .missionPillar p {
-  margin: 1rem;
+  width: 40%;
+  font-size: 0vw;
+
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  text-align: right;
+  font-family: 'Montserrat';
+  transition: all 0.2s ease;
 }
 
+.missionPillar:hover p {
+  width: 40%;
+
+  font-size: 1.25vw;
+  font-weight: 400;
+
+  transition: all 0.2s ease;
+}
 
 .calendar {
   background-color: rgb(0, 78, 100);
@@ -143,6 +213,13 @@
   flex-direction: column;
   align-items: center;
   color: white;
+}
+
+.calendar h1 {
+  font-family: "Bebas Neue";
+  font-weight: 300;
+  font-size: 4vw;
+  margin-bottom: 0;
 }
 
 .calendar img {
@@ -153,17 +230,22 @@
 }
 
 .homeSponsors {
-  height: 48vh;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
+
   background-color: rgb(107, 144, 128);
 }
 
 .homeSponsors h1 {
-  margin-top: 6vh;
+  font-family: "Bebas Neue";
+  font-weight: 300;
+  font-size: 4vw;
   color: white;
   text-align: center;
+
+  margin-top: 6vh;
 }
 
 .homeSponsors p {
@@ -187,7 +269,7 @@
 }
 
 .homeSponsors a {
-  height: auto;
+  height: fit-content;
   width: 15vw;
   background-color: rgb(0, 78, 100);
   border-radius: 5px;
@@ -204,12 +286,31 @@
 
 @media (max-width: 1366x) { /*desktop*/
 /*dont need anything in here but just leaving it here for standard formatting*/
-} 
+}
 
 @media (max-width: 1024px) {
   .missionPillarContainer {
     margin-top: 2vh;
     margin-bottom: 6vh;
+  }
+
+  .missionPillar:hover h1 {
+    font-size: 4vw;
+  
+    transition: all 0.2s ease;
+  }
+
+  .missionPillar p {
+    font-size: 0vw;
+
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 5%;
+    margin-right: 5%;  
+  }
+  .missionPillar:hover p {
+    font-size: 1.65vw;
   }
   /* .calendar img {
     height: 65vh;
@@ -220,40 +321,67 @@
 }
 
 @media (max-width: 768px) { /*tablets*/
+
+  .missionStatement h1 {
+    margin-top: 3vw;
+    font-size: 4.7vw;
+  }
+
   .pillarTitle {
     font-size: 90px;
     font-weight: 500;
     font-family: "Bebas Neue";
     color: white;
     line-height: 0.9;
-}
-
+  }
 
   .missionPillarContainer {
+    width: 85vw;
+    height: 175vw;
     display: flex;
     flex-direction: column;
-    margin-bottom: 10vh;
     gap: 5vw;
+
+    margin-bottom: 10vh;
   }
 
   .missionPillar {
-    background-color: rgb(0, 78, 100);
-    width: 85vw;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    border-radius: 20px;
+    width: 100%;
+  
+    flex: 1;
+  
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  
+    position: relative;
+    border-radius: 2vw;
+  
+    transition: all 0.3s ease;
+  }
+
+  .missionPillar:hover {
+    width: 100%;
+    flex: 2;
+  
+    position: relative;
+  
+    transition: all 0.3s ease;
   }
 
   .missionPillar h1 {
-    height: 4vh;
-    justify-content: center;
-    align-items: center;
+    width: 50%;
+    font-size: 8vw;
   }
 
-  .missionPillar p {
-    font-size: 5vw;
-    margin: 2rem;
+  .missionPillar:hover h1 {
+    font-size: 10vw;
+
+  }
+
+  .missionPillar:hover p {
+    width: 60%;
+    font-size: 4vw;
   }
 
   .calendar img {
@@ -264,7 +392,7 @@
   }
 
   .homeSponsors {
-    height: 50vh;
+    height: fit-content;
   }
 
   .homeSponsors img{
@@ -272,27 +400,36 @@
   }
 
   .homeSponsors p {
-    font-size: 2.35vw;
+    width: 90%;
+    font-size: 3vw;
   }
 
   .homeSponsors a {
-    font-size: 2.5vw;
+    width: 35%;
+    font-size: 3.5vw;
+
+    padding: 3vw;
   }
-  
+
 }
 
-@media (max-width: 428px) { /*phones*/ 
+@media (max-width: 432px) { /*phones*/
   .pillarTitle {
     font-size: 70px;
-    font-weight: 500;
+    font-weight: 300;
     font-family: "Bebas Neue";
     color: white;
     line-height: 0.9;
   }
 
   .missionStatement h1 {
-    font-size: 6.2vw;
-    margin-bottom: -2.8vh;
+    font-size: 5.2vw;
+  }
+
+  .missionStatement h2 {
+    font-size: 8vw;
+    
+    margin-top: 4vh;
   }
 
   .missionPillarContainer {
@@ -303,8 +440,9 @@
   }
 
   .missionPillar {
-    background-color: rgb(0, 78, 100);
     width: 85vw;
+    height: fit-content;
+    background-color: rgb(0, 78, 100);
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -312,14 +450,14 @@
   }
 
   .missionPillar h1 {
-    height: 4vh;
-    justify-content: center;
-    align-items: center;
+    font-size: 8vw;
+    margin-bottom: 5%;
   }
 
-  .missionPillar p {
+  .missionPillar:hover p {
     font-size: 5vw;
-    margin: 2rem;
+    margin-left: 5%;
+    margin-bottom: 5vw;
   }
 
   .calendar h1 {
@@ -328,7 +466,7 @@
   }
 
   .homeSponsors {
-    height: 80vh;
+    height: fit-content;
   }
 
   .homeSponsors h1 {
@@ -338,8 +476,11 @@
   }
 
   .homeSponsors p {
+    font-size: 4vw;
     color: white;
     text-align: center;
+    margin-left: 3vw;
+    margin-right: 3vw;
     margin-bottom: 3vh;
   }
 
@@ -353,6 +494,6 @@
 
   .homeSponsors a {
     width: 50vw;
-    font-size: 25px;
+    font-size: 6.5vw;
   }
 }

@@ -19,7 +19,7 @@ import MenuButton from "../../assets/icons/menuButton.png";
 
 //card images
 import AboutCard from "../../assets/navbar/navMenuAbout.png"
-import EventsCard from "../../assets/navbar/navMenuEvents.jpeg"
+import EventsCard from "../../assets/navbar/navMenuEventsAlt.jpeg"
 import HackathonCard from "../../assets/navbar/navMenuHackathon.jpeg"
 
 const NavMenu = () => {
@@ -34,8 +34,7 @@ const NavMenu = () => {
                 <div className="navMenuSmallCardContainer">
                     <SmallCard
                         image={HackathonCard}
-                        title="Hackathon"
-                        subtitle="(coming soon)"
+                        title="GeauxHack"
                         link="/hackathon"
                     />
                     <SmallCard
@@ -56,19 +55,19 @@ const NavMenu = () => {
                 </div>
                 <p>Links</p>
                 <div className="navMenuLinkContainer">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_kO3N-GTOMnouhRn2KbhGrWQXLfV3ZSCyDVIBEeLVhVzgw/viewform?usp=sf_link" target="_blank">                
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_kO3N-GTOMnouhRn2KbhGrWQXLfV3ZSCyDVIBEeLVhVzgw/viewform?usp=sf_link" target="_blank" rel="noreferrer">                
                         Membership
                     </a>
-                    <a href="https://lsu.prevent.zone" target="_blank">                
+                    <a href="https://lsu.prevent.zone" target="_blank" rel="noreferrer">                
                         Hazing
                     </a>
 
                 </div>
-                <div className="navMenuLinkContainer">
+                {/* <div className="navMenuLinkContainer">
                     <a href="https://forms.gle/P8ZKSaZb7uubsy856" target="_blank">                
                         SASE Nationals Interest
                     </a>
-                </div>
+                </div> */}
 
                 <div className="navMenuIconContainer">
                     <WhiteDiscordIcon/>
@@ -81,23 +80,29 @@ const NavMenu = () => {
 }
 
 const Navbar = () => {
+
+    const [menuShow, setMenuShow] = useState(false);     
+
+
     const location = useLocation();
-    const [menuShow, setMenuShow] = useState(false);
+    useEffect(() => {
+        setMenuShow(false);
+    }, [location])
+
+    if (location.pathname.localeCompare("/hackathon") === 0) {
+      return (<div></div>);  
+    }
 
     const handleToggleMenu = () => {
         setMenuShow(!menuShow);
     }
-    
-    useEffect(() => {
-        setMenuShow(false);
-    }, [location])
 
     return (
         <>
             <nav className="navbar">
                 <div className="navbar-logo">
                     <Link to='/'>
-                        <img src={Logo} />
+                        <img src={Logo} alt="SASELogo"/>
                     </Link>    
                 </div>
                 <div className="navbar-elements">
@@ -106,7 +111,7 @@ const Navbar = () => {
                     <Link to="/events"> Events </Link>
                     </div>
 
-                    <img src={MenuButton}
+                    <img src={MenuButton} alt="MenuButton"
                     onClick={() => handleToggleMenu()}/>
                 </div>
             </nav>

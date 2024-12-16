@@ -14,7 +14,8 @@
 
 .aboutTitleCard h1 {
     position: relative;
-    font-size: 90px;
+    font-size: 8vw;
+    font-weight: 600;
     text-align: center;
     /* font-family: "Bebas Neue"; */
 }
@@ -33,32 +34,38 @@
 .aboutMission {
     width: 100%;
     height: auto;
+
+    overflow: auto;
     display: flex;
     flex-direction: column;
-    overflow: auto;
+
     background-color: rgb(0, 78, 100);
     color: white;
+    text-align: center;
     align-items: center;
-  text-align: center;
-
 }
 
 .aboutMission img {
     width: 80vw;
     height: 85vh;
-    margin: 1rem;
+    margin: 2vw;
     object-fit: cover;
 
     border-radius: 16px;
 }
 
 .aboutMission h1 {
-    font-size: 50px;
+    font-family: 'Bebas Neue';
+    font-size: 5vw;
+    font-weight: 300;
+    
+    margin-bottom: 0;
 }
 
 .aboutMission p {
-    font-size: 30px;
-    margin:1em;
+    font-size: 1.75vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .aboutHistory {
@@ -66,7 +73,7 @@
     overflow: auto;
     background-color: rgb(247, 255, 247);
     color:black;
-    font-size: 20px;  
+    font-size: 1.5vw;  
     display: flex; 
     flex-direction: column;
 }
@@ -75,6 +82,10 @@
     margin: auto;
     margin-top: 3vh;
     margin-bottom: 3vh;
+
+    font-family: 'Bebas Neue';
+    font-weight: 300;
+    font-size: 5vw
 }
 
 .historyCardSlider {
@@ -124,66 +135,6 @@
 
 }
 
-.aboutEBoard {
-    width: 100%;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3vh;
-    
-    background-color: rgb(107, 144, 128);
-
-}
-
-.aboutEBoard h1 {
-    margin: auto;
-    margin-top: 5vh;
-    margin-bottom: -1vh;
-
-    font-size: 50px;
-    color: white;
-
-}
-
-.aboutEBoardCardContainer {
-    display: flex;
-    flex-direction: row;
-    gap: 3vw;
-    margin-bottom: 2vh;
-}
-
-.aboutEBoardCard {
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    background-color: rgb(107, 144, 128);
-    color: white;
-}
-
-.aboutEBoardCard img {
-    width: 25vw;
-    height: 25vw;
-    object-fit: cover;
-    margin: 2.5vw;
-}
-
-.aboutEBoardCard h1 {
-    margin: 1rem;
-    margin-top: -1vh;
-    font-size: 30px;
-  text-align: center;
-
-}
-
-.aboutEBoardCard p {
-    margin-top: 0px;
-    font-size: 20px;
-  text-align: center;
-}
 
 @media (max-width: 1024px) {
     .aboutTitleCard h1 {    
@@ -217,19 +168,26 @@
 
 @media (max-width: 432px) { /*phones*/
     .aboutTitleCard h1 {    
-        font-size: 60px;
+        font-size: 16vw;
         /* font-family: "Bebas Neue"; */
     }
 
+    .aboutMission h1 {
+        font-size: 8vw;
+    }
+
     .aboutMission p {
-        font-size: 20px;
+        font-size: 4vw;
         margin: 1rem;
-        margin-top:-10px;
     }
     
     .aboutMission img {
         height: 35vh;
-        margin-bottom: 5vh;
+        margin-bottom: 1vh;
+    }
+
+    .aboutHistory h1 {
+        font-size: 8vw;
     }
 
     .historyCardContainer {
@@ -242,34 +200,7 @@
     }
 
     .historyCardBlurb {
+        font-size: 4vw;
         margin-top: 0.5vh;
-    }
-    
-    .aboutEBoard h1 {
-        font-size: 10vw;
-    }
-
-    .aboutEBoardCardContainer {
-        /* margin-left: -55vw; */
-        flex-direction: column;
-    }
-
-    .aboutEBoardCard {
-        width: 90vw;
-        flex-direction: row;
-    }
-
-    .aboutEBoardCard img {
-        width: 30vw;
-        height: 30vh;
-        object-fit:cover;
-    }
-
-    .aboutEBoardCard h1 {
-        margin: 1rem;
-        margin-top: -1vh;
-        font-size: 35px;
-      text-align: center;
-    
     }
 }

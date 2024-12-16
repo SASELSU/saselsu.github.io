@@ -1,11 +1,10 @@
 import {
     React,
-    useState
+    // useState
 } from "react";
 import "../styles/about.css"
 
 import { HistoryCard,EBoardCard } from "./helpers/aboutHelpers";
-import { useHorizontalScroll } from "./helpers/generalHelpers";
 
 import TitleCardBackground from "../assets/about/title_card.jpg"
 
@@ -21,21 +20,23 @@ import LunarMeeting from "../assets/about/history/historyLunarEvent.jpeg"
 import ReallyBigGathering from "../assets/about/history/bobaSocial23.jpg"
 
 //eboard pics
-import PresidentPic from "../assets/about/eboard/faris_khattak.jpg"
-import VicePresidentPic from "../assets/about/eboard/grishma_shrestha_2.jpg"
+import PresidentPic from "../assets/about/eboard/faris_khattak.png"
+import VicePresidentPic from "../assets/about/eboard/grishma_shrestha.png"
 import SecretaryPic from "../assets/about/eboard/jennie_tran.png"
 import TreasurerPic from "../assets/about/eboard/galvin_wong.png"
-import PublicRelationsPic from "../assets/about/eboard/camila_cuadra.jpg"
+import PublicRelationsPic from "../assets/about/eboard/camila_cuadra.png"
 import HistorianPic from "../assets/about/eboard/kim_nguyen.png"
 import GraphicDesignPic from "../assets/about/eboard/kris_lam.png"
-import WebmasterPic from "../assets/about/eboard/ricky_liang.jpeg"
+import WebmasterPic from "../assets/about/eboard/ricky_liang.png"
 import FundraisingPic from "../assets/about/eboard/winson_liu.png"
 import OutreachPic from "../assets/about/eboard/himangini_chauhan.png"
 import ProDevPic from "../assets/about/eboard/thanh_kirsch.png"
+import usePageTracking from "../components/Common/TrafficTracker";
 
 
 
 const About = () => {
+    usePageTracking("About Page");    
     // const scrollRef = useHorizontalScroll();
     // const [index, setIndex] = React.useState;
     return (
@@ -50,7 +51,7 @@ const About = () => {
         <div className="aboutMission">
                 <h1>Our Mission</h1>
                 <p>SASE is dedicated to the advancement of Asian heritage scientists and engineers in education and employment so that they can achieve their full career potential. In addition to professional development, SASE also encourages members to contribute to the enhancement of the communities in which they live.</p>
-                <img src={OurMission}/>
+                <img src={OurMission} alt="missionImage"/>
                 
                 <p>SASE’s mission is to:
 
@@ -95,74 +96,6 @@ Provide opportunities for members to make contributions to their local communiti
                 </div>    
             </div>
         
-        </div>
-
-        <div className="aboutEBoard">
-            <h1>Meet Our EBoard!</h1>
-            <div className="aboutEBoardCardContainer">
-                <EBoardCard
-                    image={PresidentPic}
-                    name="Faris Khattak"
-                    title="President"
-                />
-                <EBoardCard
-                    image={VicePresidentPic}
-                    name="Grishma Shrestha"
-                    title=" Vice President"
-                />
-                <EBoardCard
-                    image={SecretaryPic}
-                    name="Jennie Tran"
-                    title="Secretary"
-                />
-            </div>
-            <div className="aboutEBoardCardContainer">
-                <EBoardCard
-                    image={TreasurerPic}
-                    name="Galvin Wong"
-                    title="Treasurer"
-                />
-                <EBoardCard
-                    image={PublicRelationsPic}
-                    name="Camilla Cuadra"
-                    title="Public Relations"
-                />
-                <EBoardCard
-                    image={HistorianPic}
-                    name="Kim Nguyen"
-                    title="Historian"
-                />
-            </div>
-            <div className="aboutEBoardCardContainer">
-                <EBoardCard
-                    image={GraphicDesignPic}
-                    name="Kristina Lam"
-                    title="Graphic Designer"
-                />
-                <EBoardCard
-                    image={WebmasterPic}
-                    name="Ricky Liang"
-                    title="Webmaster"
-                />
-                <EBoardCard
-                    image={FundraisingPic}
-                    name="Winson Liu"
-                    title="Fundraising Chair"
-                />
-            </div>
-            <div className="aboutEBoardCardContainer">
-
-                <EBoardCard
-                    image={OutreachPic}
-                    name="Himangini Chauhan"
-                    title="Outreach Chair"
-                />
-                <EBoardCard
-                    image={ProDevPic}
-                    name="Thanh Kirsch"
-                    title="Professional Development Chair"
-                />
-            </div>
         </div>
         </>
     )

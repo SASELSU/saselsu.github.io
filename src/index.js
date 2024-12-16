@@ -6,10 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { ScrollRestoration } from 'react-router-dom';
 
 import "@fontsource/bebas-neue"; // Defaults to weight 400
-import "@fontsource/bebas-neue/400.css"; // Specify weight
-import "@fontsource/poppins"; // Defaults to weight 400
-// import "@fontsource/open-sans"; // Defaults to weight 400
-import "@fontsource/inter"; // Defaults to weight 400
+import "@fontsource/red-hat-display"; // Defaults to weight 400
+import "@fontsource/montserrat"; // Defaults to weight 400
+import "@fontsource/adlam-display"; // Defaults to weight 400
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
