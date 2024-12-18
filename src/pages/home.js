@@ -117,7 +117,7 @@ const Home = () => {
                 REGISTER FOR SASE NATIONALS
             </a> */}
             <h2>Our Mission</h2>
-            <h1>The Society of Asian Scientists & Engineers (SASE) aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
+            <h1>The Society of Asian Scientists & Engineers at LSU aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
             <br/>
             <h2>The Three Pillars of SASE</h2>
             <div className="missionPillarContainer">
@@ -140,7 +140,6 @@ const Home = () => {
                     <p>Provide opportunites for members to make contributions to their local communities.</p>
                 </div>
             </div>
-
         </div>
         <div className="calendar">
             <h1>EVENTS THIS MONTH</h1>
