@@ -34,6 +34,7 @@ const Gallery = () => {
         </div>
 
         <div className="gallery">
+            <h1>Fall 24'</h1>
             <div className="galleryCardContainer">
             <GalleryCard 
                 image={SASExAEDMCAT}
