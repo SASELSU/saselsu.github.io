@@ -19,6 +19,11 @@ import FiveKRun from "../assets/gallery/fall24/5k.jpg"
 import BooAtZoo from "../assets/gallery/fall24/booAtTheZoo.jpg"
 import SASExAEDMCAT from "../assets/gallery/fall24/SASEAEDMCAT.jpg"
 import CAA from "../assets/gallery/fall24/animalAlliance.png"
+import MovieNight from "../assets/gallery/fall24/movienight.jpg"
+import GBM3F24 from "../assets/gallery/fall24/gbm3.jpg"
+import Potluck from "../assets/gallery/fall24/potluck.jpg"
+import Quinlan from "../assets/gallery/fall24/quinlan.jpg"
+
 
 import usePageTracking from "../components/Common/TrafficTracker";
 const Gallery = () => {
@@ -36,6 +41,30 @@ const Gallery = () => {
         <div className="gallery">
             <h1>Fall 24'</h1>
             <div className="galleryCardContainer">
+            <GalleryCard 
+                image={Quinlan}
+                title="SASExAED Quinlan Talk"
+                date="NOV 21 2024"
+                link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
+            />
+            <GalleryCard 
+                image={Potluck}
+                title="SASExVSA Potluck"
+                date="NOV 15 2024"
+                link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
+            />
+            <GalleryCard 
+                image={GBM3F24}
+                title="GBM 3: Despicable Me"
+                date="NOV 14 2024"
+                link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
+            />
+            <GalleryCard 
+                image={MovieNight}
+                title="Movie Night: Rush Hour"
+                date="NOV 12 2024"
+                link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
+            />
             <GalleryCard 
                 image={SASExAEDMCAT}
                 title="SASExAED MCAT Prep"
