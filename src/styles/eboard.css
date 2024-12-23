@@ -298,7 +298,6 @@
     
     }
     
-    
     .eboardCard {
         height: 120vw;
     }
@@ -310,10 +309,28 @@
     }
 
     .eboardCardInformation h1 {
-        font-size: 15vw;
+        font-size: 16vw;
     }
 
     .eboardCardInformation h2 {
         font-size: 6vw;
+    }
+}
+
+@media (max-width: 432px) { /*phones*/
+    .eboardCard {
+        height: 135vw;
+    }
+
+    .eboardCardInformation h1 {
+        font-size: 14vw;
+    }
+
+    .eboardCardInformation h2 {
+        font-size: 6vw;
+    }
+
+    .eboardCardInformation p {
+        font-size: 3.8vw;
     }
 }
