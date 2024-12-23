@@ -9,6 +9,8 @@ import whiteDiscord from "../../assets/icons/social_media_white/discord_white.pn
 import whiteFacebook from "../../assets/icons/social_media_white/facebook_white.png"
 import whiteInstagram from "../../assets/icons/social_media_white/instagram_white.png"
 
+import colorLinkedin from "../../assets/icons/social_media_color/linkedin_color.png"
+
 export const BlackDiscordIcon = () => {
     return (
         <div className="icon">
@@ -62,6 +64,17 @@ export const WhiteInstagramIcon = () => {
         <div className="icon">
             <a href="https://www.instagram.com/saselsu/" target="_blank" rel="noreferrer">                
                 <img src={whiteInstagram} alt="instagram"/>
+            </a>
+        </div>
+    )
+}
+
+export const ColorLinkedinIcon = (props) => {
+    const link = props;
+    return (
+        <div className="icon">
+            <a href={link} target="_blank" rel="noreferrer">                
+                <img src={colorLinkedin} alt="linkedin"/>
             </a>
         </div>
     )

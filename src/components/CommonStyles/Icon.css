@@ -1,7 +1,12 @@
+.icon {
+    width: 2.5vw;
+    cursor: pointer;
+}
+
 .icon img {
-    width: 30px;
+    width: 100%;
 }
 
 .icon + .icon { /*padding between icons*/
-    margin-left: 10px;
+    margin-left: 1vw;
 }
