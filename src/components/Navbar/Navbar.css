@@ -65,6 +65,8 @@
     top: 0;
     left: 0;
 
+    pointer-events: none;
+
     z-index: 9;
 }
 
@@ -78,6 +80,10 @@
 
     padding-top: 14vh;
     padding-left: 3vw;
+
+    pointer-events: auto;
+
+    z-index: 10;
 }
 
 .navMenuCardContainer {
@@ -86,9 +92,6 @@
     display: flex;
     flex-direction: row;
     gap: 1vw;
-    /* margin: 5vh; */
-    /* margin-top: 16.5vh; */
-    /* margin-right: 2.6vw; */
 
     color: white;
     font-family: "Bebas Neue";
