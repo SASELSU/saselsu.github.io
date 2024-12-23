@@ -273,6 +273,14 @@
 }
 
 @media (max-width: 768px) { /*tablets*/
+    .eboardTitleCard h1 {
+        font-size: 14vw;
+    }
+
+    .eboard h1 {
+        font-size: 8vw;
+    }
+
     .eboardCardHolder {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -318,6 +326,7 @@
 }
 
 @media (max-width: 432px) { /*phones*/
+
     .eboardCard {
         height: 135vw;
     }
