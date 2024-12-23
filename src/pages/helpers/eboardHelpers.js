@@ -17,7 +17,8 @@ export const DescriptionCard = (props) => {
         image,
         q1,
         a1,
-        linkedin
+        linkedin,
+        webmasterthing
     } = props;
 
     //onClick={handleOpen}
@@ -30,6 +31,7 @@ export const DescriptionCard = (props) => {
 
                 <h2>{q1}</h2>
                 <p>{a1}</p>
+                <p>{webmasterthing}</p>
                 <ColorLinkedinIcon
                     link={linkedin}
                 />

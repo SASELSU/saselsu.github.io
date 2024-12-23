@@ -75,7 +75,7 @@ const EBoard = () => {
                 linkedin="https://www.linkedin.com/in/jtran14/"            
             />            
             <DescriptionCard
-                intro="Hi, I'm Galvin!"
+                intro="Sup, I'm Galvin!"
                 title="Treasurer"
                 name="Galvin Wong"
                 major="3rd Year Mechanical Engineering"
@@ -95,13 +95,13 @@ const EBoard = () => {
                 linkedin="https://www.linkedin.com/in/camila-cuadra-a87966305/"
             />
             <DescriptionCard
-                intro="Hi, I'm Kim!"
+                intro="Hellooo! It's Kim!"
                 title="Historian"
                 name="Kim Nguyen"
                 major="3rd Year Computer Science, Cybersecurity"
                 image={HistorianPic}
-                q1="Why did you join SASE?"
-                a1="Lexus found me stranded in PFT on a cold morning my freshman year and told me to go to SASE meetings."  
+                q1="Why do you love SASE?"
+                a1="SASE gave me an opportunity to make lasting connections, whether it's friends or in the realms of professional development. I've met so many talented and wonderful people and honestly, it was probably the first club I felt like I belonged in."  
                 linkedin="https://www.linkedin.com/in/tdvn/"
             />
             <DescriptionCard
@@ -115,7 +115,7 @@ const EBoard = () => {
                 linkedin="https://www.linkedin.com/in/kristina-lam-3831082b6/"    
             />
             <DescriptionCard
-                intro="Hi, I'm Ricky!"
+                intro="Ahoy! I'm Ricky!"
                 title="Webmaster"
                 name="Ricky Liang"
                 major="2nd Year Computer Science, Software Eng."
@@ -123,6 +123,7 @@ const EBoard = () => {
                 q1="Why did you join SASE?"
                 a1="Coming from Mu Alpha Theta in high school, I wanted to be a part of another STEM oriented community. SASE@LSU offered exactly that space for me and I ended up loving the club and the friends I've gained from it!"
                 linkedin="https://www.linkedin.com/in/rickyxliang/"
+                webmasterthing="hehe i made this site too"
             />
             <DescriptionCard
                 intro="Hi, I'm Winson!"
@@ -145,7 +146,7 @@ const EBoard = () => {
                 linkedin="https://www.linkedin.com/in/himangini-chauhan-007bb4226/"
             />
             <DescriptionCard
-                intro="Hi, I'm Thanh!"
+                intro="Hey, I'm Thanh!"
                 title="Professional Development Chair"
                 name="Thanh Kirsch"
                 major="2nd Year Biological Engineering, Pre-Med"
