@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.30a21b10.css",
-    "main.js": "/static/js/main.d1bedc6c.js",
+    "main.js": "/static/js/main.ed6b96ab.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/eboardBackdrop.png": "/static/media/eboardBackdrop.59748dcadbc6461c0776.png",
     "static/media/big_camila.png": "/static/media/big_camila.a4af89dbc110fcf36fb7.png",
@@ -11,7 +11,7 @@
     "static/media/big_winson.png": "/static/media/big_winson.7ee3f874bbcc97e45226.png",
     "static/media/big_galvin.png": "/static/media/big_galvin.f9b5b158e4d31c4ae463.png",
     "static/media/big_kris.png": "/static/media/big_kris.dd6a05f5ab86c1c376ec.png",
-    "static/media/big_himangini.png": "/static/media/big_himangini.10fbaf93c4aa4fd6f273.png",
+    "static/media/big_himangini.png": "/static/media/big_himangini.c30e35de3fd77d4d27d9.png",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/big_grishma.png": "/static/media/big_grishma.b2afb706cefef8731eb9.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -119,11 +119,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.30a21b10.css.map": "/static/css/main.30a21b10.css.map",
-    "main.d1bedc6c.js.map": "/static/js/main.d1bedc6c.js.map",
+    "main.ed6b96ab.js.map": "/static/js/main.ed6b96ab.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.30a21b10.css",
-    "static/js/main.d1bedc6c.js"
+    "static/js/main.ed6b96ab.js"
   ]
 }
