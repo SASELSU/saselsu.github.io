@@ -48,9 +48,6 @@ const NavMenu = () => {
                 <div className="navMenuPageContainer">
                     <Link to="/eboard"> EBoard </Link>
                     <Link to="/sponsors"> Sponsors </Link>
-                </div>
-                <div className="navMenuPageContainer">
-
                     <Link to="/gallery"> Gallery </Link>
                 </div>
                 <p>Links</p>
@@ -61,14 +58,7 @@ const NavMenu = () => {
                     <a href="https://lsu.prevent.zone" target="_blank" rel="noreferrer">                
                         Hazing
                     </a>
-
                 </div>
-                {/* <div className="navMenuLinkContainer">
-                    <a href="https://forms.gle/P8ZKSaZb7uubsy856" target="_blank">                
-                        SASE Nationals Interest
-                    </a>
-                </div> */}
-
                 <div className="navMenuIconContainer">
                     <WhiteDiscordIcon/>
                     <WhiteFacebookIcon/>
@@ -100,19 +90,16 @@ const Navbar = () => {
     return (
         <>
             <nav className="navbar">
-                <div className="navbar-logo">
+                <div className="navbarLogo">
                     <Link to='/'>
                         <img src={Logo} alt="SASELogo"/>
                     </Link>    
                 </div>
-                <div className="navbar-elements">
-                    <div className="navbarElementsLink">
-                    <Link to="/about"> About </Link>
-                    <Link to="/events"> Events </Link>
-                    </div>
-
+                <div className="navbarElements">
+                    <Link to="/about"> <h1>About</h1> </Link>
+                    <Link to="/events"> <h1>Events</h1>  </Link>
                     <img src={MenuButton} alt="MenuButton"
-                    onClick={() => handleToggleMenu()}/>
+                         onClick={() => handleToggleMenu()}/>
                 </div>
             </nav>
             <div className="navMenuContainer"> 

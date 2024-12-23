@@ -11,16 +11,11 @@ export const BigCard = (props) => {
     return (
         <>
         <Link to={link}>
-        <div className="navMenuBigCardWrapper">
-
+        <div className="navMenuBigCardWrapper"> {/* exists bc if u remove it breaks */}
             <div className="navMenuBigCard"
                 style={{backgroundImage: `url(${image})`}}
-            >
-
-            </div>
-
+            />
             <h1>{title}</h1>
-
         </div>
         </Link>
         </>

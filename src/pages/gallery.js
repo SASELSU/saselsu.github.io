@@ -47,7 +47,7 @@ const Gallery = () => {
                 date="NOV 21 2024"
                 link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
             />
-            <GalleryCard 
+            ç<GalleryCard 
                 image={Potluck}
                 title="SASExVSA Potluck"
                 date="NOV 15 2024"

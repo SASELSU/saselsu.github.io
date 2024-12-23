@@ -6,7 +6,3 @@
 .icon img {
     width: 100%;
 }
-
-.icon + .icon { /*padding between icons*/
-    margin-left: 1vw;
-}
