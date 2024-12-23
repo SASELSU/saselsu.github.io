@@ -70,7 +70,7 @@ export const WhiteInstagramIcon = () => {
 }
 
 export const ColorLinkedinIcon = (props) => {
-    const link = props;
+    const {link} = props;
     return (
         <div className="icon">
             <a href={link} target="_blank" rel="noreferrer">                

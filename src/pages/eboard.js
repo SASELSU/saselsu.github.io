@@ -48,7 +48,7 @@ const EBoard = () => {
                 intro="Hey, I'm Faris!"
                 title="President"
                 name="Faris Khattak"
-                major="4th Year Computer Science"
+                major="4th Year Computer Science, Software Eng."
                 image={PresidentPic}
                 q1="Why did you join SASE?"
                 a1="I joined SASE because I wanted to better my resume and interview skills to land a job. But I ended up staying because of the community that SASE offers. There are lots of really cool people in this club and its so fun connecting and getting to know everyone."
