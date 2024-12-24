@@ -132,7 +132,7 @@ const EBoard = () => {
                 major="4th Year Computer Science, Cybersecurity"
                 image={FundraisingPic}
                 q1="Why did you join SASE?"
-                a1="wanted to be involved with SASE more during my final year at LSU and make lasting memories."
+                a1="I joined SASE after Lexus first convinced me to join. I also joined SASE because it provides a safe and productive environment for Asian engineers and scientists."
                 linkedin="https://www.linkedin.com/in/winson-liu-3626802b3/"           
                 />
             <DescriptionCard
