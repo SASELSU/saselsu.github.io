@@ -270,15 +270,16 @@
 
 .homeSponsors a {
   height: fit-content;
-  width: 15vw;
+  width: 30vw;
   background-color: rgb(0, 78, 100);
   border-radius: 5px;
 
   color: white;
   text-decoration: none;
   text-align: center;
-  font-size: 20px;
-  font-weight: 600;
+  font-size: 3vw;
+  font-weight: 400;
+  font-family: 'Bebas Neue';
 
   padding: 2vh;
   margin-bottom: 6vh;
@@ -461,7 +462,7 @@
   }
 
   .calendar h1 {
-    font-size: 25px;
+    font-size: 8vw;
     margin-bottom: 0px;
   }
 
@@ -470,8 +471,8 @@
   }
 
   .homeSponsors h1 {
-    font-size: 23px;
-    margin-top: 6vh;
+    font-size: 8vw;
+    margin-top: 4vh;
     color: white;
   }
 
