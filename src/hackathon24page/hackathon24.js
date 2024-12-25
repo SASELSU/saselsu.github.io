@@ -2,7 +2,7 @@ import {
     React,
     useState
 } from "react";
-import "./hackathon.css"
+import "./hackathon24.css"
 
 import { HackathonNav } from "./helpers/hackathonNav";
 
@@ -40,7 +40,7 @@ import GDSC from "./assets/sponsors/GDSC.png"
 import SponsorshipPacket from "./assets/sponsors/Hackathon Sponsorship Packet 2024-25.pdf"
 import usePageTracking from "../components/Common/TrafficTracker";
 
-const Hackathon = () => {
+const Hackathon24 = () => {
     const [index, setIndex] = useState(0);
     
     usePageTracking("Hackathon Page");
@@ -187,4 +187,4 @@ const Hackathon = () => {
     )
 }
 
-export default Hackathon;
+export default Hackathon24;

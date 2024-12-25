@@ -79,9 +79,9 @@ const Navbar = () => {
         setMenuShow(false);
     }, [location])
 
-    if (location.pathname.localeCompare("/hackathon") === 0) {
-      return (<div></div>);  
-    }
+    // if (location.pathname.localeCompare("/hackathon/geauxaroundtheworld") === 0) {
+    //   return (<div></div>);  
+    // }
 
     const handleToggleMenu = () => {
         setMenuShow(!menuShow);

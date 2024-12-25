@@ -5,6 +5,7 @@ import {
   HashRouter as Router,
   Routes,
   Route,
+  Outlet
 } from "react-router-dom";
 import ReactGA from "react-ga4" //for google analytics
 import ScrollToTop from "./hooks/ScrollToTop";
@@ -12,11 +13,12 @@ import Home from "./pages/home";
 import About from "./pages/about";
 import EBoard from "./pages/eboard";
 import Events from "./pages/events";
-import Hackathon from "./hackathon/hackathon";
+import GeauxHack from "./pages/geauxhack";
 import Sponsors from "./pages/sponsors";
 import Gallery from "./pages/gallery";
 import './App.css';
 import { createBrowserHistory } from "history";
+import Hackathon24 from "./hackathon24page/hackathon24";
 
 
 function App() {
@@ -57,8 +59,16 @@ function App() {
         />
         <Route
           path="/hackathon"
-          element = {<Hackathon />}
-        />
+          element={<Outlet/>}
+        > 
+          <Route index
+            element = {<GeauxHack />}
+          />
+          <Route
+            path="/hackathon/geauxaroundtheworld"
+            element = {<Hackathon24 />}
+          />
+        </Route>
         <Route
           path="/gallery"
           element = {<Gallery />}
