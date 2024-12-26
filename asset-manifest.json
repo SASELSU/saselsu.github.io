@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.20615d24.css",
-    "main.js": "/static/js/main.e58607de.js",
+    "main.css": "/static/css/main.7f40dab2.css",
+    "main.js": "/static/js/main.bca6a30e.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -118,12 +118,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
-    "main.20615d24.css.map": "/static/css/main.20615d24.css.map",
-    "main.e58607de.js.map": "/static/js/main.e58607de.js.map",
+    "main.7f40dab2.css.map": "/static/css/main.7f40dab2.css.map",
+    "main.bca6a30e.js.map": "/static/js/main.bca6a30e.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.20615d24.css",
-    "static/js/main.e58607de.js"
+    "static/css/main.7f40dab2.css",
+    "static/js/main.bca6a30e.js"
   ]
 }
