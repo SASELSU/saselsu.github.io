@@ -55,13 +55,13 @@ const EBoard = () => {
                 linkedin="https://www.linkedin.com/in/faris-khattak/"
             />
             <DescriptionCard
-                intro="Hi, I'm Grishma!"
+                intro="Hi! It's Grishma<3"
                 title="Vice President"
                 name="Grishma Shrestha"
                 major="3rd Year Computer Science, Software Eng."
                 image={VicePresidentPic}
-                q1="Why did you join SASE?"
-                a1="the tight knit and lively community!"            
+                q1="Why do you love SASE?"
+                a1="I love SASE because of the tight knit and lively community! I've also gained many opportunities through SASE such as going to Boston for nationals, gaining leadership experience, and polishing up my professional development skills."            
                 linkedin="https://www.linkedin.com/in/grishma-shrestha/"    
             />            
             <DescriptionCard
@@ -105,13 +105,13 @@ const EBoard = () => {
                 linkedin="https://www.linkedin.com/in/tdvn/"
             />
             <DescriptionCard
-                intro="Hi, I'm Kris!"
+                intro="Hi, I'm Kristina!"
                 title="Graphic Design"
                 name="Kristina Lam"
-                major="2nd Year Biology, Pre-Med"
+                major="2nd Year Biology, Pre-Med, also known as Kris :D"
                 image={GraphicDesignPic}
                 q1="Why did you join SASE?"
-                a1="Pending Answer: Kris is away."            
+                a1="I joined SASE for its welcoming community and to step out of my comfort zone. As an introvert, it helped me connect with peers in my major and enhance my education. I aim to keep SASE friendly and help others find opportunities to achieve their goals."            
                 linkedin="https://www.linkedin.com/in/kristina-lam-3831082b6/"    
             />
             <DescriptionCard
@@ -136,13 +136,13 @@ const EBoard = () => {
                 linkedin="https://www.linkedin.com/in/winson-liu-3626802b3/"           
                 />
             <DescriptionCard
-                intro="Hi, I'm Himangini!"
+                intro="Hi! I'm Himangini!"
                 title="Outreach Chair"
                 name="Himangini Chauhan"
                 major="2nd Year Mechanical Engineering"
                 image={OutreachPic}
-                q1="Why did you join SASE?"
-                a1="Community and professional development opportunities (and the boba!)"
+                q1="Why do you love SASE?"
+                a1="I love SASE for its perfect balance of personal and professional growth. It offers opportunities to meet amazing people, experience different cultures, and prepares you for the professional world with mock interviews, networking, and more!"
                 linkedin="https://www.linkedin.com/in/himangini-chauhan-007bb4226/"
             />
             <DescriptionCard

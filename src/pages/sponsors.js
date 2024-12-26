@@ -38,6 +38,13 @@ const Sponsors = () => {
             <a href={SponsorshipPacket} target="_blank" rel="noreferrer">
                 Sponsorship Package
             </a>
+            <div>
+                {/* <p>
+                In pursuit of “big idea” thinking and collaboration, CSS is looking for sponsors and partners to join us in promoting transformative coastal research and innovative design—including encouraging speculative design and outside-the-box thinking. For community leaders in coastal areas, CSS provides access to subject matter experts who address coastal resilience and adaptation by designing systems and strategies that reduce vulnerability to increased storm damage, coastal hazards, habitat degradation, and global environmental change.
+
+
+                </p> */}
+            </div>
         </div>
         </>
     )
