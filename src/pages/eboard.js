@@ -75,13 +75,13 @@ const EBoard = () => {
                 linkedin="https://www.linkedin.com/in/jtran14/"            
             />            
             <DescriptionCard
-                intro="Sup, I'm Galvin!"
+                intro="Hey, I'm Galvin!"
                 title="Treasurer"
                 name="Galvin Wong"
                 major="3rd Year Mechanical Engineering"
                 image={TreasurerPic}
-                q1="Why did you join SASE?"
-                a1="Pending Answer: Galvin is in Hong Kong right now."            
+                q1="What does SASE mean to you?"
+                a1="For me, SASE is a supportive community where diverse individuals grow personally and professionally. It’s a space where Asian Americans can embrace their heritage while fostering connections and witnessing inspiring transformations."            
                 linkedin="https://www.linkedin.com/in/galvin-wong-lsu-sase/"    
             />            
             <DescriptionCard
