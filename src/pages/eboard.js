@@ -71,7 +71,7 @@ const EBoard = () => {
                 major="3rd Year Mechanical Engineering"
                 image={SecretaryPic}
                 q1="Why did you join SASE?"
-                a1="Pending Answer: Can't spell secretary without secret."
+                a1="I joined SASE because of its warm and welcoming community! It’s given me the chance to connect with amazing people who share similar goals, grow professionally, and challenge myself in new ways."
                 linkedin="https://www.linkedin.com/in/jtran14/"            
             />            
             <DescriptionCard
