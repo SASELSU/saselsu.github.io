@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7f40dab2.css",
-    "main.js": "/static/js/main.0ed018c2.js",
+    "main.js": "/static/js/main.21830758.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -44,12 +44,12 @@
     "static/media/big_faris.png": "/static/media/big_faris.0a172fdf143fba881417.png",
     "static/media/title_card.jpg": "/static/media/title_card.7ef6b1358f4592078e48.jpg",
     "static/media/bobaSocial23.jpg": "/static/media/bobaSocial23.75488a3e562bd73f3f45.jpg",
+    "static/media/Main Event Fun Cards Supporting.png": "/static/media/Main Event Fun Cards Supporting.096614236b65fd8ca747.png",
     "static/media/TigerConnections.jpeg": "/static/media/TigerConnections.d6688e42a9554a74cde1.jpeg",
     "static/media/big_galvin.png": "/static/media/big_galvin.bd7ee34eb8f4cabf0f4d.png",
     "static/media/galleryPickleballSocial.jpeg": "/static/media/galleryPickleballSocial.672c446ef213707adfa3.jpeg",
     "static/media/historyLunarEvent.jpeg": "/static/media/historyLunarEvent.efdc3c44b3be05d9f47c.jpeg",
     "static/media/our-mission-temp.jpeg": "/static/media/our-mission-temp.381c9c2ded9df01d6e67.jpeg",
-    "static/media/DrQuinlan.png": "/static/media/DrQuinlan.6ac6eec6afdb8610d4cc.png",
     "static/media/potluck.jpg": "/static/media/potluck.a8a8890f62e9ea49ea67.jpg",
     "static/media/navMenuEventsAlt.jpeg": "/static/media/navMenuEventsAlt.bd30aa66d5c09b9a902b.jpeg",
     "static/media/galleryFallFest.jpeg": "/static/media/galleryFallFest.9c4f37b340c288c397ec.jpeg",
@@ -69,9 +69,10 @@
     "static/media/MikeShop.png": "/static/media/MikeShop.4a42af6f19e54b4ea6aa.png",
     "static/media/SASEAEDMCAT.jpg": "/static/media/SASEAEDMCAT.1cac193af2902649c2f5.jpg",
     "static/media/MikePack.png": "/static/media/MikePack.f689916aa7ebda5190f5.png",
-    "static/media/November.png": "/static/media/November.050994697a422d0a1af5.png",
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
     "static/media/hackathonWorkshops.jpg": "/static/media/hackathonWorkshops.790d14967c681c6ce5a9.jpg",
+    "static/media/secret valentine flyer.png": "/static/media/secret valentine flyer.bba8d48cbe165d917a13.png",
+    "static/media/Food Bank Volunteering.png": "/static/media/Food Bank Volunteering.3a91595b968cd613e4be.png",
     "static/media/movienight.jpg": "/static/media/movienight.d1584a49af11cf88dd9f.jpg",
     "static/media/ChickenWag.png": "/static/media/ChickenWag.2efe8d53dc7f100ca9be.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
@@ -79,7 +80,9 @@
     "static/media/SponsorBackground.png": "/static/media/SponsorBackground.c026f1377f6db1d84396.png",
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
+    "static/media/January.jpg": "/static/media/January.8ee7b2c15d17d3132787.jpg",
     "static/media/paintsocialfall24.jpg": "/static/media/paintsocialfall24.f54b6c8d98c9f58824e4.jpg",
+    "static/media/Instagram live Dares.png": "/static/media/Instagram live Dares.bb8ada3dae8209a98e6d.png",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/LSU_StuGov.png": "/static/media/LSU_StuGov.6ba8898ec162c31bae6b.png",
     "static/media/titleBackdrop.png": "/static/media/titleBackdrop.12a20738d76dab99ef3d.png",
@@ -119,11 +122,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.7f40dab2.css.map": "/static/css/main.7f40dab2.css.map",
-    "main.0ed018c2.js.map": "/static/js/main.0ed018c2.js.map",
+    "main.21830758.js.map": "/static/js/main.21830758.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7f40dab2.css",
-    "static/js/main.0ed018c2.js"
+    "static/js/main.21830758.js"
   ]
 }
