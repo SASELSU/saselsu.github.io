@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b3bbe410.css",
-    "main.js": "/static/js/main.70528ed2.js",
+    "main.js": "/static/js/main.c3c31269.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -76,11 +76,11 @@
     "static/media/movienight.jpg": "/static/media/movienight.d1584a49af11cf88dd9f.jpg",
     "static/media/ChickenWag.png": "/static/media/ChickenWag.2efe8d53dc7f100ca9be.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
+    "static/media/February.png": "/static/media/February.df42c16aa50759b2867e.png",
     "static/media/MikeSignup.png": "/static/media/MikeSignup.d07d3fee81461a1e1e72.png",
     "static/media/SponsorBackground.png": "/static/media/SponsorBackground.c026f1377f6db1d84396.png",
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
-    "static/media/January.jpg": "/static/media/January.8ee7b2c15d17d3132787.jpg",
     "static/media/paintsocialfall24.jpg": "/static/media/paintsocialfall24.f54b6c8d98c9f58824e4.jpg",
     "static/media/Instagram live Dares.png": "/static/media/Instagram live Dares.bb8ada3dae8209a98e6d.png",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
@@ -122,11 +122,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.b3bbe410.css.map": "/static/css/main.b3bbe410.css.map",
-    "main.70528ed2.js.map": "/static/js/main.70528ed2.js.map",
+    "main.c3c31269.js.map": "/static/js/main.c3c31269.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3bbe410.css",
-    "static/js/main.70528ed2.js"
+    "static/js/main.c3c31269.js"
   ]
 }
