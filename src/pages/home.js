@@ -14,7 +14,7 @@ import MiniDiversity from "../assets/home/miniDiversity.png"
 import MiniProdev from "../assets/home/miniProDev.jpeg"
 
 
-import Calendar from "../assets/home/calendars/January.jpg"
+import Calendar from "../assets/home/calendars/February.png"
 
 //sponsors
 import Exxon from "../assets/home/sponsors/Exxon-Logo.png"

@@ -117,6 +117,7 @@
 .eventPostInfo {
     /* margin: 1rem; */
     white-space: normal;
+    overflow: overlay;
     margin-right: 1vw;
 }
 

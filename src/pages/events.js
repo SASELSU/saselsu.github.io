@@ -42,7 +42,7 @@ const Events = () => {
                 eventTime=""
                 eventLocation="Main Event"
                 postTitle="Main Event Giveback"
-                postDesc="Interested in going to Main Event? Give back half of the cost to SASE by purchasing through https://grouprai.se/mainevent54621s!"
+                postDesc="Interested in going to Main Event? Give back half of the cost to SASE by purchasing through https://grouprai.se /mainevent54621s!"
                 />                
                 <Post
                 image={FoodBank}
