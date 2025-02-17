@@ -14,9 +14,10 @@
 
 .galleryTitleCard h1 {
     position: relative;
-    font-size: 90px;
+    font-size: 12vw;
+    font-weight: 800;
     text-align: center;
-    /* font-family: "Bebas Neue"; */
+    font-family: "Bebas Neue";
 }
 
 .galleryColorOverlay {

@@ -14,11 +14,12 @@
 
 .eboardTitleCard h1 {
     position: relative;
-    font-size: 8vw;
+    font-size: 12vw;
+    font-weight: 800;
     text-align: center;
+    font-family: "Bebas Neue";
 
     margin-top: 60vh;
-    /* font-family: "Bebas Neue"; */
 }
 
 .eboardColorOverlay {

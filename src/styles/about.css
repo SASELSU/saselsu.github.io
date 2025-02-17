@@ -14,10 +14,10 @@
 
 .aboutTitleCard h1 {
     position: relative;
-    font-size: 8vw;
-    font-weight: 600;
+    font-size: 12vw;
+    font-weight: 800;
     text-align: center;
-    /* font-family: "Bebas Neue"; */
+    font-family: "Bebas Neue";
 }
 
 .aboutColorOverlay {
