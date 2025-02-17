@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.b3bbe410.css",
-    "main.js": "/static/js/main.cee6bcdd.js",
+    "main.css": "/static/css/main.8f77e312.css",
+    "main.js": "/static/js/main.c3c31269.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -43,7 +43,6 @@
     "static/media/workshops.png": "/static/media/workshops.6d8b3a91f1a8164325fd.png",
     "static/media/big_faris.png": "/static/media/big_faris.0a172fdf143fba881417.png",
     "static/media/title_card.jpg": "/static/media/title_card.7ef6b1358f4592078e48.jpg",
-    "static/media/GBM2.png": "/static/media/GBM2.8ff5e140204a8b585e50.png",
     "static/media/bobaSocial23.jpg": "/static/media/bobaSocial23.75488a3e562bd73f3f45.jpg",
     "static/media/Main Event Fun Cards Supporting.png": "/static/media/Main Event Fun Cards Supporting.096614236b65fd8ca747.png",
     "static/media/TigerConnections.jpeg": "/static/media/TigerConnections.d6688e42a9554a74cde1.jpeg",
@@ -73,6 +72,7 @@
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
     "static/media/hackathonWorkshops.jpg": "/static/media/hackathonWorkshops.790d14967c681c6ce5a9.jpg",
     "static/media/secret valentine flyer.png": "/static/media/secret valentine flyer.bba8d48cbe165d917a13.png",
+    "static/media/Food Bank Volunteering.png": "/static/media/Food Bank Volunteering.3a91595b968cd613e4be.png",
     "static/media/movienight.jpg": "/static/media/movienight.d1584a49af11cf88dd9f.jpg",
     "static/media/ChickenWag.png": "/static/media/ChickenWag.2efe8d53dc7f100ca9be.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
@@ -82,6 +82,7 @@
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
     "static/media/paintsocialfall24.jpg": "/static/media/paintsocialfall24.f54b6c8d98c9f58824e4.jpg",
+    "static/media/Instagram live Dares.png": "/static/media/Instagram live Dares.bb8ada3dae8209a98e6d.png",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/LSU_StuGov.png": "/static/media/LSU_StuGov.6ba8898ec162c31bae6b.png",
     "static/media/titleBackdrop.png": "/static/media/titleBackdrop.12a20738d76dab99ef3d.png",
@@ -120,12 +121,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
-    "main.b3bbe410.css.map": "/static/css/main.b3bbe410.css.map",
-    "main.cee6bcdd.js.map": "/static/js/main.cee6bcdd.js.map",
+    "main.8f77e312.css.map": "/static/css/main.8f77e312.css.map",
+    "main.c3c31269.js.map": "/static/js/main.c3c31269.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b3bbe410.css",
-    "static/js/main.cee6bcdd.js"
+    "static/css/main.8f77e312.css",
+    "static/js/main.c3c31269.js"
   ]
 }
