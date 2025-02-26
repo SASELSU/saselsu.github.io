@@ -49,6 +49,7 @@ const NavMenu = () => {
                     <Link to="/eboard"> EBoard </Link>
                     <Link to="/sponsors"> Sponsors </Link>
                     <Link to="/gallery"> Gallery </Link>
+                    <Link to="/join"> Join Us </Link>
                 </div>
                 <p>Links</p>
                 <div className="navMenuLinkContainer">
