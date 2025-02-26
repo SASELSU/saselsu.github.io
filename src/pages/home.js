@@ -124,8 +124,8 @@ const Home = () => {
                 <div className="missionPillar"
                     style={{backgroundImage: `url(${MiniDiversity})`}}>  
                     <div className="colorOverlay"/>
-                    <p>Celebrate diversity on campuses and in the workplace.</p>
-                    <h1>Diversity</h1> 
+                    <p>Celebrate ██████ on campuses and in the workplace.</p>
+                    <h1>█████</h1> 
                 </div>
                 <div className="missionPillar"
                      style={{backgroundImage: `url(${MiniProdev})`}}>

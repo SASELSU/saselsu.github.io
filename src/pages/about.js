@@ -56,7 +56,7 @@ const About = () => {
                 <p>SASE’s mission is to:
 
 Prepare Asian heritage scientists and engineers for success in the global business world.
-Celebrate diversity on campuses and in the workplace.
+Celebrate █████████ on campuses and in the workplace.
 Provide opportunities for members to make contributions to their local communities.</p>
                 <p><b></b></p>
         </div>
@@ -88,11 +88,11 @@ Provide opportunities for members to make contributions to their local communiti
                     
                     <HistoryCard
                     image={LunarMeeting}
-                    cardBlurb="Through persistent dedication throughout the semester, our membership skyrocketed from the initial 25 to a remarkable 133 active participants by the spring of 2022. We remained steadfast in our commitment to enhancing visibility and nurturing a sense of community. Our Lunar New Year meeting exemplified the celebration of diversity, acting as a testament to our growth. "/>
+                    cardBlurb="Through persistent dedication throughout the semester, our membership skyrocketed from the initial 25 to a remarkable 133 active participants by the spring of 2022. We remained steadfast in our commitment to enhancing visibility and nurturing a sense of community. Our Lunar New Year meeting exemplified the celebration of █████████, acting as a testament to our growth. "/>
                     
                     <HistoryCard
                     image={ReallyBigGathering}
-                    cardBlurb="As we expanded, we incorporated workshops and invited guest speakers to enable our members to pursue professional development. SASE LSU serves as a space where individuals can embrace their diversity against all odds, forge their own community within LSU, and, above all, to love purple and live gold."/>
+                    cardBlurb="As we expanded, we incorporated workshops and invited guest speakers to enable our members to pursue professional development. SASE LSU serves as a space where individuals can embrace their █████████ against all odds, forge their own community within LSU, and, above all, to love purple and live gold."/>
                 </div>    
             </div>
         
