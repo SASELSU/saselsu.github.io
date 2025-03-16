@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8f77e312.css",
-    "main.js": "/static/js/main.a08c752d.js",
+    "main.js": "/static/js/main.dc36b3f0.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -72,11 +72,11 @@
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
     "static/media/hackathonWorkshops.jpg": "/static/media/hackathonWorkshops.790d14967c681c6ce5a9.jpg",
     "static/media/secret valentine flyer.png": "/static/media/secret valentine flyer.bba8d48cbe165d917a13.png",
-    "static/media/Food Bank Volunteering.png": "/static/media/Food Bank Volunteering.3a91595b968cd613e4be.png",
     "static/media/movienight.jpg": "/static/media/movienight.d1584a49af11cf88dd9f.jpg",
+    "static/media/Gambling.png": "/static/media/Gambling.beefd38be1e8fc7df986.png",
     "static/media/ChickenWag.png": "/static/media/ChickenWag.2efe8d53dc7f100ca9be.png",
+    "static/media/March.png": "/static/media/March.38300490d5550c295854.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
-    "static/media/February.png": "/static/media/February.df42c16aa50759b2867e.png",
     "static/media/MikeSignup.png": "/static/media/MikeSignup.d07d3fee81461a1e1e72.png",
     "static/media/SponsorBackground.png": "/static/media/SponsorBackground.c026f1377f6db1d84396.png",
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
@@ -122,11 +122,11 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
     "main.8f77e312.css.map": "/static/css/main.8f77e312.css.map",
-    "main.a08c752d.js.map": "/static/js/main.a08c752d.js.map",
+    "main.dc36b3f0.js.map": "/static/js/main.dc36b3f0.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8f77e312.css",
-    "static/js/main.a08c752d.js"
+    "static/js/main.dc36b3f0.js"
   ]
 }
