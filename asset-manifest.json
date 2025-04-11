@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f77e312.css",
-    "main.js": "/static/js/main.7858deb9.js",
+    "main.css": "/static/css/main.c258458b.css",
+    "main.js": "/static/js/main.6aa394b8.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -51,6 +51,7 @@
     "static/media/historyLunarEvent.jpeg": "/static/media/historyLunarEvent.efdc3c44b3be05d9f47c.jpeg",
     "static/media/our-mission-temp.jpeg": "/static/media/our-mission-temp.381c9c2ded9df01d6e67.jpeg",
     "static/media/potluck.jpg": "/static/media/potluck.a8a8890f62e9ea49ea67.jpg",
+    "static/media/farispic.png": "/static/media/farispic.afa00f1dd01be96156e2.png",
     "static/media/navMenuEventsAlt.jpeg": "/static/media/navMenuEventsAlt.bd30aa66d5c09b9a902b.jpeg",
     "static/media/galleryFallFest.jpeg": "/static/media/galleryFallFest.9c4f37b340c288c397ec.jpeg",
     "static/media/booAtTheZoo.jpg": "/static/media/booAtTheZoo.af637cc86566b5ad6c61.jpg",
@@ -121,12 +122,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "index.html": "/index.html",
-    "main.8f77e312.css.map": "/static/css/main.8f77e312.css.map",
-    "main.7858deb9.js.map": "/static/js/main.7858deb9.js.map",
+    "main.c258458b.css.map": "/static/css/main.c258458b.css.map",
+    "main.6aa394b8.js.map": "/static/js/main.6aa394b8.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f77e312.css",
-    "static/js/main.7858deb9.js"
+    "static/css/main.c258458b.css",
+    "static/js/main.6aa394b8.js"
   ]
 }
