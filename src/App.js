@@ -15,6 +15,7 @@ import Events from "./pages/events";
 import Hackathon from "./hackathon/hackathon";
 import Sponsors from "./pages/sponsors";
 import Gallery from "./pages/gallery";
+import Faris from "./pages/faris";
 import './App.css';
 import { createBrowserHistory } from "history";
 
@@ -62,6 +63,11 @@ function App() {
         <Route
           path="/gallery"
           element = {<Gallery />}
+        />
+
+      <Route
+          path="/byebyefaris"
+          element = {<Faris />}
         />
       </Routes>
       <Footer/>
