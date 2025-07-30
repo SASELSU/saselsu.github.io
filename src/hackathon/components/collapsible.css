@@ -1,0 +1,11 @@
+.collapsible .content-parent{
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.15s ease;
+}
+
+.collapsible.toggled .content-parent{
+    max-height: 500px;
+    transition: max-height 0.15s ease;
+}
+
