@@ -43,8 +43,8 @@ function Collapsible({items, keepOthersOpen}) {
         return(
           <div className={`collapsible ${listItem.toggled ? 'toggled' : ''}`} key={key}>
             <button className="toggle" onClick={() => handleCollapsibleToggle(listItem)}>
-              <p>{listItem.label}</p>
-              <div className="direction-indicator">{listItem.toggled ? '^' : 'v'}</div>
+              <p className="greenParagraph">{listItem.label}</p>
+              <div className="direction-indicator">{listItem.toggled ? <div>&and;</div> : <div>&or;</div>}</div>
             </button>
             <div className="content-parent">
               <div className="content">{listItem.renderContent()}</div>
