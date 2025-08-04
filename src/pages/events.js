@@ -46,7 +46,7 @@ const Events = () => {
                 />                 */}
                 </div>
                 <div className="postContainer"> {/*something something more manual input*/}              
-                <Post //never remove (this is the future event)
+                {/*<Post //never remove (this is the future event)
                 image={FutureEvent}
                 eventMonth="Some Month!"
                 eventDay="xx"
@@ -54,7 +54,7 @@ const Events = () => {
                 eventLocation="Some Location!"
                 postTitle="Future Event"
                 postDesc="Our officers are currently formulating a new event! Either that or you're reading this page during the summer or winter. Check back soon! "
-                />
+                />*/}
                 {/* uncomment above if theres no events */}
             </div>
         </div>
