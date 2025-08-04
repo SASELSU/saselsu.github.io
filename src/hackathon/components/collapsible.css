@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+.greenParagraph {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.25rem;
+}
+
+.collapsible-parent {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #13623b;
+}
+
+.collapsible {
+  display: flex;
+  flex-direction: column;
+}
+
+.collapsible .toggle {
+  display: flex;
+  justify-content: space-between;
+  color: #0a311e;
+  transition: color 0.15s ease, fill 0.15s ease;
+  font-weight: 400;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.collapsible .toggle:hover {
+  color: #7abb83;
+}
+
+.collapsible:first-child .toggle {
+  border-bottom: 0;
+}
+
+.collapsible .toggle .direction-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15px;
+  font-weight: 600;
+}
+
+.collapsible .content-parent {
+  max-height: 0;
+  overflow: hidden;
+  /*transition: max-height 0.15s ease-in;*/
+}
+
+.collapsible.toggled .content-parent {
+  max-height: 500px;
+  /*transition: max-height 0.15s ease-out;*/
+  padding-left: 5px;
+  padding-right: 5px;
+}

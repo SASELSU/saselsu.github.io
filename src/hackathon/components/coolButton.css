@@ -1,0 +1,11 @@
+.helenaMakesTheBestButtons{
+    border: none;
+    border-radius: 20px;
+    background-color: #785128;
+    width: 10vw;
+    height: 10vh;
+}
+
+.helenaMakesTheBestButtons:hover {
+    cursor: pointer;
+}
