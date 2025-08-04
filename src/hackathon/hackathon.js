@@ -6,7 +6,7 @@ import GreenDiv from "./components/greenDiv";
 import Collapsible from "./components/collapsible";
 import CoolButton from "./components/coolButton"
 import SASEIcon from "./assets/SASElogo_forCoolButton.png"
-import SASETree from "./assets/saseTree.svg"
+import SASETree from "./assets/SASEtreeV4.svg"
 import "./hackathon.css"
 //#7abbb8ff
 
