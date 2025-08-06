@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+
 .theDivToRuleAllDivs {
-font-family: "Akaya Kanadaka", system-ui;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1rem;
+  background-color: #7abb83;
+  padding-top: 4rem; /* Add some top padding */
+  position: relative;
+  z-index: 1;
 }
+
+
