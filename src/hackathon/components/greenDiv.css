@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+.greenDiv {
+  background-color: #0a311e;
+  color: white;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px 20px 10px 20px;
+  text-align: left;
+  width: 70vw;
+}
+
+.greenHeader {
+  color: #7abb83;
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.5rem;
+}
