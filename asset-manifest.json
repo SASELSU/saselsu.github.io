@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3ca5213f.css",
-    "main.js": "/static/js/main.d2250c77.js",
+    "main.css": "/static/css/main.5d1f4193.css",
+    "main.js": "/static/js/main.1b3c2b65.js",
     "static/js/453.a20276e5.chunk.js": "/static/js/453.a20276e5.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -62,7 +62,7 @@
     "static/media/gbm3.jpg": "/static/media/gbm3.65aef2e654c66a507074.jpg",
     "static/media/SASEAEDMCAT.jpg": "/static/media/SASEAEDMCAT.1cac193af2902649c2f5.jpg",
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
-    "static/media/SASEtreeV4.svg": "/static/media/SASEtreeV4.61a6e57ac4ff84f9009bb5f47316e247.svg",
+    "static/media/SASEtreeV4.svg": "/static/media/SASEtreeV4.bf45109db791de4045a40c18a557218a.svg",
     "static/media/hackathonWorkshops.jpg": "/static/media/hackathonWorkshops.790d14967c681c6ce5a9.jpg",
     "static/media/secret valentine flyer.png": "/static/media/secret valentine flyer.bba8d48cbe165d917a13.png",
     "static/media/movienight.jpg": "/static/media/movienight.d1584a49af11cf88dd9f.jpg",
@@ -74,11 +74,14 @@
     "static/media/paintsocialfall24.jpg": "/static/media/paintsocialfall24.f54b6c8d98c9f58824e4.jpg",
     "static/media/Instagram live Dares.png": "/static/media/Instagram live Dares.bb8ada3dae8209a98e6d.png",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
+    "static/media/sun.png": "/static/media/sun.0a135299e4b709dfda82.png",
     "static/media/futureEvent.png": "/static/media/futureEvent.3eb7c3c3e3fea514373b.png",
-    "static/media/SASElogo_forCoolButton.png": "/static/media/SASElogo_forCoolButton.b983748cab7d58745053.png",
     "static/media/firstSASE.jpeg": "/static/media/firstSASE.5a4dcf9c86e5e210d0b6.jpeg",
     "static/media/white-sase-logo.png": "/static/media/white-sase-logo.3d084078f444ae2a762d.png",
     "static/media/Dow_Chemical_Company_logo.svg.png": "/static/media/Dow_Chemical_Company_logo.svg.2d87d60a02e00dfb8b5e.png",
+    "static/media/Sase.png": "/static/media/Sase.d10212360a2e8f6b2e27.png",
+    "static/media/GDSC.png": "/static/media/GDSC.01342d9d4356eb97b0d4.png",
+    "static/media/home.png": "/static/media/home.b48099f4bb8036dbb908.png",
     "static/media/adlam-display-latin-400-normal.woff2": "/static/media/adlam-display-latin-400-normal.ab575b5cb0cb40932c44.woff2",
     "static/media/adlam-display-latin-400-normal.woff": "/static/media/adlam-display-latin-400-normal.9a4382197e94e78eeb17.woff",
     "static/media/adlam-display-adlam-400-normal.woff2": "/static/media/adlam-display-adlam-400-normal.4f96c135f1974ebde8b9.woff2",
@@ -106,13 +109,14 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/static/media/montserrat-vietnamese-400-normal.176348415471f3e062e6.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
+    "static/media/Cloud.svg": "/static/media/Cloud.070647fe45cd8f10091519b36591a019.svg",
     "index.html": "/index.html",
-    "main.3ca5213f.css.map": "/static/css/main.3ca5213f.css.map",
-    "main.d2250c77.js.map": "/static/js/main.d2250c77.js.map",
+    "main.5d1f4193.css.map": "/static/css/main.5d1f4193.css.map",
+    "main.1b3c2b65.js.map": "/static/js/main.1b3c2b65.js.map",
     "453.a20276e5.chunk.js.map": "/static/js/453.a20276e5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ca5213f.css",
-    "static/js/main.d2250c77.js"
+    "static/css/main.5d1f4193.css",
+    "static/js/main.1b3c2b65.js"
   ]
 }
