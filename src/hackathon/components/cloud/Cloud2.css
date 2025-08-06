@@ -1,0 +1,105 @@
+.floating-cloud {
+  position: absolute;
+  top: 250px;
+  left: -200px; /* Start offscreen on left */
+  width: 200px;
+  z-index: 10;
+  animation: floatLeftRight 40s linear infinite;
+}
+
+@keyframes floatLeftRight {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(calc(100vw + 400px)); }
+}
+
+
+
+.cloud3 {
+  position: absolute;
+  top: 125px;
+  left: 100vw; 
+  width: 400px;
+  height: auto;
+  z-index: 3;
+  animation: floatRightLeft 40s linear infinite;
+}
+
+@keyframes floatRightLeft {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(calc(-100vw - 600px)); }
+}
+
+
+
+.cloud2-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60px;
+  transform: translate(-90%, -30%);
+  pointer-events: none; 
+}
+
+.cloud3-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 45px;
+  transform: translate(-170%, -30%);
+  pointer-events: none;
+}
+
+.sun-wrapper {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 200px;
+  height: 200px;
+  z-index: 3;
+  pointer-events: none; 
+}
+
+.sun-img {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+.sun-wrapper {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  width: 200px;
+  height: 200px;
+  z-index: 3;
+}
+
+.sun-img {
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.home-button {
+  position: absolute;
+  top: 60%; 
+  left: 40%; 
+  width: 70;
+  transform: translate(-50%, -50%);
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 4;
+}
+
+.home-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.home-button:hover {
+  background-color: transparent; /* keep hover clean */
+}
+
