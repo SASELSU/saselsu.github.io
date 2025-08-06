@@ -1,0 +1,37 @@
+.greenDivContainer {
+  max-width: 900px;
+  width: 90vw;
+  margin: 2rem auto;
+  padding: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+
+/* Your existing GreenDiv styles — adjusted for mobile and desktop */
+.greenDiv {
+  background-color: #0a311e;
+  color: white;
+  border-radius: 15px;
+  margin: 0;                   /* container handles spacing */
+  padding: 1rem 2rem;
+  text-align: left;
+  width: 100%;                /* fill container width */
+  box-sizing: border-box;
+  /* add shadow or border if you want */
+  /* box-shadow: 0 2px 8px rgba(0,0,0,0.3); */
+}
+
+/* Responsive heading */
+.greenHeader {
+  color: #7abb83;
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 600;
+ /* min-height: 100vh; */
+  font-style: normal;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
+  margin-bottom: 0.5rem;
+  margin: 1rem 0 0.5rem 0; 
+}
