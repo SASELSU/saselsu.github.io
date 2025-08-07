@@ -29,7 +29,9 @@ function Cloud3() {
           strokeWidth="2"
         />
       </svg>
+     <a href= "https://www.saselsu.org/" target="_blank" rel="noopener noreferrer">
       <img src={Sase} alt="SASE Logo" className="cloud3-logo" />
+     </a>
     </div>
   );
 }

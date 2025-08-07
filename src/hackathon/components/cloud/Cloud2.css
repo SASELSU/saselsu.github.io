@@ -42,9 +42,9 @@
 
 .cloud3-logo {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
-  width: 45px;
+  width: 60px;
   transform: translate(-170%, -30%);
   pointer-events: none;
 }
@@ -100,7 +100,7 @@
 }
 
 .home-button:hover {
-  background-color: transparent; /* keep hover clean */
+  background-color: transparent;
 }
 
 @media (min-width: 800px) {
@@ -125,7 +125,7 @@
 .floating-cloud {
   position: absolute;
   top: 250px;
-  left: -200px; /* Start offscreen on left */
+  left: -200px; 
   width: 400px;
   z-index: 10;
   animation: floatLeftRight 40s linear infinite;

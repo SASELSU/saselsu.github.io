@@ -30,7 +30,9 @@ function Cloud2() {
           strokeWidth="3"
         />
       </svg>
+      <a href="http://gdsclsu.org/" target="_blank" rel="noopener noreferrer">
       <img src={GDG} alt="GDG Logo" className="cloud2-logo" />
+      </a>
     </div>
   );
 }
