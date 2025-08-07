@@ -103,3 +103,40 @@
   background-color: transparent; /* keep hover clean */
 }
 
+@media (min-width: 800px) {
+
+ .cloud3 {
+  position: absolute;
+  top: 125px;
+  left: 100vw; 
+  width: 600px;
+  height: auto;
+  z-index: 3;
+  animation: floatRightLeft 40s linear infinite;
+}   
+ .cloud3-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80px;
+  transform: translate(-170%, -30%);
+  pointer-events: none;
+}
+.floating-cloud {
+  position: absolute;
+  top: 250px;
+  left: -200px; /* Start offscreen on left */
+  width: 400px;
+  z-index: 10;
+  animation: floatLeftRight 40s linear infinite;
+}
+.cloud2-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150px;
+  transform: translate(-90%, -30%);
+  pointer-events: none; 
+}
+
+}
