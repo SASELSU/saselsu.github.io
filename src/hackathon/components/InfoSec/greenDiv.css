@@ -8,30 +8,99 @@
   flex-direction: column;
   gap: 1.5rem;
 }
+.about {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: clamp(2rem, 8vw, 3.5rem);
+  font-weight: bold;
+  color: #3b6e3b;
+  white-space: nowrap; 
+}
 
+.about-description {
+  position: absolute;
+  bottom: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  max-height: 60%;     
+  padding: 0 1rem;     
+  text-align: center;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: clamp(1rem, 3vw, 1.8rem);
+  color: #4f4f4f;
 
-/* Your existing GreenDiv styles — adjusted for mobile and desktop */
+  
+  overflow-wrap: break-word;
+  word-break: break-word;
+  overflow: auto;     
+}
+.left-logo {
+  display: none;
+}
+.right-logo {
+  display: none;
+}
+@media (min-width: 1100px) {
+  .left-logo {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -30%;
+    transform: translateY(-50%);
+    width: 200px;   /* or whatever fits */
+    height: auto;
+    z-index: 5;
+  }
+    .right-logo {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -30%;
+    transform: translateY(-50%);
+    width: 150px;   /* or whatever fits */
+    height: auto;
+    z-index: 5;
+  }
+}
 .greenDiv {
   background-color: #0a311e;
   color: white;
   border-radius: 15px;
-  margin: 0;                   /* container handles spacing */
+  margin: 0;                  
   padding: 1rem 2rem;
   text-align: left;
-  width: 100%;                /* fill container width */
+  width: 100%;               
   box-sizing: border-box;
-  /* add shadow or border if you want */
-  /* box-shadow: 0 2px 8px rgba(0,0,0,0.3); */
 }
-
-/* Responsive heading */
+canvas {
+  display: block !important;
+  z-index: 10 !important;
+}
 .greenHeader {
   color: #7abb83;
   font-family: "Akaya Kanadaka", system-ui;
   font-weight: 600;
- /* min-height: 100vh; */
   font-style: normal;
   font-size: clamp(1.2rem, 2.5vw, 2rem);
   margin-bottom: 0.5rem;
   margin: 1rem 0 0.5rem 0; 
+}
+
+
+@media (max-width: 600px) {
+  .about-description {
+    bottom: 35%;
+    font-size: clamp(0.9rem, 4vw, 1.2rem);
+  }
+ .about-sec { 
+  top: 50%;
+}
+}
+.about-sec { 
+  top: -6%;
 }
