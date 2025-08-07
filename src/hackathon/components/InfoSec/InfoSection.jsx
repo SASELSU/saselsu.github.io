@@ -3,7 +3,7 @@ import Collapsible from '../collapsible/collapsible';
 import Vine2D from './vine2d';
 import GDSCgrass from '../../assets/logo/GDSCgrass.png'
 import SASEgrass from '../../assets/logo/SASEgrass.png'
-
+import DirtCard from './infoSquare';
 
 const greenCollapsibleContent = [
         {
@@ -60,9 +60,52 @@ function InfoSection() {
         <div className='about'> About </div>
         <div className='about-description'>Welcome to SASE & GDSC LSU's 4th annual hackathon! Brace yourself for three days of collaborating, programming, and other shenanigans. Each year, 100+ participants spend forty hours making a program to fit the prompt for the year. Participants of all skill levels in high school or college are allowed to participate, so please do not hesitate to join GeauxHack!</div>
       </div>
-      <GreenDiv title={'Activities'} content={'More information will be announced closer to the start of GeauxHack.'} />
+
+    <div className='dirtCart-1' >
+      <DirtCard
+        title="Rule"
+        content="Teams of 2–5,No AI wrapper,Just be Kind"
+       // list
+        backTitle ="Prize"
+        backContent="More details will be released closer to the event."
+        list
+        width={400}
+        height={300}
+      />
+      <DirtCard
+        title="Schedule"
+        content="Detailed hour by hour will be released closer to the event"
+        //list
+        backTitle="Schedule"
+        backContent="Workshops, hack time, demos, and awards ceremony."
+        width={400}
+        height={300}
+      />
+    </div>
+     
+      <div className='dirtCart-1' >
+      <DirtCard
+        title="GeauxHack 2025 (Prediction)"
+        content="
+         We expect 170–220 attendees this year thanks to expanded statewide marketing to Louisiana universities and high schools, providing more workshops and more mentorship for beginners, and more interactive activities to boost engagement and learning.                "
+        backTitle="GeauxHack 2024"
+        backContent="With over 150 participants and 85% positive feedback, our hackathon offers hands-on workshops, supportive mentorship, and engaging demo days. Join a collaborative community where you can learn new skills, network with peers, and bring innovative ideas to life—all in a welcoming environment.
+"
+        width={400}
+        height={300}
+
+      />
+     <DirtCard
+          title="Sign Up"
+          content="Sign Up Form will be ready in: "
+          openDate={new Date('2025-08-30')}
+          backTitle="Location"
+          backContent="LSU ENGINEERING BUILDING: Patrick F. Taylor Hall, 3304 S Quad Dr Baton Rouge, LA 70803 United States"
+          width={400}
+          height={300}
+        />
+    </div>
       <GreenDiv title={'Workshops'} content={'More information will be announced closer to the start of GeauxHack.'} />
-      <GreenDiv title={'Sign Up'} content={'The sign up form will be opened during the school year.'} />
       <GreenDiv
         title={'Frequently Asked Questions'}
         content={<Collapsible items={greenCollapsibleContent} keepOthersOpen={false} />}
