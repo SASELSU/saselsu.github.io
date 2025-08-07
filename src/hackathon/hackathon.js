@@ -16,7 +16,6 @@ const Hackathon = () => {
     return (
         <> 
             <SASETree />
-            
             <div className="theDivToRuleAllDivs">
             <InfoSec />
             </div>
