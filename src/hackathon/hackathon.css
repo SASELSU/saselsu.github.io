@@ -3,9 +3,17 @@
 
 .theDivToRuleAllDivs {
   background-color: #7abb83;
-  padding-top: 4rem; /* Add some top padding */
+
+
+  width: 100vw;
   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 1;
+
+  top: -40px;
 }
+
+
 
 
