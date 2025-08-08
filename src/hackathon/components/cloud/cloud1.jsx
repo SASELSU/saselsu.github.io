@@ -20,7 +20,7 @@ function Cloud1() {
           }
           return prev + 1;
         });
-      }, 25); // speed of counting (ms)
+      }, 25); 
       return () => clearInterval(interval);
     }
   }, [count, finalCount]);

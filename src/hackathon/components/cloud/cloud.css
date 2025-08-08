@@ -28,11 +28,11 @@
 }
 
 .cloud-number {
-  font-size: 3.5rem; /* BIG number like “93” */
+  font-size: 3.5rem; 
   line-height: 1;
 }
 
 .cloud-label {
-  font-size: 1rem;  /* Smaller “days left” */
+  font-size: 1rem; 
   margin-top: 4px;
 }

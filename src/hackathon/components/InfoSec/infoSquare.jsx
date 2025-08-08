@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from "react";
 
-// Flippable & Tiltable 2D Dirt-Style Card Component with optional countdown and list on both faces
 export default function DirtCard({
   title,
   content,
   backTitle,
   backContent,
-  openDate,               // optional signup date
-  list = false,           // boolean: render front content as comma-split list
-  backList = false,       // boolean: render back content as comma-split list
+  openDate,               
+  list = false,
+  backList = false,       
   width = 400,
   height = 300,
 }) {
@@ -16,7 +15,6 @@ export default function DirtCard({
   const [tilt, setTilt] = useState({ x: 0, y: 0 });
   const [days, setDays] = useState(null);
 
-  // Compute countdown days if openDate provided
   useEffect(() => {
     if (!openDate) return;
     const update = () => {
@@ -31,7 +29,6 @@ export default function DirtCard({
     return () => clearInterval(iv);
   }, [openDate]);
 
-  // Parse list items for front and back
   const frontItems = list && typeof content === 'string'
     ? content.split(',').map(s => s.trim()).filter(Boolean)
     : null;
