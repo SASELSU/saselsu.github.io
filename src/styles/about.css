@@ -1,206 +1,396 @@
+:root {
+  --white: #fff;
+  --black: #323135;
+  --crystal: #a8dadd;
+  --columbia-blue: #cee9e4;
+  --midnight-green: #01565b;
+  --yellow: #e5f33d;
+  --timeline-gradient: rgba(206, 233, 228, 1) 0%, rgba(206, 233, 228, 1) 50%,
+    rgba(206, 233, 228, 0) 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  font: normal 16px/1.5;
+  background: var(--columbia-blue);
+  color: var(--black);
+  margin-bottom: 50px;
+}
+
+
+/* .section SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.section {
+  width: 100%; /* or a fixed width if you prefer */
+  height: 100vh; /* makes it grow with content */
+  display: block; /* default, but you can be explicit */
+  overflow: visible;
+  padding: 50px 0;
+}
+
+
+/* TIMELINE
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.timeline {
+  position: relative;
+  white-space: nowrap;
+  max-width: 1400px;
+  padding: 0 10px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 20px;
+}
+
+.timeline::before,
+.timeline::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 30px;
+  width: 100px;
+  z-index: 2;
+}
+
+.timeline::after {
+  right: 0;
+  background: linear-gradient(270deg, var(--timeline-gradient));
+}
+
+.timeline::before {
+  left: 0px;
+  background: linear-gradient(90deg, var(--timeline-gradient));
+}
+
+.timeline .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px 40px;
+  color: var(--white);
+  background: var(--midnight-green);
+  white-space: normal;
+  border-radius: 10px;
+}
+
+.timeline .info img {
+  margin-bottom: 20px;
+}
+
+.timeline .info p {
+  margin-top: 10px;
+  color: var(--crystal);
+}
+
+.timeline .info a {
+  text-decoration: none;
+}
+
+.timeline ol::-webkit-scrollbar {
+  height: 12px;
+}
+
+.timeline ol::-webkit-scrollbar-thumb,
+.timeline ol::-webkit-scrollbar-track {
+  border-radius: 92px;
+}
+
+.timeline ol::-webkit-scrollbar-thumb {
+  background: var(--midnight-green);
+}
+
+.timeline ol::-webkit-scrollbar-track {
+  background: var(--yellow);
+}
+
+.timeline ol {
+  font-size: 0;
+  padding: 500px 0 50px 0;
+  transition: all 1s;
+  overflow-x: scroll;
+  scrollbar-color: var(--yellow) var(--midnight-green);
+}
+
+.timeline ol li {
+  position: relative;
+  display: inline-block;
+  list-style-type: none;
+  width: 160px;
+  height: 5px;
+  background: var(--white);
+  scroll-snap-align: start;
+}
+
+
+
+.timeline ol li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: calc(100% + 1px);
+  bottom: 0;
+  width: 16px;
+  height: 16px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: var(--midnight-green);
+  z-index: 1;
+}
+
+.timeline ol li div {
+  position: absolute;
+  left: calc(100% + 7px);
+  width: 280px;
+  padding: 15px;
+  font-size: 1rem;
+  white-space: normal;
+  color: var(--black);
+  background: var(--white);
+  border-radius: 0 10px 10px 10px;
+}
+
+.timeline ol li div::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.timeline ol li:nth-child(odd) div {
+  top: -16px;
+  transform: translateY(-100%);
+  border-radius: 10px 10px 10px 0;
+}
+
+.timeline ol li:nth-child(odd) div::before {
+  top: 100%;
+  border-width: 8px 8px 0 0;
+  border-color: var(--white) transparent transparent transparent;
+}
+
+.timeline ol li:nth-child(even) div {
+  top: calc(100% + 16px);
+}
+
+.timeline ol li:nth-child(even) div::before {
+  top: -8px;
+  border-width: 8px 0 0 8px;
+  border-color: transparent transparent transparent var(--white);
+}
+
+.timeline time {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: var(--midnight-green);
+}
+
+/* GENERAL MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+@media screen and (max-width: 800px) {
+  .timeline {
+    display: block;
+  }
+
+  .timeline::before,
+  .timeline::after {
+    width: 50px;
+  }
+
+  .timeline::before {
+    left: 0px;
+  }
+
+  .timeline .info {
+    display: none;
+  }
+}
+
 .aboutTitleCard {
-    width: 100%;
-    height: 90vh;
+  width: 100%;
+  height: 90vh;
 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
 
 .aboutTitleCard h1 {
-    position: relative;
-    font-size: 12vw;
-    font-weight: 800;
-    text-align: center;
-    font-family: "Bebas Neue";
+  position: relative;
+  font-size: 12vw;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Bebas Neue";
 }
 
 .aboutColorOverlay {
-    height: 90vh; /* make sure this is the same height as titlecard */
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    pointer-events: none;
+  height: 90vh; /* make sure this is the same height as titlecard */
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  pointer-events: none;
 }
 
 .aboutMission {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 
-    overflow: auto;
-    display: flex;
-    flex-direction: column;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
 
-    background-color: rgb(0, 78, 100);
-    color: white;
-    text-align: center;
-    align-items: center;
+  background-color: rgb(0, 78, 100);
+  color: white;
+  text-align: center;
+  align-items: center;
 }
 
 .aboutMission img {
-    width: 80vw;
-    height: 85vh;
-    margin: 2vw;
-    object-fit: cover;
+  width: 80vw;
+  height: 85vh;
+  margin: 2vw;
+  object-fit: cover;
 
-    border-radius: 16px;
+  border-radius: 16px;
 }
 
 .aboutMission h1 {
-    font-family: 'Bebas Neue';
-    font-size: 5vw;
-    font-weight: 300;
-    
-    margin-bottom: 0;
+  font-family: "Bebas Neue";
+  font-size: 5vw;
+  font-weight: 300;
+
+  margin-bottom: 0;
 }
 
 .aboutMission p {
-    font-size: 1.75vw;
-    margin-left: 8vw;
-    margin-right: 8vw;
+  font-size: 1.75vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
 }
 
 .aboutHistory {
-    height: auto;
-    overflow: auto;
-    background-color: rgb(247, 255, 247);
-    color:black;
-    font-size: 1.5vw;  
-    display: flex; 
-    flex-direction: column;
+  height: auto;
+  overflow: auto;
+  background-color: rgb(247, 255, 247);
+  color: black;
+  font-size: 1.5vw;
+  display: flex;
+  flex-direction: column;
 }
 
 .aboutHistory h1 {
-    margin: auto;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
 
-    font-family: 'Bebas Neue';
-    font-weight: 300;
-    font-size: 5vw
+  font-family: "Bebas Neue";
+  font-weight: 300;
+  font-size: 5vw;
 }
-
-.historyCardSlider {
-        overflow: hidden;
-  position: relative;
-}
-
-.historyCardContainer {
-    height: 95vh;
-    width: auto;
-
-    display: flex;
-    flex-direction: row;
-    /* gap: 10vw; */
-
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-
-}
-
-.historyCard {
-    position: relative;
-    width: 80vw;
-
-    margin-left: 20vw;
-    display: flex;
-    flex-direction: column;
-    color: black;
-    white-space: normal;
-    text-align: center;
-
-}
-
-.historyCard img {
-    height: 70vh;
-    width: 60vw;
-    object-fit: cover;
-}
-
-.historyCardBlurb {
-    height: auto;
-    margin: 1rem;
-    overflow: hidden;
-    word-wrap: break-word;
-    vertical-align: middle;
-
-}
-
 
 @media (max-width: 1024px) {
-    .aboutTitleCard h1 {    
-        font-size: 80px;
-        /* font-family: "Bebas Neue"; */
-    }
-    .aboutMission h1 {
-        font-size: 50px;
-        margin: 4vw;
-        margin-bottom: -1vw;
-    }
-    .aboutMission p {
-        font-size: 25px;
-    }
-    
-    .aboutMission img {
-        height: 58vh;
-    }
+  .aboutTitleCard h1 {
+    font-size: 80px;
+    /* font-family: "Bebas Neue"; */
+  }
+  .aboutMission h1 {
+    font-size: 50px;
+    margin: 4vw;
+    margin-bottom: -1vw;
+  }
+  .aboutMission p {
+    font-size: 25px;
+  }
 
-    .historyCard {
-        margin-left: 10vw;
-    }
-    .historyCard img {
-        width: 80vw;
-    }
+  .aboutMission img {
+    height: 58vh;
+  }
+
+  .historyCard {
+    margin-left: 10vw;
+  }
+  .historyCard img {
+    width: 80vw;
+  }
 }
 
-@media (max-width: 768px) { /*tablets*/
+@media (max-width: 768px) {
+  /*tablets*/
+}
 
-} 
+@media (max-width: 432px) {
+  /*phones*/
+  .aboutTitleCard h1 {
+    font-size: 16vw;
+    /* font-family: "Bebas Neue"; */
+  }
 
-@media (max-width: 432px) { /*phones*/
-    .aboutTitleCard h1 {    
-        font-size: 16vw;
-        /* font-family: "Bebas Neue"; */
-    }
+  .aboutMission h1 {
+    font-size: 8vw;
+  }
 
-    .aboutMission h1 {
-        font-size: 8vw;
-    }
+  .aboutMission p {
+    font-size: 4vw;
+    margin: 1rem;
+  }
 
-    .aboutMission p {
-        font-size: 4vw;
-        margin: 1rem;
-    }
-    
-    .aboutMission img {
-        height: 35vh;
-        margin-bottom: 1vh;
-    }
+  .aboutMission img {
+    height: 35vh;
+    margin-bottom: 1vh;
+  }
 
-    .aboutHistory h1 {
-        font-size: 8vw;
-    }
+  .aboutHistory h1 {
+    font-size: 8vw;
+  }
 
-    .historyCardContainer {
-        height: 93vh;
-    }
+  .historyCardContainer {
+    height: 93vh;
+  }
 
-    .historyCard img {
-        height: 50vh;
-        width: 80vw;
-    }
+  .historyCard img {
+    height: 50vh;
+    width: 80vw;
+  }
 
-    .historyCardBlurb {
-        font-size: 4vw;
-        margin-top: 0.5vh;
-    }
+  .historyCardBlurb {
+    font-size: 4vw;
+    margin-top: 0.5vh;
+  }
 }
