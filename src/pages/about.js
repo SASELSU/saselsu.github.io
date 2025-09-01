@@ -95,8 +95,9 @@ function init() {
                     </li>
                     <li>
                         <div>
-                            <p>Nevertheless, SASE LSU preserved, dedicating its efforts into engaging faculty, organizing interactive events, and highlighting accomplishments of current students and faculties. These endeavors aimed to generate awareness and initiate discussions centered around empowerment and community.</p>
                             <img src={ReturnSASE}></img>
+                            <p>Nevertheless, SASE LSU preserved, dedicating its efforts into engaging faculty, organizing interactive events, and highlighting accomplishments of current students and faculties. These endeavors aimed to generate awareness and initiate discussions centered around empowerment and community.</p>
+                            
                         </div>
                     </li>
                     <li>
@@ -107,8 +108,9 @@ function init() {
                     </li>
                     <li>
                         <div>
-                            <p>We organized events such as boba and paint socials, volunteering events with organizations like Cat Haven and Habitat for Humanity, and giveback nights at local Asian businesses. These initiatives fostered a safe environment and bolstered our presence within the LSU and Baton Rouge community.</p>
                             <img src={FirstPaint}></img>
+                            <p>We organized events such as boba and paint socials, volunteering events with organizations like Cat Haven and Habitat for Humanity, and giveback nights at local Asian businesses. These initiatives fostered a safe environment and bolstered our presence within the LSU and Baton Rouge community.</p>
+                            
                         </div>
                     </li>
                     <li>
@@ -119,8 +121,9 @@ function init() {
                     </li>
                     <li>
                         <div>
-                            <p>As we expanded, we incorporated workshops and invited guest speakers to enable our members to pursue professional development. SASE LSU serves as a space where individuals can embrace intercultural exchange against all odds, forge their own community within LSU, and, above all, to love purple and live gold.</p>
                             <img src={ReallyBigGathering}></img>
+                            <p>As we expanded, we incorporated workshops and invited guest speakers to enable our members to pursue professional development. SASE LSU serves as a space where individuals can embrace intercultural exchange against all odds, forge their own community within LSU, and, above all, to love purple and live gold.</p>
+                            
                         </div>
                     </li>
                 </ol>

@@ -40,21 +40,13 @@ body {
   margin-bottom: 50px;
 }
 
-
-/* .section SECTION
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
 .section {
-  width: 100%; /* or a fixed width if you prefer */
-  height: 100vh; /* makes it grow with content */
-  display: block; /* default, but you can be explicit */
+  width: 100%;
+  height: 100vh; 
+  display: block;
   overflow: visible;
   padding: 50px 0;
 }
-
-
-/* TIMELINE
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .timeline {
   position: relative;
@@ -146,8 +138,6 @@ body {
   scroll-snap-align: start;
 }
 
-
-
 .timeline ol li:not(:last-child)::after {
   content: "";
   position: absolute;
@@ -214,8 +204,6 @@ body {
   color: var(--midnight-green);
 }
 
-/* GENERAL MEDIA QUERIES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (max-width: 800px) {
   .timeline {
     display: block;
