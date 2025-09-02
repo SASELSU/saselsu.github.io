@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2f62cfde.css",
-    "main.js": "/static/js/main.390498ac.js",
+    "main.css": "/static/css/main.d5e7b4a6.css",
+    "main.js": "/static/js/main.f8765331.js",
     "static/js/453.1a6b0703.chunk.js": "/static/js/453.1a6b0703.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -25,6 +25,7 @@
     "static/media/firstPaint.png": "/static/media/firstPaint.80478e051c9578fc6d91.png",
     "static/media/ricky_liang.png": "/static/media/ricky_liang.ad0c477701ab4fee6c25.png",
     "static/media/faris_khattak.png": "/static/media/faris_khattak.faa0950897cd2b7a55d8.png",
+    "static/media/Backdropp.png": "/static/media/Backdropp.1e5a31dd2c86dde3559f.png",
     "static/media/exxonmockinterview24.png": "/static/media/exxonmockinterview24.8e15d7fc3ec6f24005f9.png",
     "static/media/big_camila.png": "/static/media/big_camila.3804bbb7bfe1c9827377.png",
     "static/media/big_grishma.png": "/static/media/big_grishma.2b3990b22e59ccc229f3.png",
@@ -63,7 +64,7 @@
     "static/media/SASEAEDMCAT.jpg": "/static/media/SASEAEDMCAT.1cac193af2902649c2f5.jpg",
     "static/media/miniCommunity.jpg": "/static/media/miniCommunity.ce7d7b97636ec2f3c2a0.jpg",
     "static/media/SASEgrass.png": "/static/media/SASEgrass.ed6ab6e6870a1fb01667.png",
-    "static/media/SASEtreeV4.svg": "/static/media/SASEtreeV4.bf45109db791de4045a40c18a557218a.svg",
+    "static/media/SASEtreeV4.svg": "/static/media/SASEtreeV4.61a6e57ac4ff84f9009bb5f47316e247.svg",
     "static/media/hackathonWorkshops.jpg": "/static/media/hackathonWorkshops.790d14967c681c6ce5a9.jpg",
     "static/media/secret valentine flyer.png": "/static/media/secret valentine flyer.bba8d48cbe165d917a13.png",
     "static/media/GDSCgrass.png": "/static/media/GDSCgrass.f063eefb54e45f762f03.png",
@@ -111,14 +112,14 @@
     "static/media/red-hat-display-latin-ext-400-normal.woff2": "/static/media/red-hat-display-latin-ext-400-normal.30476cb813ad076ad51f.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff2": "/static/media/adlam-display-latin-ext-400-normal.668f2d2c30ad13edeaef.woff2",
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
-    "static/media/Cloud.svg": "/static/media/Cloud.070647fe45cd8f10091519b36591a019.svg",
+    "static/media/Cloud.svg": "/static/media/Cloud.46833a201429b0fad54db4654f1a1aed.svg",
     "index.html": "/index.html",
-    "main.2f62cfde.css.map": "/static/css/main.2f62cfde.css.map",
-    "main.390498ac.js.map": "/static/js/main.390498ac.js.map",
+    "main.d5e7b4a6.css.map": "/static/css/main.d5e7b4a6.css.map",
+    "main.f8765331.js.map": "/static/js/main.f8765331.js.map",
     "453.1a6b0703.chunk.js.map": "/static/js/453.1a6b0703.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f62cfde.css",
-    "static/js/main.390498ac.js"
+    "static/css/main.d5e7b4a6.css",
+    "static/js/main.f8765331.js"
   ]
 }
