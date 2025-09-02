@@ -35,16 +35,9 @@ const Events = () => {
             <h3>Read about our future events!</h3>
 
             <div className="postContainer"> {/*something something more manual input*/}
-            {/* <Post
-                image={Gambling}
-                eventMonth="MAR"
-                eventDay="19"
-                eventTime="6:00 - 7:30 PM"
-                eventLocation="PFT 1245"
-                postTitle="SASE CHIPFEST"
-                postDesc="Want to ██████? Come to PFT 1245 and have a fun time with us! Games here: https://shorturl.at/qbDM4."
-                />                 */}
-                </div>
+
+            
+                {/* <Post //never remove (this is the future event)
                 <div className="postContainer"> {/*something something more manual input*/}              
                 {/*<Post //never remove (this is the future event)
                 image={FutureEvent}

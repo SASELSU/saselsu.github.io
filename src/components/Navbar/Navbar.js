@@ -26,10 +26,11 @@ const NavMenu = () => {
     return (
         <div className="navMenu">
             <div className="navMenuCardContainer">
+                {/* I should switch the name of about card. One like and i'll do it :3*/}
                 <BigCard 
                     image={AboutCard}
-                    title="About Us"
-                    link="/about"    
+                    title="Join Us"
+                    link="/join"    
                 />
                 <div className="navMenuSmallCardContainer">
                     <SmallCard
@@ -49,6 +50,7 @@ const NavMenu = () => {
                     <Link to="/eboard"> EBoard </Link>
                     <Link to="/sponsors"> Sponsors </Link>
                     <Link to="/gallery"> Gallery </Link>
+                    <Link to="/about"> About </Link>
                 </div>
                 <p>Links</p>
                 <div className="navMenuLinkContainer">
