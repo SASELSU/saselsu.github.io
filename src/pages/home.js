@@ -14,7 +14,7 @@ import MiniDiversity from "../assets/home/miniDiversity.png"
 import MiniProdev from "../assets/home/miniProDev.jpeg"
 
 
-import Calendar from "../assets/home/calendars/February.png"
+import Calendar from "../assets/home/calendars/April.jpg"
 
 //sponsors
 import Exxon from "../assets/home/sponsors/Exxon-Logo.png"
@@ -124,8 +124,8 @@ const Home = () => {
                 <div className="missionPillar"
                     style={{backgroundImage: `url(${MiniDiversity})`}}>  
                     <div className="colorOverlay"/>
-                    <p>Celebrate diversity on campuses and in the workplace.</p>
-                    <h1>Diversity</h1> 
+                    <p>Celebrate intercultural exchange on campuses and in the workplace.</p>
+                    <h1>Intercultural Exchange</h1> 
                 </div>
                 <div className="missionPillar"
                      style={{backgroundImage: `url(${MiniProdev})`}}>

@@ -6,7 +6,7 @@ import TitleCardBackground from "../assets/events/eventVolleyball.png"
 
 //event images
 import FutureEvent from "../assets/events/futureEvent.png"
-import FoodBank from "../assets/events/spring-2025/Food Bank Volunteering.png"
+import Gambling from "../assets/events/spring-2025/Gambling.png"
 import LiveDare from "../assets/events/spring-2025/Instagram live Dares.png"
 import MainEvent from "../assets/events/spring-2025/Main Event Fun Cards Supporting.png"
 import SecretValentine from "../assets/events/spring-2025/secret valentine flyer.png"
@@ -35,8 +35,11 @@ const Events = () => {
             <h3>Read about our future events!</h3>
 
             <div className="postContainer"> {/*something something more manual input*/}
+
             
                 {/* <Post //never remove (this is the future event)
+                <div className="postContainer"> {/*something something more manual input*/}              
+                {/*<Post //never remove (this is the future event)
                 image={FutureEvent}
                 eventMonth="Some Month!"
                 eventDay="xx"
@@ -44,7 +47,7 @@ const Events = () => {
                 eventLocation="Some Location!"
                 postTitle="Future Event"
                 postDesc="Our officers are currently formulating a new event! Either that or you're reading this page during the summer or winter. Check back soon! "
-                /> */}
+                />*/}
                 {/* uncomment above if theres no events */}
             </div>
         </div>
