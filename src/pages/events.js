@@ -35,44 +35,7 @@ const Events = () => {
             <h3>Read about our future events!</h3>
 
             <div className="postContainer"> {/*something something more manual input*/}
-            <Post
-                image={MainEvent}
-                eventMonth="FEB"
-                eventDay="1 - 23"
-                eventTime=""
-                eventLocation="Main Event"
-                postTitle="Main Event Giveback"
-                postDesc="Interested in going to Main Event? Give back half of the cost to SASE by purchasing through https://grouprai.se /mainevent54621s!"
-                />                
-                <Post
-                image={FoodBank}
-                eventMonth="FEB"
-                eventDay="8"
-                eventTime="8:00 AM - 12:00 PM"
-                eventLocation="10600 S Choctaw Dr"
-                postTitle="Food Bank Volunteering"
-                postDesc="Come help out your local food bank by providing your assistance! Dress in closed toe shoes and loose comfy clothes!"
-                />                
-                <Post
-                image={LiveDare}
-                eventMonth="FEB"
-                eventDay="8"
-                eventTime="8:00 PM - 10:00 PM"
-                eventLocation="@saselsu Insta Page"
-                postTitle="SASE: Dare Live"
-                postDesc="Want to force your favorite EBoard officer to do your bidding? Come join us on our Instagram live and throw money at us for funny screen recordings!"
-                />
-                </div>
-                <div className="postContainer"> {/*something something more manual input*/}              
-                <Post
-                image={SecretValentine}
-                eventMonth="FEB"
-                eventDay="3 - 11"
-                eventTime=""
-                eventLocation="Scan QR"
-                postTitle="Secret Valentine"
-                postDesc="Share some love and sweetness with SASE! Scan the QR code for more info!"
-                />
+            
                 {/* <Post //never remove (this is the future event)
                 image={FutureEvent}
                 eventMonth="Some Month!"
