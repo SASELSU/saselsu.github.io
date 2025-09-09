@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.d5e7b4a6.css",
-    "main.js": "/static/js/main.f8765331.js",
+    "main.css": "/static/css/main.0ed3c704.css",
+    "main.js": "/static/js/main.99787802.js",
     "static/js/453.1a6b0703.chunk.js": "/static/js/453.1a6b0703.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -41,7 +41,6 @@
     "static/media/big_faris.png": "/static/media/big_faris.0a172fdf143fba881417.png",
     "static/media/title_card.jpg": "/static/media/title_card.7ef6b1358f4592078e48.jpg",
     "static/media/bobaSocial23.jpg": "/static/media/bobaSocial23.75488a3e562bd73f3f45.jpg",
-    "static/media/Main Event Fun Cards Supporting.png": "/static/media/Main Event Fun Cards Supporting.096614236b65fd8ca747.png",
     "static/media/TigerConnections.jpeg": "/static/media/TigerConnections.d6688e42a9554a74cde1.jpeg",
     "static/media/big_galvin.png": "/static/media/big_galvin.bd7ee34eb8f4cabf0f4d.png",
     "static/media/galleryPickleballSocial.jpeg": "/static/media/galleryPickleballSocial.672c446ef213707adfa3.jpeg",
@@ -66,16 +65,13 @@
     "static/media/SASEgrass.png": "/static/media/SASEgrass.ed6ab6e6870a1fb01667.png",
     "static/media/SASEtreeV4.svg": "/static/media/SASEtreeV4.61a6e57ac4ff84f9009bb5f47316e247.svg",
     "static/media/hackathonWorkshops.jpg": "/static/media/hackathonWorkshops.790d14967c681c6ce5a9.jpg",
-    "static/media/secret valentine flyer.png": "/static/media/secret valentine flyer.bba8d48cbe165d917a13.png",
     "static/media/GDSCgrass.png": "/static/media/GDSCgrass.f063eefb54e45f762f03.png",
     "static/media/movienight.jpg": "/static/media/movienight.d1584a49af11cf88dd9f.jpg",
-    "static/media/Gambling.png": "/static/media/Gambling.beefd38be1e8fc7df986.png",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
     "static/media/April.jpg": "/static/media/April.091f557fc5c3562c6a8f.jpg",
     "static/media/paintsocialfall24.jpg": "/static/media/paintsocialfall24.f54b6c8d98c9f58824e4.jpg",
-    "static/media/Instagram live Dares.png": "/static/media/Instagram live Dares.bb8ada3dae8209a98e6d.png",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/sun.png": "/static/media/sun.0a135299e4b709dfda82.png",
     "static/media/futureEvent.png": "/static/media/futureEvent.3eb7c3c3e3fea514373b.png",
@@ -114,12 +110,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "static/media/Cloud.svg": "/static/media/Cloud.46833a201429b0fad54db4654f1a1aed.svg",
     "index.html": "/index.html",
-    "main.d5e7b4a6.css.map": "/static/css/main.d5e7b4a6.css.map",
-    "main.f8765331.js.map": "/static/js/main.f8765331.js.map",
+    "main.0ed3c704.css.map": "/static/css/main.0ed3c704.css.map",
+    "main.99787802.js.map": "/static/js/main.99787802.js.map",
     "453.1a6b0703.chunk.js.map": "/static/js/453.1a6b0703.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5e7b4a6.css",
-    "static/js/main.f8765331.js"
+    "static/css/main.0ed3c704.css",
+    "static/js/main.99787802.js"
   ]
 }
