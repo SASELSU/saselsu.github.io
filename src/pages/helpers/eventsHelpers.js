@@ -7,7 +7,6 @@ export const Post = (props) => {
     const {
         image,
         eventMonth,
-        eventDay,
         eventTime,
         eventLocation,
         postTitle,
@@ -17,9 +16,9 @@ export const Post = (props) => {
         <div className="eventPost">
             <img src={image} alt="postImage"/>
             <div className="eventPostText">
+                
                 <div className="eventPostDateTimeLocation"> 
                     <p>{eventMonth}</p>
-                    <h2>{eventDay}</h2>
                     <p>{eventLocation}</p>
                     <p>{eventTime}</p>
                 </div>
