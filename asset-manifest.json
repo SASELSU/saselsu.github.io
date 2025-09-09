@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0ed3c704.css",
-    "main.js": "/static/js/main.99787802.js",
+    "main.js": "/static/js/main.23f605ee.js",
     "static/js/453.1a6b0703.chunk.js": "/static/js/453.1a6b0703.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -69,8 +69,8 @@
     "static/media/movienight.jpg": "/static/media/movienight.d1584a49af11cf88dd9f.jpg",
     "static/media/returnSASE.jpeg": "/static/media/returnSASE.838d70d0dcdca9666338.jpeg",
     "static/media/zoomSASE.jpeg": "/static/media/zoomSASE.3ac6dcc176a2964c95f9.jpeg",
+    "static/media/SASE_Calendar_2025-2026.png": "/static/media/SASE_Calendar_2025-2026.02e91a7f54f16ba607d5.png",
     "static/media/marathon.png": "/static/media/marathon.bd01b101994668bbf332.png",
-    "static/media/April.jpg": "/static/media/April.091f557fc5c3562c6a8f.jpg",
     "static/media/paintsocialfall24.jpg": "/static/media/paintsocialfall24.f54b6c8d98c9f58824e4.jpg",
     "static/media/Shell_logo.svg.png": "/static/media/Shell_logo.svg.89ccff17940b1a2719cc.png",
     "static/media/sun.png": "/static/media/sun.0a135299e4b709dfda82.png",
@@ -111,11 +111,11 @@
     "static/media/Cloud.svg": "/static/media/Cloud.46833a201429b0fad54db4654f1a1aed.svg",
     "index.html": "/index.html",
     "main.0ed3c704.css.map": "/static/css/main.0ed3c704.css.map",
-    "main.99787802.js.map": "/static/js/main.99787802.js.map",
+    "main.23f605ee.js.map": "/static/js/main.23f605ee.js.map",
     "453.1a6b0703.chunk.js.map": "/static/js/453.1a6b0703.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ed3c704.css",
-    "static/js/main.99787802.js"
+    "static/js/main.23f605ee.js"
   ]
 }
