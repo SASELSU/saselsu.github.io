@@ -143,7 +143,7 @@ const Home = () => {
         </div>
         <div className="calendar">
             <h1>EVENTS THIS MONTH</h1>
-            <p>Calendar unavailable at this time. Oopsies !!</p>
+            
             <img src={Calendar} alt="calendar"/>
         </div>
         <div className="homeSponsors">
