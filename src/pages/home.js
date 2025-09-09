@@ -14,7 +14,7 @@ import MiniDiversity from "../assets/home/miniDiversity.png"
 import MiniProdev from "../assets/home/miniProDev.jpeg"
 
 
-import Calendar from "../assets/home/calendars/April.jpg"
+import Calendar from "../assets/home/calendars/SASE_Calendar_2025-2026.png"
 
 //sponsors
 import Exxon from "../assets/home/sponsors/Exxon-Logo.png"
@@ -143,8 +143,8 @@ const Home = () => {
         </div>
         <div className="calendar">
             <h1>EVENTS THIS MONTH</h1>
-            <p>Calendar unavailable at this time. Oopsies !!</p>
-            {/*<img src={Calendar} alt="calendar"/>*/}
+            
+            <img src={Calendar} alt="calendar"/>
         </div>
         <div className="homeSponsors">
             <h1>THANK YOU TO OUR SPONSORS!</h1>
