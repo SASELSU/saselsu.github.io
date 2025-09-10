@@ -4,7 +4,6 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
   gap: 2rem;
-  margin-top: 2rem;
   padding: 1rem;
 }
 
@@ -104,9 +103,9 @@
 
 .eventPost img {
   margin: 2.3vh;
-  margin-top: 1vh;
+  
   object-fit: scale-down;
-  /* border-radius: 10px; */
+  border-radius: 10px;
 }
 
 .eventPostText {
