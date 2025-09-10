@@ -41,6 +41,12 @@ const Gallery = () => {
         <div className="gallery">
             <h1>Fall '25</h1>
             <div className="galleryCardContainer">
+            {/*<GalleryCard 
+                image={Quinlan}
+                title="SASExAED Quinlan Talk"
+                date="NOV 21 2024"
+                link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
+            />*/}
             
             </div>
         </div>
