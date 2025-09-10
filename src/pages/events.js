@@ -1,18 +1,19 @@
-import React, { useState, useEffect } from "react";
+//// IMPORTS
+import { useState, useEffect } from "react";
 import "../styles/events.css";
-
+// images
 import TitleCardBackground from "../assets/events/eventVolleyball.png";
 import FutureEvent from "../assets/events/futureEvent.png";
-
 // helpers
 import { Post } from "./helpers/eventsHelpers";
 import usePageTracking from "../components/Common/TrafficTracker";
-
 // calendar info
 const calendarId =
   "c_3e3bac86e0f1dd70db73d31f7f2b024ea08ca141e7686840b4690786a34c0436@group.calendar.google.com";
 const apiKey = "AIzaSyAwKJsagVX-8EzWQlN96wLXrpguEJu7auk";
 
+//// HELPER FUNCTIONS
+// splits apart date and time into two separate entities
 function formatEventDate(event) {
   const isAllDay = !!event.start.date;
 
@@ -35,7 +36,7 @@ function formatEventDate(event) {
 
   if (isAllDay) {
     const startStr = event.start.date;
-    const endStr = event.end.date; // exclusive end
+    const endStr = event.end.date;
 
     const [startY, startM, startD] = startStr.split("-").map(Number);
     const [endY, endM, endD] = endStr.split("-").map(Number);
@@ -69,34 +70,14 @@ function formatEventDate(event) {
   }
 }
 
+//// PAGE CONTENT
 const Events = () => {
   usePageTracking("Events Page");
 
-  const [eventTitleData, setEventTitleData] = useState([]);
-  const [eventDateData, setEventDateData] = useState([]);
-  const [eventLocationData, setEventLocationData] = useState([]);
-  const [eventDescriptionData, setEventDescriptionData] = useState([]);
-  const [eventTimeData, setEventTimeData] = useState([]);
-  const [eventImageData, setEventImageData] = useState([]);
+  const [events, setEvents] = useState([]);
 
-  // helper: check valid URL and handle Google Drive links
-  const processImageUrl = (str) => {
-    if (!str) return "";
-    try {
-      const url = new URL(str);
-      // convert Google Drive share link to direct image link
-      if (url.hostname.includes("drive.google.com")) {
-        const match = url.pathname.match(/\/d\/(.*?)(?:\/|$)/);
-        if (match && match[1]) {
-          return `https://drive.google.com/uc?export=view&id=${match[1]}`;
-        }
-      }
-      return str;
-    } catch (_) {
-      return "";
-    }
-  };
-
+  // display information fetched from the Google Calendar
+  // activates when page first loads, if there are changes, user must reload the page
   useEffect(() => {
     async function fetchUpcomingEvents() {
       const timeMin = new Date().toISOString();
@@ -108,50 +89,40 @@ const Events = () => {
       const res = await fetch(url);
       const data = await res.json();
 
-      const titles = [];
-      const dates = [];
-      const times = [];
-      const locations = [];
-      const descriptions = [];
-      const images = [];
-
-      data.items.forEach((event) => {
+      const eventList = data.items.map((event) => {
         const title = event.summary || "No title";
         const { date, time } = formatEventDate(event);
         const location = event.location || "No location provided";
 
+        let desc = "No description provided";
+        let imgUrl = "";
+
         if (event.description) {
           const parts = event.description.split(",");
-          const desc = parts.slice(0, -1).join(",").trim();
-          const imgCandidate = parts[parts.length - 1]?.trim() || "";
+          desc = parts[0]?.trim() || "No description provided";
 
-          descriptions.push(desc || "No description provided");
-          images.push(processImageUrl(imgCandidate));
-        } else {
-          descriptions.push("No description provided");
-          images.push("");
+          let imgCandidate = parts[1]?.trim() || "";
+          const match = imgCandidate.match(/href="([^"]+)"/);
+          if (match && match[1]) {
+            imgCandidate = match[1];
+          }
+          imgUrl = imgCandidate;
         }
 
-        titles.push(title);
-        dates.push(date);
-        times.push(time);
-        locations.push(location);
-
-        console.log("📅 " + title);
-        console.log("   " + date);
-        console.log("   ⏰ " + time);
-        console.log("   📍 " + location);
-        console.log("   📝 " + descriptions[descriptions.length - 1]);
-        console.log("   🖼️ " + images[images.length - 1]);
-        console.log("---------------------------");
+        return {
+          title,
+          date,
+          time,
+          location,
+          description: desc,
+          image: imgUrl,
+        };
       });
 
-      setEventTitleData(titles);
-      setEventDateData(dates);
-      setEventTimeData(times);
-      setEventLocationData(locations);
-      setEventDescriptionData(descriptions);
-      setEventImageData(images);
+      setEvents(eventList);
+
+      // console debug
+      console.log("Fetched events:", eventList);
     }
 
     fetchUpcomingEvents();
@@ -170,16 +141,16 @@ const Events = () => {
         <h1>What's Next?</h1>
         <h3>Read about our future events!</h3>
         <div className="postWrapper">
-          {eventTitleData.map((title, i) => (
+          {events.map((ev, i) => (
             <Post
               key={i}
-              image={/*eventImageData[i] ||*/ FutureEvent}
-              eventMonth={eventDateData[i]}
-              eventDay={eventDateData[i]}
-              eventTime={eventTimeData[i]}
-              eventLocation={eventLocationData[i]}
-              postTitle={title}
-              postDesc={eventDescriptionData[i]}
+              image={ev.image || FutureEvent}
+              eventMonth={ev.date}
+              eventDay={ev.date}
+              eventTime={ev.time}
+              eventLocation={ev.location}
+              postTitle={ev.title}
+              postDesc={ev.description}
             />
           ))}
         </div>
@@ -189,4 +160,3 @@ const Events = () => {
 };
 
 export default Events;
-
