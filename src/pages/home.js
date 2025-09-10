@@ -143,7 +143,6 @@ const Home = () => {
         </div>
         <div className="calendar">
             <h1>EVENTS THIS MONTH</h1>
-            
             <img src={Calendar} alt="calendar"/>
         </div>
         <div className="homeSponsors">
