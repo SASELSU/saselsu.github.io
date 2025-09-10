@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ed3c704.css",
-    "main.js": "/static/js/main.dd170195.js",
+    "main.css": "/static/css/main.e81bbe56.css",
+    "main.js": "/static/js/main.683fe0e4.js",
     "static/js/453.1a6b0703.chunk.js": "/static/js/453.1a6b0703.chunk.js",
     "static/media/camila_cuadra.png": "/static/media/camila_cuadra.5ef76189dbf2095ab758.png",
     "static/media/jennie_tran.png": "/static/media/jennie_tran.6061e2483300e2bcc6c4.png",
@@ -110,12 +110,12 @@
     "static/media/adlam-display-latin-ext-400-normal.woff": "/static/media/adlam-display-latin-ext-400-normal.65b257473abf2b4debb7.woff",
     "static/media/Cloud.svg": "/static/media/Cloud.46833a201429b0fad54db4654f1a1aed.svg",
     "index.html": "/index.html",
-    "main.0ed3c704.css.map": "/static/css/main.0ed3c704.css.map",
-    "main.dd170195.js.map": "/static/js/main.dd170195.js.map",
+    "main.e81bbe56.css.map": "/static/css/main.e81bbe56.css.map",
+    "main.683fe0e4.js.map": "/static/js/main.683fe0e4.js.map",
     "453.1a6b0703.chunk.js.map": "/static/js/453.1a6b0703.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ed3c704.css",
-    "static/js/main.dd170195.js"
+    "static/css/main.e81bbe56.css",
+    "static/js/main.683fe0e4.js"
   ]
 }
