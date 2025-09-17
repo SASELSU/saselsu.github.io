@@ -16,6 +16,10 @@
     flex-direction: row;
 }
 
+.innerSocialMedia {
+    margin: 5px;
+}
+
 
 .footer p {
     color: white;

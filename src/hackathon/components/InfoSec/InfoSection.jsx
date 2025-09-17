@@ -1,8 +1,8 @@
 import GreenDiv from './greenDiv'
 import Collapsible from '../collapsible/collapsible';  
 import Vine2D from './vine2d';
-import GDSCgrass from '../../assets/logo/GDSCgrass.png'
-import SASEgrass from '../../assets/logo/SASEgrass.png'
+import GDSC from '../../assets/logo/GDSC.png'
+import SASE from '../../assets/logo/Sase.png'
 import DirtCard from './infoSquare';
 
 const greenCollapsibleContent = [
@@ -53,10 +53,10 @@ function InfoSection() {
       <div className='about-sec' style={{ width: "500px%", height: "550px", position: "relative", zIndex: 1 }}>
         <Vine2D />
         <a href="http://gdsclsu.org/" target="_blank" rel="noopener noreferrer">
-        <img src={GDSCgrass} alt="GDSC LSU logo" className="left-logo" />
+        <img src={GDSC} alt="GDSC LSU logo" className="left-logo" />
         </a>
         <a href= "https://www.saselsu.org/" target="_blank" rel="noopener noreferrer">
-        <img src={SASEgrass} alt="SASE LSU logo" className="right-logo" /> </a>
+        <img src={SASE} alt="SASE LSU logo" className="right-logo" /> </a>
         <div className='about'> About </div>
         <div className='about-description'>Welcome to SASE & GDSC LSU's 4th annual hackathon! Brace yourself for three days of collaborating, programming, and other shenanigans. Each year, 100+ participants spend forty hours making a program to fit the prompt for the year. Participants of all skill levels in high school or college are allowed to participate, so please do not hesitate to join GeauxHack!</div>
       </div>

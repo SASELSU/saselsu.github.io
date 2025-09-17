@@ -11,12 +11,12 @@ const Footer = () => {
     return (
         <div className="footer">
             <p>Contact Us!</p>
-            <p>lsu@saseconnect.org</p>
+            <a href="mailto:lsu@saseconnect.org">lsu@saseconnect.org</a>
 
             <div className="socialMedia">
-                <WhiteDiscordIcon/>
-                <WhiteFacebookIcon/>
-                <WhiteInstagramIcon/>
+                <div className="innerSocialMedia"><WhiteDiscordIcon/></div>
+                <div className="innerSocialMedia"><WhiteFacebookIcon/></div>
+                <div className="innerSocialMedia"><WhiteInstagramIcon/></div>
             </div>
 
         </div>
