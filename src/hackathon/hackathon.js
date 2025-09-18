@@ -9,13 +9,13 @@ import usePageTracking from "../components/Common/TrafficTracker";
 const Hackathon = () => {
     usePageTracking("Hackathon Page");
     return (
-        <> 
-            <SASETree />
-            <div className="theDivToRuleAllDivs">
-            <InfoSec />
+        <>
+            <div>
+                <SASETree />
+                <div className="theDivToRuleAllDivs">
+                    <InfoSec />
+                </div>
             </div>
-
-
         </>
     )
 }
