@@ -1,17 +1,16 @@
 import {
-    React, 
     useState,
     useEffect
 } from "react";
 import Collapse from "@mui/material/Collapse";
-import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { Link } from "react-router";
+import { useLocation } from "react-router";
 import {
     WhiteDiscordIcon,
     WhiteFacebookIcon,
     WhiteInstagramIcon
-} from "../Common/Icon.js"
-import { BigCard, SmallCard } from "./NavbarHelpers";
+} from "../Common/Icon.jsx"
+import { BigCard, SmallCard } from "./NavbarHelpers.jsx";
 import "./Navbar.css";
 
 import Logo from "../../assets/icons/white-sase-logo.png";

@@ -1,7 +1,3 @@
-import {
-    React,
-    // useState
-} from "react";
 import "../styles/about.css"
 
 import { HistoryCard,EBoardCard } from "./helpers/aboutHelpers";

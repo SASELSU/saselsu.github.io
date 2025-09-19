@@ -5,7 +5,7 @@ import {
     WhiteInstagramIcon,
     WhiteFacebookIcon
 }
-from "../Common/Icon.js";
+from "../Common/Icon.jsx";
 
 const Footer = () => {
     return (

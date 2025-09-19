@@ -14,7 +14,8 @@ const apiKey = "AIzaSyAwKJsagVX-8EzWQlN96wLXrpguEJu7auk";
 
 //// HELPER FUNCTIONS
 // splits apart date and time into two separate entities
-function formatEventDate(event) {
+// TODO: type this properly.
+function formatEventDate(event: any) {
   const isAllDay = !!event.start.date;
 
   const dateFormatter = new Intl.DateTimeFormat("en-US", {

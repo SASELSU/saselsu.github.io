@@ -1,4 +1,4 @@
-import { React, useState } from "react"
+import { useState } from "react"
 import "../../styles/eboard.css"
 import { ColorLinkedinIcon } from "../../components/Common/Icon";
 
