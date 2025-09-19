@@ -1,17 +1,17 @@
-import "./Cloud2.css"; 
-import GDG from "../../assets/logo/GDSC.png"
+import "./Cloud2.css";
+import GDG from "../../assets/logo/GDSC.png";
 
-function Cloud2() {
-  return (
-    <div className="floating-cloud">
-      <svg
-        viewBox="0 0 260 140"
-        xmlns="http://www.w3.org/2000/svg"
-        width="100%"
-        height="auto"
-      >
-        <path
-          d="
+function Cloud2 () {
+    return (
+        <div className="floating-cloud">
+            <svg
+                viewBox="0 0 260 140"
+                xmlns="http://www.w3.org/2000/svg"
+                width="100%"
+                height="auto"
+            >
+                <path
+                    d="
             M40,100
             C20,120 0,110 10,80
             C-5,60 20,40 40,50
@@ -25,16 +25,16 @@ function Cloud2() {
             C85,125 60,125 55,110
             C40,120 40,120 40,100
             Z"
-          fill="#ffffff"
-          stroke="#cccccc"
-          strokeWidth="3"
-        />
-      </svg>
-      <a href="http://gdsclsu.org/" target="_blank" rel="noopener noreferrer">
-      <img src={GDG} alt="GDG Logo" className="cloud2-logo" />
-      </a>
-    </div>
-  );
+                    fill="#ffffff"
+                    stroke="#cccccc"
+                    strokeWidth="3"
+                />
+            </svg>
+            <a href="http://gdsclsu.org/" target="_blank" rel="noopener noreferrer">
+                <img src={GDG} alt="GDG Logo" className="cloud2-logo" />
+            </a>
+        </div>
+    );
 }
 
 export default Cloud2;
