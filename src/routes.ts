@@ -6,7 +6,7 @@ import {
 
 export default [
     index("./pages/Home.tsx"),
- 
+
     route("about", "./pages/About.tsx"),
     route("eboard", "./pages/Eboard.tsx"),
     route("events", "./pages/Events.tsx"),

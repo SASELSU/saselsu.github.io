@@ -1,12 +1,12 @@
 import { useEffect, type ReactNode } from "react";
 import ReactGA from "react-ga4";
 import {
-  isRouteErrorResponse,
-  Links,
-  Meta,
-  Outlet,
-  Scripts,
-  ScrollRestoration
+    isRouteErrorResponse,
+    Links,
+    Meta,
+    Outlet,
+    Scripts,
+    ScrollRestoration
 } from "react-router";
 
 import Navbar from "./components/Navbar/Navbar";
@@ -24,7 +24,7 @@ import "./index.css";
 /**
  * Head links.
  */
-export function links (): ReturnType<Route.LinksFunction>  {
+export function links (): ReturnType<Route.LinksFunction> {
     return [
         { rel: "icon", href: "/favicon.ico" },
         { rel: "apple-touch-icon", href: "/logo192.png" },
@@ -34,7 +34,7 @@ export function links (): ReturnType<Route.LinksFunction>  {
 
 /**
  * App layout.
- * @returns 
+ * @returns
  */
 export function Layout ({ children }: { children: ReactNode }): ReactNode {
     return (
@@ -98,12 +98,14 @@ export function ErrorBoundary ({ error }: Route.ErrorBoundaryProps): ReactNode {
  */
 export default function App (): ReactNode {
     useEffect(() => {
-        ReactGA.initialize(import.meta.env.VITE_REACT_APP_GA_ID);
-        ReactGA.send({
-            hitType: "pageview",
-            page: "/",
-            title: "Landing Page"
-        });
+        if (import.meta.env.VITE_REACT_APP_GA_ID) {
+            ReactGA.initialize(import.meta.env.VITE_REACT_APP_GA_ID);
+            ReactGA.send({
+                hitType: "pageview",
+                page: "/",
+                title: "Landing Page"
+            });
+        }
     });
 
     return (

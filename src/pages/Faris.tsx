@@ -1,15 +1,15 @@
-import React from "react";
-import "../styles/faris.css"
+import { type ReactNode } from "react";
 
-import farisPic from "../assets/farispic.png"
+import farisPic from "../assets/farispic.png";
 
-const Faris = () => {
+import "../styles/faris.css";
 
+const Faris = (): ReactNode => {
     return (
         <>
-            <img src={farisPic} className="pic"></img>
+            <img src={farisPic} className="pic" alt="Faris"></img>
         </>
-    )
-}
+    );
+};
 
 export default Faris;

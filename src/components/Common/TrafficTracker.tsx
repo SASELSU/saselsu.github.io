@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router";
 import ReactGA from "react-ga4";
 
-function initializeAnalytics () {
+function initializeAnalytics (): void {
     ReactGA.initialize(import.meta.env.VITE_REACT_APP_GA_ID);
 };
 
@@ -16,15 +16,19 @@ export default function usePageTracking (title: string): void {
     const [initialized, setInitialized] = useState(false);
 
     useEffect(() => {
-        initializeAnalytics();
-        setInitialized(true);
-    });
+        if (import.meta.env.VITE_REACT_APP_GA_ID) {
+            initializeAnalytics();
+            setInitialized(true);
+        }
+    }, []);
 
     useEffect(() => {
-        initialized && ReactGA.send({
-            hitType: "pageview",
-            page: window.location.pathname,
-            title
-        });
+        if (initialized) {
+            ReactGA.send({
+                hitType: "pageview",
+                page: window.location.pathname,
+                title
+            });
+        }
     }, [initialized, location, title]);
 }

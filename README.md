@@ -1,5 +1,4 @@
 <div align="center">
-    <h1>saselsu.org</h1>
     <img src="src/assets/icons/white-sase-logo.png">
 </div>
 <hr />
@@ -8,9 +7,11 @@
     <img src="https://img.shields.io/badge/bun%20-%23000000.svg?style=for-the-badge&logo=bun">
     <img src="https://img.shields.io/badge/javascript-%23F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
     <img src="https://img.shields.io/badge/typescript-%233178C6?style=for-the-badge&logo=typescript&logoColor=white">
+    <img src="https://img.shields.io/badge/css-%23663399?style=for-the-badge&logo=css">
     <img src="https://img.shields.io/badge/react-%2361DAFB?style=for-the-badge&logo=react&logoColor=black">
     <img src="https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white">
 </div>
+
 
 # saselsu.org
 The SASE@LSU website.
@@ -34,7 +35,7 @@ bun dev
 ```
 
 ## Production
-To create a production build, run the following:
+To create a production build, run
 ```sh
 bun run build
 ```

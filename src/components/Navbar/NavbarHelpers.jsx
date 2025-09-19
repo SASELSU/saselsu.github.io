@@ -1,8 +1,7 @@
-import React from "react";
 import { Link } from "react-router";
-import "./Navbar.css"
+import "./Navbar.css";
 
-export const BigCard = (props) => {
+export const BigCard = props => {
     const {
         image,
         title,
@@ -10,19 +9,20 @@ export const BigCard = (props) => {
     } = props;
     return (
         <>
-        <Link to={link}>
-        <div className="navMenuBigCardWrapper"> {/* exists bc if u remove it breaks */}
-            <div className="navMenuBigCard"
-                style={{backgroundImage: `url(${image})`}}
-            />
-            <h1>{title}</h1>
-        </div>
-        </Link>
+            <Link to={link}>
+                <div className="navMenuBigCardWrapper"> {/* exists bc if u remove it breaks */}
+                    <div
+                        className="navMenuBigCard"
+                        style={{ backgroundImage: `url(${image})` }}
+                    />
+                    <h1>{title}</h1>
+                </div>
+            </Link>
         </>
-    )
-}
+    );
+};
 
-export const SmallCard = (props) => {
+export const SmallCard = props => {
     const {
         image,
         title,
@@ -31,16 +31,17 @@ export const SmallCard = (props) => {
     } = props;
     return (
         <>
-        <div className="navMenuSmallCardWrapper">
-            <Link to={link}>
-            <div className="navMenuSmallCard"
-                    style={{backgroundImage: `url(${image})`}}
-                />
-                <h1>{title}</h1>
-                <p>{subtitle}</p>
-            </Link>
+            <div className="navMenuSmallCardWrapper">
+                <Link to={link}>
+                    <div
+                        className="navMenuSmallCard"
+                        style={{ backgroundImage: `url(${image})` }}
+                    />
+                    <h1>{title}</h1>
+                    <p>{subtitle}</p>
+                </Link>
 
-        </div>
+            </div>
         </>
-    )
-}
+    );
+};

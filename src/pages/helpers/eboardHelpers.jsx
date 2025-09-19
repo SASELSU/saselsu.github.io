@@ -1,8 +1,8 @@
-import { useState } from "react"
-import "../../styles/eboard.css"
+import { useState } from "react";
+import "../../styles/eboard.css";
 import { ColorLinkedinIcon } from "../../components/Common/Icon";
 
-export const DescriptionCard = (props) => {
+export const DescriptionCard = props => {
     const [open, setOpen] = useState(false);
 
     const handleOpen = () => {
@@ -21,10 +21,10 @@ export const DescriptionCard = (props) => {
         webmasterthing
     } = props;
 
-    //onClick={handleOpen}
-    //style={{backgroundImage: `url(${image})`}}
+    // onClick={handleOpen}
+    // style={{backgroundImage: `url(${image})`}}
     return (
-        <div className="eboardCard">  
+        <div className="eboardCard">
             <div className="eboardCardInformation">
                 <h1>{intro}</h1>
                 <p>{major}</p>
@@ -37,8 +37,10 @@ export const DescriptionCard = (props) => {
                 />
             </div>
 
-            <div className="eboardCardPortrait"
-            style={{backgroundImage: `url(${image})`}}>
+            <div
+                className="eboardCardPortrait"
+                style={{ backgroundImage: `url(${image})` }}
+            >
                 <div className="eboardCardBorder">
                     <div className="eboardCardText">
                         <h1>{title}</h1>
@@ -49,4 +51,4 @@ export const DescriptionCard = (props) => {
             </div>
         </div>
     );
-}
+};

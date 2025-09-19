@@ -43,7 +43,7 @@ export default function Home () {
     const [index, setIndex] = useState(0);
     const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-    const resetTimeout = () => {
+    const resetTimeout = (): void => {
         if (timeoutRef.current) clearTimeout(timeoutRef.current);
     };
 
@@ -54,8 +54,10 @@ export default function Home () {
 
         return () => {
             resetTimeout();
-        }
-    }, [index]);
+        };
+    }, [index, backgrounds.length]);
+
+    usePageTracking("Home");
 
     /**
      * The actual homepage.
@@ -65,7 +67,7 @@ export default function Home () {
             <div className="home">
                 {/* Note: Pillar container is the only thing in home and that's scuffed. Change this later. */}
                 {/* Homepage carousel. The kind of thing that would usually go in it's own component... */}
-                <div className="pillarContainer" style={{ transform: `translate3d(${-index * 100}%, 0, 0)`}}>
+                <div className="pillarContainer" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
                     <div className="pillar" style={{ backgroundImage: `url(${backgrounds[0]})` }}>
                         <div className="colorOverlay"></div>
                         <div className="headerContainer">
@@ -96,7 +98,7 @@ export default function Home () {
                             </div> */}
                         </div>
                     </div>
-                    <div className="pillar" style={{ backgroundImage: `url(${backgrounds[2]})`}}>
+                    <div className="pillar" style={{ backgroundImage: `url(${backgrounds[2]})` }}>
                         <div className="colorOverlay"></div>
                         <div className="headerContainer">
                             <div className="pillarTitle" style={{ textTransform: "uppercase" }}>
@@ -120,24 +122,30 @@ export default function Home () {
                 </a> */}
                 <h2>Our Mission</h2>
                 <h1>The Society of Asian Scientists & Engineers at LSU aims to help scientists, engineers, and technologists reach their full career potential through professional development, cultural awareness, and giving back to their community.</h1>
-                <br/>
+                <br />
                 <h2>The Three Pillars of SASE</h2>
                 <div className="missionPillarContainer">
-                    <div className="missionPillar"
-                        style={{backgroundImage: `url(${MiniDiversity})`}}>  
-                        <div className="colorOverlay"/>
+                    <div
+                        className="missionPillar"
+                        style={{ backgroundImage: `url(${MiniDiversity})` }}
+                    >
+                        <div className="colorOverlay" />
                         <p>Celebrate intercultural exchange on campuses and in the workplace.</p>
-                        <h1>Intercultural Exchange</h1> 
+                        <h1>Intercultural Exchange</h1>
                     </div>
-                    <div className="missionPillar"
-                        style={{backgroundImage: `url(${MiniProdev})`}}>
-                        <div className="colorOverlay"/>
+                    <div
+                        className="missionPillar"
+                        style={{ backgroundImage: `url(${MiniProdev})` }}
+                    >
+                        <div className="colorOverlay" />
                         <h1>Professional Development</h1>
                         <p>Prepare Asian heritage scientists and engineers for success in the global business world.</p>
                     </div>
-                    <div className="missionPillar"
-                        style={{backgroundImage: `url(${MiniCommunity})`}}>
-                        <div className="colorOverlay"/>
+                    <div
+                        className="missionPillar"
+                        style={{ backgroundImage: `url(${MiniCommunity})` }}
+                    >
+                        <div className="colorOverlay" />
                         <h1>Community</h1>
                         <p>Provide opportunites for members to make contributions to their local communities.</p>
                     </div>
@@ -145,7 +153,7 @@ export default function Home () {
             </div>
             <div className="calendar">
                 <h1>EVENTS THIS MONTH</h1>
-                <img src={Calendar} alt="calendar"/>
+                <img src={Calendar} alt="calendar" />
             </div>
             <div className="homeSponsors">
                 <h1>THANK YOU TO OUR SPONSORS!</h1>
@@ -157,7 +165,7 @@ export default function Home () {
                     <img src={Marathon} alt="Marathon"></img>
                 </div>
                 <p>
-                Interested in becoming a partner with the LSU Society of Asian Scientists and Engineers (SASE)? <br/>Click the button below to download our sponsorship packet!
+                    Interested in becoming a partner with the LSU Society of Asian Scientists and Engineers (SASE)? <br />Click the button below to download our sponsorship packet!
                 </p>
                 <a href={SponsorshipPacket} target="_blank" rel="noreferrer">
                     Sponsorship Package

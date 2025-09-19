@@ -1,23 +1,23 @@
 import React from "react";
-import "../../styles/events.css"
+import "../../styles/events.css";
 
-//contains the actual post objects
+// contains the actual post objects
 
-export const Post = (props) => {
+export const Post = props => {
     const {
         image,
         eventMonth,
         eventTime,
         eventLocation,
         postTitle,
-        postDesc,
+        postDesc
     } = props;
     return (
         <div className="eventPost">
-            <img src={image} alt="postImage"/>
+            <img src={image} alt="postImage" />
             <div className="eventPostText">
-                
-                <div className="eventPostDateTimeLocation"> 
+
+                <div className="eventPostDateTimeLocation">
                     <p>{eventMonth}</p>
                     <p>{eventLocation}</p>
                     <p>{eventTime}</p>
@@ -29,19 +29,19 @@ export const Post = (props) => {
             </div>
         </div>
     );
-}
+};
 
-export const UpcomingPost = (props) => {
+export const UpcomingPost = props => {
     const {
         image,
         eventDate,
         eventLocation,
         postTitle,
-        postDesc,
+        postDesc
     } = props;
     return (
         <div className="eventUpPost">
-            <img src={image} alt="eventImage"/>
+            <img src={image} alt="eventImage" />
             <div className="eventUpPostInfo">
                 <div className="eventUpPostHeader">
                     <h1>{postTitle}</h1>
@@ -58,4 +58,4 @@ export const UpcomingPost = (props) => {
             </div>
         </div>
     );
-}
+};

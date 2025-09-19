@@ -31,6 +31,8 @@
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
+    "src/**/*.jsx",
+    "src/**/*.js",
     "vite.config.ts",
     "react-router.config.ts",
     ".react-router/types/**/*"
