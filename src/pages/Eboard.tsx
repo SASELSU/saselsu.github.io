@@ -31,7 +31,7 @@ import ProDevPic from "../assets/about/eboard/big_thanh.png";
 
 import "../styles/eboard.css";
 
-const EBoard = (): ReactNode => {
+const Eboard = (): ReactNode => {
     return (
         <>
             <div
@@ -163,4 +163,4 @@ const EBoard = (): ReactNode => {
     );
 };
 
-export default EBoard;
+export default Eboard;

@@ -1,13 +1,13 @@
 import { defineConfig, type UserConfig } from "vite";
 
-import { reactRouter } from "@react-router/dev/vite";
+import react from "@vitejs/plugin-react";
 import devtoolsJson from "vite-plugin-devtools-json";
 import { ViteImageOptimizer } from "vite-plugin-image-optimizer";
 
-export default defineConfig(({ command, mode }) => {
+export default defineConfig(({ mode }) => {
     const isDev = mode === "development";
     const plugins: UserConfig["plugins"] = [
-        reactRouter()
+        react()
     ];
 
     plugins.push(isDev
@@ -41,18 +41,6 @@ export default defineConfig(({ command, mode }) => {
         json: {
             stringify: true
         },
-
-        /**
-         * Workaround for missing `renderToPipeableStream` export.
-         * @link https://github.com/remix-run/react-router/issues/12568
-         */
-        resolve: command === "build"
-            ? {
-                alias: {
-                    "react-dom/server": "react-dom/server.node"
-                }
-            }
-            : undefined,
 
         plugins,
 
