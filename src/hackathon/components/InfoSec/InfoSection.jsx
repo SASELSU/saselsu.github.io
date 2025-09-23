@@ -97,8 +97,7 @@ function InfoSection () {
                 />
                 <DirtCard
                     title="Sign Up"
-                    content="Sign Up Form will be ready in: "
-                    openDate={new Date("2025-08-30")}
+                    content={<a href="https://forms.gle/mUimRM4dYaDRVx7h9">Sign up form</a>}
                     backTitle="Location"
                     backContent="LSU ENGINEERING BUILDING: Patrick F. Taylor Hall, 3304 S Quad Dr Baton Rouge, LA 70803 United States"
                     width={400}
