@@ -15,6 +15,8 @@ const apiKey = "AIzaSyAwKJsagVX-8EzWQlN96wLXrpguEJu7auk";
 /// / HELPER FUNCTIONS
 // splits apart date and time into two separate entities
 // TODO: type this properly.
+// TODO: put fetching code into a separate file, then import. that way, the code can be reused b/t events & gallery
+// TODO: fix the event component (curse you, ricky)
 function formatEventDate (event: any): Record<"date" | "time", string> {
     const isAllDay = !!event.start.date;
 
@@ -71,7 +73,7 @@ function formatEventDate (event: any): Record<"date" | "time", string> {
     }
 }
 
-/// / PAGE CONTENT
+//// PAGE CONTENT
 const Events = () => {
     usePageTracking("Events Page");
 
