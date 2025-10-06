@@ -93,16 +93,17 @@ const Gallery = () => {
               const res = await fetch(url);
               const data = await res.json();
   
-              const eventList = data.items.map(event => {
+              const eventList = data.items.map((event: { summary: string; location: string; description: string; }) => {
                   const title = event.summary || "No title";
                   const { date, time } = formatEventDate(event);
                   const location = event.location || "No location provided";
   
                   let desc = "No description provided";
                   let imgUrl = "";
-                  let galleryUrl = "";
+                  let galleryUrl = "#";
   
-                  if (event.description) {
+                  // uncomment when vincent updates the facebook page (take your time bro)
+                  /*if (event.description) {
                       const parts = event.description.split(",");
                       desc = parts[0]?.trim() || "No description provided";
   
@@ -119,7 +120,7 @@ const Gallery = () => {
                           galleryLink = matchGallery[1];
                       }
                       galleryUrl = galleryLink
-                  }
+                  }*/
   
                   return {
                       title,
@@ -151,9 +152,34 @@ const Gallery = () => {
       </div>
 
       <div className="gallery">
+        <div>
+            {/* drop down for semester */}
+            <select name="dropdown">
+                <option value="fall">fall</option>
+                <option value="spring">spring</option>
+            </select>
+
+            {/* drop down for school year (make sure to automate and add a year every Jan 1st, but that's for later me to worry about lol*/}
+            <select name="dropdown">
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+                <option value="2025">2025</option>
+            </select>
+        </div>
         <h1>Fall 24'</h1>
         <div className="galleryCardContainer">
-          {events.map((ev, i) => (
+            <GalleryCard
+              key={1}
+              image={'https://scontent-dfw5-2.cdninstagram.com/v/t51.75761-15/488368746_18136706764394884_3088724195772795059_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=106&ig_cache_key=MzYxMDcxODYzMjk3MzYyMzgzNA%3D%3D.3-ccb1-7&ccb=1-7&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjEwODB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=GJd2jsrP2GUQ7kNvwFW-bPY&_nc_oc=AdklJjvN89w7JyBJbxnbzRFffyId8s_dpYJwIC6EuHVwgprmfRYjW2BDcE_BaxNef9V1UglD77s_Uye5UcrRUNI8&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dfw5-2.cdninstagram.com&_nc_gid=Wt2VgoRQAPGjXhJLLIPLZg&oh=00_AfYuYYDT4A_riuE79Q89VRaO5b6XZuhXN2qHbvgdbVqpig&oe=68E46512'}
+              title={'Relax-SASE-tion'}
+              date={'April 22nd'}
+              link={'https://www.facebook.com/media/set/?set=a.1116871087135206&type=3'}
+            />
+          {/*events.map((ev, i) => (
             <GalleryCard
               key={i}
               image={ev.image}
@@ -161,7 +187,7 @@ const Gallery = () => {
               date={ev.date}
               link={ev.gallery}
             />
-          ))}
+          ))*/}
         </div>
       </div>
     </>
