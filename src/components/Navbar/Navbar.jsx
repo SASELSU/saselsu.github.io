@@ -53,7 +53,7 @@ const NavMenu = () => {
                 </div>
                 <p>Links</p>
                 <div className="navMenuLinkContainer">
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSeA_kO3N-GTOMnouhRn2KbhGrWQXLfV3ZSCyDVIBEeLVhVzgw/viewform?usp=sf_link" target="_blank" rel="noreferrer">
+                    <a href="https://tr.ee/4-Z5qV6ttc" target="_blank" rel="noreferrer">
                         Membership
                     </a>
                     <a href="https://lsu.prevent.zone" target="_blank" rel="noreferrer">

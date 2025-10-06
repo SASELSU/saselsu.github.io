@@ -1,159 +1,171 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "../styles/gallery.css";
 
 import Backdrop from "../assets/gallery/galleryBackdrop.png";
 import { GalleryCard } from "./helpers/galleryHelpers";
 
 /* fall 24 */
-import TigerConnections from "../assets/gallery/fall24/TigerConnections.jpeg";
-import BobaSocial24 from "../assets/gallery/fall24/bobaSocial24.png";
-import DowWorkshop24 from "../assets/gallery/fall24/DOWWorkshop24.jpeg";
-import Pickleball24 from "../assets/gallery/fall24/galleryPickleballSocial.jpeg";
-import FallFest24 from "../assets/gallery/fall24/galleryFallFest.jpeg";
-import ExxonMock from "../assets/gallery/fall24/exxonmockinterview24.png";
-import PaintF24 from "../assets/gallery/fall24/paintsocialfall24.jpg";
-import GBM2F24 from "../assets/gallery/fall24/gbm2.jpg";
-import GeauxHackWorkshopsF24 from "../assets/gallery/fall24/hackathonWorkshops.jpg";
-import GeauxHackF24 from "../assets/gallery/fall24/GeauxHack.jpg";
-import FiveKRun from "../assets/gallery/fall24/5k.jpg";
-import BooAtZoo from "../assets/gallery/fall24/booAtTheZoo.jpg";
-import SASExAEDMCAT from "../assets/gallery/fall24/SASEAEDMCAT.jpg";
-import CAA from "../assets/gallery/fall24/animalAlliance.png";
-import MovieNight from "../assets/gallery/fall24/movienight.jpg";
-import GBM3F24 from "../assets/gallery/fall24/gbm3.jpg";
-import Potluck from "../assets/gallery/fall24/potluck.jpg";
 import Quinlan from "../assets/gallery/fall24/quinlan.jpg";
 
 import usePageTracking from "../components/Common/TrafficTracker";
+
+// calendar info
+const calendarId
+    = "c_3e3bac86e0f1dd70db73d31f7f2b024ea08ca141e7686840b4690786a34c0436@group.calendar.google.com";
+const apiKey = "AIzaSyAwKJsagVX-8EzWQlN96wLXrpguEJu7auk";
+
+/// / HELPER FUNCTIONS
+// splits apart date and time into two separate entities
+// TODO: type this properly.
+function formatEventDate (event: any): Record<"date" | "time", string> {
+    const isAllDay = !!event.start.date;
+
+    const dateFormatter = new Intl.DateTimeFormat("en-US", {
+        weekday: "short",
+        month: "short",
+        day: "numeric"
+    });
+
+    const dateTimeFormatter = new Intl.DateTimeFormat("en-US", {
+        weekday: "short",
+        month: "short",
+        day: "numeric"
+    });
+
+    const timeFormatter = new Intl.DateTimeFormat("en-US", {
+        hour: "numeric",
+        minute: "2-digit"
+    });
+
+    if (isAllDay) {
+        const startStr = event.start.date;
+        const endStr = event.end.date;
+
+        const [startY, startM, startD] = startStr.split("-").map(Number);
+        const [endY, endM, endD] = endStr.split("-").map(Number);
+
+        const startDate = new Date(startY, startM - 1, startD);
+        const realEnd = new Date(endY, endM - 1, endD - 1);
+
+        if (startDate.getTime() === realEnd.getTime()) {
+            return { date: dateFormatter.format(startDate), time: "All day" };
+        } else {
+            return {
+                date: `${dateFormatter.format(startDate)} - ${dateFormatter.format(realEnd)}`,
+                time: "All day"
+            };
+        }
+    } else {
+        const startDate = new Date(event.start.dateTime);
+        const endDate = new Date(event.end.dateTime);
+
+        if (startDate.toDateString() === endDate.toDateString()) {
+            return {
+                date: dateTimeFormatter.format(startDate),
+                time: `${timeFormatter.format(startDate)} - ${timeFormatter.format(endDate)}`
+            };
+        } else {
+            return {
+                date: `${dateTimeFormatter.format(startDate)} - ${dateTimeFormatter.format(endDate)}`,
+                time: `${timeFormatter.format(startDate)} - ${timeFormatter.format(endDate)}`
+            };
+        }
+    }
+}
+
+//TODO: add a way to filter to get events from a specific semester
+//TODO: add events to google calendar from way back (and I mean wayyy back)
 const Gallery = () => {
-    usePageTracking("Gallery Page");
-    return (
-        <>
-            <div
-                className="galleryTitleCard"
-                style={{ backgroundImage: `url(${Backdrop})` }}
-            >
-                <div className="galleryColorOverlay" />
-                <h1>GALLERY</h1>
-            </div>
+  usePageTracking("Gallery Page");
 
-            <div className="gallery">
-                <h1>Fall 24'</h1>
-                <div className="galleryCardContainer">
-                    <GalleryCard
-                        image={Quinlan}
-                        title="SASExAED Quinlan Talk"
-                        date="NOV 21 2024"
-                        link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
-                    />
-                    <GalleryCard
-                        image={Potluck}
-                        title="SASExVSA Potluck"
-                        date="NOV 15 2024"
-                        link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
-                    />
-                    <GalleryCard
-                        image={GBM3F24}
-                        title="GBM 3: Despicable Me"
-                        date="NOV 14 2024"
-                        link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
-                    />
-                    <GalleryCard
-                        image={MovieNight}
-                        title="Movie Night: Rush Hour"
-                        date="NOV 12 2024"
-                        link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
-                    />
-                    <GalleryCard
-                        image={SASExAEDMCAT}
-                        title="SASExAED MCAT Prep"
-                        date="NOV 7 2024"
-                        link="https://www.facebook.com/media/set/?set=a.984937966995186&type=3"
-                    />
-                    <GalleryCard
-                        image={CAA}
-                        title="CAA Volunteering"
-                        date="NOV 5 2024"
-                        link="https://www.facebook.com/media/set/?set=a.984949486994034&type=3"
-                    />
+  const [events, setEvents] = useState([]);
+  
+      // display information fetched from the Google Calendar
+      // activates when page first loads, if there are changes, user must reload the page
+      useEffect(() => {
+          async function fetchUpcomingEvents () {
+              const timeMin = new Date().toISOString();
+  
+              const url = `https://www.googleapis.com/calendar/v3/calendars/${encodeURIComponent(
+                  calendarId
+              )}/events?key=${apiKey}&singleEvents=true&orderBy=startTime&timeMin=${timeMin}&maxResults=5`;
+  
+              const res = await fetch(url);
+              const data = await res.json();
+  
+              const eventList = data.items.map(event => {
+                  const title = event.summary || "No title";
+                  const { date, time } = formatEventDate(event);
+                  const location = event.location || "No location provided";
+  
+                  let desc = "No description provided";
+                  let imgUrl = "";
+                  let galleryUrl = "";
+  
+                  if (event.description) {
+                      const parts = event.description.split(",");
+                      desc = parts[0]?.trim() || "No description provided";
+  
+                      let imgCandidate = parts[1]?.trim() || "";
+                      const match = imgCandidate.match(/href="([^"]+)"/);
+                      if (match?.[1]) {
+                          imgCandidate = match[1];
+                      }
+                      imgUrl = imgCandidate;
 
-                    <GalleryCard
-                        image={FiveKRun}
-                        title="5K Run Volunteering"
-                        date="NOV 1 2024"
-                        link="https://www.facebook.com/media/set/?set=a.980571587431824&type=3"
-                    />
-                    <GalleryCard
-                        image={GeauxHackF24}
-                        title="GeauxHack '24"
-                        date="NOV 1-3 2024"
-                        link="https://www.facebook.com/media/set/?set=a.980556994099950&type=3"
-                    />
-                    <GalleryCard
-                        image={GeauxHackWorkshopsF24}
-                        title="GeauxHack Workshops"
-                        date="OCT 23, 28, 30 2024"
-                        link="https://www.facebook.com/media/set/?set=a.974575718031411&type=3"
-                    />
-                    <GalleryCard
-                        image={BooAtZoo}
-                        title="Boo At The Zoo"
-                        date="OCT 26, 27 2024"
-                        link="https://www.facebook.com/media/set/?set=a.980880604067589&type=3"
-                    />
-                    <GalleryCard
-                        image={GBM2F24}
-                        title="GBM 2: One Piece"
-                        date="OCT 24 2024"
-                        link="https://www.facebook.com/media/set/?set=a.974585968030386&type=3"
-                    />
-                    <GalleryCard
-                        image={PaintF24}
-                        title="Painting Social"
-                        date="OCT 15 2024"
-                        link="https://www.facebook.com/media/set/?set=a.967746402047676&type=3"
-                    />
-                    <GalleryCard
-                        image={ExxonMock}
-                        title="Exxon Mock Interview"
-                        date="SEPT 30 2024"
-                        link="https://www.facebook.com/media/set/?set=a.955275746628075&type=3"
-                    />
-                    <GalleryCard
-                        image={FallFest24}
-                        title="Fall Fest"
-                        date="SEPT 20 2024"
-                        link="https://www.facebook.com/media/set/?set=a.946623720826611&type=3"
-                    />
-                    <GalleryCard
-                        image={Pickleball24}
-                        title="Pickleball x DOW Social"
-                        date="SEPT 19 2024"
-                        link="https://www.facebook.com/media/set/?set=a.946620777493572&type=3"
-                    />
-                    <GalleryCard
-                        image={BobaSocial24}
-                        title="GBM 1: Boba Social"
-                        date="SEPT 5 2024"
-                        link="https://www.facebook.com/media/set/?set=a.935833585238958&type=3"
-                    />
-                    <GalleryCard
-                        image={DowWorkshop24}
-                        title="Dow PD Workshop"
-                        date="SEPT 4 2024"
-                        link="https://www.facebook.com/media/set/?set=a.935800311908952&type=3"
-                    />
-                    <GalleryCard
-                        image={TigerConnections}
-                        title="Tiger Connections"
-                        date="AUG 29 2024"
-                        link="https://www.facebook.com/media/set/?set=a.933565605465756&type=3"
-                    />
-                </div>
-            </div>
-        </>
+                      let galleryLink = parts[2]?.trim() || "";
+                      const matchGallery = galleryLink.match(/href="([^"]+)"/);
+                      if (matchGallery?.[1]) {
+                          galleryLink = matchGallery[1];
+                      }
+                      galleryUrl = galleryLink
+                  }
+  
+                  return {
+                      title,
+                      date,
+                      time,
+                      location,
+                      description: desc,
+                      image: imgUrl,
+                      gallery: galleryUrl
+                  };
+              });
+  
+              setEvents(eventList);
+  
+              // console debug
+              console.log("Fetched events:", eventList);
+          }
+  
+          void fetchUpcomingEvents();
+      }, []);
+  return (
+    <>
+      <div
+        className="galleryTitleCard"
+        style={{ backgroundImage: `url(${Backdrop})` }}
+      >
+        <div className="galleryColorOverlay" />
+        <h1>GALLERY</h1>
+      </div>
 
-    );
+      <div className="gallery">
+        <h1>Fall 24'</h1>
+        <div className="galleryCardContainer">
+          {events.map((ev, i) => (
+            <GalleryCard
+              key={i}
+              image={ev.image}
+              title={ev.title}
+              date={ev.date}
+              link={ev.gallery}
+            />
+          ))}
+        </div>
+      </div>
+    </>
+  );
 };
 
 export default Gallery;

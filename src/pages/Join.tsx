@@ -99,12 +99,12 @@ const Join = () => {
                             <h2>
                                 Step 2. Complete the Hazing Prevention Training
                             </h2>
-                            <p><a href="https://lsu.prevent.zone">This is the link to complete the training.</a> Make sure to save a copy of the Hazing Prevention Training Certificate in a PDF format. Name your file with the following naming convention: LastName_FirstName_HPT (ex. Tiger_Mike_HPT). You'll need this in the next step.</p>
+                            <p><a href="https://lsu.prevent.zone">This is the link to complete the training.</a> When you are done with the two modules, make sure to save a copy of each of the Hazing Prevention Training Certificates in a PDF format. Name your file with the following naming convention: LastName, FirstName Hazing Certificate (ex. Tiger, Mike Hazing Certificate). You'll need this in the next step.</p>
                             <h2>
                                 Step 3. Complete the Membership Form
                             </h2>
                             <p>
-                                <a href="https://forms.gle/ReripJAo7mX6MvSZ7">The link for the membership form is here.</a>
+                                <a href="https://tr.ee/4-Z5qV6ttc">The link for the membership form is here.</a>
                             </p>
                             <h2>
                                 Step 4. Yippeeeeeeeee!!
