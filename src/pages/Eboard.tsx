@@ -1,4 +1,4 @@
-import { ReactNode } from "react";
+//import { ReactNode } from "react";
 
 import Backdrop from "../assets/eboard/eboardBackdrop.png";
 import {
@@ -31,7 +31,7 @@ import ProDevPic from "../assets/about/eboard/big_thanh.png";
 
 import "../styles/eboard.css";
 
-const Eboard = (): ReactNode => {
+const Eboard = ()/*: ReactNode*/ => {
     return (
         <>
             <div
@@ -42,7 +42,7 @@ const Eboard = (): ReactNode => {
                 <h1>EBOARD</h1>
             </div>
             <div className="eboard">
-                <h1>Meet the 2024 - 2025 Board!</h1>
+                {/*<h1>Meet the 2024 - 2025 Board!</h1>
                 <div className="eboardCardHolder">
                     <DescriptionCard
                         intro="Hey, I'm Faris!"
@@ -155,7 +155,7 @@ const Eboard = (): ReactNode => {
                         a1="On-campus involvement is underrated. Finding student org involvement at LSU makes campus feel alive and welcoming. To me, SASE combines the advantages of a career-focused club with the community of a hobby club, and I found that vibe really appealing."
                         linkedin="https://www.linkedin.com/in/thanh-kirsch/"
                     />
-                </div>
+                </div>*/}
 
             </div>
         </>

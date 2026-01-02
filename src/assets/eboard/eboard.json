@@ -1,0 +1,122 @@
+[
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "President",
+    "name": "Galvin Wong",
+    "major": "4th year Mechanical Engineering",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "[blank] Vice President",
+    "name": "Jennie Tran",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "[blank] Vice President",
+    "name": "Himangini Chauhan",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "Secretary",
+    "name": "Urwah ?",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "Treasurer",
+    "name": "Jon ?",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "What's good, chat! I'm Andrew :D",
+    "position": "Public Relations Chair",
+    "name": "Andrew Tran",
+    "major": "4th Year Computer Science, Second Discipline",
+    "image": "[image link]",
+    "question": "What does SASE mean to you?",
+    "answer": "SASE was a group that had people that had the same goals as me or were just as silly as me. I always enjoyed being able to come to a meeting or event and knowing that the people there would be able to match my energy but also help me become more professional. The change over the years has been so drastic that I'm proud to say I was a part of SASE for so long 🥹",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "Historian",
+    "name": "Vincent Greco",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "Graphic Designer",
+    "name": "Susan ?",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "#"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "Fundraising Chair",
+    "name": "Daniel Huang",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "Outreach Chair",
+    "name": "Hams ?",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello, my name is [blank]",
+    "position": "Professional Development Chair",
+    "name": "Vinh Bui",
+    "major": "[x]th year [major], [concentration - optional]",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  },
+  {
+    "intro": "Hello world, I'm Helena",
+    "position": "Webmaster",
+    "name": "Helena Schuler",
+    "major": "4th Year Computer Science, Software Engineering",
+    "image": "[image link]",
+    "question": "[question]",
+    "answer": "[answer]",
+    "linkedin": "[linkedin - link (put # if none)]"
+  }
+]
