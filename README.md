@@ -14,7 +14,7 @@
 
 
 # saselsu.org
-The SASE@LSU website.
+Welcome to the official GitHub repository for the SASE@LSU website. Visit [official SASE@LSU website](https://www.saselsu.org/) to find more information about our club, like what our organization is all about, how to join, and future event information. We hope to see you at our next meeting!
 
 ## Prerequisites
  * [bun](https://bun.sh)
