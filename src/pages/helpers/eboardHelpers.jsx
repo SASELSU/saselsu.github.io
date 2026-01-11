@@ -26,11 +26,11 @@ export const DescriptionCard = props => {
     return (
         <div className="eboardCard">
             <div className="eboardCardInformation">
-                <h1>{intro}</h1>
+                <h1 style={{ lineHeight: 0.9}}>{intro}</h1>
                 <p>{major}</p>
 
                 <h2>{q1}</h2>
-                <p>{a1}</p>
+                <p style={{ whiteSpace: "pre-line" }}>{a1}</p>
                 <p>{webmasterthing}</p>
                 <ColorLinkedinIcon
                     link={linkedin}
