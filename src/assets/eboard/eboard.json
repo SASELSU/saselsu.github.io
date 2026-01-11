@@ -1,122 +1,122 @@
 [
   {
-    "intro": "Hello, my name is [blank]",
+    "intro": "Am I performative now?",
     "position": "President",
     "name": "Galvin Wong",
-    "major": "4th year Mechanical Engineering",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "major": "Senior - Mechanical Engineering",
+    "image": "PresidentPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Pompompurin\nDislikes: Cinnamoroll",
+    "linkedin": "https://www.linkedin.com/in/galvin-wong-a21754291"
   },
   {
-    "intro": "Hello, my name is [blank]",
-    "position": "[blank] Vice President",
-    "name": "Jennie Tran",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
-  },
-  {
-    "intro": "Hello, my name is [blank]",
-    "position": "[blank] Vice President",
+    "intro": "I guess we’ll find out",
+    "position": "External Vice President",
     "name": "Himangini Chauhan",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "major": "Junior - Mechanical Engineering",
+    "image": "ExternalVicePresidentPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Spontaneous adventures\nDislikes: Littering",
+    "linkedin": "https://www.linkedin.com/in/himangini-chauhan-007bb4226/"
   },
   {
-    "intro": "Hello, my name is [blank]",
+    "intro": "You were two steps too late!!",
+    "position": "Internal Vice President",
+    "name": "Jennie Tran",
+    "major": "Senior - Mechanical Engineering",
+    "image": "InternalVicePresidentPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Roller coasters\nDislikes: Dog drool",
+    "linkedin": "https://www.linkedin.com/in/jtran14/"
+  },
+  {
+    "intro": "Chose hard mode, forgot the tutorial",
     "position": "Secretary",
-    "name": "Urwah ?",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "name": "Urwah Abbas",
+    "major": "Sophomore - Biological Engineering / Psychology",
+    "image": "SecretaryPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Baking, Running, Hiking, Mosaicking\nDislikes: Onions",
+    "linkedin": "https://www.linkedin.com/in/urwah-abbas/"
   },
   {
-    "intro": "Hello, my name is [blank]",
+    "intro": "Yuh",
     "position": "Treasurer",
-    "name": "Jon ?",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "name": "Jon Nguyen",
+    "major": "Junior - Nutrition (Pre-Med)",
+    "image": "TreasurerPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Taco Bell Chicken Chalupa, Side Quests, and my iPad\nDislikes: Sweet Potatoes",
+    "linkedin": "https://www.linkedin.com/company/sase-lsu/"
   },
   {
-    "intro": "What's good, chat! I'm Andrew :D",
+    "intro": "It’s for the bit",
     "position": "Public Relations Chair",
     "name": "Andrew Tran",
-    "major": "4th Year Computer Science, Second Discipline",
-    "image": "[image link]",
-    "question": "What does SASE mean to you?",
-    "answer": "SASE was a group that had people that had the same goals as me or were just as silly as me. I always enjoyed being able to come to a meeting or event and knowing that the people there would be able to match my energy but also help me become more professional. The change over the years has been so drastic that I'm proud to say I was a part of SASE for so long 🥹",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "major": "Senior - Computer Science, Second Discipline",
+    "image": "PublicRelationsPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Min\nDislikes: Anything against Galvin Wong",
+    "linkedin": "https://www.linkedin.com/in/andrew-tran-368170251/"
   },
   {
-    "intro": "Hello, my name is [blank]",
+    "intro": "Who, me?",
     "position": "Historian",
     "name": "Vincent Greco",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "major": "Sophomore - Biology",
+    "image": "HistorianPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Climbing Rocks, All Music, Hiking, Photography, Wood Working\nDislikes: Homework, Bedtime, Snakes",
+    "linkedin": "https://www.linkedin.com/company/sase-lsu/"
   },
   {
-    "intro": "Hello, my name is [blank]",
+    "intro": "Yo, can I get a ride?",
     "position": "Graphic Designer",
-    "name": "Susan ?",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "#"
+    "name": "Susan Xiao",
+    "major": "Sophomore - Art & Design",
+    "image": "GraphicDesignPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Miffy, Artbooks, Jesters\nDislikes: Fish",
+    "linkedin": "https://www.linkedin.com/company/sase-lsu/"
   },
   {
-    "intro": "Hello, my name is [blank]",
+    "intro": "I’m lowkey hungry",
     "position": "Fundraising Chair",
     "name": "Daniel Huang",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "major": "Sophomore - Mechanical Engineering",
+    "image": "FundraisingPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Cooking, Pickleball\nDislikes: Namor Hela teamup",
+    "linkedin": "https://www.linkedin.com/in/daniel-huang-10ba92301/"
   },
   {
-    "intro": "Hello, my name is [blank]",
+    "intro": "Everything happens for a reason, right?",
     "position": "Outreach Chair",
-    "name": "Hams ?",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "name": "Hams Abdulqader",
+    "major": "Sophomore - Biological Engineering",
+    "image": "OutreachPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Late night drives and working out\nDislikes: Horror movies",
+    "linkedin": "https://www.linkedin.com/company/sase-lsu/"
   },
   {
-    "intro": "Hello, my name is [blank]",
+    "intro": "I was just joking guys",
     "position": "Professional Development Chair",
     "name": "Vinh Bui",
-    "major": "[x]th year [major], [concentration - optional]",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "major": "Sophomore - Chemical Engineering",
+    "image": "ProDevPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Trying new foods, Lion dancing\nDislikes: Slow drivers on the left lane",
+    "linkedin": "https://www.linkedin.com/in/vinh-bui-lsu/"
   },
   {
-    "intro": "Hello world, I'm Helena",
+    "intro": "Guess who’s right again~",
     "position": "Webmaster",
     "name": "Helena Schuler",
-    "major": "4th Year Computer Science, Software Engineering",
-    "image": "[image link]",
-    "question": "[question]",
-    "answer": "[answer]",
-    "linkedin": "[linkedin - link (put # if none)]"
+    "major": "Senior - Computer Science, Software Engineering",
+    "image": "WebmasterPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Anything cute\nDislikes: Driving",
+    "linkedin": "https://www.linkedin.com/in/helenaschuler/"
   }
 ]
