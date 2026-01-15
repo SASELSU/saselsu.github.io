@@ -36,7 +36,7 @@ import TreasurerPic from "../assets/about/eboard/jon.png";
 import PublicRelationsPic from "../assets/about/eboard/andrew.png";
 import HistorianPic from "../assets/about/eboard/vincent.png";
 import GraphicDesignPic from "../assets/about/eboard/susan.png";
-import WebmasterPic from "../assets/about/eboard/me.png";
+import WebmasterPic from "../assets/about/eboard/me_edit_v1.png";
 import FundraisingPic from "../assets/about/eboard/daniel.png";
 import OutreachPic from "../assets/about/eboard/hams.png";
 import ProDevPic from "../assets/about/eboard/vinh.png";
