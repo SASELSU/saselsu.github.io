@@ -23,7 +23,7 @@ import Marathon from "../assets/home/sponsors/marathon.png";
 import Shell from "../assets/home/sponsors/Shell_logo.svg.png";
 import Chevron from "../assets/home/sponsors/Chevron.webp";
 
-import Calendar from "../assets/home/calendars/SASE_Calendar_2025-2026_1.png";
+import Calendar from "../assets/home/calendars/SASE_Calendar_Jan2026.png";
 import SponsorshipPacket from "../assets/SASE@LSU Sponsorship.pdf";
 
 import "../styles/home.css";
@@ -49,6 +49,7 @@ export default function Home () {
 
     useEffect(() => {
         // "dont worry about this" - Ricky Liang, 2024
+        // "whatever you say" - Helena Schuler, 2026
         resetTimeout();
         timeoutRef.current = setTimeout(() => setIndex(i => (i + 1) % backgrounds.length), delay);
 
