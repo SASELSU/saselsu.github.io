@@ -1,6 +1,5 @@
-import { ReactNode } from "react";
-
-import Backdrop from "../assets/eboard/eboardBackdrop.png";
+import Backdrop from "../assets/about/eboard/everyone.jpg";
+import eboardData from '../assets/eboard/eboard.json';
 import {
     DescriptionCard
 } from "./helpers/eboardHelpers";
@@ -17,7 +16,7 @@ import {
 // import FundraisingPic from "../assets/about/eboard/winson_liu.png"
 // import OutreachPic from "../assets/about/eboard/himangini_chauhan.png"
 // import ProDevPic from "../assets/about/eboard/thanh_kirsch.png"
-import PresidentPic from "../assets/about/eboard/big_faris.png";
+/*import PresidentPic from "../assets/about/eboard/big_faris.png";
 import VicePresidentPic from "../assets/about/eboard/big_grishma.png";
 import SecretaryPic from "../assets/about/eboard/big_jennie.png";
 import TreasurerPic from "../assets/about/eboard/big_galvin.png";
@@ -27,11 +26,41 @@ import GraphicDesignPic from "../assets/about/eboard/big_kris.png";
 import WebmasterPic from "../assets/about/eboard/big_ricky.png";
 import FundraisingPic from "../assets/about/eboard/big_winson.png";
 import OutreachPic from "../assets/about/eboard/big_himangini.png";
-import ProDevPic from "../assets/about/eboard/big_thanh.png";
+import ProDevPic from "../assets/about/eboard/big_thanh.png";*/
+
+import PresidentPic from "../assets/about/eboard/galvin.jpg";
+import ExternalVicePresidentPic from "../assets/about/eboard/himangini.png";
+import InternalVicePresidentPic from "../assets/about/eboard/jennie.png";
+import SecretaryPic from "../assets/about/eboard/urwah.png";
+import TreasurerPic from "../assets/about/eboard/jon.png";
+import PublicRelationsPic from "../assets/about/eboard/andrew.png";
+import HistorianPic from "../assets/about/eboard/vincent.png";
+import GraphicDesignPic from "../assets/about/eboard/susan.png";
+import WebmasterPic from "../assets/about/eboard/me.png";
+import FundraisingPic from "../assets/about/eboard/daniel.png";
+import OutreachPic from "../assets/about/eboard/hams.png";
+import ProDevPic from "../assets/about/eboard/vinh.png";
+
+
 
 import "../styles/eboard.css";
 
-const Eboard = (): ReactNode => {
+const imageMap: Record<string, string> = {
+  PresidentPic,
+  ExternalVicePresidentPic,
+  InternalVicePresidentPic,
+  SecretaryPic,
+  TreasurerPic,
+  PublicRelationsPic,
+  HistorianPic,
+  GraphicDesignPic,
+  WebmasterPic,
+  FundraisingPic,
+  OutreachPic,
+  ProDevPic,
+};
+
+const Eboard = ()/*: ReactNode*/ => {
     return (
         <>
             <div
@@ -42,7 +71,34 @@ const Eboard = (): ReactNode => {
                 <h1>EBOARD</h1>
             </div>
             <div className="eboard">
-                <h1>Meet the 2024 - 2025 Board!</h1>
+                <div
+  className="eboard"
+  style={{
+    display: "grid",
+    gridTemplateColumns: "repeat(3, 1fr)",
+    gap: "2rem",
+    maxWidth: "1200px",
+    margin: "0 auto",
+    padding: "3rem 1.5rem",
+  }}
+>
+  {eboardData.map((member, i) => (
+    <DescriptionCard
+      key={i}
+      intro={member.intro}
+      title={member.position}
+      name={member.name}
+      major={member.major}
+      image={imageMap[member.image]}
+      q1={member.question}
+      a1={member.answer}
+      linkedin={member.linkedin}
+    />
+  ))}
+</div>
+
+
+                {/*<h1>Meet the 2024 - 2025 Board!</h1>
                 <div className="eboardCardHolder">
                     <DescriptionCard
                         intro="Hey, I'm Faris!"
@@ -155,7 +211,7 @@ const Eboard = (): ReactNode => {
                         a1="On-campus involvement is underrated. Finding student org involvement at LSU makes campus feel alive and welcoming. To me, SASE combines the advantages of a career-focused club with the community of a hobby club, and I found that vibe really appealing."
                         linkedin="https://www.linkedin.com/in/thanh-kirsch/"
                     />
-                </div>
+                </div>*/}
 
             </div>
         </>

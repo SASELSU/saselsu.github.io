@@ -1,0 +1,122 @@
+[
+  {
+    "intro": "Am I performative now?",
+    "position": "President",
+    "name": "Galvin Wong",
+    "major": "Senior - Mechanical Engineering",
+    "image": "PresidentPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Pompompurin\nDislikes: Cinnamoroll",
+    "linkedin": "https://www.linkedin.com/in/galvin-wong-a21754291"
+  },
+  {
+    "intro": "I guess we’ll find out",
+    "position": "External Vice President",
+    "name": "Himangini Chauhan",
+    "major": "Junior - Mechanical Engineering",
+    "image": "ExternalVicePresidentPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Spontaneous adventures\nDislikes: Littering",
+    "linkedin": "https://www.linkedin.com/in/himangini-chauhan-007bb4226/"
+  },
+  {
+    "intro": "You were two steps too late!!",
+    "position": "Internal Vice President",
+    "name": "Jennie Tran",
+    "major": "Senior - Mechanical Engineering",
+    "image": "InternalVicePresidentPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Roller coasters\nDislikes: Dog drool",
+    "linkedin": "https://www.linkedin.com/in/jtran14/"
+  },
+  {
+    "intro": "Chose hard mode, forgot the tutorial",
+    "position": "Secretary",
+    "name": "Urwah Abbas",
+    "major": "Sophomore - Biological Engineering / Psychology",
+    "image": "SecretaryPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Baking, Running, Hiking, Mosaicking\nDislikes: Onions",
+    "linkedin": "https://www.linkedin.com/in/urwah-abbas/"
+  },
+  {
+    "intro": "Yuh",
+    "position": "Treasurer",
+    "name": "Jon Nguyen",
+    "major": "Junior - Nutrition (Pre-Med)",
+    "image": "TreasurerPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Taco Bell Chicken Chalupa, Side Quests, and my iPad\nDislikes: Sweet Potatoes",
+    "linkedin": "https://www.linkedin.com/company/sase-lsu/"
+  },
+  {
+    "intro": "It’s for the bit",
+    "position": "Public Relations Chair",
+    "name": "Andrew Tran",
+    "major": "Senior - Computer Science, Second Discipline",
+    "image": "PublicRelationsPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Min\nDislikes: Anything against Galvin Wong",
+    "linkedin": "https://www.linkedin.com/in/andrew-tran-368170251/"
+  },
+  {
+    "intro": "Who, me?",
+    "position": "Historian",
+    "name": "Vincent Greco",
+    "major": "Sophomore - Biology",
+    "image": "HistorianPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Climbing Rocks, All Music, Hiking, Photography, Wood Working\nDislikes: Homework, Bedtime, Snakes",
+    "linkedin": "https://www.linkedin.com/company/sase-lsu/"
+  },
+  {
+    "intro": "Yo, can I get a ride?",
+    "position": "Graphic Designer",
+    "name": "Susan Xiao",
+    "major": "Sophomore - Art & Design",
+    "image": "GraphicDesignPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Miffy, Artbooks, Jesters\nDislikes: Fish",
+    "linkedin": "https://www.linkedin.com/company/sase-lsu/"
+  },
+  {
+    "intro": "I’m lowkey hungry",
+    "position": "Fundraising Chair",
+    "name": "Daniel Huang",
+    "major": "Sophomore - Mechanical Engineering",
+    "image": "FundraisingPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Cooking, Pickleball\nDislikes: Namor Hela teamup",
+    "linkedin": "https://www.linkedin.com/in/daniel-huang-10ba92301/"
+  },
+  {
+    "intro": "Everything happens for a reason, right?",
+    "position": "Outreach Chair",
+    "name": "Hams Abdulqader",
+    "major": "Sophomore - Biological Engineering",
+    "image": "OutreachPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Late night drives and working out\nDislikes: Horror movies",
+    "linkedin": "https://www.linkedin.com/company/sase-lsu/"
+  },
+  {
+    "intro": "I was just joking guys",
+    "position": "Professional Development Chair",
+    "name": "Vinh Bui",
+    "major": "Sophomore - Chemical Engineering",
+    "image": "ProDevPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Trying new foods, Lion dancing\nDislikes: Slow drivers on the left lane",
+    "linkedin": "https://www.linkedin.com/in/vinh-bui-lsu/"
+  },
+  {
+    "intro": "Guess who’s right again~",
+    "position": "Webmaster",
+    "name": "Helena Schuler",
+    "major": "Senior - Computer Science, Software Engineering",
+    "image": "WebmasterPic",
+    "question": "Likes & Dislikes",
+    "answer": "Likes: Anything cute\nDislikes: Driving",
+    "linkedin": "https://www.linkedin.com/in/helenaschuler/"
+  }
+]
