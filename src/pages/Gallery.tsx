@@ -160,14 +160,15 @@ const Gallery = () => {
       </div>
 
       <div className="gallery">
-        <div style={{ width: "30%", margin: "auto", marginTop: "2.5%", marginBottom: "2.5%", display: "flex", justifyContent: "center", alignItems: "center", padding: "1%", background: "white", borderRadius: "20px"}}>
+        <div style={{ width: "30%", margin: "auto", marginTop: "2.5%", marginBottom: "2.5%",  justifyContent: "center", alignItems: "center", padding: "1%", background: "white", borderRadius: "20px"}}>
+            <p>Choose a semester to see photos from:</p>
           <form onSubmit={handleSubmit}>
             {/* Semester dropdown */}
             <label>Semester: </label>
             <select
               value={semester}
               onChange={(e) => setSemester(e.target.value)}
-              style={{marginRight: "2%"}}
+              style={{marginRight: "2%", border: "none", borderRadius: "5px", color: "white", background: "rgb(0, 78, 100)", fontFamily: "Bebas Neue", padding: "5px", paddingLeft: "10px", paddingRight: "10px"}}
             >
               <option value="fall">fall</option>
               <option value="spring">spring</option>
@@ -176,7 +177,7 @@ const Gallery = () => {
             {/* Year dropdown */}
             {/* TODO: Make this automatically add a year every year*/}
             <label>Year: </label>
-            <select value={year} onChange={(e) => setYear(e.target.value)}>
+            <select value={year} style={{marginRight: "2%", border: "none", borderRadius: "5px", color: "white", background: "rgb(0, 78, 100)", fontFamily: "Bebas Neue", padding: "5px", paddingLeft: "10px", paddingRight: "10px"}} onChange={(e) => setYear(e.target.value)}>
               <option value="2019">2019</option>
               <option value="2020">2020</option>
               <option value="2021">2021</option>
@@ -187,7 +188,7 @@ const Gallery = () => {
               <option value="2026">2026</option>
             </select>
 
-            <button type="submit" style={{ border: "none", borderRadius: "5px", color: "white", background: "rgb(0, 78, 100)", fontFamily: ""}}>Submit</button>
+            <button type="submit" style={{ border: "none", borderRadius: "5px", color: "white", background: "rgb(0, 78, 100)", fontFamily: "Bebas Neue", padding: "5px", paddingLeft: "10px", paddingRight: "10px"}}>Submit</button>
           </form>
         </div>
         <div className="galleryCardContainer">
