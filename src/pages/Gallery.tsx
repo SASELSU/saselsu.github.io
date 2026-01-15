@@ -161,7 +161,7 @@ const Gallery = () => {
 
       <div className="gallery">
         <div style={{ width: "30%", margin: "auto", marginTop: "2.5%", marginBottom: "2.5%",  justifyContent: "center", alignItems: "center", padding: "1%", background: "white", borderRadius: "20px"}}>
-            <p>Choose a semester to see photos from:</p>
+            <p style={{ textAlign: "center"}}>Choose a semester to see photos from:</p>
           <form onSubmit={handleSubmit}>
             {/* Semester dropdown */}
             <label>Semester: </label>
