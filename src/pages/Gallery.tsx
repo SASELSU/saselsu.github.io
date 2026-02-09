@@ -84,6 +84,18 @@ const Gallery = () => {
   const [semesterEnd, setSemesterEnd] = useState("");
   const [year, setYear] = useState("2026");
 
+  const yearMax = new Date().getFullYear();
+  const yearMin = 2019;
+  let yearList = [];
+
+  function genYearList(){
+    for (let i = 0; i < (yearMax - yearMin); i++){
+      yearList.push(yearMax + i)
+    }
+  }
+
+  useEffect(() => )
+  
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log("Semester:", semester);
@@ -178,14 +190,17 @@ const Gallery = () => {
             {/* TODO: Make this automatically add a year every year*/}
             <label>Year: </label>
             <select value={year} style={{marginRight: "2%", border: "none", borderRadius: "5px", color: "white", background: "rgb(0, 78, 100)", fontFamily: "Bebas Neue", padding: "5px", paddingLeft: "10px", paddingRight: "10px"}} onChange={(e) => setYear(e.target.value)}>
-              <option value="2019">2019</option>
+              {yearList.map((year) =>(
+                <option value={year}>{year}</option>
+              ))}
+              {/*<option value="2019">2019</option>
               <option value="2020">2020</option>
               <option value="2021">2021</option>
               <option value="2022">2022</option>
               <option value="2023">2023</option>
               <option value="2024">2024</option>
               <option value="2025">2025</option>
-              <option value="2026">2026</option>
+              <option value="2026">2026</option>*/}
             </select>
 
             <button type="submit" style={{ border: "none", borderRadius: "5px", color: "white", background: "rgb(0, 78, 100)", fontFamily: "Bebas Neue", padding: "5px", paddingLeft: "10px", paddingRight: "10px"}}>Submit</button>
