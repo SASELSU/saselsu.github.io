@@ -59,6 +59,7 @@
     width: 92%;
 
     margin-left: 4%;
+    margin-top: 5vh;
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -71,8 +72,9 @@
 
 .eboardCard {
     width: 100%;
-    height: 40vw;
-
+    height: 0;
+    padding-bottom: 133.33%; /* 40vw / 30vw aspect ratio */
+    
     position: relative;
 
     background-size: cover;
@@ -98,31 +100,41 @@
     position: absolute;
     bottom: 0;
     right: 0;
-
-    margin-bottom: 0;
-    margin-right: 0;
+    top: auto;
+    left: auto;
 
     background-size: 100%;
     background-position: 50% 50%;
+    background-repeat: no-repeat;
 
     align-items: center;
     justify-content: center;
 
+    transform-origin: bottom right;
     transition: all 0.8s ease;
+}
+
+/* Loading state - optional: add a subtle background */
+.eboardCardPortrait.loading {
+    background-color: rgba(107, 144, 128, 0.1);
+}
+
+.eboardCardPortrait.loaded {
+    /* Image is loaded, no special styling needed */
 }
 
 .eboardCard:hover .eboardCardPortrait {
     width: 50%;
     height: 37.5%;
 
-    bottom: 0;
-    right: 0;
-
-    margin-bottom: 2.5%;
-    margin-right: 5%;
+    bottom: 2.5%;
+    right: 5%;
+    top: auto;
+    left: auto;
 
     background-size: 160%;
     background-position: 50% 20%;
+    transform-origin: bottom right;
     transition: all 0.8s ease;
 }
 
@@ -130,12 +142,13 @@
     width: calc(100% - 4vw);
     height: calc(100% - 4vw);
 
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+
     display: grid;
     grid-template-rows: auto auto;
     align-content: end;
-
-    margin-left: 2vw;
-    margin-top: 2vw;
 
     z-index: 2;
 
@@ -149,8 +162,8 @@
     width: calc(100% - 2vw);
     height: calc(100% - 2vw);
 
-    margin-left: 1vw;
-    margin-top: 1vw;
+    top: 1vw;
+    left: 1vw;
 
     border: 0.15vw solid white;
 
@@ -185,8 +198,6 @@
 }
 
 .eboardCardText p {
-    /* position: absolute;
-    bottom: 100%; */
     position: relative;
     margin-left: 2%;
     margin-top: 0%;
@@ -204,9 +215,9 @@
     height: 90%;
 
     position: absolute;
-    margin: auto;
-
-    /* background-color: grey; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .eboardCardInformation h1 {
@@ -254,9 +265,7 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 3vw;
     }
-    .eboardCard {
-        height: 60vw;
-    }
+    
     .eboardCardText h1 {
         font-size: 5vw;
     }
@@ -290,8 +299,8 @@
         width: calc(100% - 8vw);
         height: calc(100% - 8vw);
 
-        margin-top: 4vw;
-        margin-left: 4vw;
+        top: 4vw;
+        left: 4vw;
 
         border: 0.4vw solid white;
     }
@@ -300,16 +309,13 @@
         width: calc(100% - 6vw);
         height: calc(100% - 5vw);
 
-        margin-top: 3vw;
-        margin-left: 3vw;
+        top: 3vw;
+        left: 3vw;
     
         border: 0.4vw solid white;
     
     }
     
-    .eboardCard {
-        height: 120vw;
-    }
     .eboardCardText h1 {
         font-size: 9vw;
     }
@@ -327,10 +333,6 @@
 }
 
 @media (max-width: 432px) { /*phones*/
-
-    .eboardCard {
-        height: 135vw;
-    }
 
     .eboardCardInformation h1 {
         font-size: 14vw;

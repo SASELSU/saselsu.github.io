@@ -4,6 +4,7 @@ import { ColorLinkedinIcon } from "../../components/Common/Icon";
 
 export const DescriptionCard = props => {
     const [open, setOpen] = useState(false);
+    const [imageLoaded, setImageLoaded] = useState(false);
 
     const handleOpen = () => {
         setOpen(!open);
@@ -21,8 +22,6 @@ export const DescriptionCard = props => {
         webmasterthing
     } = props;
 
-    // onClick={handleOpen}
-    // style={{backgroundImage: `url(${image})`}}
     return (
         <div className="eboardCard">
             <div className="eboardCardInformation">
@@ -38,14 +37,20 @@ export const DescriptionCard = props => {
             </div>
 
             <div
-                className="eboardCardPortrait"
+                className={`eboardCardPortrait ${imageLoaded ? 'loaded' : 'loading'}`}
                 style={{ backgroundImage: `url(${image})` }}
             >
+                {/* Hidden img element to track loading */}
+                <img 
+                    src={image} 
+                    alt="" 
+                    style={{ display: 'none' }}
+                    onLoad={() => setImageLoaded(true)}
+                />
                 <div className="eboardCardBorder">
                     <div className="eboardCardText">
                         <h1>{title}</h1>
                         <p>{name}</p>
-
                     </div>
                 </div>
             </div>
