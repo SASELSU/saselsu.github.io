@@ -1,7 +1,7 @@
 // TODO: go all the way from 2019 and add events to the google calendar with the proper format
 // (im not getting any help with this am i?)
 
-import React, { useEffect, useState } from "react";
+import React, { useMemo, useState } from "react";
 import "../styles/gallery.css";
 
 import Backdrop from "../assets/gallery/galleryBackdrop.png";
@@ -80,21 +80,18 @@ const Gallery = () => {
 
   const [gallery, setGallery] = useState([]);
   const [semester, setSemester] = useState("spring");
-  const [semesterStart, setSemesterStart] = useState("");
-  const [semesterEnd, setSemesterEnd] = useState("");
-  const [year, setYear] = useState("2026");
+  const [year, setYear] = useState(String(new Date().getFullYear()));
 
   const yearMax = new Date().getFullYear();
   const yearMin = 2019;
-  let yearList = [];
 
-  function genYearList(){
-    for (let i = 0; i < (yearMax - yearMin); i++){
-      yearList.push(yearMax + i)
+  const yearList = useMemo(() => {
+    const list = [];
+    for (let i = yearMax; i >= yearMin; i--) {
+      list.push(i);
     }
-  }
-
-  useEffect(() => )
+    return list;
+  }, [yearMax]);
   
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -204,7 +201,7 @@ const Gallery = () => {
               image={gal.image}
               title={gal.title}
               date={gal.date}
-              link={gal.gallery}
+              link={gal.link}
             />
           ))}
         </div>
