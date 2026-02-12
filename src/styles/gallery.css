@@ -131,6 +131,10 @@
     overflow-x: scroll;
 }
 
+select, select option {
+  font-family: "Bebas Neue", sans-serif;
+}
+
 @media (max-width: 1024px) {
     .galleryTitleCard h1 {    
         font-size: 80px;
