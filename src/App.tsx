@@ -16,7 +16,6 @@ import About from "./pages/About";
 import Eboard from "./pages/Eboard";
 import Events from "./pages/Events";
 import Sponsors from "./pages/Sponsors";
-import Hackathon from "./hackathon/hackathon";
 import Gallery from "./pages/Gallery";
 import Join from "./pages/Join";
 import Faris from "./pages/Faris";
@@ -27,6 +26,8 @@ import "@fontsource/montserrat"; // Defaults to weight 400.
 import "@fontsource/adlam-display"; // Defaults to weight 400.
 
 import "./index.css";
+
+import ExternalRedirect from "./components/ExternalRedirect";
 
 export default function App (): ReactNode {
     useEffect(() => {
@@ -51,7 +52,10 @@ export default function App (): ReactNode {
                 <Route path="/eboard" element={<Eboard />} />
                 <Route path="/events" element={<Events />} />
                 <Route path="/sponsors" element={<Sponsors />} />
-                <Route path="/hackathon" element={<Hackathon />} />
+                <Route
+                    path="/hackathon" 
+                    element={<ExternalRedirect to="https://geauxhack.com" />}
+                 />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/join" element={<Join />} />
 
