@@ -112,16 +112,6 @@ export default defineConfig(
                 "ts-check": false,
                 "minimumDescriptionLength": 5
             }],
-            ["@typescript-eslint/explicit-function-return-type"]: ["warn", {
-                allowExpressions: true,
-                allowTypedFunctionExpressions: true,
-                allowHigherOrderFunctions: true,
-                allowDirectConstAssertionInArrowFunctions: true,
-                allowConciseArrowFunctionExpressionsStartingWithVoid: false,
-                allowFunctionsWithoutTypeParameters: false,
-                allowedNames: [],
-                allowIIFEs: false
-            }],
             ["@typescript-eslint/restrict-template-expressions"]: ["error", {
                 allowAny: true,
                 allowBoolean: true,

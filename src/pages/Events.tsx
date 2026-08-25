@@ -73,7 +73,7 @@ function formatEventDate (event: any): Record<"date" | "time", string> {
     }
 }
 
-//// PAGE CONTENT
+/// / PAGE CONTENT
 const Events = () => {
     usePageTracking("Events Page");
 
