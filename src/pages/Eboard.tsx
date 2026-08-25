@@ -1,5 +1,5 @@
 import Backdrop from "../assets/about/eboard/everyone.jpg";
-import eboardData from '../assets/eboard/eboard.json';
+import eboardData from "../assets/eboard/eboard.json";
 import {
     DescriptionCard
 } from "./helpers/eboardHelpers";
@@ -20,18 +20,18 @@ import ProDevPic from "../assets/about/eboard/vinh.png";
 import "../styles/eboard.css";
 
 const imageMap: Record<string, string> = {
-  PresidentPic,
-  ExternalVicePresidentPic,
-  InternalVicePresidentPic,
-  SecretaryPic,
-  TreasurerPic,
-  PublicRelationsPic,
-  HistorianPic,
-  GraphicDesignPic,
-  WebmasterPic,
-  FundraisingPic,
-  OutreachPic,
-  ProDevPic,
+    PresidentPic,
+    ExternalVicePresidentPic,
+    InternalVicePresidentPic,
+    SecretaryPic,
+    TreasurerPic,
+    PublicRelationsPic,
+    HistorianPic,
+    GraphicDesignPic,
+    WebmasterPic,
+    FundraisingPic,
+    OutreachPic,
+    ProDevPic
 };
 
 const Eboard = () => {
@@ -46,21 +46,21 @@ const Eboard = () => {
             </div>
             <div className="eboard">
                 <div
-                  className="eboardCardHolder"
+                    className="eboardCardHolder"
                 >
-                  {eboardData.map((member, i) => (
-                    <DescriptionCard
-                      key={i}
-                      intro={member.intro}
-                      title={member.position}
-                      name={member.name}
-                      major={member.major}
-                      image={imageMap[member.image]}
-                      q1={member.question}
-                      a1={member.answer}
-                      linkedin={member.linkedin}
-                    />
-                  ))}
+                    {eboardData.map((member, i) => (
+                        <DescriptionCard
+                            key={i}
+                            intro={member.intro}
+                            title={member.position}
+                            name={member.name}
+                            major={member.major}
+                            image={imageMap[member.image]}
+                            q1={member.question}
+                            a1={member.answer}
+                            linkedin={member.linkedin}
+                        />
+                    ))}
                 </div>
             </div>
         </>

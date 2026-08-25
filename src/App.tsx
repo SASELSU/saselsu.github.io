@@ -53,9 +53,9 @@ export default function App (): ReactNode {
                 <Route path="/events" element={<Events />} />
                 <Route path="/sponsors" element={<Sponsors />} />
                 <Route
-                    path="/hackathon" 
+                    path="/hackathon"
                     element={<ExternalRedirect to="https://geauxhack.com" />}
-                 />
+                />
                 <Route path="/gallery" element={<Gallery />} />
                 <Route path="/join" element={<Join />} />
 
