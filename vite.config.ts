@@ -43,8 +43,6 @@ export default defineConfig(({ mode }) => {
         },
 
         plugins,
-
-        logLevel: isDev ? "info" : "warn",
         clearScreen: false
     };
 });
